@@ -17,6 +17,7 @@
 		DB6995FB1F02F0550093F955 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6995FA1F02F0550093F955 /* MainNavigationController.swift */; };
 		DB6995FD1F02F39E0093F955 /* gameStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6995FC1F02F39E0093F955 /* gameStartVC.swift */; };
 		E92699B11F03E66100F671A9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DB6996001F0389520093F955 /* data.json */; };
+		E9745DBD1F062CD500902CAC /* aaa.json in Resources */ = {isa = PBXBuildFile; fileRef = E9745DBC1F062CD500902CAC /* aaa.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DB6995FA1F02F0550093F955 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		DB6995FC1F02F39E0093F955 /* gameStartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameStartVC.swift; sourceTree = "<group>"; };
 		DB6996001F0389520093F955 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		E9745DBC1F062CD500902CAC /* aaa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aaa.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				DB6995FA1F02F0550093F955 /* MainNavigationController.swift */,
 				DB6995FC1F02F39E0093F955 /* gameStartVC.swift */,
 				DB6996001F0389520093F955 /* data.json */,
+				E9745DBC1F062CD500902CAC /* aaa.json */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 				DB6995F11F02ED7B0093F955 /* LaunchScreen.storyboard in Resources */,
 				DB6995EE1F02ED7B0093F955 /* Assets.xcassets in Resources */,
 				DB6995EC1F02ED7B0093F955 /* Main.storyboard in Resources */,
+				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

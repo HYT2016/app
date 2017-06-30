@@ -316,7 +316,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MmT-XF-mle" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4214" y="-61"/>
+            <point key="canvasLocation" x="3977" y="-269"/>
         </scene>
         <!--Item 2-->
         <scene sceneID="YQt-9O-t7c">
@@ -373,7 +373,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kba-qf-RPK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1569" y="-1624"/>
+            <point key="canvasLocation" x="1081" y="-2149"/>
         </scene>
         <!--Item-->
         <scene sceneID="hoI-GX-H27">
@@ -488,7 +488,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VI9-3W-keH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2178" y="-1061"/>
+            <point key="canvasLocation" x="2198" y="-1003"/>
         </scene>
         <!--Item-->
         <scene sceneID="nX1-nU-j6m">
@@ -515,11 +515,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYB-z4-Vom">
-                                <rect key="frame" x="261" y="475" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3no-d7-0n9">
                                 <rect key="frame" x="138" y="485" width="0.0" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -530,10 +525,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYB-z4-Vom">
+                                <rect key="frame" x="261" y="485" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Hka-ac-Fao"/>
+                    <connections>
+                        <outlet property="TesttextView" destination="CsD-Os-al8" id="rfN-8v-NYM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Je-VV-j4H" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
