@@ -1,6 +1,14 @@
 {
-    "program": [
-                "新聞台",
-                "體育台"
-                ]
+    "blogs": [
+              {
+              "id": 111,
+              "url": "http://roadfiresoftware.com/blog/",
+              "name": "Roadfire Software Blog"
+              },
+              {
+              "id": 345,
+              "url": "https://developer.apple.com/swift/blog/",
+              "name": "Swift Developer Blog"
+              }
+              ]
 }
