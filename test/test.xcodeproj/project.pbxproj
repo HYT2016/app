@@ -20,6 +20,8 @@
 		E95DCBD81F0651BC00DB7250 /* tab bar 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DCBD71F0651BC00DB7250 /* tab bar 2.swift */; };
 		E95DCBDA1F0676B200DB7250 /* gameStartVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DCBD91F0676B200DB7250 /* gameStartVC2.swift */; };
 		E9745DBD1F062CD500902CAC /* aaa.json in Resources */ = {isa = PBXBuildFile; fileRef = E9745DBC1F062CD500902CAC /* aaa.json */; };
+		E97B82CA1F073F0E0088882F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B82C91F073F0E0088882F /* SwiftyJSON.framework */; };
+		E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */ = {isa = PBXBuildFile; fileRef = E9997E4E1F0A4B9500CC2FDA /* ss.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		E95DCBD71F0651BC00DB7250 /* tab bar 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "tab bar 2.swift"; sourceTree = "<group>"; };
 		E95DCBD91F0676B200DB7250 /* gameStartVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameStartVC2.swift; sourceTree = "<group>"; };
 		E9745DBC1F062CD500902CAC /* aaa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aaa.json; sourceTree = "<group>"; };
+		E97B82C91F073F0E0088882F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/test-gxlkerhcxzywisadkzesvvkwlnsf/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		E9997E4E1F0A4B9500CC2FDA /* ss.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ss.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97B82CA1F073F0E0088882F /* SwiftyJSON.framework in Frameworks */,
 				04F4CC29F5A78A945E7AB590 /* Pods_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,6 +92,7 @@
 				DB6995FC1F02F39E0093F955 /* gameStartVC.swift */,
 				DB6996001F0389520093F955 /* data.json */,
 				E9745DBC1F062CD500902CAC /* aaa.json */,
+				E9997E4E1F0A4B9500CC2FDA /* ss.json */,
 				E95DCBD91F0676B200DB7250 /* gameStartVC2.swift */,
 			);
 			path = test;
@@ -104,6 +110,7 @@
 		F690D379C84DA33CF22DEF9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E97B82C91F073F0E0088882F /* SwiftyJSON.framework */,
 				B90FD4554ABBBEC1956C340E /* Pods_test.framework */,
 			);
 			name = Frameworks;
@@ -174,6 +181,7 @@
 				DB6995F11F02ED7B0093F955 /* LaunchScreen.storyboard in Resources */,
 				DB6995EE1F02ED7B0093F955 /* Assets.xcassets in Resources */,
 				DB6995EC1F02ED7B0093F955 /* Main.storyboard in Resources */,
+				E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */,
 				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 			);

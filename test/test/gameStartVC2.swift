@@ -10,48 +10,43 @@ import UIKit
 import SwiftyJSON
 class gameStartVC2: UIViewController {
     
+    @IBOutlet weak var testTextView2: UITextView!
+//        var version:[String] = ["",""]
+    var version:String = ""
+    func loadJsonToArys(){
+        //read file
+        let filePath=Bundle.main.path(forResource: "data", ofType:
+            "json")
+        var data1:Data
+        var json_parsed:JSON
+        
+        
+        
+        do{
+            try data1 = Data(contentsOf: URL(fileURLWithPath:
+                filePath!, isDirectory: false))
+            json_parsed=JSON(data: data1)
+            
+            
+//            let path: [JSONSubscriptType] = [1,"version",2,"categorires",3,"口病",4,"口解",5,"口微",6,"口胚"]
+//            let aa = json_parsed[path].string
+            
+           let aa = json_parsed["version"].stringValue
+            print(aa)
+            self.version=aa
+            //            self.version=[aa]
+        }catch{
+            print(error.localizedDescription)
+        }
+        
+        
+        
+    }
+
     
     
     
     
-    
-    var names = [String]()
-    
-//    func loadJsonToArys(){
-//        //read file
-//        let filePath=Bundle.main.path(forResource: "aaa", ofType:
-//            "json")
-////        var data1:Data
-////        var json_parsed:JSON
-//        
-//        var names = [String]()
-//        
-//        
-//        
-//        do {
-//            if let data = data,
-//                let json = try JSONSerialization.jsonObject(with: data) as? [String: Any],
-//                let blogs = json["blogs"] as? [[String: Any]] {
-//                for blog in blogs {
-//                    if let name = blog["name"] as? String {
-//                        names.append(name)
-//                    }
-//                }
-//            }
-//        } catch {
-//            print("Error deserializing JSON: \(error)")
-//        }
-//        
-//        print(names)
-//        
-//        
-//    }
-//    
-//    
-//    
-//    
-//    
-//    
     
     
     
@@ -61,14 +56,14 @@ class gameStartVC2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-//self.loadJsonToArys()
-//        TesttextView.text!=String(describing: version)
-//        
-//        TesttextView.backgroundColor = UIColor(red: 225/255, green: 227/255, blue: 132/255, alpha: 1)
-//        TesttextView.font = UIFont.systemFont(ofSize: 20, weight: 20)
-//        TesttextView.textColor = UIColor(red: 41/255, green: 36/255, blue: 33/255, alpha: 1)
-//        TesttextView.font = UIFont.boldSystemFont(ofSize: 20)
-//        TesttextView.font = UIFont(name: "Verdana", size: 17)
+        self.loadJsonToArys()
+        testTextView2.text!=String(describing: version)
+        
+        testTextView2.backgroundColor = UIColor(red: 225/255, green: 227/255, blue: 132/255, alpha: 1)
+        testTextView2.font = UIFont.systemFont(ofSize: 20, weight: 20)
+        testTextView2.textColor = UIColor(red: 41/255, green: 36/255, blue: 33/255, alpha: 1)
+        testTextView2.font = UIFont.boldSystemFont(ofSize: 20)
+        testTextView2.font = UIFont(name: "Verdana", size: 17)
     }
 
     override func didReceiveMemoryWarning() {

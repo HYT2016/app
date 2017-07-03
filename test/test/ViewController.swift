@@ -12,8 +12,18 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var startBtn: UIButton!
     
+    @IBOutlet weak var segmentControl: UISegmentedControl!
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        // 設定預設按鈕 
+        segmentControl.selectedSegmentIndex = 0
+            
+        
+        
+        
         
     }
 
