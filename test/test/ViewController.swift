@@ -12,15 +12,33 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var startBtn: UIButton!
     
-    @IBOutlet weak var segmentControl: UISegmentedControl!
-    
+    @IBOutlet weak var segment: UISegmentedControl!
+ 
+    @IBOutlet weak var image: UIImageView!
+    @IBAction func segment(_ sender: Any) {
+        
+        switch segment.selectedSegmentIndex {
+        case 0:
+            image.image=UIImage(named: "01")
+        
+            
+        case 1:
+            
+        image.image=UIImage(named: "02")
+            
+        default:
+            break
+        }
+        
+        
+
+    }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // 設定預設按鈕 
-        segmentControl.selectedSegmentIndex = 0
-            
+        segment.selectedSegmentIndex = 1
         
         
         

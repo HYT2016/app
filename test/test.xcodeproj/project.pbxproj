@@ -22,6 +22,8 @@
 		E9745DBD1F062CD500902CAC /* aaa.json in Resources */ = {isa = PBXBuildFile; fileRef = E9745DBC1F062CD500902CAC /* aaa.json */; };
 		E97B82CA1F073F0E0088882F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B82C91F073F0E0088882F /* SwiftyJSON.framework */; };
 		E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */ = {isa = PBXBuildFile; fileRef = E9997E4E1F0A4B9500CC2FDA /* ss.json */; };
+		E9997E571F0A852100CC2FDA /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E9997E561F0A852100CC2FDA /* 02.png */; };
+		E9997E591F0A852600CC2FDA /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = E9997E581F0A852600CC2FDA /* 01.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		E9745DBC1F062CD500902CAC /* aaa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aaa.json; sourceTree = "<group>"; };
 		E97B82C91F073F0E0088882F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/test-gxlkerhcxzywisadkzesvvkwlnsf/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		E9997E4E1F0A4B9500CC2FDA /* ss.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ss.json; sourceTree = "<group>"; };
+		E9997E561F0A852100CC2FDA /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 02.png; path = ../../../02.png; sourceTree = "<group>"; };
+		E9997E581F0A852600CC2FDA /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 01.png; path = ../../../01.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 		DB6995E51F02ED7A0093F955 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				E9997E561F0A852100CC2FDA /* 02.png */,
+				E9997E581F0A852600CC2FDA /* 01.png */,
 				DB6995E61F02ED7A0093F955 /* AppDelegate.swift */,
 				DB6995E81F02ED7B0093F955 /* ViewController.swift */,
 				DB6995EA1F02ED7B0093F955 /* Main.storyboard */,
@@ -180,7 +186,9 @@
 			files = (
 				DB6995F11F02ED7B0093F955 /* LaunchScreen.storyboard in Resources */,
 				DB6995EE1F02ED7B0093F955 /* Assets.xcassets in Resources */,
+				E9997E591F0A852600CC2FDA /* 01.png in Resources */,
 				DB6995EC1F02ED7B0093F955 /* Main.storyboard in Resources */,
+				E9997E571F0A852100CC2FDA /* 02.png in Resources */,
 				E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */,
 				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
