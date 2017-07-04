@@ -29,11 +29,13 @@ class gameStartVC: UIViewController,UITextViewDelegate {
 
     var questions:[JSON]=[]
     
-    var answers:[JSON]=[]
+    var indexVC=0
     
     var qID=0
     
     var aID=0
+    
+     var preIndex:Int=0
     
     func loadJsonToArys(){
         //read file
@@ -101,18 +103,20 @@ class gameStartVC: UIViewController,UITextViewDelegate {
             try data1 = Data(contentsOf: URL(fileURLWithPath:
                 filePath!, isDirectory: false))
             json_parsed=JSON(data: data1)
+            
+            
             let cateStr = json_parsed["categorires"][0].stringValue
             print(cateStr)
             let datas = json_parsed[cateStr].arrayValue
             
-            answers=datas
+            questions=datas
             
             
         }catch{
             print(error.localizedDescription)
         }
         
-        self.loadQuestionAnswer(aID: 0)
+        self.loadQuestionAnswer(qID: 0)
         
     }
     
@@ -120,8 +124,8 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     
     
-    func loadQuestionAnswer(aID:Int){
-        let q = answers[aID]
+    func loadQuestionAnswer(qID:Int){
+        let q = questions[qID]
         let tmpStr=q["Ans_title1"].stringValue
         
         self.aLabel.text=tmpStr
@@ -199,17 +203,12 @@ class gameStartVC: UIViewController,UITextViewDelegate {
         
         self.loadJsonAnswer()
         
-//        if cateID==nil{
-//            cateID=0
-//        }
-        
-        
-//        Make web links clickable
-//        TesttextView.isSelectable = true
-//        TesttextView.isEditable = true
-//        TesttextView.dataDetectorTypes = UIDataDetectorTypes.link
     
+        func viewWillAppear(_ animate:Bool){
         
+        
+        
+        }
         
         
         
