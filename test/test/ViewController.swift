@@ -8,37 +8,72 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-    
-    @IBOutlet weak var startBtn: UIButton!
+class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
     @IBOutlet weak var segment: UISegmentedControl!
+    
+    
+    @IBOutlet weak var tableView: UITableView!
+   
+    let doctor:[String]=["解剖_骨盆會陰","解剖_神解","解剖_四肢","解剖_頭頸","解剖_胸背腹","微免_免疫","微免_微生物"]
+    let dentist:[String]=["口解","牙型","口胚","生化"]
  
-    @IBOutlet weak var image: UIImageView!
-    @IBAction func segment(_ sender: Any) {
+  
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        var str = 1
         
-        switch segment.selectedSegmentIndex {
+        switch(segment.selectedSegmentIndex)
+        
+        {
         case 0:
-            image.image=UIImage(named: "01")
-        
+            str = doctor.count
             
+            break
         case 1:
+            str = dentist.count
             
-        image.image=UIImage(named: "02")
-            
+            break
         default:
+            
             break
         }
+        return str
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         
+        switch(segment.selectedSegmentIndex)
+            
+        {
+        case 0:
+            cell.textLabel?.text = doctor[indexPath.row]
+            
+            break
+        case 1:
+            cell.textLabel?.text = dentist[indexPath.row]
+            
+            break
+        default:
+            
+            break
+        }
+
+        
+        return cell
+    }
+          
         
 
-    }
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // 設定預設按鈕 
-        segment.selectedSegmentIndex = 1
+        segment.selectedSegmentIndex = 0
         
         
         
@@ -51,5 +86,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func segmentChange(_ sender: Any) {
+        
+        tableView.reloadData()
+    }
 }
 
