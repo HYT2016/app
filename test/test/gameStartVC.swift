@@ -48,15 +48,7 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     @IBAction func submit(_ sender: UIButton) {
         
-//        for i in 1...2 {
-//            a = a + i
-//        }
-        for i in 1...2 {
-            b = b + i
-        }
-        
-        self.loadJsonToArys()
-        self.loadJsonAnswer()
+
         
         
         

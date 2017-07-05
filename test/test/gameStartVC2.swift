@@ -11,11 +11,25 @@ import SwiftyJSON
 class gameStartVC2: UIViewController {
     
     @IBOutlet weak var testTextView2: UITextView!
-//        var version:[String] = ["",""]
-    var version:String = ""
+
+    
+    var version = [String: Int]()
+    
+    var questions:[JSON]=[]
+    
+    var indexVC=0
+    
+    var qID=0
+    
+    var a=0
+    
+    var b=0
+    
+    var preIndex:Int=0
+    
     func loadJsonToArys(){
         //read file
-        let filePath=Bundle.main.path(forResource: "data", ofType:
+        let filePath=Bundle.main.path(forResource: "解剖_骨盆會陰", ofType:
             "json")
         var data1:Data
         var json_parsed:JSON
@@ -26,23 +40,50 @@ class gameStartVC2: UIViewController {
             try data1 = Data(contentsOf: URL(fileURLWithPath:
                 filePath!, isDirectory: false))
             json_parsed=JSON(data: data1)
+            questions = json_parsed.arrayValue
             
+            print(questions)
             
-//            let path: [JSONSubscriptType] = [1,"version",2,"categorires",3,"口病",4,"口解",5,"口微",6,"口胚"]
-//            let aa = json_parsed[path].string
-            
-           let aa = json_parsed["version"].stringValue
-            print(aa)
-            self.version=aa
-            //            self.version=[aa]
         }catch{
             print(error.localizedDescription)
         }
         
-        
+//        self.loadQuestionToUser(qID: b)
+                self.loadQuestionToUser(qID: 0)
         
     }
-
+    
+    
+    
+    
+    
+    func loadQuestionToUser(qID:Int){
+        
+        let q = questions[qID]
+        let tmpStr=q["題目"].stringValue
+        
+        self.testTextView2.text=tmpStr
+        
+        
+        
+        
+        print("tmpStr = \(tmpStr)")
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
@@ -56,14 +97,17 @@ class gameStartVC2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.loadJsonToArys()
-        testTextView2.text!=String(describing: version)
+        
+        
         
         testTextView2.backgroundColor = UIColor(red: 225/255, green: 227/255, blue: 132/255, alpha: 1)
         testTextView2.font = UIFont.systemFont(ofSize: 20, weight: 20)
         testTextView2.textColor = UIColor(red: 41/255, green: 36/255, blue: 33/255, alpha: 1)
         testTextView2.font = UIFont.boldSystemFont(ofSize: 20)
         testTextView2.font = UIFont(name: "Verdana", size: 17)
+        
+        self.loadJsonToArys()
+        
     }
 
     override func didReceiveMemoryWarning() {
