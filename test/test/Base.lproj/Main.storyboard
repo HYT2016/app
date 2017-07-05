@@ -74,66 +74,10 @@
             </objects>
             <point key="canvasLocation" x="752.79999999999995" y="107.49625187406298"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="nR0-OY-SdU">
-            <objects>
-                <viewController id="50g-dC-EeV" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Vad-2O-A8K"/>
-                        <viewControllerLayoutGuide type="bottom" id="syN-Cd-TQe"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="NfT-RB-pvx">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="YQo-4S-qj6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="729" y="797"/>
-        </scene>
-        <!--Item 2-->
-        <scene sceneID="bJV-oX-R3R">
-            <objects>
-                <viewController id="vf1-zL-svT" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="mZF-fp-aXt"/>
-                        <viewControllerLayoutGuide type="bottom" id="vZI-ZZ-zJI"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="ZmA-f0-Ukk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Obb-CB-yQO"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Unt-ts-5YY" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3582" y="1577"/>
-        </scene>
-        <!--Item 1-->
-        <scene sceneID="l2v-e3-c8m">
-            <objects>
-                <viewController id="jey-Mi-2LH" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="5Za-x8-o6b"/>
-                        <viewControllerLayoutGuide type="bottom" id="SWd-ar-bP7"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="7w0-lL-XEb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="wiP-cY-Znb"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qtj-vQ-zcu" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="4002" y="501"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="F76-vi-Dp0">
             <objects>
-                <tabBarController id="Lqt-FW-Z5s" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tab_bar_1" id="Lqt-FW-Z5s" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="Dea-xn-6tP">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -141,8 +85,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="YOB-Hx-ZxT" kind="relationship" relationship="viewControllers" id="cAt-or-C9u"/>
-                        <segue destination="jey-Mi-2LH" kind="relationship" relationship="viewControllers" id="trb-OB-lj1"/>
-                        <segue destination="vf1-zL-svT" kind="relationship" relationship="viewControllers" id="Zek-t0-htN"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qp1-tc-slK" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -203,7 +145,7 @@
         <!--Tab bar2-->
         <scene sceneID="chg-BS-Fby">
             <objects>
-                <tabBarController id="U49-dx-Fro" customClass="tab_bar_2" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tab_bar_2" id="U49-dx-Fro" customClass="tab_bar_2" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="BQH-mi-LAr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -259,6 +201,9 @@
                                 <rect key="frame" x="16" y="580" width="343" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="submit:" destination="swi-kB-WJy" eventType="touchUpInside" id="tnn-y3-69u"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7OK-76-Ym0">
                                 <rect key="frame" x="44" y="421" width="315" height="33"/>
@@ -289,13 +234,45 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="CsD-Os-al8">
-                                <rect key="frame" x="0.0" y="20" width="375" height="393"/>
+                                <rect key="frame" x="0.0" y="59" width="375" height="354"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IKl-Gc-O6D">
+                                <rect key="frame" x="-1" y="457" width="39" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="check"/>
+                                <connections>
+                                    <action selector="pressBtn:" destination="swi-kB-WJy" eventType="touchUpInside" id="eY9-2P-JR5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8yc-hL-MIB">
+                                <rect key="frame" x="-1" y="421" width="39" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="check"/>
+                                <connections>
+                                    <action selector="pressBtn:" destination="swi-kB-WJy" eventType="touchUpInside" id="TYG-FA-Yti"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="anw-2O-Jyp">
+                                <rect key="frame" x="-1" y="494" width="39" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="check"/>
+                                <connections>
+                                    <action selector="pressBtn:" destination="swi-kB-WJy" eventType="touchUpInside" id="iII-Cc-AdK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Oq-SQ-mel">
+                                <rect key="frame" x="-1" y="535" width="39" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="check"/>
+                                <connections>
+                                    <action selector="pressBtn:" destination="swi-kB-WJy" eventType="touchUpInside" id="Xyc-uz-zHe"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -303,6 +280,13 @@
                     <connections>
                         <outlet property="TesttextView" destination="CsD-Os-al8" id="rfN-8v-NYM"/>
                         <outlet property="aLabel" destination="7OK-76-Ym0" id="M8s-8K-NwE"/>
+                        <outlet property="bLabel" destination="w67-ps-vJ8" id="er7-pf-B2k"/>
+                        <outlet property="cLabel" destination="ice-8S-fR0" id="3GR-IO-fvQ"/>
+                        <outlet property="checkBtna" destination="8yc-hL-MIB" id="dpL-yP-vsC"/>
+                        <outlet property="checkBtnb" destination="IKl-Gc-O6D" id="27W-Ln-UfQ"/>
+                        <outlet property="checkBtnc" destination="anw-2O-Jyp" id="b2E-Fa-W5a"/>
+                        <outlet property="checkBtnd" destination="5Oq-SQ-mel" id="6q4-SB-9y8"/>
+                        <outlet property="dLabel" destination="L0z-rm-1wt" id="GzE-Iu-MtK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9Je-VV-j4H" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -356,4 +340,7 @@
             <point key="canvasLocation" x="74" y="108"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="check" width="225" height="225"/>
+    </resources>
 </document>

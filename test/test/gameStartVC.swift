@@ -11,15 +11,67 @@ import SwiftyJSON
 
 class gameStartVC: UIViewController,UITextViewDelegate {
     
+    var q_category:String?
     
     @IBOutlet weak var TesttextView: UITextView!
     
     @IBOutlet weak var aLabel: UILabel!
   
    
+    @IBOutlet weak var bLabel: UILabel!
     
+    @IBOutlet weak var cLabel: UILabel!
   
+    @IBOutlet weak var dLabel: UILabel!
     
+    
+    @IBOutlet weak var checkBtna: UIButton!
+    
+    @IBOutlet weak var checkBtnb: UIButton!
+    
+    @IBOutlet weak var checkBtnc: UIButton!
+    
+    @IBOutlet weak var checkBtnd: UIButton!
+    
+    @IBAction func pressBtn(_ sender: UIButton) {
+//        toggle(button: sender, onImage: <#T##UIImage#>, offimage: <#T##UIImage#>)
+        
+        
+        
+    }
+    
+    
+    // arc4num 
+    
+    func toggle(button:UIButton,onImage:UIImage,offimage:UIImage)
+    {
+        if button.currentImage==offimage
+            {button.setImage(onImage, for: .normal)
+        }else{
+            button.setImage(offimage, for: .normal)
+        }
+    
+    
+    }
+    
+    
+    
+    @IBAction func submit(_ sender: UIButton) {
+        
+//        for i in 1...2 {
+//            a = a + i
+//        }
+        for i in 1...2 {
+            b = b + i
+        }
+        
+        self.loadJsonToArys()
+        self.loadJsonAnswer()
+        
+        
+        
+    }
+   
     
     
     
@@ -33,13 +85,15 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     var qID=0
     
-    var aID=0
+    var a=0
+    
+    var b=0
     
      var preIndex:Int=0
     
     func loadJsonToArys(){
         //read file
-        let filePath=Bundle.main.path(forResource: "aaa", ofType:
+        let filePath=Bundle.main.path(forResource: self.q_category, ofType:
             "json")
         var data1:Data
         var json_parsed:JSON
@@ -50,7 +104,7 @@ class gameStartVC: UIViewController,UITextViewDelegate {
             try data1 = Data(contentsOf: URL(fileURLWithPath:
                 filePath!, isDirectory: false))
             json_parsed=JSON(data: data1)
-            let cateStr = json_parsed["categorires"][0].stringValue
+            let cateStr = json_parsed["categorires"][a].stringValue
             print(cateStr)
             let datas = json_parsed[cateStr].arrayValue
             
@@ -61,7 +115,8 @@ class gameStartVC: UIViewController,UITextViewDelegate {
             print(error.localizedDescription)
         }
         
-        self.loadQuestionToUser(qID: 0)
+        self.loadQuestionToUser(qID: b)
+//        self.loadQuestionToUser(qID: 0)
         
     }
 
@@ -70,6 +125,8 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     
     func loadQuestionToUser(qID:Int){
+//    func loadQuestionToUser(qID:Int){
+//        let q = questions[qID]
         let q = questions[qID]
         let tmpStr=q["Question_title"].stringValue
         
@@ -105,7 +162,7 @@ class gameStartVC: UIViewController,UITextViewDelegate {
             json_parsed=JSON(data: data1)
             
             
-            let cateStr = json_parsed["categorires"][0].stringValue
+            let cateStr = json_parsed["categorires"][a].stringValue
             print(cateStr)
             let datas = json_parsed[cateStr].arrayValue
             
@@ -116,7 +173,7 @@ class gameStartVC: UIViewController,UITextViewDelegate {
             print(error.localizedDescription)
         }
         
-        self.loadQuestionAnswer(qID: 0)
+        self.loadQuestionAnswer(qID: b)
         
     }
     
@@ -126,18 +183,27 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     func loadQuestionAnswer(qID:Int){
         let q = questions[qID]
-        let tmpStr=q["Ans_title1"].stringValue
+        let tmpStra=q["Ans_title1"].stringValue
+        let tmpStrb=q["Ans_title2"].stringValue
+        let tmpStrc=q["Ans_title3"].stringValue
+        let tmpStrd=q["Ans_title4"].stringValue
+        self.aLabel.text=tmpStra
+        self.bLabel.text=tmpStrb
+        self.cLabel.text=tmpStrc
+        self.dLabel.text=tmpStrd
         
-        self.aLabel.text=tmpStr
-        
-        
-        
-        
-        print("tmpStr = \(tmpStr)")
+        print("tmpStr = \(tmpStra)")
         
     }
 
+    func updata(){
+        
     
+    
+    
+    
+    
+    }
     
     
     
@@ -188,7 +254,7 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        print(self.q_category)
     
         TesttextView.text!=String(describing: version)
         

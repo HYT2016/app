@@ -94,22 +94,21 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
         
+        
+        if segment.selectedSegmentIndex==0{
+        
+        
+        }else{
+        
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC") as! gameStartVC
         
 //        選擇gameStartVC畫面，ex:按下"解剖_骨盆會陰"會出現該部分的題目，按下"微免＿微生物"會出現該部分的題目，希望老師給點方向ＸＤＤ
-        
-//        vc.preIndex=indexPath.row
-//        switch vc.TesttextView {
-//        case :
-//            <#code#>
-//        default:
-//            <#code#>
-//        }
-        
+
+        vc.q_category=dentist[indexPath.row]
         
         
         self.navigationController?.pushViewController(vc, animated: true)
-        
+        }
         
         
     }
