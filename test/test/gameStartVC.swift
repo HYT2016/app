@@ -43,6 +43,8 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     // arc4num 
     
+    let randomNum:UInt32 = arc4random_uniform(100) // range is 0 to 99
+    
     
     
     

@@ -27,6 +27,9 @@ class gameStartVC2: UIViewController {
     
     var preIndex:Int=0
     
+    let randomNum:UInt32 = arc4random_uniform(100) // range is 0 to 99
+    
+    
     func loadJsonToArys(){
         //read file
         let filePath=Bundle.main.path(forResource: "解剖_骨盆會陰", ofType:
@@ -42,14 +45,14 @@ class gameStartVC2: UIViewController {
             json_parsed=JSON(data: data1)
             questions = json_parsed.arrayValue
             
-            print(questions)
+//            print(questions)
             
         }catch{
             print(error.localizedDescription)
         }
         
 //        self.loadQuestionToUser(qID: b)
-                self.loadQuestionToUser(qID: 0)
+                self.loadQuestionToUser(qID: Int(randomNum))
         
     }
     
