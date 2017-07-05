@@ -34,7 +34,6 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     @IBOutlet weak var checkBtnd: UIButton!
     
     @IBAction func pressBtn(_ sender: UIButton) {
-//        toggle(button: sender, onImage: <#T##UIImage#>, offimage: <#T##UIImage#>)
         
         
         

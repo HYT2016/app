@@ -10,13 +10,36 @@ import UIKit
 import SwiftyJSON
 class gameStartVC2: UIViewController {
     
+    
+    var q_category:String?
+    
     @IBOutlet weak var testTextView2: UITextView!
 
     
     @IBAction func submitBtn(_ sender: UIButton) {
         
+//        var randomNum:UInt32 = arc4random_uniform(100) // range is 0 to 99
+       
+        b = Int(randomNumber(MIN: 0, MAX: 100))
+        
+        loadJsonToArys()
+        
+//        b+=Int(randomNum)
+        
+        randomNumber(MIN: 0, MAX: 100)
         
     }
+    
+    
+    
+    
+    func randomNumber(MIN: Int, MAX: Int)-> Int{
+        return Int(arc4random_uniform(UInt32(100)) + UInt32(0));
+        
+    }
+    
+    
+    
     var version = [String: Int]()
     
     var questions:[JSON]=[]
@@ -25,14 +48,15 @@ class gameStartVC2: UIViewController {
     
     var qID=0
     
-    var a=0
-    
     var b=0
+    
+    var a=0
+
     
     var preIndex:Int=0
     
    
-    let randomNum:UInt32 = arc4random_uniform(100) // range is 0 to 99
+//    var randomNum:UInt32 = arc4random_uniform(100) // range is 0 to 99
     
     func loadJsonToArys(){
         //read file
@@ -56,7 +80,7 @@ class gameStartVC2: UIViewController {
         }
         
 //        self.loadQuestionToUser(qID: b)
-                self.loadQuestionToUser(qID: Int(randomNum))
+                self.loadQuestionToUser(qID: b)
         
     }
     
