@@ -146,6 +146,7 @@
                                 <state key="normal" title="Button"/>
                                 <connections>
                                     <action selector="submit:" destination="swi-kB-WJy" eventType="touchUpInside" id="CPa-xe-m9q"/>
+                                    <action selector="submitBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="rgB-g2-lWj"/>
                                 </connections>
                             </button>
                         </subviews>

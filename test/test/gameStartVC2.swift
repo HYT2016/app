@@ -13,6 +13,10 @@ class gameStartVC2: UIViewController {
     @IBOutlet weak var testTextView2: UITextView!
 
     
+    @IBAction func submitBtn(_ sender: UIButton) {
+        
+        
+    }
     var version = [String: Int]()
     
     var questions:[JSON]=[]
@@ -27,8 +31,8 @@ class gameStartVC2: UIViewController {
     
     var preIndex:Int=0
     
+   
     let randomNum:UInt32 = arc4random_uniform(100) // range is 0 to 99
-    
     
     func loadJsonToArys(){
         //read file
