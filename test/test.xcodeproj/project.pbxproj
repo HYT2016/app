@@ -26,6 +26,13 @@
 		E9ADD1401F0CE6C90064F890 /* ch02.png in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD13F1F0CE6C90064F890 /* ch02.png */; };
 		E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */; };
 		E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */; };
+		E9ADD1491F0D03690064F890 /* tab_bar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADD1481F0D03690064F890 /* tab_bar_1.swift */; };
+		E9ADD14B1F0D059D0064F890 /* 解剖_四肢.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD14A1F0D059D0064F890 /* 解剖_四肢.json */; };
+		E9ADD14F1F0D08EA0064F890 /* 解剖_胸背腹.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD14E1F0D08EA0064F890 /* 解剖_胸背腹.json */; };
+		E9ADD1511F0D093A0064F890 /* 微免_免疫.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1501F0D093A0064F890 /* 微免_免疫.json */; };
+		E9ADD1531F0D09B10064F890 /* 微免_微生物.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1521F0D09B10064F890 /* 微免_微生物.json */; };
+		E9ADD1551F0D0C140064F890 /* DoctorVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADD1541F0D0C140064F890 /* DoctorVC1.swift */; };
+		E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +59,13 @@
 		E9ADD13F1F0CE6C90064F890 /* ch02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ch02.png; path = ../../../ch02.png; sourceTree = "<group>"; };
 		E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_骨盆會陰.json"; sourceTree = "<group>"; };
 		E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_神解.json"; sourceTree = "<group>"; };
+		E9ADD1481F0D03690064F890 /* tab_bar_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tab_bar_1.swift; path = ../tab_bar_1.swift; sourceTree = "<group>"; };
+		E9ADD14A1F0D059D0064F890 /* 解剖_四肢.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_四肢.json"; sourceTree = "<group>"; };
+		E9ADD14E1F0D08EA0064F890 /* 解剖_胸背腹.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_胸背腹.json"; sourceTree = "<group>"; };
+		E9ADD1501F0D093A0064F890 /* 微免_免疫.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "微免_免疫.json"; sourceTree = "<group>"; };
+		E9ADD1521F0D09B10064F890 /* 微免_微生物.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "微免_微生物.json"; sourceTree = "<group>"; };
+		E9ADD1541F0D0C140064F890 /* DoctorVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoctorVC1.swift; path = ../DoctorVC1.swift; sourceTree = "<group>"; };
+		E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_頭頸.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,15 +110,17 @@
 				DB6995EA1F02ED7B0093F955 /* Main.storyboard */,
 				DB6995ED1F02ED7B0093F955 /* Assets.xcassets */,
 				DB6995EF1F02ED7B0093F955 /* LaunchScreen.storyboard */,
+				E9ADD1481F0D03690064F890 /* tab_bar_1.swift */,
 				E95DCBD71F0651BC00DB7250 /* tab bar 2.swift */,
 				DB6995F21F02ED7B0093F955 /* Info.plist */,
 				DB6995F81F02EFA30093F955 /* inVC.swift */,
 				DB6995FA1F02F0550093F955 /* MainNavigationController.swift */,
 				DB6995FC1F02F39E0093F955 /* gameStartVC.swift */,
+				E95DCBD91F0676B200DB7250 /* gameStartVC2.swift */,
 				DB6996001F0389520093F955 /* data.json */,
 				E9745DBC1F062CD500902CAC /* aaa.json */,
 				E9997E4E1F0A4B9500CC2FDA /* ss.json */,
-				E95DCBD91F0676B200DB7250 /* gameStartVC2.swift */,
+				E9ADD1541F0D0C140064F890 /* DoctorVC1.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -121,6 +137,11 @@
 		E9ADD1411F0CFA3F0064F890 /* questions */ = {
 			isa = PBXGroup;
 			children = (
+				E9ADD1521F0D09B10064F890 /* 微免_微生物.json */,
+				E9ADD1501F0D093A0064F890 /* 微免_免疫.json */,
+				E9ADD14E1F0D08EA0064F890 /* 解剖_胸背腹.json */,
+				E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */,
+				E9ADD14A1F0D059D0064F890 /* 解剖_四肢.json */,
 				E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */,
 				E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */,
 			);
@@ -199,13 +220,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9ADD1401F0CE6C90064F890 /* ch02.png in Resources */,
+				E9ADD14F1F0D08EA0064F890 /* 解剖_胸背腹.json in Resources */,
 				E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */,
 				DB6995F11F02ED7B0093F955 /* LaunchScreen.storyboard in Resources */,
+				E9ADD1511F0D093A0064F890 /* 微免_免疫.json in Resources */,
 				E9ADD13E1F0CE6C10064F890 /* ch01.png in Resources */,
 				DB6995EE1F02ED7B0093F955 /* Assets.xcassets in Resources */,
+				E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */,
 				DB6995EC1F02ED7B0093F955 /* Main.storyboard in Resources */,
 				E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */,
+				E9ADD1531F0D09B10064F890 /* 微免_微生物.json in Resources */,
 				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
+				E9ADD14B1F0D059D0064F890 /* 解剖_四肢.json in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 				E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */,
 			);
@@ -268,9 +294,11 @@
 			files = (
 				E95DCBD81F0651BC00DB7250 /* tab bar 2.swift in Sources */,
 				DB6995E91F02ED7B0093F955 /* ViewController.swift in Sources */,
+				E9ADD1551F0D0C140064F890 /* DoctorVC1.swift in Sources */,
 				DB6995F91F02EFA30093F955 /* inVC.swift in Sources */,
 				E95DCBDA1F0676B200DB7250 /* gameStartVC2.swift in Sources */,
 				DB6995FD1F02F39E0093F955 /* gameStartVC.swift in Sources */,
+				E9ADD1491F0D03690064F890 /* tab_bar_1.swift in Sources */,
 				DB6995FB1F02F0550093F955 /* MainNavigationController.swift in Sources */,
 				DB6995E71F02ED7B0093F955 /* AppDelegate.swift in Sources */,
 			);

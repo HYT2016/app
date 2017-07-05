@@ -96,15 +96,22 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         
         if segment.selectedSegmentIndex==0{
+            
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab_bar_1") as! tab_bar_1
+            
+            
+//            vc.q_category=dentist[indexPath.row]
+            
+            
+            self.navigationController?.pushViewController(vc, animated: true)
         
         
         }else{
         
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC") as! gameStartVC
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab_bar_2") as! tab_bar_2
         
-//        選擇gameStartVC畫面，ex:按下"解剖_骨盆會陰"會出現該部分的題目，按下"微免＿微生物"會出現該部分的題目，希望老師給點方向ＸＤＤ
 
-        vc.q_category=dentist[indexPath.row]
+//        vc.q_category=dentist[indexPath.row]
         
         
         self.navigationController?.pushViewController(vc, animated: true)

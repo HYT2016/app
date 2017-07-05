@@ -43,16 +43,6 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     // arc4num 
     
-    func toggle(button:UIButton,onImage:UIImage,offimage:UIImage)
-    {
-        if button.currentImage==offimage
-            {button.setImage(onImage, for: .normal)
-        }else{
-            button.setImage(offimage, for: .normal)
-        }
-    
-    
-    }
     
     
     
@@ -104,7 +94,7 @@ class gameStartVC: UIViewController,UITextViewDelegate {
             try data1 = Data(contentsOf: URL(fileURLWithPath:
                 filePath!, isDirectory: false))
             json_parsed=JSON(data: data1)
-            let cateStr = json_parsed["categorires"][a].stringValue
+            let cateStr = json_parsed["categorires"][0].stringValue
             print(cateStr)
             let datas = json_parsed[cateStr].arrayValue
             
