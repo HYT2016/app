@@ -12,21 +12,21 @@ class gameStartVC2: UIViewController {
     
     
     var q_category:String?
+    var userAnswer:[Bool]=[false,false,false,false]
+    
     
     @IBOutlet weak var testTextView2: UITextView!
 
     
     @IBAction func submitBtn(_ sender: UIButton) {
         
-//        var randomNum:UInt32 = arc4random_uniform(100) // range is 0 to 99
+
        
-        b = Int(randomNumber(MIN: 0, MAX: 100))
+        b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
         
-        loadJsonToArys()
+        self.loadQuestionToUser(qID: b)
         
-//        b+=Int(randomNum)
-        
-        randomNumber(MIN: 0, MAX: 100)
+
         
     }
     
@@ -56,7 +56,7 @@ class gameStartVC2: UIViewController {
     var preIndex:Int=0
     
    
-//    var randomNum:UInt32 = arc4random_uniform(100) // range is 0 to 99
+
     
     func loadJsonToArys(){
         //read file
@@ -79,13 +79,49 @@ class gameStartVC2: UIViewController {
             print(error.localizedDescription)
         }
         
+        print("q num is \(questions.count)")
 //        self.loadQuestionToUser(qID: b)
                 self.loadQuestionToUser(qID: b)
         
     }
     
     
+    func changeUserAnswerArray(btnIndex:Int){
+        self.userAnswer[btnIndex] = (self.userAnswer[btnIndex]==true) ? false : true
+        
+    }
     
+    func checkIfCorrect(qID:Int)->Bool{
+        var isCorrect=false
+        let answer = questions[qID]["答案"].stringValue
+//        let tmpAnsIndex=0;
+        var ansStr=""
+        
+        for index in 0...3{
+            if self.userAnswer[index]{
+                switch index {
+                case 0:
+                    ansStr+="A"
+                case 1:
+                    ansStr+="B"
+                case 2:
+                    ansStr+="C"
+                case 3:
+                    ansStr+="D"
+                default:
+                    break
+                }
+            }
+        }
+        
+        if answer == ansStr{
+            isCorrect=true
+        }
+        
+        
+        
+        return isCorrect
+    }
     
     
     func loadQuestionToUser(qID:Int){

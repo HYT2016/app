@@ -35,9 +35,15 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     @IBAction func pressBtn(_ sender: UIButton) {
         
-        
+       
         
     }
+    
+    
+    
+    
+    
+    
     
     
     // arc4num 
@@ -49,12 +55,32 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     @IBAction func submit(_ sender: UIButton) {
         
-
+        b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
         
+        self.loadQuestionToUser(qID: b)
         
         
     }
+    func randomNumber(MIN: Int, MAX: Int)-> Int{
+        return Int(arc4random_uniform(UInt32(100)) + UInt32(0));
+        
+    }
    
+    func changeBtn1 (){
+        let image = UIImage(named: "ch01")!
+        checkBtna.setImage(image, for: UIControlState.normal)
+
+    }
+    
+    func changeBtn2 (){
+        let image = UIImage(named: "ch01")!
+        checkBtnb.setImage(image, for: UIControlState.normal)
+        
+    }
+    
+    
+    
+    
     
     
     
@@ -233,11 +259,12 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(self.q_category)
+    
+        
+//        print(self.q_category)
     
         TesttextView.text!=String(describing: version)
         
@@ -261,6 +288,7 @@ class gameStartVC: UIViewController,UITextViewDelegate {
         
         
         
+
         
         
         
