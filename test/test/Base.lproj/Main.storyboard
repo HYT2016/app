@@ -149,12 +149,45 @@
                                     <action selector="submitBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="rgB-g2-lWj"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShF-vh-DVO" userLabel="Btn_A">
+                                <rect key="frame" x="4" y="431" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="uncheck.png"/>
+                                <connections>
+                                    <action selector="checkBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="wue-NM-isx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Lr-7b-Cy9" userLabel="Btn_B">
+                                <rect key="frame" x="4" y="470" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="uncheck.png"/>
+                                <connections>
+                                    <action selector="checkBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="KA4-aC-2Ud"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsb-FP-H6s" userLabel="Btn_C">
+                                <rect key="frame" x="4" y="510" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="uncheck.png"/>
+                                <connections>
+                                    <action selector="checkBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="TiY-Mg-MI3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yf1-eN-X5U" userLabel="Btn_D">
+                                <rect key="frame" x="4" y="551" width="36" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="uncheck.png"/>
+                                <connections>
+                                    <action selector="checkBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="8OK-lB-rOi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Rzv-Zt-eGh"/>
                     <connections>
                         <outlet property="testTextView2" destination="aFV-L8-l7S" id="wq8-cP-Wfd"/>
+                        <outletCollection property="chkBtns" destination="ShF-vh-DVO" collectionClass="NSMutableArray" id="LOx-e8-doQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uKd-ns-87m" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -379,5 +412,6 @@
     </scenes>
     <resources>
         <image name="check" width="225" height="225"/>
+        <image name="uncheck.png" width="40" height="40"/>
     </resources>
 </document>

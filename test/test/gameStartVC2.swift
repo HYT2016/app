@@ -10,6 +10,19 @@ import UIKit
 import SwiftyJSON
 class gameStartVC2: UIViewController {
     
+    @IBOutlet var chkBtns: [UIButton]!
+    
+    
+    @IBAction func checkBtn(_ sender: UIButton) {
+        if userAnswer[sender.tag]{
+            sender.setImage(UIImage(named: "uncheck"), for: .normal)
+            userAnswer[sender.tag]=false
+        }else{
+            sender.setImage(UIImage(named: "checked"), for: .normal)
+            userAnswer[sender.tag]=true
+        }
+        
+    }
     
     var q_category:String?
     var userAnswer:[Bool]=[false,false,false,false]
@@ -20,11 +33,12 @@ class gameStartVC2: UIViewController {
     
     @IBAction func submitBtn(_ sender: UIButton) {
         
-
+        print( "result: \(self.checkIfCorrect(qID: b))")
        
         b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
         
         self.loadQuestionToUser(qID: b)
+        
         
 
         
@@ -113,7 +127,7 @@ class gameStartVC2: UIViewController {
                 }
             }
         }
-        
+        print("ansStr =  \(ansStr)")
         if answer == ansStr{
             isCorrect=true
         }
