@@ -80,7 +80,8 @@ class gameStartVC2: UIViewController {
 
     
     func loadJsonToArys(){
-        print("loadJsonToArys \(self.q_category)")
+        print("loadJsonToArys \(String(describing: self.q_category))")
+//        print("loadJsonToArys \(self.q_category)")
         //read file
         let filePath=Bundle.main.path(forResource: self.q_category, ofType:
             "json")

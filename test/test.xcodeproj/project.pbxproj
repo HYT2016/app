@@ -36,6 +36,10 @@
 		E9ADD15B1F0D13FE0064F890 /* ch01.png in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1591F0D13FE0064F890 /* ch01.png */; };
 		E9ADD15C1F0D13FE0064F890 /* ch02.png in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD15A1F0D13FE0064F890 /* ch02.png */; };
 		E9D28B6D1F13AF1500139B54 /* submit.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B6C1F13AF1500139B54 /* submit.png */; };
+		E9D28B6F1F13BDDA00139B54 /* 生化.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B6E1F13BDDA00139B54 /* 生化.json */; };
+		E9D28B711F13BFF600139B54 /* 口胚.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B701F13BFF600139B54 /* 口胚.json */; };
+		E9D28B731F13C04200139B54 /* 牙型.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B721F13C04200139B54 /* 牙型.json */; };
+		E9D28B751F13C04D00139B54 /* 口解.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B741F13C04D00139B54 /* 口解.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +76,10 @@
 		E9ADD1591F0D13FE0064F890 /* ch01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ch01.png; sourceTree = "<group>"; };
 		E9ADD15A1F0D13FE0064F890 /* ch02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ch02.png; sourceTree = "<group>"; };
 		E9D28B6C1F13AF1500139B54 /* submit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit.png; sourceTree = "<group>"; };
+		E9D28B6E1F13BDDA00139B54 /* 生化.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "生化.json"; sourceTree = "<group>"; };
+		E9D28B701F13BFF600139B54 /* 口胚.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "口胚.json"; sourceTree = "<group>"; };
+		E9D28B721F13C04200139B54 /* 牙型.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "牙型.json"; sourceTree = "<group>"; };
+		E9D28B741F13C04D00139B54 /* 口解.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "口解.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +150,10 @@
 		E9ADD1411F0CFA3F0064F890 /* questions */ = {
 			isa = PBXGroup;
 			children = (
+				E9D28B701F13BFF600139B54 /* 口胚.json */,
+				E9D28B741F13C04D00139B54 /* 口解.json */,
+				E9D28B6E1F13BDDA00139B54 /* 生化.json */,
+				E9D28B721F13C04200139B54 /* 牙型.json */,
 				E9ADD1521F0D09B10064F890 /* 微免_微生物.json */,
 				E9ADD1501F0D093A0064F890 /* 微免_免疫.json */,
 				E9ADD14E1F0D08EA0064F890 /* 解剖_胸背腹.json */,
@@ -236,10 +248,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9D28B731F13C04200139B54 /* 牙型.json in Resources */,
 				E9ADD14F1F0D08EA0064F890 /* 解剖_胸背腹.json in Resources */,
 				E9ADD15B1F0D13FE0064F890 /* ch01.png in Resources */,
 				E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */,
 				DB6995F11F02ED7B0093F955 /* LaunchScreen.storyboard in Resources */,
+				E9D28B711F13BFF600139B54 /* 口胚.json in Resources */,
 				E9ADD1511F0D093A0064F890 /* 微免_免疫.json in Resources */,
 				81B6BEBF1F13A53800F55D65 /* checked.png in Resources */,
 				81B6BEC01F13A53800F55D65 /* uncheck.png in Resources */,
@@ -252,8 +266,10 @@
 				E9ADD15C1F0D13FE0064F890 /* ch02.png in Resources */,
 				E9ADD14B1F0D059D0064F890 /* 解剖_四肢.json in Resources */,
 				E9D28B6D1F13AF1500139B54 /* submit.png in Resources */,
+				E9D28B6F1F13BDDA00139B54 /* 生化.json in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 				E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */,
+				E9D28B751F13C04D00139B54 /* 口解.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

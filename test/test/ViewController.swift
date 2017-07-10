@@ -95,8 +95,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         print(indexPath.row)
         
         
-        if segment.selectedSegmentIndex==0{
-            
+//        if segment.selectedSegmentIndex==0{
+        
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab_bar_1") as! tab_bar_1
             let subVC = vc.viewControllers?[0] as! gameStartVC2
             
@@ -108,16 +108,19 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             self.navigationController?.pushViewController(vc, animated: true)
         
         
-        }else{
-        
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab_bar_2") as! tab_bar_2
-        
-
-//        vc.q_category=dentist[indexPath.row]
-        
-        
-        self.navigationController?.pushViewController(vc, animated: true)
-        }
+//        }else{
+//        
+//        let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab_bar_2") as! tab_bar_2
+//        
+//
+////        vc.q_category=dentist[indexPath.row]
+//        
+//            let subVC = vc.viewControllers?[0] as! gameStartVC
+//            
+//            subVC.q_category=dentist[indexPath.row]
+//        
+//        self.navigationController?.pushViewController(vc, animated: true)
+//        }
         
         
     }
