@@ -22,6 +22,7 @@ class gameStartVC2: UIViewController {
             sender.setImage(UIImage(named: "checked"), for: .normal)
             userAnswer[sender.tag]=true
         }
+       
         
     }
     
@@ -47,7 +48,7 @@ class gameStartVC2: UIViewController {
         }else{
         displayLabel.text = "再接再厲"
         }
-
+        
         
     }
     
@@ -81,7 +82,6 @@ class gameStartVC2: UIViewController {
     
     func loadJsonToArys(){
         print("loadJsonToArys \(String(describing: self.q_category))")
-//        print("loadJsonToArys \(self.q_category)")
         //read file
         let filePath=Bundle.main.path(forResource: self.q_category, ofType:
             "json")
@@ -103,7 +103,6 @@ class gameStartVC2: UIViewController {
         }
         
         print("q num is \(questions.count)")
-//        self.loadQuestionToUser(qID: b)
                 self.loadQuestionToUser(qID: b)
         
     }
@@ -160,37 +159,13 @@ class gameStartVC2: UIViewController {
         print("tmpStr = \(tmpStr)")
         
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
         displayLabel.backgroundColor=UIColor.white
         
-        testTextView2.backgroundColor = UIColor(red: 225/255, green: 227/255, blue: 132/255, alpha: 1)
+        testTextView2.backgroundColor = UIColor(red: 212/255, green: 219/255, blue: 236/255, alpha: 0.5)
         testTextView2.font = UIFont.systemFont(ofSize: 20, weight: 20)
         testTextView2.textColor = UIColor(red: 41/255, green: 36/255, blue: 33/255, alpha: 1)
         testTextView2.font = UIFont.boldSystemFont(ofSize: 20)
