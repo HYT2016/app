@@ -113,42 +113,33 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(A)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kxN-JG-BuX">
-                                <rect key="frame" x="44" y="431" width="315" height="33"/>
+                                <rect key="frame" x="48" y="431" width="131" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(B)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ofE-31-ym0">
-                                <rect key="frame" x="44" y="472" width="315" height="33"/>
+                                <rect key="frame" x="227" y="434" width="131" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(C)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2nS-R2-8ad">
-                                <rect key="frame" x="44" y="513" width="315" height="33"/>
+                                <rect key="frame" x="48" y="475" width="131" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="(D)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qsK-rM-S9q">
-                                <rect key="frame" x="44" y="554" width="315" height="33"/>
+                                <rect key="frame" x="228" y="475" width="131" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HF1-O1-edq">
-                                <rect key="frame" x="16" y="595" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="submit:" destination="swi-kB-WJy" eventType="touchUpInside" id="CPa-xe-m9q"/>
-                                    <action selector="submitBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="rgB-g2-lWj"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ShF-vh-DVO" userLabel="Btn_A">
                                 <rect key="frame" x="4" y="431" width="36" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -158,7 +149,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Lr-7b-Cy9" userLabel="Btn_B">
-                                <rect key="frame" x="4" y="470" width="36" height="36"/>
+                                <rect key="frame" x="183" y="431" width="36" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="uncheck.png"/>
                                 <connections>
@@ -166,7 +157,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsb-FP-H6s" userLabel="Btn_C">
-                                <rect key="frame" x="4" y="510" width="36" height="36"/>
+                                <rect key="frame" x="4" y="475" width="36" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="uncheck.png"/>
                                 <connections>
@@ -174,11 +165,27 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yf1-eN-X5U" userLabel="Btn_D">
-                                <rect key="frame" x="4" y="551" width="36" height="36"/>
+                                <rect key="frame" x="183" y="472" width="36" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button" image="uncheck.png"/>
                                 <connections>
                                     <action selector="checkBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="8OK-lB-rOi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dwq-P0-hf4">
+                                <rect key="frame" x="16" y="572" width="342" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HF1-O1-edq">
+                                <rect key="frame" x="122" y="506" width="131" height="58"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="submit.png"/>
+                                <connections>
+                                    <action selector="submit:" destination="swi-kB-WJy" eventType="touchUpInside" id="CPa-xe-m9q"/>
+                                    <action selector="submitBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="rgB-g2-lWj"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -186,6 +193,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Rzv-Zt-eGh"/>
                     <connections>
+                        <outlet property="displayLabel" destination="dwq-P0-hf4" id="Lar-Kg-Vbv"/>
                         <outlet property="testTextView2" destination="aFV-L8-l7S" id="wq8-cP-Wfd"/>
                         <outletCollection property="chkBtns" destination="ShF-vh-DVO" collectionClass="NSMutableArray" id="LOx-e8-doQ"/>
                     </connections>
@@ -412,6 +420,7 @@
     </scenes>
     <resources>
         <image name="check" width="225" height="225"/>
+        <image name="submit.png" width="676" height="398"/>
         <image name="uncheck.png" width="40" height="40"/>
     </resources>
 </document>

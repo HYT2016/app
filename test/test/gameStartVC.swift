@@ -34,13 +34,16 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     @IBOutlet weak var checkBtnd: UIButton!
     
     @IBAction func pressBtn(_ sender: UIButton) {
-        
        
+       
+        
+        sender.isSelected = !sender.isSelected
+        
         
     }
     
     
-    
+     
     
     
     
@@ -66,17 +69,6 @@ class gameStartVC: UIViewController,UITextViewDelegate {
         
     }
    
-    func changeBtn1 (){
-        let image = UIImage(named: "ch01")!
-        checkBtna.setImage(image, for: UIControlState.normal)
-
-    }
-    
-    func changeBtn2 (){
-        let image = UIImage(named: "ch01")!
-        checkBtnb.setImage(image, for: UIControlState.normal)
-        
-    }
     
     
     
@@ -134,8 +126,8 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     
     
     func loadQuestionToUser(qID:Int){
-//    func loadQuestionToUser(qID:Int){
-//        let q = questions[qID]
+
+
         let q = questions[qID]
         let tmpStr=q["Question_title"].stringValue
         
@@ -262,7 +254,8 @@ class gameStartVC: UIViewController,UITextViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    
+        checkBtna.setBackgroundImage(UIImage(named: "ch02"), for: UIControlState.normal)
+        checkBtna.setBackgroundImage(UIImage(named: "ch01"), for: UIControlState.selected)
         
 //        print(self.q_category)
     

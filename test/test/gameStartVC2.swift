@@ -10,6 +10,7 @@ import UIKit
 import SwiftyJSON
 class gameStartVC2: UIViewController {
     
+    @IBOutlet weak var displayLabel: UILabel!
     @IBOutlet var chkBtns: [UIButton]!
     
     
@@ -24,6 +25,7 @@ class gameStartVC2: UIViewController {
         
     }
     
+    
     var q_category:String?
     var userAnswer:[Bool]=[false,false,false,false]
     
@@ -35,11 +37,16 @@ class gameStartVC2: UIViewController {
         
         print( "result: \(self.checkIfCorrect(qID: b))")
        
-        b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
-        
-        self.loadQuestionToUser(qID: b)
         
         
+        if self.checkIfCorrect(qID: b ) == true {
+        displayLabel.text="恭喜答對"
+            b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
+            
+            self.loadQuestionToUser(qID: b)
+        }else{
+        displayLabel.text = "再接再厲"
+        }
 
         
     }
@@ -48,7 +55,7 @@ class gameStartVC2: UIViewController {
     
     
     func randomNumber(MIN: Int, MAX: Int)-> Int{
-        return Int(arc4random_uniform(UInt32(100)) + UInt32(0));
+        return Int(arc4random_uniform(UInt32(MAX)) + UInt32(MIN));
         
     }
     
@@ -73,8 +80,9 @@ class gameStartVC2: UIViewController {
 
     
     func loadJsonToArys(){
+        print("loadJsonToArys \(self.q_category)")
         //read file
-        let filePath=Bundle.main.path(forResource: "解剖_骨盆會陰", ofType:
+        let filePath=Bundle.main.path(forResource: self.q_category, ofType:
             "json")
         var data1:Data
         var json_parsed:JSON
@@ -179,7 +187,7 @@ class gameStartVC2: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
+        displayLabel.backgroundColor=UIColor.white
         
         testTextView2.backgroundColor = UIColor(red: 225/255, green: 227/255, blue: 132/255, alpha: 1)
         testTextView2.font = UIFont.systemFont(ofSize: 20, weight: 20)

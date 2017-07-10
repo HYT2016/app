@@ -35,6 +35,7 @@
 		E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */; };
 		E9ADD15B1F0D13FE0064F890 /* ch01.png in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1591F0D13FE0064F890 /* ch01.png */; };
 		E9ADD15C1F0D13FE0064F890 /* ch02.png in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD15A1F0D13FE0064F890 /* ch02.png */; };
+		E9D28B6D1F13AF1500139B54 /* submit.png in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B6C1F13AF1500139B54 /* submit.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_頭頸.json"; sourceTree = "<group>"; };
 		E9ADD1591F0D13FE0064F890 /* ch01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ch01.png; sourceTree = "<group>"; };
 		E9ADD15A1F0D13FE0064F890 /* ch02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ch02.png; sourceTree = "<group>"; };
+		E9D28B6C1F13AF1500139B54 /* submit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submit.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				81B6BEBD1F13A53800F55D65 /* checked.png */,
+				E9D28B6C1F13AF1500139B54 /* submit.png */,
 				81B6BEBE1F13A53800F55D65 /* uncheck.png */,
 				E9ADD1591F0D13FE0064F890 /* ch01.png */,
 				E9ADD15A1F0D13FE0064F890 /* ch02.png */,
@@ -248,6 +251,7 @@
 				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
 				E9ADD15C1F0D13FE0064F890 /* ch02.png in Resources */,
 				E9ADD14B1F0D059D0064F890 /* 解剖_四肢.json in Resources */,
+				E9D28B6D1F13AF1500139B54 /* submit.png in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 				E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */,
 			);
