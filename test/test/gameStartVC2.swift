@@ -25,10 +25,10 @@ class gameStartVC2: UIViewController {
     
     @IBAction func checkBtn(_ sender: UIButton) {
         if userAnswer[sender.tag]{
-            sender.setImage(UIImage(named: "uncheck"), for: .normal)
+            sender.setImage(UIImage(named: "uncheck01"), for: .normal)
             userAnswer[sender.tag]=false
         }else{
-            sender.setImage(UIImage(named: "checked"), for: .normal)
+            sender.setImage(UIImage(named: "checked01"), for: .normal)
             userAnswer[sender.tag]=true
         }
        
@@ -55,7 +55,7 @@ class gameStartVC2: UIViewController {
             
             self.loadQuestionToUser(qID: b)
 //            //   58-63是我加的程式碼 功用為按下submit如果是true的話 轉為圖片uncheck
-            let image = UIImage(named: "uncheck")!
+            let image = UIImage(named: "uncheck01")!
             
             chkBtna.setImage(image, for: UIControlState.normal)
             chkBtnb.setImage(image, for: UIControlState.normal)
@@ -70,7 +70,7 @@ class gameStartVC2: UIViewController {
         displayLabel.text = "再接再厲"
             
           //   73-78是我加的程式碼 功用為按下submit如果是false的話 轉為圖片uncheck。沒加這程式碼的話，圖片不會轉回來，會保持在checked圖上，可是加完這行程式碼 按對的答案還是會顯示"再接再厲"，
-            let image = UIImage(named: "uncheck")!
+            let image = UIImage(named: "uncheck01")!
             
             chkBtna.setImage(image, for: UIControlState.normal)
             chkBtnb.setImage(image, for: UIControlState.normal)
