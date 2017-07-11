@@ -50,36 +50,27 @@ class gameStartVC2: UIViewController {
         
         
         if self.checkIfCorrect(qID: b ) == true {
-        displayLabel.text="恭喜答對"
+            displayLabel.text="恭喜答對"
             b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
             
             self.loadQuestionToUser(qID: b)
-//            //   58-63是我加的程式碼 功用為按下submit如果是true的話 轉為圖片uncheck
-            let image = UIImage(named: "uncheck01")!
-            
-            chkBtna.setImage(image, for: UIControlState.normal)
-            chkBtnb.setImage(image, for: UIControlState.normal)
-            chkBtnc.setImage(image, for: UIControlState.normal)
-            chkBtnd.setImage(image, for: UIControlState.normal)
-            
-            
-            
-            
-            
         }else{
-        displayLabel.text = "再接再厲"
-            
-          //   73-78是我加的程式碼 功用為按下submit如果是false的話 轉為圖片uncheck。沒加這程式碼的話，圖片不會轉回來，會保持在checked圖上，可是加完這行程式碼 按對的答案還是會顯示"再接再厲"，
-            let image = UIImage(named: "uncheck01")!
-            
-            chkBtna.setImage(image, for: UIControlState.normal)
-            chkBtnb.setImage(image, for: UIControlState.normal)
-            chkBtnc.setImage(image, for: UIControlState.normal)
-            chkBtnd.setImage(image, for: UIControlState.normal)
-            
-            
-            
+            displayLabel.text = "再接再厲"
+
         }
+        //            //   58-63是我加的程式碼 功用為按下submit如果是true的話 轉為圖片uncheck
+        let image = UIImage(named: "uncheck01")!
+        
+        chkBtna.setImage(image, for: UIControlState.normal)
+        chkBtnb.setImage(image, for: UIControlState.normal)
+        chkBtnc.setImage(image, for: UIControlState.normal)
+        chkBtnd.setImage(image, for: UIControlState.normal)
+        
+        for index in 0...3{
+            self.userAnswer[index]=false
+        }
+        
+
         
     }
     
@@ -166,7 +157,7 @@ class gameStartVC2: UIViewController {
                 }
             }
         }
-        print("ansStr =  \(ansStr)")
+        print("answer = \(answer) user input ansStr =  \(ansStr)")
         if answer == ansStr{
             isCorrect=true
         }

@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DBT-XQ-gHK">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DBT-XQ-gHK">
     <device id="retina3_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -41,7 +41,7 @@
                                         <rect key="frame" x="0.0" y="1" width="320" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RvG-FW-uGw" id="CoT-ab-Pxk">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="49.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -237,6 +237,9 @@
                         <outlet property="displayLabel" destination="dwq-P0-hf4" id="Lar-Kg-Vbv"/>
                         <outlet property="testTextView2" destination="aFV-L8-l7S" id="wq8-cP-Wfd"/>
                         <outletCollection property="chkBtns" destination="ShF-vh-DVO" collectionClass="NSMutableArray" id="LOx-e8-doQ"/>
+                        <outletCollection property="chkBtns" destination="9Lr-7b-Cy9" collectionClass="NSMutableArray" id="4PM-Hs-s3R"/>
+                        <outletCollection property="chkBtns" destination="tsb-FP-H6s" collectionClass="NSMutableArray" id="iAS-kV-gQa"/>
+                        <outletCollection property="chkBtns" destination="yf1-eN-X5U" collectionClass="NSMutableArray" id="4QM-yS-nhu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uKd-ns-87m" userLabel="First Responder" sceneMemberID="firstResponder"/>
