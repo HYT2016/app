@@ -54,7 +54,7 @@ class gameStartVC2: UIViewController {
             b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
             
             self.loadQuestionToUser(qID: b)
-            //   58-63是我加的程式碼 功用為按下submit如果是false的話 轉為圖片uncheck，原本圖片不會轉回來，會保持在checked圖上
+            //   58-63是我加的程式碼 功用為按下submit如果是true的話 轉為圖片uncheck
             let image = UIImage(named: "uncheck")!
             
             chkBtna.setImage(image, for: UIControlState.normal)
@@ -69,7 +69,7 @@ class gameStartVC2: UIViewController {
         }else{
         displayLabel.text = "再接再厲"
             
-          //   73-78是我加的程式碼 功用為按下submit如果是false的話 轉為圖片uncheck，原本圖片不會轉回來，會保持在checked圖上
+          //   73-78是我加的程式碼 功用為按下submit如果是false的話 轉為圖片uncheck。沒加這程式碼的話，圖片不會轉回來，會保持在checked圖上，可是加完這行程式碼 按對的答案還是會顯示"再接再厲"，
             let image = UIImage(named: "uncheck")!
             
             chkBtna.setImage(image, for: UIControlState.normal)
