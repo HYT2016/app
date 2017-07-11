@@ -196,7 +196,7 @@ class gameStartVC2: UIViewController {
 
         
         
-        
+       
         
         displayLabel.backgroundColor=UIColor.white
         
@@ -207,8 +207,7 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         self.loadJsonToArys()
-        
-        
+
         
         
         
@@ -219,15 +218,16 @@ class gameStartVC2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+//    讓textView上面不留白
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        testTextView2.setContentOffset(CGPoint.zero, animated: false)
     }
-    */
+    
+    
 
+
+    
+    
 }
