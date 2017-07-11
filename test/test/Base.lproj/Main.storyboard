@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DBT-XQ-gHK">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="DBT-XQ-gHK">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -105,7 +105,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aFV-L8-l7S">
-                                <rect key="frame" x="0.0" y="77" width="375" height="346"/>
+                                <rect key="frame" x="0.0" y="85" width="375" height="338"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -188,16 +188,15 @@
                                     <action selector="submitBtn:" destination="YOB-Hx-ZxT" eventType="touchUpInside" id="rgB-g2-lWj"/>
                                 </connections>
                             </button>
-                            <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nod-MU-EQS">
-                                <rect key="frame" x="0.0" y="45" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </searchBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Rzv-Zt-eGh"/>
                     <connections>
+                        <outlet property="chkBtna" destination="ShF-vh-DVO" id="iov-oE-fB3"/>
+                        <outlet property="chkBtnb" destination="9Lr-7b-Cy9" id="j1m-fF-coo"/>
+                        <outlet property="chkBtnc" destination="tsb-FP-H6s" id="gXF-z8-TRD"/>
+                        <outlet property="chkBtnd" destination="yf1-eN-X5U" id="McE-YM-AnW"/>
                         <outlet property="displayLabel" destination="dwq-P0-hf4" id="Lar-Kg-Vbv"/>
                         <outlet property="testTextView2" destination="aFV-L8-l7S" id="wq8-cP-Wfd"/>
                         <outletCollection property="chkBtns" destination="ShF-vh-DVO" collectionClass="NSMutableArray" id="LOx-e8-doQ"/>

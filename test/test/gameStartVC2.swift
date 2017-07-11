@@ -10,8 +10,17 @@ import UIKit
 import SwiftyJSON
 class gameStartVC2: UIViewController {
     
+
+    
     @IBOutlet weak var displayLabel: UILabel!
     @IBOutlet var chkBtns: [UIButton]!
+    
+    @IBOutlet weak var chkBtna: UIButton!
+    @IBOutlet weak var chkBtnb: UIButton!
+    
+    @IBOutlet weak var chkBtnc: UIButton!
+   
+    @IBOutlet weak var chkBtnd: UIButton!
     
     
     @IBAction func checkBtn(_ sender: UIButton) {
@@ -45,10 +54,31 @@ class gameStartVC2: UIViewController {
             b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
             
             self.loadQuestionToUser(qID: b)
+            //   58-63是我加的程式碼 功用為按下submit如果是false的話 轉為圖片uncheck，原本圖片不會轉回來，會保持在checked圖上
+            let image = UIImage(named: "uncheck")!
+            
+            chkBtna.setImage(image, for: UIControlState.normal)
+            chkBtnb.setImage(image, for: UIControlState.normal)
+            chkBtnc.setImage(image, for: UIControlState.normal)
+            chkBtnd.setImage(image, for: UIControlState.normal)
+            
+            
+            
+            
+            
         }else{
         displayLabel.text = "再接再厲"
+            
+          //   73-78是我加的程式碼 功用為按下submit如果是false的話 轉為圖片uncheck，原本圖片不會轉回來，會保持在checked圖上
+            let image = UIImage(named: "uncheck")!
+            
+            chkBtna.setImage(image, for: UIControlState.normal)
+            chkBtnb.setImage(image, for: UIControlState.normal)
+            chkBtnc.setImage(image, for: UIControlState.normal)
+            chkBtnd.setImage(image, for: UIControlState.normal)
+            
+            
         }
-        
         
     }
     
@@ -162,6 +192,10 @@ class gameStartVC2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
+        
+        
         
         displayLabel.backgroundColor=UIColor.white
         
@@ -172,6 +206,10 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         self.loadJsonToArys()
+        
+        
+        
+        
         
     }
 
