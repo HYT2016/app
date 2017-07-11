@@ -54,7 +54,7 @@ class gameStartVC2: UIViewController {
             b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
             
             self.loadQuestionToUser(qID: b)
-            //   58-63是我加的程式碼 功用為按下submit如果是true的話 轉為圖片uncheck
+//            //   58-63是我加的程式碼 功用為按下submit如果是true的話 轉為圖片uncheck
             let image = UIImage(named: "uncheck")!
             
             chkBtna.setImage(image, for: UIControlState.normal)
@@ -76,6 +76,7 @@ class gameStartVC2: UIViewController {
             chkBtnb.setImage(image, for: UIControlState.normal)
             chkBtnc.setImage(image, for: UIControlState.normal)
             chkBtnd.setImage(image, for: UIControlState.normal)
+            
             
             
         }
