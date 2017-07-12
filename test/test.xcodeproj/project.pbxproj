@@ -34,6 +34,7 @@
 		E97B599B1F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.21.png in Resources */ = {isa = PBXBuildFile; fileRef = E97B59971F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.21.png */; };
 		E97B599C1F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.46.png in Resources */ = {isa = PBXBuildFile; fileRef = E97B59981F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.46.png */; };
 		E97B599D1F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.58.24.png in Resources */ = {isa = PBXBuildFile; fileRef = E97B59991F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.58.24.png */; };
+		E97B599F1F1667C800E743AA /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E97B599E1F1667C800E743AA /* 02.png */; };
 		E97B82CA1F073F0E0088882F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B82C91F073F0E0088882F /* SwiftyJSON.framework */; };
 		E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */ = {isa = PBXBuildFile; fileRef = E9997E4E1F0A4B9500CC2FDA /* ss.json */; };
 		E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */; };
@@ -83,6 +84,7 @@
 		E97B59971F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.21.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月12日 下午9.57.21.png"; sourceTree = "<group>"; };
 		E97B59981F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月12日 下午9.57.46.png"; sourceTree = "<group>"; };
 		E97B59991F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.58.24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月12日 下午9.58.24.png"; sourceTree = "<group>"; };
+		E97B599E1F1667C800E743AA /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		E97B82C91F073F0E0088882F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/test-gxlkerhcxzywisadkzesvvkwlnsf/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		E9997E4E1F0A4B9500CC2FDA /* ss.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ss.json; sourceTree = "<group>"; };
 		E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_骨盆會陰.json"; sourceTree = "<group>"; };
@@ -199,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				E97B59921F1660E700E743AA /* 01.png */,
+				E97B599E1F1667C800E743AA /* 02.png */,
 				E97B598C1F16527100E743AA /* details.png */,
 				E97B598A1F16457800E743AA /* icon@3x.png */,
 				E97B59881F16457400E743AA /* icon@2x.png */,
@@ -310,6 +313,7 @@
 				E9D28B6F1F13BDDA00139B54 /* 生化.json in Resources */,
 				E94F8BBC1F14F7B9007E43AD /* uncheck01.png in Resources */,
 				E94F8BBA1F14F7B4007E43AD /* checked01.png in Resources */,
+				E97B599F1F1667C800E743AA /* 02.png in Resources */,
 				E97B599C1F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.46.png in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 				E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */,

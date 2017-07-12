@@ -391,10 +391,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2Yj-Vd-fIj">
-                                <rect key="frame" x="58" y="453" width="259" height="194"/>
+                                <rect key="frame" x="58" y="530.5" width="259" height="116.5"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gep-z1-TgU">
-                                        <rect key="frame" x="0.0" y="0.0" width="259" height="194"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gep-z1-TgU" userLabel="startBtn">
+                                        <rect key="frame" x="0.0" y="0.0" width="259" height="116.5"/>
                                         <state key="normal" backgroundImage="button_start.png"/>
                                         <connections>
                                             <action selector="loginBtn:" destination="DBT-XQ-gHK" eventType="touchUpInside" id="Uxo-ST-TUv"/>
@@ -409,18 +409,19 @@
                                     <segue destination="UTO-XT-bvY" kind="show" id="zfB-WZ-Dkf"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="01.png" translatesAutoresizingMaskIntoConstraints="NO" id="PUF-vS-Iqh">
-                                <rect key="frame" x="38" y="250.5" width="300" height="166.5"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="02.png" translatesAutoresizingMaskIntoConstraints="NO" id="PUF-vS-Iqh">
+                                <rect key="frame" x="37" y="166.5" width="300" height="334"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="PUF-vS-Iqh" firstAttribute="height" secondItem="fZG-jk-kX8" secondAttribute="height" multiplier="0.25" id="6bb-cp-2Ul"/>
+                            <constraint firstItem="PUF-vS-Iqh" firstAttribute="height" secondItem="fZG-jk-kX8" secondAttribute="height" multiplier="0.5" id="6bb-cp-2Ul"/>
                             <constraint firstAttribute="trailingMargin" secondItem="2Yj-Vd-fIj" secondAttribute="trailing" constant="42" id="7Mr-9h-nqV"/>
                             <constraint firstItem="SwP-o0-x7h" firstAttribute="height" secondItem="fZG-jk-kX8" secondAttribute="height" multiplier="0.08" id="8pH-z8-02w"/>
                             <constraint firstItem="4fS-lY-oB5" firstAttribute="top" secondItem="2Yj-Vd-fIj" secondAttribute="bottom" constant="20" id="DXe-wI-Ndy"/>
                             <constraint firstItem="2Yj-Vd-fIj" firstAttribute="leading" secondItem="fZG-jk-kX8" secondAttribute="leadingMargin" constant="42" id="N5c-aq-Rer"/>
-                            <constraint firstItem="PUF-vS-Iqh" firstAttribute="centerX" secondItem="fZG-jk-kX8" secondAttribute="centerX" id="U7m-AU-0Nc"/>
+                            <constraint firstItem="PUF-vS-Iqh" firstAttribute="centerX" secondItem="2Yj-Vd-fIj" secondAttribute="centerX" id="VBG-N3-ySd"/>
+                            <constraint firstItem="gep-z1-TgU" firstAttribute="top" secondItem="PUF-vS-Iqh" secondAttribute="bottom" constant="30" id="Wfv-qe-2D4"/>
                             <constraint firstItem="PUF-vS-Iqh" firstAttribute="centerY" secondItem="fZG-jk-kX8" secondAttribute="centerY" id="Wg9-rn-S9c"/>
                             <constraint firstItem="SwP-o0-x7h" firstAttribute="width" secondItem="fZG-jk-kX8" secondAttribute="width" multiplier="0.2" id="aT8-JV-YiJ"/>
                             <constraint firstItem="PUF-vS-Iqh" firstAttribute="width" secondItem="fZG-jk-kX8" secondAttribute="width" multiplier="0.8" id="al1-Z5-Cf3"/>
@@ -485,7 +486,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="01.png" width="970" height="230"/>
+        <image name="02.png" width="460" height="475"/>
         <image name="button_start.png" width="184" height="194"/>
         <image name="check" width="225" height="225"/>
         <image name="details.png" width="84" height="34"/>
