@@ -94,19 +94,28 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
         
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
+        
+        
+        vc.q_category=doctor[indexPath.row]
+        
+        self.navigationController?.pushViewController(vc, animated: true)
         
 
         
-            let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab_bar_1") as! tab_bar_1
-            let subVC = vc.viewControllers?[0] as! gameStartVC2
-            
-            subVC.q_category=doctor[indexPath.row]
-            
-
-            
-            
-            self.navigationController?.pushViewController(vc, animated: true)
         
+        
+        
+        
+
+        
+//            let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab_bar_1") as! tab_bar_1
+//            let subVC = vc.viewControllers?[0] as! gameStartVC2
+//            
+//            subVC.q_category=doctor[indexPath.row]
+//        
+//            self.navigationController?.pushViewController(vc, animated: true)
+//        
         
         
         
