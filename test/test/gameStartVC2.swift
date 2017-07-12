@@ -8,6 +8,8 @@
 
 import UIKit
 import SwiftyJSON
+
+
 class gameStartVC2: UIViewController {
     
 
@@ -24,6 +26,7 @@ class gameStartVC2: UIViewController {
     
     
     @IBAction func checkBtn(_ sender: UIButton) {
+        
         if userAnswer[sender.tag]{
             sender.setImage(UIImage(named: "uncheck01"), for: .normal)
             userAnswer[sender.tag]=false
@@ -41,24 +44,30 @@ class gameStartVC2: UIViewController {
     
     
     @IBOutlet weak var testTextView2: UITextView!
-
+ 
+    
     
     @IBAction func submitBtn(_ sender: UIButton) {
         
         print( "result: \(self.checkIfCorrect(qID: b))")
        
         
-        
         if self.checkIfCorrect(qID: b ) == true {
-            displayLabel.text="恭喜答對"
-            b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
             
+            displayLabel.textColor=UIColor.red
+            displayLabel.text="恭喜答對"
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1) {
+                self.displayLabel.text = ""
+            }
+            
+
             self.loadQuestionToUser(qID: b)
+            
         }else{
             displayLabel.text = "再接再厲"
 
         }
-        //            //   58-63是我加的程式碼 功用為按下submit如果是true的話 轉為圖片uncheck
+       
         let image = UIImage(named: "uncheck01")!
         
         chkBtna.setImage(image, for: UIControlState.normal)
@@ -126,19 +135,23 @@ class gameStartVC2: UIViewController {
         }
         
         print("q num is \(questions.count)")
+        
+        b=Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
                 self.loadQuestionToUser(qID: b)
         
     }
     
-    
+//    不是很懂
     func changeUserAnswerArray(btnIndex:Int){
         self.userAnswer[btnIndex] = (self.userAnswer[btnIndex]==true) ? false : true
+        
         
     }
     
     func checkIfCorrect(qID:Int)->Bool{
         var isCorrect=false
         let answer = questions[qID]["答案"].stringValue
+//        let answer = questions[qID]["答案"].stringValue
 //        let tmpAnsIndex=0;
         var ansStr=""
         
@@ -172,6 +185,7 @@ class gameStartVC2: UIViewController {
     func loadQuestionToUser(qID:Int){
         
         let q = questions[qID]
+
         let tmpStr=q["題目"].stringValue
         
         self.testTextView2.text=tmpStr

@@ -26,6 +26,8 @@
 		E95DCBD81F0651BC00DB7250 /* tab bar 2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DCBD71F0651BC00DB7250 /* tab bar 2.swift */; };
 		E95DCBDA1F0676B200DB7250 /* gameStartVC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95DCBD91F0676B200DB7250 /* gameStartVC2.swift */; };
 		E9745DBD1F062CD500902CAC /* aaa.json in Resources */ = {isa = PBXBuildFile; fileRef = E9745DBC1F062CD500902CAC /* aaa.json */; };
+		E97B59891F16457400E743AA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E97B59881F16457400E743AA /* icon@2x.png */; };
+		E97B598B1F16457800E743AA /* icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E97B598A1F16457800E743AA /* icon@3x.png */; };
 		E97B82CA1F073F0E0088882F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B82C91F073F0E0088882F /* SwiftyJSON.framework */; };
 		E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */ = {isa = PBXBuildFile; fileRef = E9997E4E1F0A4B9500CC2FDA /* ss.json */; };
 		E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */; };
@@ -67,6 +69,8 @@
 		E95DCBD71F0651BC00DB7250 /* tab bar 2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "tab bar 2.swift"; sourceTree = "<group>"; };
 		E95DCBD91F0676B200DB7250 /* gameStartVC2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameStartVC2.swift; sourceTree = "<group>"; };
 		E9745DBC1F062CD500902CAC /* aaa.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aaa.json; sourceTree = "<group>"; };
+		E97B59881F16457400E743AA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		E97B598A1F16457800E743AA /* icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@3x.png"; sourceTree = "<group>"; };
 		E97B82C91F073F0E0088882F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/test-gxlkerhcxzywisadkzesvvkwlnsf/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		E9997E4E1F0A4B9500CC2FDA /* ss.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ss.json; sourceTree = "<group>"; };
 		E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_骨盆會陰.json"; sourceTree = "<group>"; };
@@ -170,6 +174,8 @@
 		E9ADD1581F0D13FE0064F890 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				E97B598A1F16457800E743AA /* icon@3x.png */,
+				E97B59881F16457400E743AA /* icon@2x.png */,
 				E94F8BB71F14F467007E43AD /* submit02.png */,
 				E94F8BBD1F14FA19007E43AD /* submit 02.png */,
 				E94F8BBB1F14F7B9007E43AD /* uncheck01.png */,
@@ -268,6 +274,8 @@
 				E9ADD1531F0D09B10064F890 /* 微免_微生物.json in Resources */,
 				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
 				E9ADD14B1F0D059D0064F890 /* 解剖_四肢.json in Resources */,
+				E97B598B1F16457800E743AA /* icon@3x.png in Resources */,
+				E97B59891F16457400E743AA /* icon@2x.png in Resources */,
 				E9D28B6F1F13BDDA00139B54 /* 生化.json in Resources */,
 				E94F8BBC1F14F7B9007E43AD /* uncheck01.png in Resources */,
 				E94F8BBA1F14F7B4007E43AD /* checked01.png in Resources */,
@@ -465,7 +473,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sg.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -479,7 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = sg.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
