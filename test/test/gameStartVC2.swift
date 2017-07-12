@@ -10,16 +10,25 @@ import UIKit
 import SwiftyJSON
 class gameStartVC2: UIViewController {
     
+
+    
     @IBOutlet weak var displayLabel: UILabel!
     @IBOutlet var chkBtns: [UIButton]!
+    
+    @IBOutlet weak var chkBtna: UIButton!
+    @IBOutlet weak var chkBtnb: UIButton!
+    
+    @IBOutlet weak var chkBtnc: UIButton!
+   
+    @IBOutlet weak var chkBtnd: UIButton!
     
     
     @IBAction func checkBtn(_ sender: UIButton) {
         if userAnswer[sender.tag]{
-            sender.setImage(UIImage(named: "uncheck"), for: .normal)
+            sender.setImage(UIImage(named: "uncheck01"), for: .normal)
             userAnswer[sender.tag]=false
         }else{
-            sender.setImage(UIImage(named: "checked"), for: .normal)
+            sender.setImage(UIImage(named: "checked01"), for: .normal)
             userAnswer[sender.tag]=true
         }
        
@@ -41,14 +50,27 @@ class gameStartVC2: UIViewController {
         
         
         if self.checkIfCorrect(qID: b ) == true {
-        displayLabel.text="恭喜答對"
+            displayLabel.text="恭喜答對"
             b = Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
             
             self.loadQuestionToUser(qID: b)
         }else{
-        displayLabel.text = "再接再厲"
+            displayLabel.text = "再接再厲"
+
+        }
+        //            //   58-63是我加的程式碼 功用為按下submit如果是true的話 轉為圖片uncheck
+        let image = UIImage(named: "uncheck01")!
+        
+        chkBtna.setImage(image, for: UIControlState.normal)
+        chkBtnb.setImage(image, for: UIControlState.normal)
+        chkBtnc.setImage(image, for: UIControlState.normal)
+        chkBtnd.setImage(image, for: UIControlState.normal)
+        
+        for index in 0...3{
+            self.userAnswer[index]=false
         }
         
+
         
         
     }
@@ -136,7 +158,7 @@ class gameStartVC2: UIViewController {
                 }
             }
         }
-        print("ansStr =  \(ansStr)")
+        print("answer = \(answer) user input ansStr =  \(ansStr)")
         if answer == ansStr{
             isCorrect=true
         }
@@ -163,6 +185,10 @@ class gameStartVC2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
+        
+       
         
         displayLabel.backgroundColor=UIColor.white
         
@@ -173,6 +199,9 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         self.loadJsonToArys()
+
+        
+        
         
     }
 
@@ -181,15 +210,16 @@ class gameStartVC2: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    
+//    讓textView上面不留白
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        testTextView2.setContentOffset(CGPoint.zero, animated: false)
     }
-    */
+    
+    
 
+
+    
+    
 }
