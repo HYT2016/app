@@ -44,7 +44,6 @@
 		E9ADD14F1F0D08EA0064F890 /* 解剖_胸背腹.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD14E1F0D08EA0064F890 /* 解剖_胸背腹.json */; };
 		E9ADD1511F0D093A0064F890 /* 微免_免疫.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1501F0D093A0064F890 /* 微免_免疫.json */; };
 		E9ADD1531F0D09B10064F890 /* 微免_微生物.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1521F0D09B10064F890 /* 微免_微生物.json */; };
-		E9ADD1551F0D0C140064F890 /* DoctorVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADD1541F0D0C140064F890 /* DoctorVC1.swift */; };
 		E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */; };
 		E9D28B6F1F13BDDA00139B54 /* 生化.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B6E1F13BDDA00139B54 /* 生化.json */; };
 		E9D28B711F13BFF600139B54 /* 口胚.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B701F13BFF600139B54 /* 口胚.json */; };
@@ -94,7 +93,6 @@
 		E9ADD14E1F0D08EA0064F890 /* 解剖_胸背腹.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_胸背腹.json"; sourceTree = "<group>"; };
 		E9ADD1501F0D093A0064F890 /* 微免_免疫.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "微免_免疫.json"; sourceTree = "<group>"; };
 		E9ADD1521F0D09B10064F890 /* 微免_微生物.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "微免_微生物.json"; sourceTree = "<group>"; };
-		E9ADD1541F0D0C140064F890 /* DoctorVC1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DoctorVC1.swift; path = ../DoctorVC1.swift; sourceTree = "<group>"; };
 		E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_頭頸.json"; sourceTree = "<group>"; };
 		E9D28B6E1F13BDDA00139B54 /* 生化.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "生化.json"; sourceTree = "<group>"; };
 		E9D28B701F13BFF600139B54 /* 口胚.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "口胚.json"; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				DB6996001F0389520093F955 /* data.json */,
 				E9745DBC1F062CD500902CAC /* aaa.json */,
 				E9997E4E1F0A4B9500CC2FDA /* ss.json */,
-				E9ADD1541F0D0C140064F890 /* DoctorVC1.swift */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -378,7 +375,6 @@
 			files = (
 				E95DCBD81F0651BC00DB7250 /* tab bar 2.swift in Sources */,
 				DB6995E91F02ED7B0093F955 /* ViewController.swift in Sources */,
-				E9ADD1551F0D0C140064F890 /* DoctorVC1.swift in Sources */,
 				DB6995F91F02EFA30093F955 /* inVC.swift in Sources */,
 				E95DCBDA1F0676B200DB7250 /* gameStartVC2.swift in Sources */,
 				DB6995FD1F02F39E0093F955 /* gameStartVC.swift in Sources */,
