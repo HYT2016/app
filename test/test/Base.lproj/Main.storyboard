@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nah-hX-utV">
+                            <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nah-hX-utV">
                                 <rect key="frame" x="16" y="72" width="343" height="27.5"/>
                                 <segments>
                                     <segment title="醫師國考"/>
@@ -432,25 +432,68 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gep-z1-TgU">
                                         <rect key="frame" x="0.0" y="0.0" width="259" height="194"/>
-                                        <state key="normal" image="button_start.png"/>
+                                        <state key="normal" backgroundImage="button_start.png"/>
                                         <connections>
                                             <action selector="loginBtn:" destination="DBT-XQ-gHK" eventType="touchUpInside" id="Uxo-ST-TUv"/>
                                         </connections>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SwP-o0-x7h">
+                                <rect key="frame" x="292" y="28" width="75" height="53.5"/>
+                                <state key="normal" backgroundImage="details.png"/>
+                                <connections>
+                                    <segue destination="UTO-XT-bvY" kind="show" id="zfB-WZ-Dkf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="2Yj-Vd-fIj" secondAttribute="trailing" constant="42" id="7Mr-9h-nqV"/>
+                            <constraint firstItem="SwP-o0-x7h" firstAttribute="height" secondItem="fZG-jk-kX8" secondAttribute="height" multiplier="0.08" id="8pH-z8-02w"/>
                             <constraint firstItem="4fS-lY-oB5" firstAttribute="top" secondItem="2Yj-Vd-fIj" secondAttribute="bottom" constant="20" id="DXe-wI-Ndy"/>
                             <constraint firstItem="2Yj-Vd-fIj" firstAttribute="leading" secondItem="fZG-jk-kX8" secondAttribute="leadingMargin" constant="42" id="N5c-aq-Rer"/>
+                            <constraint firstItem="SwP-o0-x7h" firstAttribute="width" secondItem="fZG-jk-kX8" secondAttribute="width" multiplier="0.2" id="aT8-JV-YiJ"/>
+                            <constraint firstItem="SwP-o0-x7h" firstAttribute="top" secondItem="RAi-Yc-Jdg" secondAttribute="bottom" constant="8" id="iTZ-9T-w2I"/>
+                            <constraint firstItem="SwP-o0-x7h" firstAttribute="trailing" secondItem="fZG-jk-kX8" secondAttribute="trailingMargin" constant="8" id="vVJ-JG-vQp"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dzd-4Z-BEp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-618.39999999999998" y="102.99850074962519"/>
+            <point key="canvasLocation" x="-620" y="102.09895052473765"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="J2o-zt-LSR">
+            <objects>
+                <viewController id="UTO-XT-bvY" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jr1-UO-GfC"/>
+                        <viewControllerLayoutGuide type="bottom" id="XEa-JW-7UB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Bt4-Hg-Qiv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="這是一款提供辛苦的學生們準備國考的app,將來會不斷更新提供更多元服務。" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3e-sB-5Gu">
+                                <rect key="frame" x="19" y="33.5" width="337.5" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="m3e-sB-5Gu" firstAttribute="centerX" secondItem="Bt4-Hg-Qiv" secondAttribute="centerX" id="6u8-I8-7jB"/>
+                            <constraint firstItem="m3e-sB-5Gu" firstAttribute="centerY" secondItem="Bt4-Hg-Qiv" secondAttribute="centerY" id="JqB-Kp-A3A"/>
+                            <constraint firstItem="m3e-sB-5Gu" firstAttribute="height" secondItem="Bt4-Hg-Qiv" secondAttribute="height" multiplier="0.9" id="ajh-cX-hgG"/>
+                            <constraint firstItem="m3e-sB-5Gu" firstAttribute="width" secondItem="Bt4-Hg-Qiv" secondAttribute="width" multiplier="0.9" id="xgz-Z1-Gme"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ox2-51-DRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-620" y="841.52923538230891"/>
         </scene>
         <!--Main Navigation Controller-->
         <scene sceneID="u4R-Y1-EPo">
@@ -474,6 +517,7 @@
     <resources>
         <image name="button_start.png" width="184" height="194"/>
         <image name="check" width="225" height="225"/>
+        <image name="details.png" width="84" height="34"/>
         <image name="submit 02.png" width="542" height="306"/>
         <image name="uncheck01.png" width="126" height="186"/>
     </resources>

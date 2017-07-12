@@ -54,18 +54,19 @@ class gameStartVC2: UIViewController {
         
         if self.checkIfCorrect(qID: b ) == true {
             
-            displayLabel.textColor=UIColor.red
+            displayLabel.textColor=UIColor.black
             displayLabel.text="恭喜答對"
-            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.1) {
+//            延遲0.5秒
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
                 self.displayLabel.text = ""
+                self.b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
             }
             
-
-            self.loadQuestionToUser(qID: b)
+                        loadQuestionToUser(qID: self.b)
             
         }else{
             displayLabel.text = "再接再厲"
-
+            displayLabel.textColor=UIColor.red
         }
        
         let image = UIImage(named: "uncheck01")!
