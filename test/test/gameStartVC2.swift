@@ -50,6 +50,7 @@ class gameStartVC2: UIViewController {
         }
         
         
+        
     }
     
     
