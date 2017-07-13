@@ -45,6 +45,7 @@
 		E9ADD1511F0D093A0064F890 /* 微免_免疫.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1501F0D093A0064F890 /* 微免_免疫.json */; };
 		E9ADD1531F0D09B10064F890 /* 微免_微生物.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1521F0D09B10064F890 /* 微免_微生物.json */; };
 		E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */; };
+		E9B3619D1F174D8C006F599F /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B3619C1F174D8C006F599F /* backBtn.png */; };
 		E9D28B6F1F13BDDA00139B54 /* 生化.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B6E1F13BDDA00139B54 /* 生化.json */; };
 		E9D28B711F13BFF600139B54 /* 口胚.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B701F13BFF600139B54 /* 口胚.json */; };
 		E9D28B731F13C04200139B54 /* 牙型.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B721F13C04200139B54 /* 牙型.json */; };
@@ -100,6 +101,7 @@
 		E9ADD1501F0D093A0064F890 /* 微免_免疫.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "微免_免疫.json"; sourceTree = "<group>"; };
 		E9ADD1521F0D09B10064F890 /* 微免_微生物.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "微免_微生物.json"; sourceTree = "<group>"; };
 		E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_頭頸.json"; sourceTree = "<group>"; };
+		E9B3619C1F174D8C006F599F /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
 		E9D28B6E1F13BDDA00139B54 /* 生化.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "生化.json"; sourceTree = "<group>"; };
 		E9D28B701F13BFF600139B54 /* 口胚.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "口胚.json"; sourceTree = "<group>"; };
 		E9D28B721F13C04200139B54 /* 牙型.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "牙型.json"; sourceTree = "<group>"; };
@@ -215,6 +217,7 @@
 				E9F4BEE21F1748E600C02AA6 /* 背景 03.png */,
 				E9F4BEE41F17497400C02AA6 /* 背景 04.png */,
 				E9F4BEDE1F17416500C02AA6 /* 背景 01.png */,
+				E9B3619C1F174D8C006F599F /* backBtn.png */,
 				E97B59921F1660E700E743AA /* 01.png */,
 				E97B599E1F1667C800E743AA /* 02.png */,
 				E97B598C1F16527100E743AA /* details.png */,
@@ -334,6 +337,7 @@
 				E94F8BBA1F14F7B4007E43AD /* checked01.png in Resources */,
 				E97B599F1F1667C800E743AA /* 02.png in Resources */,
 				E97B599C1F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.46.png in Resources */,
+				E9B3619D1F174D8C006F599F /* backBtn.png in Resources */,
 				E9F4BEE51F17497400C02AA6 /* 背景 04.png in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 				E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */,

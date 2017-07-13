@@ -14,7 +14,7 @@ class ThanksVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 self.view.backgroundColor = UIColor(patternImage: UIImage(named: "背景 04")!)
-        
+       thankstestView.backgroundColor=UIColor(patternImage: UIImage(named: "背景 04")!)
     }
     
 
