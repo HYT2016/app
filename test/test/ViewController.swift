@@ -72,11 +72,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // 設定預設按鈕 
+        // 設定預設按鈕
         segment.selectedSegmentIndex = 0
-        
-        
-        
         
     }
 
