@@ -105,6 +105,8 @@ class gameStartVC2: UIViewController {
     
     var b=0
     
+//    var b=Int(arc4random_uniform(30))
+    
     var a=0
 
     
@@ -137,7 +139,7 @@ class gameStartVC2: UIViewController {
         
         print("q num is \(questions.count)")
         
-        b=Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
+//        b=Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
                 self.loadQuestionToUser(qID: b)
         
     }
@@ -151,7 +153,8 @@ class gameStartVC2: UIViewController {
     
     func checkIfCorrect(qID:Int)->Bool{
         var isCorrect=false
-        let answer = questions[qID]["答案"].stringValue
+        
+         let answer = questions[qID]["答案"].stringValue
 
         var ansStr=""
         
@@ -209,7 +212,7 @@ class gameStartVC2: UIViewController {
         testTextView2.backgroundColor = UIColor(red: 174/255, green: 228/255, blue: 249/255, alpha: 0.5)
         testTextView2.font = UIFont.systemFont(ofSize: 20, weight: 20)
         testTextView2.textColor = UIColor(red: 41/255, green: 36/255, blue: 33/255, alpha: 1)
-//        testTextView2.textColor = UIColor(patternImage: UIImage(named: "背景 04")!)
+
         testTextView2.font = UIFont.boldSystemFont(ofSize: 20)
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
