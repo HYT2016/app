@@ -25,12 +25,15 @@ class inVC: UIViewController {
 
     
     @IBAction func loginBtn(_ sender: UIButton) {
-      let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController")as! MainNavigationController
-        present(mainNavigationController, animated: true, completion: nil)
-        
-        
-        
+            let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController")as! MainNavigationController
+            present(mainNavigationController, animated: true, completion: nil)
+
     }
+   
+    
+    
+    //    let mainNavigationController = storyboard?.instantiateViewController(withIdentifier: "MainNavigationController")as! MainNavigationController
+//    present(mainNavigationController, animated: true, completion: nil)
     
     override func viewDidLoad() {
         super.viewDidLoad()

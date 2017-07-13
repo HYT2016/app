@@ -49,6 +49,12 @@
 		E9D28B711F13BFF600139B54 /* 口胚.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B701F13BFF600139B54 /* 口胚.json */; };
 		E9D28B731F13C04200139B54 /* 牙型.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B721F13C04200139B54 /* 牙型.json */; };
 		E9D28B751F13C04D00139B54 /* 口解.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B741F13C04D00139B54 /* 口解.json */; };
+		E9F4BEDD1F17403300C02AA6 /* details 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F4BEDC1F17403300C02AA6 /* details 1.png */; };
+		E9F4BEDF1F17416500C02AA6 /* 背景 01.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F4BEDE1F17416500C02AA6 /* 背景 01.png */; };
+		E9F4BEE11F17462800C02AA6 /* 背景 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F4BEE01F17462800C02AA6 /* 背景 02.png */; };
+		E9F4BEE31F1748E600C02AA6 /* 背景 03.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F4BEE21F1748E600C02AA6 /* 背景 03.png */; };
+		E9F4BEE51F17497400C02AA6 /* 背景 04.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F4BEE41F17497400C02AA6 /* 背景 04.png */; };
+		E9F4BEE71F174A7B00C02AA6 /* ThanksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9F4BEE61F174A7B00C02AA6 /* ThanksVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -98,6 +104,12 @@
 		E9D28B701F13BFF600139B54 /* 口胚.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "口胚.json"; sourceTree = "<group>"; };
 		E9D28B721F13C04200139B54 /* 牙型.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "牙型.json"; sourceTree = "<group>"; };
 		E9D28B741F13C04D00139B54 /* 口解.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "口解.json"; sourceTree = "<group>"; };
+		E9F4BEDC1F17403300C02AA6 /* details 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details 1.png"; sourceTree = "<group>"; };
+		E9F4BEDE1F17416500C02AA6 /* 背景 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 01.png"; sourceTree = "<group>"; };
+		E9F4BEE01F17462800C02AA6 /* 背景 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 02.png"; sourceTree = "<group>"; };
+		E9F4BEE21F1748E600C02AA6 /* 背景 03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 03.png"; sourceTree = "<group>"; };
+		E9F4BEE41F17497400C02AA6 /* 背景 04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 04.png"; sourceTree = "<group>"; };
+		E9F4BEE61F174A7B00C02AA6 /* ThanksVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThanksVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +161,7 @@
 				DB6995FA1F02F0550093F955 /* MainNavigationController.swift */,
 				DB6995FC1F02F39E0093F955 /* gameStartVC.swift */,
 				E95DCBD91F0676B200DB7250 /* gameStartVC2.swift */,
+				E9F4BEE61F174A7B00C02AA6 /* ThanksVC.swift */,
 				DB6996001F0389520093F955 /* data.json */,
 				E9745DBC1F062CD500902CAC /* aaa.json */,
 				E9997E4E1F0A4B9500CC2FDA /* ss.json */,
@@ -197,6 +210,11 @@
 		E9ADD1581F0D13FE0064F890 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				E9F4BEDC1F17403300C02AA6 /* details 1.png */,
+				E9F4BEE01F17462800C02AA6 /* 背景 02.png */,
+				E9F4BEE21F1748E600C02AA6 /* 背景 03.png */,
+				E9F4BEE41F17497400C02AA6 /* 背景 04.png */,
+				E9F4BEDE1F17416500C02AA6 /* 背景 01.png */,
 				E97B59921F1660E700E743AA /* 01.png */,
 				E97B599E1F1667C800E743AA /* 02.png */,
 				E97B598C1F16527100E743AA /* details.png */,
@@ -290,12 +308,14 @@
 				DB6995F11F02ED7B0093F955 /* LaunchScreen.storyboard in Resources */,
 				E94F8BB81F14F467007E43AD /* submit02.png in Resources */,
 				E94F8BB61F14F45E007E43AD /* button_start.png in Resources */,
+				E9F4BEE11F17462800C02AA6 /* 背景 02.png in Resources */,
 				E9D28B711F13BFF600139B54 /* 口胚.json in Resources */,
 				E9ADD1511F0D093A0064F890 /* 微免_免疫.json in Resources */,
 				E97B599B1F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.21.png in Resources */,
 				E97B598D1F16527100E743AA /* details.png in Resources */,
 				E94F8BC01F14FA1E007E43AD /* submit03.png in Resources */,
 				DB6995EE1F02ED7B0093F955 /* Assets.xcassets in Resources */,
+				E9F4BEDD1F17403300C02AA6 /* details 1.png in Resources */,
 				E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */,
 				E94F8BBE1F14FA19007E43AD /* submit 02.png in Resources */,
 				E97B599D1F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.58.24.png in Resources */,
@@ -303,8 +323,10 @@
 				E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */,
 				E9ADD1531F0D09B10064F890 /* 微免_微生物.json in Resources */,
 				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
+				E9F4BEE31F1748E600C02AA6 /* 背景 03.png in Resources */,
 				E9ADD14B1F0D059D0064F890 /* 解剖_四肢.json in Resources */,
 				E97B59931F1660E700E743AA /* 01.png in Resources */,
+				E9F4BEDF1F17416500C02AA6 /* 背景 01.png in Resources */,
 				E97B598B1F16457800E743AA /* icon@3x.png in Resources */,
 				E97B59891F16457400E743AA /* icon@2x.png in Resources */,
 				E9D28B6F1F13BDDA00139B54 /* 生化.json in Resources */,
@@ -312,6 +334,7 @@
 				E94F8BBA1F14F7B4007E43AD /* checked01.png in Resources */,
 				E97B599F1F1667C800E743AA /* 02.png in Resources */,
 				E97B599C1F1662D100E743AA /* Simulator Screen Shot 2017年7月12日 下午9.57.46.png in Resources */,
+				E9F4BEE51F17497400C02AA6 /* 背景 04.png in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 				E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */,
 				E9D28B751F13C04D00139B54 /* 口解.json in Resources */,
@@ -375,6 +398,7 @@
 			files = (
 				E95DCBD81F0651BC00DB7250 /* tab bar 2.swift in Sources */,
 				DB6995E91F02ED7B0093F955 /* ViewController.swift in Sources */,
+				E9F4BEE71F174A7B00C02AA6 /* ThanksVC.swift in Sources */,
 				DB6995F91F02EFA30093F955 /* inVC.swift in Sources */,
 				E95DCBDA1F0676B200DB7250 /* gameStartVC2.swift in Sources */,
 				DB6995FD1F02F39E0093F955 /* gameStartVC.swift in Sources */,

@@ -202,14 +202,15 @@ class gameStartVC2: UIViewController {
         super.viewDidLoad()
 
         
-        
+        self.view.backgroundColor = UIColor(patternImage: UIImage(named: "背景 04")!)
        
         
-        displayLabel.backgroundColor=UIColor.white
+        displayLabel.backgroundColor=UIColor(patternImage: UIImage(named: "背景 04")!)
         
-        testTextView2.backgroundColor = UIColor(red: 212/255, green: 219/255, blue: 236/255, alpha: 0.5)
+        testTextView2.backgroundColor = UIColor(red: 174/255, green: 228/255, blue: 249/255, alpha: 0.5)
         testTextView2.font = UIFont.systemFont(ofSize: 20, weight: 20)
         testTextView2.textColor = UIColor(red: 41/255, green: 36/255, blue: 33/255, alpha: 1)
+//        testTextView2.textColor = UIColor(patternImage: UIImage(named: "背景 04")!)
         testTextView2.font = UIFont.boldSystemFont(ofSize: 20)
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
