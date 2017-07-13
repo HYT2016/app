@@ -224,9 +224,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DB6995E21F02ED7A0093F955 /* test */ = {
+		DB6995E21F02ED7A0093F955 /* twnationalexam */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB6995F51F02ED7B0093F955 /* Build configuration list for PBXNativeTarget "test" */;
+			buildConfigurationList = DB6995F51F02ED7B0093F955 /* Build configuration list for PBXNativeTarget "twnationalexam" */;
 			buildPhases = (
 				DB36DC476F207E253BFE2C68 /* [CP] Check Pods Manifest.lock */,
 				DB6995DF1F02ED7A0093F955 /* Sources */,
@@ -239,7 +239,7 @@
 			);
 			dependencies = (
 			);
-			name = test;
+			name = twnationalexam;
 			productName = test;
 			productReference = DB6995E31F02ED7A0093F955 /* test.app */;
 			productType = "com.apple.product-type.application";
@@ -256,6 +256,7 @@
 				TargetAttributes = {
 					DB6995E21F02ED7A0093F955 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = RYFYSD45N2;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -273,7 +274,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DB6995E21F02ED7A0093F955 /* test */,
+				DB6995E21F02ED7A0093F955 /* twnationalexam */,
 			);
 		};
 /* End PBXProject section */
@@ -504,10 +505,11 @@
 			baseConfigurationReference = 732971D2FDDA4F15D4C3BB7F /* Pods-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYFYSD45N2;
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sg.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxosoft.twnationalexam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -518,10 +520,11 @@
 			baseConfigurationReference = 0EFF6EBBE135B4BB7DAB1364 /* Pods-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RYFYSD45N2;
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sg.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.maxosoft.twnationalexam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -539,7 +542,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB6995F51F02ED7B0093F955 /* Build configuration list for PBXNativeTarget "test" */ = {
+		DB6995F51F02ED7B0093F955 /* Build configuration list for PBXNativeTarget "twnationalexam" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DB6995F61F02ED7B0093F955 /* Debug */,
