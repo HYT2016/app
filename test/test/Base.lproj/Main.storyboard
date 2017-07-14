@@ -14,7 +14,7 @@
         <!--國考加油！-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nah-hX-utV">
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nah-hX-utV">
                                 <rect key="frame" x="20" y="72" width="374" height="30.333333333333329"/>
                                 <segments>
                                     <segment title="醫師國考"/>
@@ -77,7 +77,7 @@
         <!--Item-->
         <scene sceneID="1eG-hk-Msv">
             <objects>
-                <viewController storyboardIdentifier="gameStartVC2" id="YOB-Hx-ZxT" customClass="gameStartVC2" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="gameStartVC2" id="YOB-Hx-ZxT" customClass="gameStartVC2" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qHA-EU-5hr"/>
                         <viewControllerLayoutGuide type="bottom" id="2Qa-sd-CHS"/>
@@ -226,7 +226,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uKd-ns-87m" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1495" y="381"/>
+            <point key="canvasLocation" x="1494.2028985507247" y="379.89130434782612"/>
         </scene>
         <!--Item 1-->
         <scene sceneID="xP7-wc-MtP">
@@ -250,7 +250,7 @@
         <!--Tab bar2-->
         <scene sceneID="chg-BS-Fby">
             <objects>
-                <tabBarController storyboardIdentifier="tab_bar_2" id="U49-dx-Fro" customClass="tab_bar_2" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tab_bar_2" id="U49-dx-Fro" customClass="tab_bar_2" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="BQH-mi-LAr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -268,7 +268,7 @@
         <!--Item-->
         <scene sceneID="nX1-nU-j6m">
             <objects>
-                <viewController storyboardIdentifier="gameStartVC" id="swi-kB-WJy" customClass="gameStartVC" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="gameStartVC" id="swi-kB-WJy" customClass="gameStartVC" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jUd-qj-FTh"/>
                         <viewControllerLayoutGuide type="bottom" id="sSB-Iy-GOp"/>
@@ -381,7 +381,7 @@
         <!--InVC-->
         <scene sceneID="EiC-Er-lLD">
             <objects>
-                <viewController id="DBT-XQ-gHK" customClass="inVC" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="DBT-XQ-gHK" customClass="inVC" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="RAi-Yc-Jdg"/>
                         <viewControllerLayoutGuide type="bottom" id="4fS-lY-oB5"/>
@@ -390,7 +390,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="背景 01.png" translatesAutoresizingMaskIntoConstraints="NO" id="bit-0y-g6Q">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="背景 06.png" translatesAutoresizingMaskIntoConstraints="NO" id="bit-0y-g6Q">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CSm-IJ-7Gb" userLabel="startBtn">
@@ -401,7 +401,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpd-hb-fer">
-                                <rect key="frame" x="319.33333333333326" y="25.000000000000004" width="74.666666666666686" height="29.333333333333339"/>
+                                <rect key="frame" x="347" y="25.000000000000004" width="62" height="29.333333333333339"/>
                                 <state key="normal" image="details 1.png"/>
                                 <connections>
                                     <segue destination="UTO-XT-bvY" kind="show" id="vWO-uH-u5B"/>
@@ -417,22 +417,22 @@
                             <constraint firstItem="bit-0y-g6Q" firstAttribute="height" secondItem="fZG-jk-kX8" secondAttribute="height" id="Q6z-H6-Tcv"/>
                             <constraint firstItem="CSm-IJ-7Gb" firstAttribute="height" secondItem="bit-0y-g6Q" secondAttribute="height" multiplier="0.2" id="bRv-Cd-VzZ"/>
                             <constraint firstItem="4fS-lY-oB5" firstAttribute="top" secondItem="CSm-IJ-7Gb" secondAttribute="bottom" constant="20" id="ei7-1L-t4i"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Tpd-hb-fer" secondAttribute="trailing" id="i3V-6p-hbg"/>
                             <constraint firstItem="Tpd-hb-fer" firstAttribute="top" secondItem="RAi-Yc-Jdg" secondAttribute="bottom" constant="5" id="quD-mm-AeJ"/>
                             <constraint firstItem="Tpd-hb-fer" firstAttribute="height" secondItem="fZG-jk-kX8" secondAttribute="height" multiplier="0.04" id="re9-cB-Rhj"/>
-                            <constraint firstItem="Tpd-hb-fer" firstAttribute="width" secondItem="fZG-jk-kX8" secondAttribute="width" multiplier="0.18" id="sXw-ce-pSa"/>
+                            <constraint firstItem="Tpd-hb-fer" firstAttribute="width" secondItem="fZG-jk-kX8" secondAttribute="width" multiplier="0.15" id="sXw-ce-pSa"/>
                             <constraint firstItem="bit-0y-g6Q" firstAttribute="centerX" secondItem="fZG-jk-kX8" secondAttribute="centerX" id="vvu-nZ-BJL"/>
+                            <constraint firstAttribute="trailing" secondItem="Tpd-hb-fer" secondAttribute="trailing" constant="5" id="zBk-bC-CvS"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dzd-4Z-BEp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-666.39999999999998" y="70.614692653673174"/>
+            <point key="canvasLocation" x="-666.66666666666674" y="70.108695652173921"/>
         </scene>
         <!--ThanksVC-->
         <scene sceneID="J2o-zt-LSR">
             <objects>
-                <viewController id="UTO-XT-bvY" customClass="ThanksVC" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="UTO-XT-bvY" customClass="ThanksVC" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Jr1-UO-GfC"/>
                         <viewControllerLayoutGuide type="bottom" id="XEa-JW-7UB"/>
@@ -478,7 +478,7 @@
         <!--Main Navigation Controller-->
         <scene sceneID="u4R-Y1-EPo">
             <objects>
-                <navigationController storyboardIdentifier="MainNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="D6Y-3Z-nmu" customClass="MainNavigationController" customModule="test" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="MainNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="D6Y-3Z-nmu" customClass="MainNavigationController" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tG5-lj-UOb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
@@ -501,6 +501,6 @@
         <image name="details 1.png" width="116" height="43"/>
         <image name="submit 02.png" width="542" height="306"/>
         <image name="uncheck01.png" width="126" height="186"/>
-        <image name="背景 01.png" width="735" height="1102"/>
+        <image name="背景 06.png" width="735" height="1102"/>
     </resources>
 </document>
