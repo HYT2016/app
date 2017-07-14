@@ -43,6 +43,11 @@
 		E99CFE0A1F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE091F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png */; };
 		E99CFE0C1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE0B1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png */; };
 		E99CFE0E1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE0D1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png */; };
+		E99CFE141F18ECD300E30F93 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE0F1F18ECD300E30F93 /* 3.png */; };
+		E99CFE151F18ECD300E30F93 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE101F18ECD300E30F93 /* 5.png */; };
+		E99CFE161F18ECD300E30F93 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE111F18ECD300E30F93 /* 1.png */; };
+		E99CFE171F18ECD300E30F93 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE121F18ECD300E30F93 /* 2.png */; };
+		E99CFE181F18ECD300E30F93 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE131F18ECD300E30F93 /* 4.png */; };
 		E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */; };
 		E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */; };
 		E9ADD1491F0D03690064F890 /* tab_bar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADD1481F0D03690064F890 /* tab_bar_1.swift */; };
@@ -105,6 +110,11 @@
 		E99CFE091F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午8.06.11.png"; sourceTree = "<group>"; };
 		E99CFE0B1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午8.05.57.png"; sourceTree = "<group>"; };
 		E99CFE0D1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午8.06.19.png"; sourceTree = "<group>"; };
+		E99CFE0F1F18ECD300E30F93 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E99CFE101F18ECD300E30F93 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		E99CFE111F18ECD300E30F93 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E99CFE121F18ECD300E30F93 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E99CFE131F18ECD300E30F93 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
 		E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_骨盆會陰.json"; sourceTree = "<group>"; };
 		E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_神解.json"; sourceTree = "<group>"; };
 		E9ADD1481F0D03690064F890 /* tab_bar_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tab_bar_1.swift; path = ../tab_bar_1.swift; sourceTree = "<group>"; };
@@ -196,6 +206,11 @@
 			isa = PBXGroup;
 			children = (
 				E99CFE0D1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png */,
+				E99CFE0F1F18ECD300E30F93 /* 3.png */,
+				E99CFE101F18ECD300E30F93 /* 5.png */,
+				E99CFE111F18ECD300E30F93 /* 1.png */,
+				E99CFE121F18ECD300E30F93 /* 2.png */,
+				E99CFE131F18ECD300E30F93 /* 4.png */,
 				E99CFE011F18C89200E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.46.png */,
 				E99CFE0B1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png */,
 				E99CFE091F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png */,
@@ -343,25 +358,30 @@
 				E9F4BEDD1F17403300C02AA6 /* details 1.png in Resources */,
 				E99CFE081F18E4EC00E30F93 /* icon  512.png in Resources */,
 				E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */,
+				E99CFE161F18ECD300E30F93 /* 1.png in Resources */,
 				E94F8BBE1F14FA19007E43AD /* submit 02.png in Resources */,
 				DB6995EC1F02ED7B0093F955 /* Main.storyboard in Resources */,
 				E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */,
 				E9ADD1531F0D09B10064F890 /* 微免_微生物.json in Resources */,
 				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
+				E99CFE151F18ECD300E30F93 /* 5.png in Resources */,
 				E9F4BEE31F1748E600C02AA6 /* 背景 03.png in Resources */,
 				E99CFE0C1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png in Resources */,
 				E9ADD14B1F0D059D0064F890 /* 解剖_四肢.json in Resources */,
 				E97B59931F1660E700E743AA /* 01.png in Resources */,
 				E99CFE061F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png in Resources */,
+				E99CFE141F18ECD300E30F93 /* 3.png in Resources */,
 				E99CFDFA1F18C2F300E30F93 /* 背景 05.png in Resources */,
 				E9F4BEDF1F17416500C02AA6 /* 背景 01.png in Resources */,
 				E97B598B1F16457800E743AA /* icon@3x.png in Resources */,
+				E99CFE181F18ECD300E30F93 /* 4.png in Resources */,
 				E97B59891F16457400E743AA /* icon@2x.png in Resources */,
 				E99CFDFC1F18C4EE00E30F93 /* 背景 06.png in Resources */,
 				E9D28B6F1F13BDDA00139B54 /* 生化.json in Resources */,
 				E94F8BBC1F14F7B9007E43AD /* uncheck01.png in Resources */,
 				E94F8BBA1F14F7B4007E43AD /* checked01.png in Resources */,
 				E97B599F1F1667C800E743AA /* 02.png in Resources */,
+				E99CFE171F18ECD300E30F93 /* 2.png in Resources */,
 				E9B3619D1F174D8C006F599F /* backBtn.png in Resources */,
 				E9F4BEE51F17497400C02AA6 /* 背景 04.png in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
