@@ -36,11 +36,13 @@
 		E99CFDFA1F18C2F300E30F93 /* 背景 05.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFDF91F18C2F300E30F93 /* 背景 05.png */; };
 		E99CFDFC1F18C4EE00E30F93 /* 背景 06.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFDFB1F18C4EE00E30F93 /* 背景 06.png */; };
 		E99CFDFE1F18C5A500E30F93 /* 配件 01.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFDFD1F18C5A500E30F93 /* 配件 01.png */; };
-		E99CFE001F18C88E00E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.38.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFDFF1F18C88E00E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.38.png */; };
 		E99CFE021F18C89200E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.46.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE011F18C89200E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.46.png */; };
 		E99CFE041F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE031F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png */; };
 		E99CFE061F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE051F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png */; };
 		E99CFE081F18E4EC00E30F93 /* icon  512.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE071F18E4EC00E30F93 /* icon  512.png */; };
+		E99CFE0A1F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE091F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png */; };
+		E99CFE0C1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE0B1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png */; };
+		E99CFE0E1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE0D1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png */; };
 		E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */; };
 		E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */; };
 		E9ADD1491F0D03690064F890 /* tab_bar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADD1481F0D03690064F890 /* tab_bar_1.swift */; };
@@ -96,11 +98,13 @@
 		E99CFDF91F18C2F300E30F93 /* 背景 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 05.png"; sourceTree = "<group>"; };
 		E99CFDFB1F18C4EE00E30F93 /* 背景 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 06.png"; sourceTree = "<group>"; };
 		E99CFDFD1F18C5A500E30F93 /* 配件 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "配件 01.png"; sourceTree = "<group>"; };
-		E99CFDFF1F18C88E00E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午5.36.38.png"; sourceTree = "<group>"; };
 		E99CFE011F18C89200E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午5.36.46.png"; sourceTree = "<group>"; };
 		E99CFE031F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午5.36.52.png"; sourceTree = "<group>"; };
 		E99CFE051F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午5.37.02.png"; sourceTree = "<group>"; };
 		E99CFE071F18E4EC00E30F93 /* icon  512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon  512.png"; sourceTree = "<group>"; };
+		E99CFE091F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午8.06.11.png"; sourceTree = "<group>"; };
+		E99CFE0B1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午8.05.57.png"; sourceTree = "<group>"; };
+		E99CFE0D1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午8.06.19.png"; sourceTree = "<group>"; };
 		E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_骨盆會陰.json"; sourceTree = "<group>"; };
 		E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_神解.json"; sourceTree = "<group>"; };
 		E9ADD1481F0D03690064F890 /* tab_bar_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tab_bar_1.swift; path = ../tab_bar_1.swift; sourceTree = "<group>"; };
@@ -191,8 +195,10 @@
 		E97B59951F1662C800E743AA /* simulator image */ = {
 			isa = PBXGroup;
 			children = (
-				E99CFDFF1F18C88E00E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.38.png */,
+				E99CFE0D1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png */,
 				E99CFE011F18C89200E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.46.png */,
+				E99CFE0B1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png */,
+				E99CFE091F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png */,
 				E99CFE031F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png */,
 				E99CFE051F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png */,
 			);
@@ -318,8 +324,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9D28B731F13C04200139B54 /* 牙型.json in Resources */,
+				E99CFE0A1F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png in Resources */,
 				E9ADD14F1F0D08EA0064F890 /* 解剖_胸背腹.json in Resources */,
-				E99CFE001F18C88E00E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.38.png in Resources */,
 				E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */,
 				DB6995F11F02ED7B0093F955 /* LaunchScreen.storyboard in Resources */,
 				E94F8BB81F14F467007E43AD /* submit02.png in Resources */,
@@ -330,6 +336,7 @@
 				E99CFE041F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png in Resources */,
 				E9ADD1511F0D093A0064F890 /* 微免_免疫.json in Resources */,
 				E97B598D1F16527100E743AA /* details.png in Resources */,
+				E99CFE0E1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png in Resources */,
 				E99CFDFE1F18C5A500E30F93 /* 配件 01.png in Resources */,
 				E94F8BC01F14FA1E007E43AD /* submit03.png in Resources */,
 				DB6995EE1F02ED7B0093F955 /* Assets.xcassets in Resources */,
@@ -342,6 +349,7 @@
 				E9ADD1531F0D09B10064F890 /* 微免_微生物.json in Resources */,
 				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
 				E9F4BEE31F1748E600C02AA6 /* 背景 03.png in Resources */,
+				E99CFE0C1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png in Resources */,
 				E9ADD14B1F0D059D0064F890 /* 解剖_四肢.json in Resources */,
 				E97B59931F1660E700E743AA /* 01.png in Resources */,
 				E99CFE061F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png in Resources */,
