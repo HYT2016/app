@@ -60,10 +60,11 @@ class gameStartVC2: UIViewController {
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
                 self.displayLabel.text = ""
 //                self.b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
-//                加在這裡不對 ， 問老師
+
             }
-                    b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
-                        loadQuestionToUser(qID: self.b)
+            b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
+
+            loadQuestionToUser(qID: self.b)
             
         }else{
             displayLabel.text = "再接再厲"

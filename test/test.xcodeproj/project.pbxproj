@@ -40,6 +40,7 @@
 		E99CFE021F18C89200E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.46.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE011F18C89200E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.46.png */; };
 		E99CFE041F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE031F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png */; };
 		E99CFE061F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE051F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png */; };
+		E99CFE081F18E4EC00E30F93 /* icon  512.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE071F18E4EC00E30F93 /* icon  512.png */; };
 		E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */; };
 		E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */; };
 		E9ADD1491F0D03690064F890 /* tab_bar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADD1481F0D03690064F890 /* tab_bar_1.swift */; };
@@ -99,6 +100,7 @@
 		E99CFE011F18C89200E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.46.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午5.36.46.png"; sourceTree = "<group>"; };
 		E99CFE031F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午5.36.52.png"; sourceTree = "<group>"; };
 		E99CFE051F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年7月14日 下午5.37.02.png"; sourceTree = "<group>"; };
+		E99CFE071F18E4EC00E30F93 /* icon  512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon  512.png"; sourceTree = "<group>"; };
 		E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_骨盆會陰.json"; sourceTree = "<group>"; };
 		E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_神解.json"; sourceTree = "<group>"; };
 		E9ADD1481F0D03690064F890 /* tab_bar_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tab_bar_1.swift; path = ../tab_bar_1.swift; sourceTree = "<group>"; };
@@ -226,6 +228,7 @@
 				E9F4BEDE1F17416500C02AA6 /* 背景 01.png */,
 				E99CFDFB1F18C4EE00E30F93 /* 背景 06.png */,
 				E99CFDF91F18C2F300E30F93 /* 背景 05.png */,
+				E99CFE071F18E4EC00E30F93 /* icon  512.png */,
 				E9B3619C1F174D8C006F599F /* backBtn.png */,
 				E97B59921F1660E700E743AA /* 01.png */,
 				E97B599E1F1667C800E743AA /* 02.png */,
@@ -331,6 +334,7 @@
 				E94F8BC01F14FA1E007E43AD /* submit03.png in Resources */,
 				DB6995EE1F02ED7B0093F955 /* Assets.xcassets in Resources */,
 				E9F4BEDD1F17403300C02AA6 /* details 1.png in Resources */,
+				E99CFE081F18E4EC00E30F93 /* icon  512.png in Resources */,
 				E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */,
 				E94F8BBE1F14FA19007E43AD /* submit 02.png in Resources */,
 				DB6995EC1F02ED7B0093F955 /* Main.storyboard in Resources */,
