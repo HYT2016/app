@@ -59,9 +59,10 @@ class gameStartVC2: UIViewController {
 //            延遲0.5秒
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
                 self.displayLabel.text = ""
-                self.b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
+//                self.b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
+//                加在這裡不對 ， 問老師
             }
-            
+                    b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
                         loadQuestionToUser(qID: self.b)
             
         }else{
@@ -139,7 +140,7 @@ class gameStartVC2: UIViewController {
         
         print("q num is \(questions.count)")
         
-//        b=Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
+        b=Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
                 self.loadQuestionToUser(qID: b)
         
     }
@@ -154,10 +155,12 @@ class gameStartVC2: UIViewController {
     func checkIfCorrect(qID:Int)->Bool{
         var isCorrect=false
         
-         let answer = questions[qID]["答案"].stringValue
-
+//        let answer = questions[b]["答案"].stringValue
+        let answer = questions[qID]["答案"].stringValue
+        
         var ansStr=""
         
+//        這裡聽老師解釋
         for index in 0...3{
             if self.userAnswer[index]{
                 switch index {

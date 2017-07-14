@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "DB6995E21F02ED7A0093F955"
-               BuildableName = "test.app"
-               BlueprintName = "test"
+               BuildableName = "twnationalexam.app"
+               BlueprintName = "twnationalexam"
                ReferencedContainer = "container:test.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB6995E21F02ED7A0093F955"
-            BuildableName = "test.app"
-            BlueprintName = "test"
+            BuildableName = "twnationalexam.app"
+            BlueprintName = "twnationalexam"
             ReferencedContainer = "container:test.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB6995E21F02ED7A0093F955"
-            BuildableName = "test.app"
-            BlueprintName = "test"
+            BuildableName = "twnationalexam.app"
+            BlueprintName = "twnationalexam"
             ReferencedContainer = "container:test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "DB6995E21F02ED7A0093F955"
-            BuildableName = "test.app"
-            BlueprintName = "test"
+            BuildableName = "twnationalexam.app"
+            BlueprintName = "twnationalexam"
             ReferencedContainer = "container:test.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
