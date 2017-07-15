@@ -48,6 +48,7 @@
 		E99CFE161F18ECD300E30F93 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE111F18ECD300E30F93 /* 1.png */; };
 		E99CFE171F18ECD300E30F93 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE121F18ECD300E30F93 /* 2.png */; };
 		E99CFE181F18ECD300E30F93 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE131F18ECD300E30F93 /* 4.png */; };
+		E99CFE1A1F18F9F300E30F93 /* 105牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE191F18F9F300E30F93 /* 105牙醫國考.json */; };
 		E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */; };
 		E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */; };
 		E9ADD1491F0D03690064F890 /* tab_bar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADD1481F0D03690064F890 /* tab_bar_1.swift */; };
@@ -58,7 +59,7 @@
 		E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */; };
 		E9B3619D1F174D8C006F599F /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B3619C1F174D8C006F599F /* backBtn.png */; };
 		E9D28B6F1F13BDDA00139B54 /* 生化.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B6E1F13BDDA00139B54 /* 生化.json */; };
-		E9D28B711F13BFF600139B54 /* 口胚.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B701F13BFF600139B54 /* 口胚.json */; };
+		E9D28B711F13BFF600139B54 /* 106牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B701F13BFF600139B54 /* 106牙醫國考.json */; };
 		E9D28B731F13C04200139B54 /* 牙型.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B721F13C04200139B54 /* 牙型.json */; };
 		E9D28B751F13C04D00139B54 /* 口解.json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B741F13C04D00139B54 /* 口解.json */; };
 		E9F4BEDD1F17403300C02AA6 /* details 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F4BEDC1F17403300C02AA6 /* details 1.png */; };
@@ -115,6 +116,7 @@
 		E99CFE111F18ECD300E30F93 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		E99CFE121F18ECD300E30F93 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		E99CFE131F18ECD300E30F93 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E99CFE191F18F9F300E30F93 /* 105牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "105牙醫國考.json"; path = "牙醫/105牙醫國考.json"; sourceTree = "<group>"; };
 		E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_骨盆會陰.json"; sourceTree = "<group>"; };
 		E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_神解.json"; sourceTree = "<group>"; };
 		E9ADD1481F0D03690064F890 /* tab_bar_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tab_bar_1.swift; path = ../tab_bar_1.swift; sourceTree = "<group>"; };
@@ -125,7 +127,7 @@
 		E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_頭頸.json"; sourceTree = "<group>"; };
 		E9B3619C1F174D8C006F599F /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
 		E9D28B6E1F13BDDA00139B54 /* 生化.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "生化.json"; sourceTree = "<group>"; };
-		E9D28B701F13BFF600139B54 /* 口胚.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "口胚.json"; sourceTree = "<group>"; };
+		E9D28B701F13BFF600139B54 /* 106牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "106牙醫國考.json"; sourceTree = "<group>"; };
 		E9D28B721F13C04200139B54 /* 牙型.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "牙型.json"; sourceTree = "<group>"; };
 		E9D28B741F13C04D00139B54 /* 口解.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "口解.json"; sourceTree = "<group>"; };
 		E9F4BEDC1F17403300C02AA6 /* details 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details 1.png"; sourceTree = "<group>"; };
@@ -223,7 +225,8 @@
 		E9ADD1411F0CFA3F0064F890 /* questions */ = {
 			isa = PBXGroup;
 			children = (
-				E9D28B701F13BFF600139B54 /* 口胚.json */,
+				E99CFE191F18F9F300E30F93 /* 105牙醫國考.json */,
+				E9D28B701F13BFF600139B54 /* 106牙醫國考.json */,
 				E9D28B741F13C04D00139B54 /* 口解.json */,
 				E9D28B6E1F13BDDA00139B54 /* 生化.json */,
 				E9D28B721F13C04200139B54 /* 牙型.json */,
@@ -347,7 +350,7 @@
 				E94F8BB61F14F45E007E43AD /* button_start.png in Resources */,
 				E9F4BEE11F17462800C02AA6 /* 背景 02.png in Resources */,
 				E99CFE021F18C89200E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.46.png in Resources */,
-				E9D28B711F13BFF600139B54 /* 口胚.json in Resources */,
+				E9D28B711F13BFF600139B54 /* 106牙醫國考.json in Resources */,
 				E99CFE041F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png in Resources */,
 				E9ADD1511F0D093A0064F890 /* 微免_免疫.json in Resources */,
 				E97B598D1F16527100E743AA /* details.png in Resources */,
@@ -387,6 +390,7 @@
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 				E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */,
 				E9D28B751F13C04D00139B54 /* 口解.json in Resources */,
+				E99CFE1A1F18F9F300E30F93 /* 105牙醫國考.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

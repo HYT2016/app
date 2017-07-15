@@ -16,7 +16,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     @IBOutlet weak var tableView: UITableView!
    
     let doctor:[String]=["解剖_骨盆會陰","解剖_神解","解剖_四肢","解剖_頭頸","解剖_胸背腹","微免_免疫","微免_微生物"]
-    let dentist:[String]=["口解","牙型","口胚","生化"]
+    let dentist:[String]=["口解","牙型","口胚","生化","106牙醫國考"]
  
   
     
@@ -93,8 +93,15 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
         
+       
         
-        vc.q_category=doctor[indexPath.row]
+        
+        if segment.selectedSegmentIndex==0{
+            vc.q_category=doctor[indexPath.row]
+        }else{
+            vc.q_category=dentist[indexPath.row]
+        }
+        
         
         self.navigationController?.pushViewController(vc, animated: true)
         

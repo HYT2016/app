@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class gameStartVC2: UIViewController {
     
-
+    
     
     @IBOutlet weak var displayLabel: UILabel!
     @IBOutlet var chkBtns: [UIButton]!
@@ -156,7 +156,6 @@ class gameStartVC2: UIViewController {
     func checkIfCorrect(qID:Int)->Bool{
         var isCorrect=false
         
-//        let answer = questions[b]["答案"].stringValue
         let answer = questions[qID]["答案"].stringValue
         
         var ansStr=""
