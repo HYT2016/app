@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		04F4CC29F5A78A945E7AB590 /* Pods_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90FD4554ABBBEC1956C340E /* Pods_test.framework */; };
-		DB23B0261F19CEA400518A43 /* 105-2-6牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B0251F19CEA400518A43 /* 105-2-6牙醫國考.json */; };
-		DB23B0281F19ED4F00518A43 /* 104-2-6牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B0271F19ED4F00518A43 /* 104-2-6牙醫國考.json */; };
-		DB23B02C1F19F19300518A43 /* 104-1-6牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B02B1F19F19300518A43 /* 104-1-6牙醫國考.json */; };
-		DB23B02E1F19F1B100518A43 /* 103-1-6牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B02D1F19F1B100518A43 /* 103-1-6牙醫國考.json */; };
-		DB23B0301F19F1C700518A43 /* 103-2-6牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B02F1F19F1C700518A43 /* 103-2-6牙醫國考.json */; };
+		DB23B0261F19CEA400518A43 /* 105-2牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B0251F19CEA400518A43 /* 105-2牙醫學(六).json */; };
+		DB23B0281F19ED4F00518A43 /* 104-2牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B0271F19ED4F00518A43 /* 104-2牙醫學(六).json */; };
+		DB23B02C1F19F19300518A43 /* 104-1牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B02B1F19F19300518A43 /* 104-1牙醫學(六).json */; };
+		DB23B02E1F19F1B100518A43 /* 103-1牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B02D1F19F1B100518A43 /* 103-1牙醫學(六).json */; };
+		DB23B0301F19F1C700518A43 /* 103-2牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B02F1F19F1C700518A43 /* 103-2牙醫學(六).json */; };
 		DB23B0331F1A193800518A43 /* 缺題題號 in Resources */ = {isa = PBXBuildFile; fileRef = DB23B0321F1A193800518A43 /* 缺題題號 */; };
-		DB23B0351F1A21DA00518A43 /* 102-2-6牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B0341F1A21DA00518A43 /* 102-2-6牙醫國考.json */; };
+		DB23B0351F1A21DA00518A43 /* 102-2牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B0341F1A21DA00518A43 /* 102-2牙醫學(六).json */; };
 		DB6995E71F02ED7B0093F955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6995E61F02ED7A0093F955 /* AppDelegate.swift */; };
 		DB6995E91F02ED7B0093F955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6995E81F02ED7B0093F955 /* ViewController.swift */; };
 		DB6995EC1F02ED7B0093F955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6995EA1F02ED7B0093F955 /* Main.storyboard */; };
@@ -23,53 +23,53 @@
 		DB6995F91F02EFA30093F955 /* inVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6995F81F02EFA30093F955 /* inVC.swift */; };
 		DB6995FB1F02F0550093F955 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6995FA1F02F0550093F955 /* MainNavigationController.swift */; };
 		DB6995FD1F02F39E0093F955 /* gameStartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6995FC1F02F39E0093F955 /* gameStartVC.swift */; };
-		DBAC62411F1A27930046A82A /* 102-1-6牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62401F1A27930046A82A /* 102-1-6牙醫國考.json */; };
+		DBAC62411F1A27930046A82A /* 102-1牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62401F1A27930046A82A /* 102-1牙醫學(六).json */; };
 		DBAC62431F1A69E90046A82A /* 106-1牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62421F1A69E90046A82A /* 106-1牙醫學(五).json */; };
 		DBAC62451F1A72850046A82A /* 106-1牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62441F1A72850046A82A /* 106-1牙醫學(四).json */; };
 		DBAC62471F1A73030046A82A /* 106-1牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62461F1A73030046A82A /* 106-1牙醫學(三).json */; };
 		DBAC62491F1A731F0046A82A /* 106-1牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62481F1A731F0046A82A /* 106-1牙醫學(二).json */; };
 		DBAC624B1F1A73350046A82A /* 106-1牙醫學(ㄧ).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC624A1F1A73350046A82A /* 106-1牙醫學(ㄧ).json */; };
-		DBAC624D1F1A863C0046A82A /* 105-2-5牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC624C1F1A863C0046A82A /* 105-2-5牙醫國考.json */; };
-		DBAC624F1F1A86980046A82A /* 105-2-4牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC624E1F1A86980046A82A /* 105-2-4牙醫國考.json */; };
-		DBAC62511F1A88A80046A82A /* 105-2-3牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62501F1A88A80046A82A /* 105-2-3牙醫國考.json */; };
-		DBAC62531F1A88CE0046A82A /* 105-2-2牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62521F1A88CE0046A82A /* 105-2-2牙醫國考.json */; };
-		DBAC62551F1A88E60046A82A /* 105-2-1牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62541F1A88E60046A82A /* 105-2-1牙醫國考.json */; };
-		DBAC62571F1A890B0046A82A /* 105-1-5牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62561F1A890B0046A82A /* 105-1-5牙醫國考.json */; };
+		DBAC624D1F1A863C0046A82A /* 105-2牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC624C1F1A863C0046A82A /* 105-2牙醫學(五).json */; };
+		DBAC624F1F1A86980046A82A /* 105-2牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC624E1F1A86980046A82A /* 105-2牙醫學(四).json */; };
+		DBAC62511F1A88A80046A82A /* 105-2牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62501F1A88A80046A82A /* 105-2牙醫學(三).json */; };
+		DBAC62531F1A88CE0046A82A /* 105-2牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62521F1A88CE0046A82A /* 105-2牙醫學(二).json */; };
+		DBAC62551F1A88E60046A82A /* 105-2牙醫學(ㄧ).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62541F1A88E60046A82A /* 105-2牙醫學(ㄧ).json */; };
+		DBAC62571F1A890B0046A82A /* 105-1牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62561F1A890B0046A82A /* 105-1牙醫學(五).json */; };
 		DBAC62591F1A89230046A82A /* 105-1牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC62581F1A89230046A82A /* 105-1牙醫學(四).json */; };
 		DBAC625B1F1A89400046A82A /* 105-1牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC625A1F1A89400046A82A /* 105-1牙醫學(三).json */; };
 		DBAC625D1F1A89520046A82A /* 105-1牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC625C1F1A89520046A82A /* 105-1牙醫學(二).json */; };
 		DBAC625F1F1A89720046A82A /* 105-1牙醫學(ㄧ).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC625E1F1A89720046A82A /* 105-1牙醫學(ㄧ).json */; };
-		DBFA5C041F1BC87A00B98B00 /* 104-1-5牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C031F1BC87A00B98B00 /* 104-1-5牙醫國考.json */; };
-		DBFA5C061F1BCA7E00B98B00 /* 104-1-4牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C051F1BCA7E00B98B00 /* 104-1-4牙醫國考.json */; };
-		DBFA5C081F1BCABE00B98B00 /* 104-1-3牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C071F1BCABE00B98B00 /* 104-1-3牙醫國考.json */; };
-		DBFA5C0A1F1BCBEC00B98B00 /* 104-1-2牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C091F1BCBEB00B98B00 /* 104-1-2牙醫國考.json */; };
-		DBFA5C0C1F1BCF7500B98B00 /* 104-1-1牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C0B1F1BCF7500B98B00 /* 104-1-1牙醫國考.json */; };
-		DBFA5C0E1F1BCF8800B98B00 /* 104-2-5牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C0D1F1BCF8800B98B00 /* 104-2-5牙醫國考.json */; };
-		DBFA5C101F1BCFA900B98B00 /* 104-2-4牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C0F1F1BCFA900B98B00 /* 104-2-4牙醫國考.json */; };
-		DBFA5C121F1BD17600B98B00 /* 104-2-3牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C111F1BD17600B98B00 /* 104-2-3牙醫國考.json */; };
-		DBFA5C141F1BD1A000B98B00 /* 104-2-2牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C131F1BD1A000B98B00 /* 104-2-2牙醫國考.json */; };
-		DBFA5C161F1BD1B200B98B00 /* 104-2-1牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C151F1BD1B200B98B00 /* 104-2-1牙醫國考.json */; };
+		DBFA5C041F1BC87A00B98B00 /* 104-1牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C031F1BC87A00B98B00 /* 104-1牙醫學(五).json */; };
+		DBFA5C061F1BCA7E00B98B00 /* 104-1牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C051F1BCA7E00B98B00 /* 104-1牙醫學(四).json */; };
+		DBFA5C081F1BCABE00B98B00 /* 104-1牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C071F1BCABE00B98B00 /* 104-1牙醫學(三).json */; };
+		DBFA5C0A1F1BCBEC00B98B00 /* 104-1牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C091F1BCBEB00B98B00 /* 104-1牙醫學(二).json */; };
+		DBFA5C0C1F1BCF7500B98B00 /* 104-1牙醫學(一).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C0B1F1BCF7500B98B00 /* 104-1牙醫學(一).json */; };
+		DBFA5C0E1F1BCF8800B98B00 /* 104-2牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C0D1F1BCF8800B98B00 /* 104-2牙醫學(五).json */; };
+		DBFA5C101F1BCFA900B98B00 /* 104-2牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C0F1F1BCFA900B98B00 /* 104-2牙醫學(四).json */; };
+		DBFA5C121F1BD17600B98B00 /* 104-2牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C111F1BD17600B98B00 /* 104-2牙醫學(三).json */; };
+		DBFA5C141F1BD1A000B98B00 /* 104-2牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C131F1BD1A000B98B00 /* 104-2牙醫學(二).json */; };
+		DBFA5C161F1BD1B200B98B00 /* 104-2牙醫學(一).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C151F1BD1B200B98B00 /* 104-2牙醫學(一).json */; };
 		E92699B11F03E66100F671A9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DB6996001F0389520093F955 /* data.json */; };
-		E94573781F1C687A00845C9C /* 103-2-5牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573771F1C687A00845C9C /* 103-2-5牙醫國考.json */; };
-		E945737A1F1C688E00845C9C /* 103-2-4牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573791F1C688E00845C9C /* 103-2-4牙醫國考.json */; };
-		E945737C1F1C689900845C9C /* 103-2-3牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E945737B1F1C689900845C9C /* 103-2-3牙醫國考.json */; };
-		E945737E1F1C68A500845C9C /* 103-2-2牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E945737D1F1C68A500845C9C /* 103-2-2牙醫國考.json */; };
-		E94573801F1C68AE00845C9C /* 103-2-1牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E945737F1F1C68AE00845C9C /* 103-2-1牙醫國考.json */; };
-		E94573821F1C68C000845C9C /* 103-1-5牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573811F1C68C000845C9C /* 103-1-5牙醫國考.json */; };
-		E94573841F1C68CC00845C9C /* 103-1-4牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573831F1C68CC00845C9C /* 103-1-4牙醫國考.json */; };
-		E94573861F1C68D500845C9C /* 103-1-3牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573851F1C68D500845C9C /* 103-1-3牙醫國考.json */; };
-		E94573881F1C68DF00845C9C /* 103-1-2牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573871F1C68DF00845C9C /* 103-1-2牙醫國考.json */; };
-		E945738A1F1C68E900845C9C /* 103-1-1牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573891F1C68E900845C9C /* 103-1-1牙醫國考.json */; };
-		E945738C1F1C690800845C9C /* 102-1-5牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E945738B1F1C690800845C9C /* 102-1-5牙醫國考.json */; };
-		E945738E1F1C691200845C9C /* 102-1-4牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E945738D1F1C691200845C9C /* 102-1-4牙醫國考.json */; };
-		E94573901F1C691C00845C9C /* 102-1-3牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E945738F1F1C691C00845C9C /* 102-1-3牙醫國考.json */; };
-		E94573921F1C692F00845C9C /* 102-1-2牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573911F1C692F00845C9C /* 102-1-2牙醫國考.json */; };
-		E94573941F1C693900845C9C /* 102-1-1牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573931F1C693900845C9C /* 102-1-1牙醫國考.json */; };
-		E94573961F1C694800845C9C /* 102-2-5牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573951F1C694800845C9C /* 102-2-5牙醫國考.json */; };
-		E94573981F1C695200845C9C /* 102-2-4牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573971F1C695200845C9C /* 102-2-4牙醫國考.json */; };
-		E945739A1F1C696100845C9C /* 102-2-3牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573991F1C696100845C9C /* 102-2-3牙醫國考.json */; };
-		E945739C1F1C696C00845C9C /* 102-2-2牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E945739B1F1C696C00845C9C /* 102-2-2牙醫國考.json */; };
-		E945739E1F1C697700845C9C /* 102-2-1牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E945739D1F1C697700845C9C /* 102-2-1牙醫國考.json */; };
+		E94573781F1C687A00845C9C /* 103-2牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573771F1C687A00845C9C /* 103-2牙醫學(五).json */; };
+		E945737A1F1C688E00845C9C /* 103-2牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573791F1C688E00845C9C /* 103-2牙醫學(四).json */; };
+		E945737C1F1C689900845C9C /* 103-2牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = E945737B1F1C689900845C9C /* 103-2牙醫學(三).json */; };
+		E945737E1F1C68A500845C9C /* 103-2牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = E945737D1F1C68A500845C9C /* 103-2牙醫學(二).json */; };
+		E94573801F1C68AE00845C9C /* 103-2牙醫學(一).json in Resources */ = {isa = PBXBuildFile; fileRef = E945737F1F1C68AE00845C9C /* 103-2牙醫學(一).json */; };
+		E94573821F1C68C000845C9C /* 103-1牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573811F1C68C000845C9C /* 103-1牙醫學(五).json */; };
+		E94573841F1C68CC00845C9C /* 103-1牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573831F1C68CC00845C9C /* 103-1牙醫學(四).json */; };
+		E94573861F1C68D500845C9C /* 103-1牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573851F1C68D500845C9C /* 103-1牙醫學(三).json */; };
+		E94573881F1C68DF00845C9C /* 103-1牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573871F1C68DF00845C9C /* 103-1牙醫學(二).json */; };
+		E945738A1F1C68E900845C9C /* 103-1牙醫學(一).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573891F1C68E900845C9C /* 103-1牙醫學(一).json */; };
+		E945738C1F1C690800845C9C /* 102-1牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = E945738B1F1C690800845C9C /* 102-1牙醫學(五).json */; };
+		E945738E1F1C691200845C9C /* 102-1牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = E945738D1F1C691200845C9C /* 102-1牙醫學(四).json */; };
+		E94573901F1C691C00845C9C /* 102-1牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = E945738F1F1C691C00845C9C /* 102-1牙醫學(三).json */; };
+		E94573921F1C692F00845C9C /* 102-1牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573911F1C692F00845C9C /* 102-1牙醫學(二).json */; };
+		E94573941F1C693900845C9C /* 102-1牙醫學(一).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573931F1C693900845C9C /* 102-1牙醫學(一).json */; };
+		E94573961F1C694800845C9C /* 102-2牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573951F1C694800845C9C /* 102-2牙醫學(五).json */; };
+		E94573981F1C695200845C9C /* 102-2牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573971F1C695200845C9C /* 102-2牙醫學(四).json */; };
+		E945739A1F1C696100845C9C /* 102-2牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573991F1C696100845C9C /* 102-2牙醫學(三).json */; };
+		E945739C1F1C696C00845C9C /* 102-2牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = E945739B1F1C696C00845C9C /* 102-2牙醫學(二).json */; };
+		E945739E1F1C697700845C9C /* 102-2牙醫學(一).json in Resources */ = {isa = PBXBuildFile; fileRef = E945739D1F1C697700845C9C /* 102-2牙醫學(一).json */; };
 		E94573A11F1C69AF00845C9C /* 101-1-6牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573A01F1C69AF00845C9C /* 101-1-6牙醫國考.json */; };
 		E94573A31F1C69B700845C9C /* 101-1-5牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573A21F1C69B700845C9C /* 101-1-5牙醫國考.json */; };
 		E94573A51F1C69C100845C9C /* 101-1-4牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E94573A41F1C69C100845C9C /* 101-1-4牙醫國考.json */; };
@@ -160,7 +160,7 @@
 		E99CFE161F18ECD300E30F93 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE111F18ECD300E30F93 /* 1.png */; };
 		E99CFE171F18ECD300E30F93 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE121F18ECD300E30F93 /* 2.png */; };
 		E99CFE181F18ECD300E30F93 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE131F18ECD300E30F93 /* 4.png */; };
-		E99CFE1A1F18F9F300E30F93 /* 105-1-6牙醫國考.json in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE191F18F9F300E30F93 /* 105-1-6牙醫國考.json */; };
+		E99CFE1A1F18F9F300E30F93 /* 105-1牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = E99CFE191F18F9F300E30F93 /* 105-1牙醫學(六).json */; };
 		E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */; };
 		E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */; };
 		E9ADD1491F0D03690064F890 /* tab_bar_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9ADD1481F0D03690064F890 /* tab_bar_1.swift */; };
@@ -183,13 +183,13 @@
 		0EFF6EBBE135B4BB7DAB1364 /* Pods-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.release.xcconfig"; sourceTree = "<group>"; };
 		732971D2FDDA4F15D4C3BB7F /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
 		B90FD4554ABBBEC1956C340E /* Pods_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB23B0251F19CEA400518A43 /* 105-2-6牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2-6牙醫國考.json"; sourceTree = "<group>"; };
-		DB23B0271F19ED4F00518A43 /* 104-2-6牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2-6牙醫國考.json"; sourceTree = "<group>"; };
-		DB23B02B1F19F19300518A43 /* 104-1-6牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1-6牙醫國考.json"; sourceTree = "<group>"; };
-		DB23B02D1F19F1B100518A43 /* 103-1-6牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1-6牙醫國考.json"; sourceTree = "<group>"; };
-		DB23B02F1F19F1C700518A43 /* 103-2-6牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2-6牙醫國考.json"; sourceTree = "<group>"; };
+		DB23B0251F19CEA400518A43 /* 105-2牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2牙醫學(六).json"; sourceTree = "<group>"; };
+		DB23B0271F19ED4F00518A43 /* 104-2牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(六).json"; sourceTree = "<group>"; };
+		DB23B02B1F19F19300518A43 /* 104-1牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(六).json"; sourceTree = "<group>"; };
+		DB23B02D1F19F1B100518A43 /* 103-1牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1牙醫學(六).json"; sourceTree = "<group>"; };
+		DB23B02F1F19F1C700518A43 /* 103-2牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(六).json"; sourceTree = "<group>"; };
 		DB23B0321F1A193800518A43 /* 缺題題號 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "缺題題號"; sourceTree = "<group>"; };
-		DB23B0341F1A21DA00518A43 /* 102-2-6牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2-6牙醫國考.json"; sourceTree = "<group>"; };
+		DB23B0341F1A21DA00518A43 /* 102-2牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2牙醫學(六).json"; sourceTree = "<group>"; };
 		DB6995E31F02ED7A0093F955 /* twnationalexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twnationalexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6995E61F02ED7A0093F955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6995E81F02ED7B0093F955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -201,52 +201,52 @@
 		DB6995FA1F02F0550093F955 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
 		DB6995FC1F02F39E0093F955 /* gameStartVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameStartVC.swift; sourceTree = "<group>"; };
 		DB6996001F0389520093F955 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		DBAC62401F1A27930046A82A /* 102-1-6牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1-6牙醫國考.json"; sourceTree = "<group>"; };
+		DBAC62401F1A27930046A82A /* 102-1牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1牙醫學(六).json"; sourceTree = "<group>"; };
 		DBAC62421F1A69E90046A82A /* 106-1牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "106-1牙醫學(五).json"; sourceTree = "<group>"; };
 		DBAC62441F1A72850046A82A /* 106-1牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "106-1牙醫學(四).json"; sourceTree = "<group>"; };
 		DBAC62461F1A73030046A82A /* 106-1牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "106-1牙醫學(三).json"; sourceTree = "<group>"; };
 		DBAC62481F1A731F0046A82A /* 106-1牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "106-1牙醫學(二).json"; sourceTree = "<group>"; };
 		DBAC624A1F1A73350046A82A /* 106-1牙醫學(ㄧ).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "106-1牙醫學(ㄧ).json"; sourceTree = "<group>"; };
-		DBAC624C1F1A863C0046A82A /* 105-2-5牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2-5牙醫國考.json"; sourceTree = "<group>"; };
-		DBAC624E1F1A86980046A82A /* 105-2-4牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2-4牙醫國考.json"; sourceTree = "<group>"; };
-		DBAC62501F1A88A80046A82A /* 105-2-3牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2-3牙醫國考.json"; sourceTree = "<group>"; };
-		DBAC62521F1A88CE0046A82A /* 105-2-2牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2-2牙醫國考.json"; sourceTree = "<group>"; };
-		DBAC62541F1A88E60046A82A /* 105-2-1牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2-1牙醫國考.json"; sourceTree = "<group>"; };
-		DBAC62561F1A890B0046A82A /* 105-1-5牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1-5牙醫國考.json"; sourceTree = "<group>"; };
+		DBAC624C1F1A863C0046A82A /* 105-2牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2牙醫學(五).json"; sourceTree = "<group>"; };
+		DBAC624E1F1A86980046A82A /* 105-2牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2牙醫學(四).json"; sourceTree = "<group>"; };
+		DBAC62501F1A88A80046A82A /* 105-2牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2牙醫學(三).json"; sourceTree = "<group>"; };
+		DBAC62521F1A88CE0046A82A /* 105-2牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2牙醫學(二).json"; sourceTree = "<group>"; };
+		DBAC62541F1A88E60046A82A /* 105-2牙醫學(ㄧ).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-2牙醫學(ㄧ).json"; sourceTree = "<group>"; };
+		DBAC62561F1A890B0046A82A /* 105-1牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(五).json"; sourceTree = "<group>"; };
 		DBAC62581F1A89230046A82A /* 105-1牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(四).json"; sourceTree = "<group>"; };
 		DBAC625A1F1A89400046A82A /* 105-1牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(三).json"; sourceTree = "<group>"; };
 		DBAC625C1F1A89520046A82A /* 105-1牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(二).json"; sourceTree = "<group>"; };
 		DBAC625E1F1A89720046A82A /* 105-1牙醫學(ㄧ).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(ㄧ).json"; sourceTree = "<group>"; };
-		DBFA5C031F1BC87A00B98B00 /* 104-1-5牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1-5牙醫國考.json"; sourceTree = "<group>"; };
-		DBFA5C051F1BCA7E00B98B00 /* 104-1-4牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1-4牙醫國考.json"; sourceTree = "<group>"; };
-		DBFA5C071F1BCABE00B98B00 /* 104-1-3牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1-3牙醫國考.json"; sourceTree = "<group>"; };
-		DBFA5C091F1BCBEB00B98B00 /* 104-1-2牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1-2牙醫國考.json"; sourceTree = "<group>"; };
-		DBFA5C0B1F1BCF7500B98B00 /* 104-1-1牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1-1牙醫國考.json"; sourceTree = "<group>"; };
-		DBFA5C0D1F1BCF8800B98B00 /* 104-2-5牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2-5牙醫國考.json"; sourceTree = "<group>"; };
-		DBFA5C0F1F1BCFA900B98B00 /* 104-2-4牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2-4牙醫國考.json"; sourceTree = "<group>"; };
-		DBFA5C111F1BD17600B98B00 /* 104-2-3牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2-3牙醫國考.json"; sourceTree = "<group>"; };
-		DBFA5C131F1BD1A000B98B00 /* 104-2-2牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2-2牙醫國考.json"; sourceTree = "<group>"; };
-		DBFA5C151F1BD1B200B98B00 /* 104-2-1牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2-1牙醫國考.json"; sourceTree = "<group>"; };
-		E94573771F1C687A00845C9C /* 103-2-5牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2-5牙醫國考.json"; sourceTree = "<group>"; };
-		E94573791F1C688E00845C9C /* 103-2-4牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2-4牙醫國考.json"; sourceTree = "<group>"; };
-		E945737B1F1C689900845C9C /* 103-2-3牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2-3牙醫國考.json"; sourceTree = "<group>"; };
-		E945737D1F1C68A500845C9C /* 103-2-2牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2-2牙醫國考.json"; sourceTree = "<group>"; };
-		E945737F1F1C68AE00845C9C /* 103-2-1牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2-1牙醫國考.json"; sourceTree = "<group>"; };
-		E94573811F1C68C000845C9C /* 103-1-5牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1-5牙醫國考.json"; sourceTree = "<group>"; };
-		E94573831F1C68CC00845C9C /* 103-1-4牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1-4牙醫國考.json"; sourceTree = "<group>"; };
-		E94573851F1C68D500845C9C /* 103-1-3牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1-3牙醫國考.json"; sourceTree = "<group>"; };
-		E94573871F1C68DF00845C9C /* 103-1-2牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1-2牙醫國考.json"; sourceTree = "<group>"; };
-		E94573891F1C68E900845C9C /* 103-1-1牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1-1牙醫國考.json"; sourceTree = "<group>"; };
-		E945738B1F1C690800845C9C /* 102-1-5牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1-5牙醫國考.json"; sourceTree = "<group>"; };
-		E945738D1F1C691200845C9C /* 102-1-4牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1-4牙醫國考.json"; sourceTree = "<group>"; };
-		E945738F1F1C691C00845C9C /* 102-1-3牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1-3牙醫國考.json"; sourceTree = "<group>"; };
-		E94573911F1C692F00845C9C /* 102-1-2牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1-2牙醫國考.json"; sourceTree = "<group>"; };
-		E94573931F1C693900845C9C /* 102-1-1牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1-1牙醫國考.json"; sourceTree = "<group>"; };
-		E94573951F1C694800845C9C /* 102-2-5牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2-5牙醫國考.json"; sourceTree = "<group>"; };
-		E94573971F1C695200845C9C /* 102-2-4牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2-4牙醫國考.json"; sourceTree = "<group>"; };
-		E94573991F1C696100845C9C /* 102-2-3牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2-3牙醫國考.json"; sourceTree = "<group>"; };
-		E945739B1F1C696C00845C9C /* 102-2-2牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2-2牙醫國考.json"; sourceTree = "<group>"; };
-		E945739D1F1C697700845C9C /* 102-2-1牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2-1牙醫國考.json"; sourceTree = "<group>"; };
+		DBFA5C031F1BC87A00B98B00 /* 104-1牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(五).json"; sourceTree = "<group>"; };
+		DBFA5C051F1BCA7E00B98B00 /* 104-1牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(四).json"; sourceTree = "<group>"; };
+		DBFA5C071F1BCABE00B98B00 /* 104-1牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(三).json"; sourceTree = "<group>"; };
+		DBFA5C091F1BCBEB00B98B00 /* 104-1牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(二).json"; sourceTree = "<group>"; };
+		DBFA5C0B1F1BCF7500B98B00 /* 104-1牙醫學(一).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(一).json"; sourceTree = "<group>"; };
+		DBFA5C0D1F1BCF8800B98B00 /* 104-2牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(五).json"; sourceTree = "<group>"; };
+		DBFA5C0F1F1BCFA900B98B00 /* 104-2牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(四).json"; sourceTree = "<group>"; };
+		DBFA5C111F1BD17600B98B00 /* 104-2牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(三).json"; sourceTree = "<group>"; };
+		DBFA5C131F1BD1A000B98B00 /* 104-2牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(二).json"; sourceTree = "<group>"; };
+		DBFA5C151F1BD1B200B98B00 /* 104-2牙醫學(一).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(一).json"; sourceTree = "<group>"; };
+		E94573771F1C687A00845C9C /* 103-2牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(五).json"; sourceTree = "<group>"; };
+		E94573791F1C688E00845C9C /* 103-2牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(四).json"; sourceTree = "<group>"; };
+		E945737B1F1C689900845C9C /* 103-2牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(三).json"; sourceTree = "<group>"; };
+		E945737D1F1C68A500845C9C /* 103-2牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(二).json"; sourceTree = "<group>"; };
+		E945737F1F1C68AE00845C9C /* 103-2牙醫學(一).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(一).json"; sourceTree = "<group>"; };
+		E94573811F1C68C000845C9C /* 103-1牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1牙醫學(五).json"; sourceTree = "<group>"; };
+		E94573831F1C68CC00845C9C /* 103-1牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1牙醫學(四).json"; sourceTree = "<group>"; };
+		E94573851F1C68D500845C9C /* 103-1牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1牙醫學(三).json"; sourceTree = "<group>"; };
+		E94573871F1C68DF00845C9C /* 103-1牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1牙醫學(二).json"; sourceTree = "<group>"; };
+		E94573891F1C68E900845C9C /* 103-1牙醫學(一).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-1牙醫學(一).json"; sourceTree = "<group>"; };
+		E945738B1F1C690800845C9C /* 102-1牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1牙醫學(五).json"; sourceTree = "<group>"; };
+		E945738D1F1C691200845C9C /* 102-1牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1牙醫學(四).json"; sourceTree = "<group>"; };
+		E945738F1F1C691C00845C9C /* 102-1牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1牙醫學(三).json"; sourceTree = "<group>"; };
+		E94573911F1C692F00845C9C /* 102-1牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1牙醫學(二).json"; sourceTree = "<group>"; };
+		E94573931F1C693900845C9C /* 102-1牙醫學(一).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-1牙醫學(一).json"; sourceTree = "<group>"; };
+		E94573951F1C694800845C9C /* 102-2牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2牙醫學(五).json"; sourceTree = "<group>"; };
+		E94573971F1C695200845C9C /* 102-2牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2牙醫學(四).json"; sourceTree = "<group>"; };
+		E94573991F1C696100845C9C /* 102-2牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2牙醫學(三).json"; sourceTree = "<group>"; };
+		E945739B1F1C696C00845C9C /* 102-2牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2牙醫學(二).json"; sourceTree = "<group>"; };
+		E945739D1F1C697700845C9C /* 102-2牙醫學(一).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2牙醫學(一).json"; sourceTree = "<group>"; };
 		E94573A01F1C69AF00845C9C /* 101-1-6牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "101-1-6牙醫國考.json"; sourceTree = "<group>"; };
 		E94573A21F1C69B700845C9C /* 101-1-5牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "101-1-5牙醫國考.json"; sourceTree = "<group>"; };
 		E94573A41F1C69C100845C9C /* 101-1-4牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "101-1-4牙醫國考.json"; sourceTree = "<group>"; };
@@ -337,7 +337,7 @@
 		E99CFE111F18ECD300E30F93 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
 		E99CFE121F18ECD300E30F93 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
 		E99CFE131F18ECD300E30F93 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
-		E99CFE191F18F9F300E30F93 /* 105-1-6牙醫國考.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "105-1-6牙醫國考.json"; path = "牙醫/105-1-6牙醫國考.json"; sourceTree = "<group>"; };
+		E99CFE191F18F9F300E30F93 /* 105-1牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "105-1牙醫學(六).json"; path = "牙醫/105-1牙醫學(六).json"; sourceTree = "<group>"; };
 		E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_骨盆會陰.json"; sourceTree = "<group>"; };
 		E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_神解.json"; sourceTree = "<group>"; };
 		E9ADD1481F0D03690064F890 /* tab_bar_1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = tab_bar_1.swift; path = ../tab_bar_1.swift; sourceTree = "<group>"; };
@@ -433,14 +433,14 @@
 				DBAC625C1F1A89520046A82A /* 105-1牙醫學(二).json */,
 				DBAC625A1F1A89400046A82A /* 105-1牙醫學(三).json */,
 				DBAC62581F1A89230046A82A /* 105-1牙醫學(四).json */,
-				DBAC62561F1A890B0046A82A /* 105-1-5牙醫國考.json */,
-				E99CFE191F18F9F300E30F93 /* 105-1-6牙醫國考.json */,
-				DBAC62541F1A88E60046A82A /* 105-2-1牙醫國考.json */,
-				DBAC62521F1A88CE0046A82A /* 105-2-2牙醫國考.json */,
-				DBAC62501F1A88A80046A82A /* 105-2-3牙醫國考.json */,
-				DBAC624E1F1A86980046A82A /* 105-2-4牙醫國考.json */,
-				DBAC624C1F1A863C0046A82A /* 105-2-5牙醫國考.json */,
-				DB23B0251F19CEA400518A43 /* 105-2-6牙醫國考.json */,
+				DBAC62561F1A890B0046A82A /* 105-1牙醫學(五).json */,
+				E99CFE191F18F9F300E30F93 /* 105-1牙醫學(六).json */,
+				DBAC62541F1A88E60046A82A /* 105-2牙醫學(ㄧ).json */,
+				DBAC62521F1A88CE0046A82A /* 105-2牙醫學(二).json */,
+				DBAC62501F1A88A80046A82A /* 105-2牙醫學(三).json */,
+				DBAC624E1F1A86980046A82A /* 105-2牙醫學(四).json */,
+				DBAC624C1F1A863C0046A82A /* 105-2牙醫學(五).json */,
+				DB23B0251F19CEA400518A43 /* 105-2牙醫學(六).json */,
 			);
 			name = "105牙醫國考";
 			sourceTree = "<group>";
@@ -448,18 +448,18 @@
 		DBFA5C021F1BC82D00B98B00 /* 104牙醫國考 */ = {
 			isa = PBXGroup;
 			children = (
-				DB23B0271F19ED4F00518A43 /* 104-2-6牙醫國考.json */,
-				DBFA5C0D1F1BCF8800B98B00 /* 104-2-5牙醫國考.json */,
-				DBFA5C0F1F1BCFA900B98B00 /* 104-2-4牙醫國考.json */,
-				DBFA5C111F1BD17600B98B00 /* 104-2-3牙醫國考.json */,
-				DBFA5C131F1BD1A000B98B00 /* 104-2-2牙醫國考.json */,
-				DBFA5C151F1BD1B200B98B00 /* 104-2-1牙醫國考.json */,
-				DB23B02B1F19F19300518A43 /* 104-1-6牙醫國考.json */,
-				DBFA5C031F1BC87A00B98B00 /* 104-1-5牙醫國考.json */,
-				DBFA5C051F1BCA7E00B98B00 /* 104-1-4牙醫國考.json */,
-				DBFA5C071F1BCABE00B98B00 /* 104-1-3牙醫國考.json */,
-				DBFA5C091F1BCBEB00B98B00 /* 104-1-2牙醫國考.json */,
-				DBFA5C0B1F1BCF7500B98B00 /* 104-1-1牙醫國考.json */,
+				DB23B0271F19ED4F00518A43 /* 104-2牙醫學(六).json */,
+				DBFA5C0D1F1BCF8800B98B00 /* 104-2牙醫學(五).json */,
+				DBFA5C0F1F1BCFA900B98B00 /* 104-2牙醫學(四).json */,
+				DBFA5C111F1BD17600B98B00 /* 104-2牙醫學(三).json */,
+				DBFA5C131F1BD1A000B98B00 /* 104-2牙醫學(二).json */,
+				DBFA5C151F1BD1B200B98B00 /* 104-2牙醫學(一).json */,
+				DB23B02B1F19F19300518A43 /* 104-1牙醫學(六).json */,
+				DBFA5C031F1BC87A00B98B00 /* 104-1牙醫學(五).json */,
+				DBFA5C051F1BCA7E00B98B00 /* 104-1牙醫學(四).json */,
+				DBFA5C071F1BCABE00B98B00 /* 104-1牙醫學(三).json */,
+				DBFA5C091F1BCBEB00B98B00 /* 104-1牙醫學(二).json */,
+				DBFA5C0B1F1BCF7500B98B00 /* 104-1牙醫學(一).json */,
 			);
 			name = "104牙醫國考";
 			sourceTree = "<group>";
@@ -467,18 +467,18 @@
 		DBFA5C171F1BD1B900B98B00 /* 103牙醫國考 */ = {
 			isa = PBXGroup;
 			children = (
-				DB23B02D1F19F1B100518A43 /* 103-1-6牙醫國考.json */,
-				E94573811F1C68C000845C9C /* 103-1-5牙醫國考.json */,
-				E94573831F1C68CC00845C9C /* 103-1-4牙醫國考.json */,
-				E94573851F1C68D500845C9C /* 103-1-3牙醫國考.json */,
-				E94573871F1C68DF00845C9C /* 103-1-2牙醫國考.json */,
-				E94573891F1C68E900845C9C /* 103-1-1牙醫國考.json */,
-				DB23B02F1F19F1C700518A43 /* 103-2-6牙醫國考.json */,
-				E94573771F1C687A00845C9C /* 103-2-5牙醫國考.json */,
-				E94573791F1C688E00845C9C /* 103-2-4牙醫國考.json */,
-				E945737B1F1C689900845C9C /* 103-2-3牙醫國考.json */,
-				E945737D1F1C68A500845C9C /* 103-2-2牙醫國考.json */,
-				E945737F1F1C68AE00845C9C /* 103-2-1牙醫國考.json */,
+				DB23B02D1F19F1B100518A43 /* 103-1牙醫學(六).json */,
+				E94573811F1C68C000845C9C /* 103-1牙醫學(五).json */,
+				E94573831F1C68CC00845C9C /* 103-1牙醫學(四).json */,
+				E94573851F1C68D500845C9C /* 103-1牙醫學(三).json */,
+				E94573871F1C68DF00845C9C /* 103-1牙醫學(二).json */,
+				E94573891F1C68E900845C9C /* 103-1牙醫學(一).json */,
+				DB23B02F1F19F1C700518A43 /* 103-2牙醫學(六).json */,
+				E94573771F1C687A00845C9C /* 103-2牙醫學(五).json */,
+				E94573791F1C688E00845C9C /* 103-2牙醫學(四).json */,
+				E945737B1F1C689900845C9C /* 103-2牙醫學(三).json */,
+				E945737D1F1C68A500845C9C /* 103-2牙醫學(二).json */,
+				E945737F1F1C68AE00845C9C /* 103-2牙醫學(一).json */,
 			);
 			name = "103牙醫國考";
 			sourceTree = "<group>";
@@ -486,18 +486,18 @@
 		DBFA5C181F1BD1F500B98B00 /* 102牙醫國考 */ = {
 			isa = PBXGroup;
 			children = (
-				DBAC62401F1A27930046A82A /* 102-1-6牙醫國考.json */,
-				E945738B1F1C690800845C9C /* 102-1-5牙醫國考.json */,
-				E945738D1F1C691200845C9C /* 102-1-4牙醫國考.json */,
-				E945738F1F1C691C00845C9C /* 102-1-3牙醫國考.json */,
-				E94573911F1C692F00845C9C /* 102-1-2牙醫國考.json */,
-				E94573931F1C693900845C9C /* 102-1-1牙醫國考.json */,
-				DB23B0341F1A21DA00518A43 /* 102-2-6牙醫國考.json */,
-				E94573951F1C694800845C9C /* 102-2-5牙醫國考.json */,
-				E94573971F1C695200845C9C /* 102-2-4牙醫國考.json */,
-				E94573991F1C696100845C9C /* 102-2-3牙醫國考.json */,
-				E945739B1F1C696C00845C9C /* 102-2-2牙醫國考.json */,
-				E945739D1F1C697700845C9C /* 102-2-1牙醫國考.json */,
+				DBAC62401F1A27930046A82A /* 102-1牙醫學(六).json */,
+				E945738B1F1C690800845C9C /* 102-1牙醫學(五).json */,
+				E945738D1F1C691200845C9C /* 102-1牙醫學(四).json */,
+				E945738F1F1C691C00845C9C /* 102-1牙醫學(三).json */,
+				E94573911F1C692F00845C9C /* 102-1牙醫學(二).json */,
+				E94573931F1C693900845C9C /* 102-1牙醫學(一).json */,
+				DB23B0341F1A21DA00518A43 /* 102-2牙醫學(六).json */,
+				E94573951F1C694800845C9C /* 102-2牙醫學(五).json */,
+				E94573971F1C695200845C9C /* 102-2牙醫學(四).json */,
+				E94573991F1C696100845C9C /* 102-2牙醫學(三).json */,
+				E945739B1F1C696C00845C9C /* 102-2牙醫學(二).json */,
+				E945739D1F1C697700845C9C /* 102-2牙醫學(一).json */,
 			);
 			name = "102牙醫國考";
 			sourceTree = "<group>";
@@ -756,35 +756,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBFA5C061F1BCA7E00B98B00 /* 104-1-4牙醫國考.json in Resources */,
-				E94573921F1C692F00845C9C /* 102-1-2牙醫國考.json in Resources */,
+				DBFA5C061F1BCA7E00B98B00 /* 104-1牙醫學(四).json in Resources */,
+				E94573921F1C692F00845C9C /* 102-1牙醫學(二).json in Resources */,
 				E94573AD1F1C69E800845C9C /* 101-2-6牙醫國考.json in Resources */,
-				DB23B02C1F19F19300518A43 /* 104-1-6牙醫國考.json in Resources */,
-				E945739C1F1C696C00845C9C /* 102-2-2牙醫國考.json in Resources */,
-				DB23B02E1F19F1B100518A43 /* 103-1-6牙醫國考.json in Resources */,
-				E94573881F1C68DF00845C9C /* 103-1-2牙醫國考.json in Resources */,
+				DB23B02C1F19F19300518A43 /* 104-1牙醫學(六).json in Resources */,
+				E945739C1F1C696C00845C9C /* 102-2牙醫學(二).json in Resources */,
+				DB23B02E1F19F1B100518A43 /* 103-1牙醫學(六).json in Resources */,
+				E94573881F1C68DF00845C9C /* 103-1牙醫學(二).json in Resources */,
 				E99CFE0A1F18EB6800E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.11.png in Resources */,
 				E9ADD14F1F0D08EA0064F890 /* 解剖_胸背腹.json in Resources */,
-				E94573861F1C68D500845C9C /* 103-1-3牙醫國考.json in Resources */,
+				E94573861F1C68D500845C9C /* 103-1牙醫學(三).json in Resources */,
 				E94573E81F1C6DE100845C9C /* 99-2-5牙醫國考.json in Resources */,
-				DBFA5C081F1BCABE00B98B00 /* 104-1-3牙醫國考.json in Resources */,
+				DBFA5C081F1BCABE00B98B00 /* 104-1牙醫學(三).json in Resources */,
 				E94573EF1F1C6E4D00845C9C /* 98-1-2牙醫國考.json in Resources */,
 				E94574141F1C6F2300845C9C /* 97-2-2牙醫國考.json in Resources */,
-				DB23B0301F19F1C700518A43 /* 103-2-6牙醫國考.json in Resources */,
+				DB23B0301F19F1C700518A43 /* 103-2牙醫學(六).json in Resources */,
 				E9ADD1431F0CFA3F0064F890 /* 解剖_骨盆會陰.json in Resources */,
 				DB6995F11F02ED7B0093F955 /* LaunchScreen.storyboard in Resources */,
 				E94F8BB81F14F467007E43AD /* submit02.png in Resources */,
 				E94F8BB61F14F45E007E43AD /* button_start.png in Resources */,
 				E94573D41F1C6C6B00845C9C /* 99-1-2牙醫國考.json in Resources */,
-				DBFA5C0E1F1BCF8800B98B00 /* 104-2-5牙醫國考.json in Resources */,
+				DBFA5C0E1F1BCF8800B98B00 /* 104-2牙醫學(五).json in Resources */,
 				E9F4BEE11F17462800C02AA6 /* 背景 02.png in Resources */,
-				E94573841F1C68CC00845C9C /* 103-1-4牙醫國考.json in Resources */,
+				E94573841F1C68CC00845C9C /* 103-1牙醫學(四).json in Resources */,
 				E94574121F1C6F1800845C9C /* 97-2-1牙醫國考.json in Resources */,
 				E94573F51F1C6E6C00845C9C /* 98-1-5牙醫國考.json in Resources */,
 				E9D28B711F13BFF600139B54 /* 106-1牙醫學(六).json in Resources */,
 				E945741A1F1C6F4600845C9C /* 97-2-5牙醫國考.json in Resources */,
 				E99CFE041F18C89500E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.36.52.png in Resources */,
-				E94573781F1C687A00845C9C /* 103-2-5牙醫國考.json in Resources */,
+				E94573781F1C687A00845C9C /* 103-2牙醫學(五).json in Resources */,
 				E9ADD1511F0D093A0064F890 /* 微免_免疫.json in Resources */,
 				E97B598D1F16527100E743AA /* details.png in Resources */,
 				E94573B51F1C6A1900845C9C /* 101-2-2牙醫國考.json in Resources */,
@@ -792,8 +792,8 @@
 				E94573B71F1C6A2200845C9C /* 101-2-1牙醫國考.json in Resources */,
 				E94573F71F1C6E7600845C9C /* 98-1-6牙醫國考.json in Resources */,
 				E99CFE0E1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png in Resources */,
-				E945737E1F1C68A500845C9C /* 103-2-2牙醫國考.json in Resources */,
-				E94573961F1C694800845C9C /* 102-2-5牙醫國考.json in Resources */,
+				E945737E1F1C68A500845C9C /* 103-2牙醫學(二).json in Resources */,
+				E94573961F1C694800845C9C /* 102-2牙醫學(五).json in Resources */,
 				E94573A71F1C69CB00845C9C /* 101-1-3牙醫國考.json in Resources */,
 				E94573C31F1C6BAA00845C9C /* 100-1-5牙醫國考.json in Resources */,
 				E99CFDFE1F18C5A500E30F93 /* 配件 01.png in Resources */,
@@ -803,12 +803,12 @@
 				DB6995EE1F02ED7B0093F955 /* Assets.xcassets in Resources */,
 				E94573FD1F1C6E9A00845C9C /* 98-2-3牙醫國考.json in Resources */,
 				E94574181F1C6F3800845C9C /* 97-2-4牙醫國考.json in Resources */,
-				E945737A1F1C688E00845C9C /* 103-2-4牙醫國考.json in Resources */,
+				E945737A1F1C688E00845C9C /* 103-2牙醫學(四).json in Resources */,
 				E9F4BEDD1F17403300C02AA6 /* details 1.png in Resources */,
 				E99CFE081F18E4EC00E30F93 /* icon  512.png in Resources */,
 				E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */,
 				E94573BB1F1C6B7A00845C9C /* 100-1-1牙醫國考.json in Resources */,
-				DBFA5C141F1BD1A000B98B00 /* 104-2-2牙醫國考.json in Resources */,
+				DBFA5C141F1BD1A000B98B00 /* 104-2牙醫學(二).json in Resources */,
 				E94573FF1F1C6EA300845C9C /* 98-2-4牙醫國考.json in Resources */,
 				E94573CB1F1C6BD900845C9C /* 100-2-3牙醫國考.json in Resources */,
 				DBAC62471F1A73030046A82A /* 106-1牙醫學(三).json in Resources */,
@@ -816,38 +816,38 @@
 				E94573ED1F1C6E3E00845C9C /* 98-1-1牙醫國考.json in Resources */,
 				E99CFE161F18ECD300E30F93 /* 1.png in Resources */,
 				E94F8BBE1F14FA19007E43AD /* submit 02.png in Resources */,
-				E94573901F1C691C00845C9C /* 102-1-3牙醫國考.json in Resources */,
-				E945738E1F1C691200845C9C /* 102-1-4牙醫國考.json in Resources */,
-				E945738C1F1C690800845C9C /* 102-1-5牙醫國考.json in Resources */,
+				E94573901F1C691C00845C9C /* 102-1牙醫學(三).json in Resources */,
+				E945738E1F1C691200845C9C /* 102-1牙醫學(四).json in Resources */,
+				E945738C1F1C690800845C9C /* 102-1牙醫學(五).json in Resources */,
 				E94573E41F1C6CDE00845C9C /* 99-2-3牙醫國考.json in Resources */,
-				DBAC624F1F1A86980046A82A /* 105-2-4牙醫國考.json in Resources */,
+				DBAC624F1F1A86980046A82A /* 105-2牙醫學(四).json in Resources */,
 				DB6995EC1F02ED7B0093F955 /* Main.storyboard in Resources */,
 				E945740A1F1C6EE800845C9C /* 97-1-3牙醫國考.json in Resources */,
 				E9997E4F1F0A4B9500CC2FDA /* ss.json in Resources */,
 				E9ADD1531F0D09B10064F890 /* 微免_微生物.json in Resources */,
 				E94573C71F1C6BBC00845C9C /* 100-2-1牙醫國考.json in Resources */,
-				DBAC62551F1A88E60046A82A /* 105-2-1牙醫國考.json in Resources */,
+				DBAC62551F1A88E60046A82A /* 105-2牙醫學(ㄧ).json in Resources */,
 				E94573E01F1C6CC900845C9C /* 99-2-1牙醫國考.json in Resources */,
 				E9745DBD1F062CD500902CAC /* aaa.json in Resources */,
 				E99CFE151F18ECD300E30F93 /* 5.png in Resources */,
-				E94573801F1C68AE00845C9C /* 103-2-1牙醫國考.json in Resources */,
+				E94573801F1C68AE00845C9C /* 103-2牙醫學(一).json in Resources */,
 				E94573DC1F1C6CB300845C9C /* 99-1-5牙醫國考.json in Resources */,
 				E94574031F1C6EB400845C9C /* 98-2-6牙醫國考.json in Resources */,
 				E94573A11F1C69AF00845C9C /* 101-1-6牙醫國考.json in Resources */,
 				E9F4BEE31F1748E600C02AA6 /* 背景 03.png in Resources */,
-				E945738A1F1C68E900845C9C /* 103-1-1牙醫國考.json in Resources */,
+				E945738A1F1C68E900845C9C /* 103-1牙醫學(一).json in Resources */,
 				E94573C11F1C6BA000845C9C /* 100-1-4牙醫國考.json in Resources */,
 				E94573E21F1C6CD200845C9C /* 99-2-2牙醫國考.json in Resources */,
-				DBFA5C121F1BD17600B98B00 /* 104-2-3牙醫國考.json in Resources */,
+				DBFA5C121F1BD17600B98B00 /* 104-2牙醫學(三).json in Resources */,
 				E94573CD1F1C6BE200845C9C /* 100-2-4牙醫國考.json in Resources */,
-				DBFA5C041F1BC87A00B98B00 /* 104-1-5牙醫國考.json in Resources */,
-				E945737C1F1C689900845C9C /* 103-2-3牙醫國考.json in Resources */,
+				DBFA5C041F1BC87A00B98B00 /* 104-1牙醫學(五).json in Resources */,
+				E945737C1F1C689900845C9C /* 103-2牙醫學(三).json in Resources */,
 				E945740E1F1C6EFF00845C9C /* 97-1-5牙醫國考.json in Resources */,
 				E99CFE0C1F18EB7100E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.05.57.png in Resources */,
 				E94574061F1C6ECE00845C9C /* 97-1-1牙醫國考.json in Resources */,
 				E94573BD1F1C6B8700845C9C /* 100-1-2牙醫國考.json in Resources */,
-				DBAC62411F1A27930046A82A /* 102-1-6牙醫國考.json in Resources */,
-				DBAC624D1F1A863C0046A82A /* 105-2-5牙醫國考.json in Resources */,
+				DBAC62411F1A27930046A82A /* 102-1牙醫學(六).json in Resources */,
+				DBAC624D1F1A863C0046A82A /* 105-2牙醫學(五).json in Resources */,
 				E94573B31F1C6A1100845C9C /* 101-2-3牙醫國考.json in Resources */,
 				E945741C1F1C6F4E00845C9C /* 97-2-6牙醫國考.json in Resources */,
 				E94573D11F1C6BFA00845C9C /* 100-2-6牙醫國考.json in Resources */,
@@ -858,15 +858,15 @@
 				DBAC62491F1A731F0046A82A /* 106-1牙醫學(二).json in Resources */,
 				E97B59931F1660E700E743AA /* 01.png in Resources */,
 				E94573A31F1C69B700845C9C /* 101-1-5牙醫國考.json in Resources */,
-				DBAC62511F1A88A80046A82A /* 105-2-3牙醫國考.json in Resources */,
+				DBAC62511F1A88A80046A82A /* 105-2牙醫學(三).json in Resources */,
 				E94573AB1F1C69DE00845C9C /* 101-1-1牙醫國考.json in Resources */,
-				E945739A1F1C696100845C9C /* 102-2-3牙醫國考.json in Resources */,
-				E94573981F1C695200845C9C /* 102-2-4牙醫國考.json in Resources */,
+				E945739A1F1C696100845C9C /* 102-2牙醫學(三).json in Resources */,
+				E94573981F1C695200845C9C /* 102-2牙醫學(四).json in Resources */,
 				E99CFE061F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png in Resources */,
 				E94573AF1F1C69FC00845C9C /* 101-2-5牙醫國考.json in Resources */,
-				E94573941F1C693900845C9C /* 102-1-1牙醫國考.json in Resources */,
+				E94573941F1C693900845C9C /* 102-1牙醫學(一).json in Resources */,
 				E94573C91F1C6BCB00845C9C /* 100-2-2牙醫國考.json in Resources */,
-				DB23B0281F19ED4F00518A43 /* 104-2-6牙醫國考.json in Resources */,
+				DB23B0281F19ED4F00518A43 /* 104-2牙醫學(六).json in Resources */,
 				E99CFE141F18ECD300E30F93 /* 3.png in Resources */,
 				DBAC625B1F1A89400046A82A /* 105-1牙醫學(三).json in Resources */,
 				E94573A91F1C69D500845C9C /* 101-1-2牙醫國考.json in Resources */,
@@ -876,28 +876,28 @@
 				DBAC62451F1A72850046A82A /* 106-1牙醫學(四).json in Resources */,
 				E94573D81F1C6C9F00845C9C /* 99-1-3牙醫國考.json in Resources */,
 				E99CFE181F18ECD300E30F93 /* 4.png in Resources */,
-				DBAC62571F1A890B0046A82A /* 105-1-5牙醫國考.json in Resources */,
+				DBAC62571F1A890B0046A82A /* 105-1牙醫學(五).json in Resources */,
 				E945740C1F1C6EF400845C9C /* 97-1-4牙醫國考.json in Resources */,
-				E94573821F1C68C000845C9C /* 103-1-5牙醫國考.json in Resources */,
-				DBFA5C101F1BCFA900B98B00 /* 104-2-4牙醫國考.json in Resources */,
-				DB23B0351F1A21DA00518A43 /* 102-2-6牙醫國考.json in Resources */,
+				E94573821F1C68C000845C9C /* 103-1牙醫學(五).json in Resources */,
+				DBFA5C101F1BCFA900B98B00 /* 104-2牙醫學(四).json in Resources */,
+				DB23B0351F1A21DA00518A43 /* 102-2牙醫學(六).json in Resources */,
 				E94573CF1F1C6BEF00845C9C /* 100-2-5牙醫國考.json in Resources */,
 				DBAC62591F1A89230046A82A /* 105-1牙醫學(四).json in Resources */,
 				DBAC625D1F1A89520046A82A /* 105-1牙醫學(二).json in Resources */,
 				E94573FB1F1C6E9200845C9C /* 98-2-2牙醫國考.json in Resources */,
 				E94573B11F1C6A0600845C9C /* 101-2-4牙醫國考.json in Resources */,
 				E97B59891F16457400E743AA /* icon@2x.png in Resources */,
-				E945739E1F1C697700845C9C /* 102-2-1牙醫國考.json in Resources */,
+				E945739E1F1C697700845C9C /* 102-2牙醫學(一).json in Resources */,
 				E94574101F1C6F0800845C9C /* 97-1-6牙醫國考.json in Resources */,
-				DB23B0261F19CEA400518A43 /* 105-2-6牙醫國考.json in Resources */,
+				DB23B0261F19CEA400518A43 /* 105-2牙醫學(六).json in Resources */,
 				DBAC625F1F1A89720046A82A /* 105-1牙醫學(ㄧ).json in Resources */,
-				DBFA5C0A1F1BCBEC00B98B00 /* 104-1-2牙醫國考.json in Resources */,
+				DBFA5C0A1F1BCBEC00B98B00 /* 104-1牙醫學(二).json in Resources */,
 				E99CFDFC1F18C4EE00E30F93 /* 背景 06.png in Resources */,
 				E94573DE1F1C6CBB00845C9C /* 99-1-6牙醫國考.json in Resources */,
 				E94F8BBC1F14F7B9007E43AD /* uncheck01.png in Resources */,
 				E94573D61F1C6C8400845C9C /* 99-1-1牙醫國考.json in Resources */,
-				DBFA5C161F1BD1B200B98B00 /* 104-2-1牙醫國考.json in Resources */,
-				DBFA5C0C1F1BCF7500B98B00 /* 104-1-1牙醫國考.json in Resources */,
+				DBFA5C161F1BD1B200B98B00 /* 104-2牙醫學(一).json in Resources */,
+				DBFA5C0C1F1BCF7500B98B00 /* 104-1牙醫學(一).json in Resources */,
 				E94573BF1F1C6B9700845C9C /* 100-1-3牙醫國考.json in Resources */,
 				E94F8BBA1F14F7B4007E43AD /* checked01.png in Resources */,
 				E94573F91F1C6E8A00845C9C /* 98-2-1牙醫國考.json in Resources */,
@@ -909,12 +909,12 @@
 				E9B3619D1F174D8C006F599F /* backBtn.png in Resources */,
 				E94573DA1F1C6CA800845C9C /* 99-1-4牙醫國考.json in Resources */,
 				E9F4BEE51F17497400C02AA6 /* 背景 04.png in Resources */,
-				DBAC62531F1A88CE0046A82A /* 105-2-2牙醫國考.json in Resources */,
+				DBAC62531F1A88CE0046A82A /* 105-2牙醫學(二).json in Resources */,
 				E92699B11F03E66100F671A9 /* data.json in Resources */,
 				E94573E61F1C6DD100845C9C /* 99-2-4牙醫國考.json in Resources */,
 				DB23B0331F1A193800518A43 /* 缺題題號 in Resources */,
 				E9ADD1451F0CFAF20064F890 /* 解剖_神解.json in Resources */,
-				E99CFE1A1F18F9F300E30F93 /* 105-1-6牙醫國考.json in Resources */,
+				E99CFE1A1F18F9F300E30F93 /* 105-1牙醫學(六).json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
