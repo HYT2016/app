@@ -69,6 +69,7 @@ class gameStartVC2: UIViewController {
         }else{
             displayLabel.text = "再接再厲"
             displayLabel.textColor=UIColor.red
+            
         }
        
         let image = UIImage(named: "uncheck01")!

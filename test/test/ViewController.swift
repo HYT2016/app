@@ -16,7 +16,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     @IBOutlet weak var tableView: UITableView!
    
     let doctor:[String]=["解剖_骨盆會陰","解剖_神解","解剖_四肢","解剖_頭頸","解剖_胸背腹","微免_免疫","微免_微生物"]
-    let dentist:[String]=["106-1牙醫學(ㄧ)","106-1牙醫學(二)","106-1牙醫學(三)","106-1牙醫學(四)","106-1牙醫學(五)","106-1牙醫學(六)"]
+    let dentist:[String]=["106-1牙醫學(ㄧ)","106-1牙醫學(二)","106-1牙醫學(三)","106-1牙醫學(四)","106-1牙醫學(五)","106-1牙醫學(六)","答錯的題目"]
  
   
     
