@@ -77,6 +77,8 @@ class gameStartVC2: UIViewController {
             
             
             
+            
+            
         }
        
         let image = UIImage(named: "uncheck01")!
@@ -247,14 +249,26 @@ class gameStartVC2: UIViewController {
         testTextView2.setContentOffset(CGPoint.zero, animated: false)
     }
     
-    // 取得路徑
-    func documentsPath() -> URL {
-        let documentDirectory = try!
-            FileManager.default.url(for: .documentDirectory, in: .userDomainMask,
-                                    appropriateFor: nil, create: false)
-        print(documentDirectory)
-        return documentDirectory
+//    func writeToJson(){
+//        let path = Bundle.main.path(forResource: self.q_category, ofType: "json")
+//        let directories = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true) as Array
+//        let docPath = directories[b] as String
+//        let wrPath = docPath.appending("答錯的題目.json")
+////        check the file existance
+//        let filemanager = FileManager.default
+//        if(!FileManager.fileExists(atPath:self.q_category)){
+//            do{
+//                try FileManager.copyItem(atPath:self.q_category)
+//            }
+//        }
+        
+        
+        
+        
+        
+        
     }
+    
     
     
 
