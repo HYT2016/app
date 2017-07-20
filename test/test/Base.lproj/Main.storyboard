@@ -441,7 +441,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="這是一款提供辛苦的學生們準備國考的app,將來會不斷更新提供更多元服務。" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3e-sB-5Gu">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="這是一款提供辛苦的學生們準備國考的app,將來會不斷更新提供更多元服務。 感謝 陽明醫學系 黃致穎 提供資料" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3e-sB-5Gu">
                                 <rect key="frame" x="20" y="73.666666666666686" width="372.66666666666669" height="588.66666666666674"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>

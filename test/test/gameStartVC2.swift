@@ -69,6 +69,16 @@ class gameStartVC2: UIViewController {
         }else{
             displayLabel.text = "再接再厲"
             displayLabel.textColor=UIColor.red
+        
+            print(b)
+            
+            
+            
+            
+            
+            
+            
+            
         }
        
         let image = UIImage(named: "uncheck01")!
@@ -81,10 +91,7 @@ class gameStartVC2: UIViewController {
         for index in 0...3{
             self.userAnswer[index]=false
         }
-        
 
-        
-        
     }
     
     
@@ -143,6 +150,10 @@ class gameStartVC2: UIViewController {
         
         b=Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
                 self.loadQuestionToUser(qID: b)
+        
+        
+        
+        
         
     }
     
@@ -238,9 +249,29 @@ class gameStartVC2: UIViewController {
         testTextView2.setContentOffset(CGPoint.zero, animated: false)
     }
     
+//    func writeToJson(){
+//        let path = Bundle.main.path(forResource: self.q_category, ofType: "json")
+//        let directories = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true) as Array
+//        let docPath = directories[b] as String
+//        let wrPath = docPath.appending("答錯的題目.json")
+////        check the file existance
+//        let filemanager = FileManager.default
+//        if(!FileManager.fileExists(atPath:self.q_category)){
+//            do{
+//                try FileManager.copyItem(atPath:self.q_category)
+//            }
+//        }
+        
+        
+        
+        
+        
+        
+    }
+    
+    
     
 
+    
+    
 
-    
-    
-}
