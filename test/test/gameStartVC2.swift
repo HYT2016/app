@@ -72,8 +72,8 @@ class gameStartVC2: UIViewController {
         
             print(b)
             
-            
-            
+        
+        
             
             
             
@@ -251,23 +251,15 @@ class gameStartVC2: UIViewController {
     
 //    func writeToJson(){
 //        let path = Bundle.main.path(forResource: self.q_category, ofType: "json")
-//        let directories = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true) as Array
-//        let docPath = directories[b] as String
-//        let wrPath = docPath.appending("答錯的題目.json")
-////        check the file existance
-//        let filemanager = FileManager.default
-//        if(!FileManager.fileExists(atPath:self.q_category)){
-//            do{
-//                try FileManager.copyItem(atPath:self.q_category)
-//            }
+//        var read = ""
+//        do {
+//            read = try String(contentsOfFile: path!, encoding:String.Encoding.utf8)
+//        }catch let error as NSError{
+//            print("fail")
+//            print(error)
 //        }
-        
-        
-        
-        
-        
-        
-    }
+//        
+//    }
     
     
     
@@ -275,3 +267,4 @@ class gameStartVC2: UIViewController {
     
     
 
+}
