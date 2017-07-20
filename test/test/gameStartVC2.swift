@@ -71,9 +71,8 @@ class gameStartVC2: UIViewController {
             displayLabel.textColor=UIColor.red
         
             print(b)
+        
             
-        
-        
             
             
             
@@ -249,19 +248,18 @@ class gameStartVC2: UIViewController {
         testTextView2.setContentOffset(CGPoint.zero, animated: false)
     }
     
-//    func writeToJson(){
-//        let path = Bundle.main.path(forResource: self.q_category, ofType: "json")
-//        var read = ""
-//        do {
-//            read = try String(contentsOfFile: path!, encoding:String.Encoding.utf8)
-//        }catch let error as NSError{
-//            print("fail")
-//            print(error)
-//        }
-//        
-//    }
+
+    func loadTotxt(){
+        
+
+        
+        
+        
+        
+    }
     
     
+        
     
 
     
