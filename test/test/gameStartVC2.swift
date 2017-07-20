@@ -69,6 +69,10 @@ class gameStartVC2: UIViewController {
         }else{
             displayLabel.text = "再接再厲"
             displayLabel.textColor=UIColor.red
+        
+            print(b)
+            
+            
             
             
             
@@ -85,10 +89,7 @@ class gameStartVC2: UIViewController {
         for index in 0...3{
             self.userAnswer[index]=false
         }
-        
 
-        
-        
     }
     
     
@@ -147,6 +148,10 @@ class gameStartVC2: UIViewController {
         
         b=Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
                 self.loadQuestionToUser(qID: b)
+        
+        
+        
+        
         
     }
     
@@ -242,8 +247,16 @@ class gameStartVC2: UIViewController {
         testTextView2.setContentOffset(CGPoint.zero, animated: false)
     }
     
+    // 取得路徑
+    func documentsPath() -> URL {
+        let documentDirectory = try!
+            FileManager.default.url(for: .documentDirectory, in: .userDomainMask,
+                                    appropriateFor: nil, create: false)
+        print(documentDirectory)
+        return documentDirectory
+    }
     
-
+    
 
     
     
