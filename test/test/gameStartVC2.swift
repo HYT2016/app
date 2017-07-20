@@ -122,6 +122,11 @@ class gameStartVC2: UIViewController {
     
    
     func parseTxtFile(){
+//        讀檔進來
+        let filePath=Bundle.main.path(forResource:"答錯的題目", ofType:
+            "json")
+        
+        
         
     }
     
@@ -157,7 +162,7 @@ class gameStartVC2: UIViewController {
             return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
         
         }else{
-            return 1
+            parseTxtFile()
         }
 
         return 1
@@ -256,32 +261,8 @@ class gameStartVC2: UIViewController {
     }
     
 
-    func loadTotxt(){
-        
-        let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
-        let fileurl =  dir.appendingPathComponent("答錯的題目.json")
-        
-        let string = "\(NSDate())\n"
-        let data = string.data(using: .utf8, allowLossyConversion: false)!
-        
-        if FileManager.default.fileExists(atPath: fileurl.path) {
-            if let fileHandle = try? FileHandle(forUpdating: fileurl) {
-                fileHandle.seekToEndOfFile()
-                fileHandle.write(data)
-                fileHandle.closeFile()
-                
-            }
-        } else {
-            try! data.write(to: fileurl, options: Data.WritingOptions.atomic)
-        }
-        
-        
-
-        
-        
-    }
     
-   
+//   寫檔
     func copyit() {
         let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
         let fileurl =  dir.appendingPathComponent("答錯的題目.json")
