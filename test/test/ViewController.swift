@@ -93,7 +93,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
         
-       
+        
         
         
         if segment.selectedSegmentIndex==0{

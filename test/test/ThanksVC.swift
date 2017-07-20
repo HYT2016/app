@@ -23,5 +23,14 @@ self.view.backgroundColor = UIColor(patternImage: UIImage(named: "背景 04")!)
         
     }
     
-
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }

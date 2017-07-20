@@ -38,7 +38,7 @@ class gameStartVC2: UIViewController {
         
     }
     
-    
+    var isWrongQuestion:Bool?
     var q_category:String?
     var userAnswer:[Bool]=[false,false,false,false]
     
@@ -72,7 +72,7 @@ class gameStartVC2: UIViewController {
         
             print(b)
         
-            
+         copyit()
             
             
             
@@ -121,7 +121,9 @@ class gameStartVC2: UIViewController {
     var preIndex:Int=0
     
    
-
+    func parseTxtFile(){
+        
+    }
     
     func loadJsonToArys(){
         print("loadJsonToArys \(String(describing: self.q_category))")
@@ -130,8 +132,6 @@ class gameStartVC2: UIViewController {
             "json")
         var data1:Data
         var json_parsed:JSON
-        
-        
         
         do{
             try data1 = Data(contentsOf: URL(fileURLWithPath:
@@ -147,13 +147,20 @@ class gameStartVC2: UIViewController {
         
         print("q num is \(questions.count)")
         
-        b=Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
-                self.loadQuestionToUser(qID: b)
+        b=self.getQuestionIndex()
+        self.loadQuestionToUser(qID: b)
+    }
+    
+    func getQuestionIndex()->Int{
         
+        if self.isWrongQuestion==false{
+            return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
         
-        
-        
-        
+        }else{
+            return 1
+        }
+
+        return 1
     }
     
 //    不是很懂
@@ -251,15 +258,86 @@ class gameStartVC2: UIViewController {
 
     func loadTotxt(){
         
+        let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
+        let fileurl =  dir.appendingPathComponent("答錯的題目.json")
+        
+        let string = "\(NSDate())\n"
+        let data = string.data(using: .utf8, allowLossyConversion: false)!
+        
+        if FileManager.default.fileExists(atPath: fileurl.path) {
+            if let fileHandle = try? FileHandle(forUpdating: fileurl) {
+                fileHandle.seekToEndOfFile()
+                fileHandle.write(data)
+                fileHandle.closeFile()
+                
+            }
+        } else {
+            try! data.write(to: fileurl, options: Data.WritingOptions.atomic)
+        }
+        
+        
 
-        
-        
         
         
     }
     
-    
+   
+    func copyit() {
+        let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
+        let fileurl =  dir.appendingPathComponent("答錯的題目.json")
+//        let fileurl =  dir.appendingPathComponent("ans.txt")
+        print(fileurl)
         
+//        let string = "\(b)\n"
+        let string = "\(testTextView2.text!)\n"
+        let data = string.data(using: .utf8, allowLossyConversion: false)!
+        
+        if FileManager.default.fileExists(atPath: fileurl.path) {
+            if let fileHandle = try? FileHandle(forUpdating: fileurl) {
+                fileHandle.seekToEndOfFile()
+                fileHandle.write(data)
+                fileHandle.closeFile()
+                
+            }
+        } else {
+            try! data.write(to: fileurl, options: Data.WritingOptions.atomic)
+        }
+        
+    }
+    
+//    func loadJ(){
+//        
+//        let filePath=Bundle.main.path(forResource: "答錯的題目", ofType:
+//            "json")
+//
+//        
+//        let file = "答錯的題目.json"
+//        
+//        let text = "some text"
+//        
+//        if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
+//            
+//            let path = dir.appendingPathComponent(file)
+//            
+//            //writing
+//            do {
+//                try text.write(to: path, atomically: false, encoding: String.Encoding.utf8)
+//            }
+//            catch {/* error handling here */}
+//            
+//            //reading
+//            do {
+//                let text2 = try String(contentsOf: path, encoding: String.Encoding.utf8)
+//            }
+//            catch {/* error handling here */}
+//        
+//        }
+////        testTextView2.text
+//        
+//        
+//    }
+    
+    
     
 
     
