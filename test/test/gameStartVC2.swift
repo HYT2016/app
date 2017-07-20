@@ -288,8 +288,8 @@ class gameStartVC2: UIViewController {
 //        let fileurl =  dir.appendingPathComponent("ans.txt")
         print(fileurl)
         
-//        let string = "\(b)\n"
-        let string = "\(testTextView2.text!)\n"
+        let string = "\(q_category!):\(b)\n"
+//        let string = "\(testTextView2.text!)\n"
         let data = string.data(using: .utf8, allowLossyConversion: false)!
         
         if FileManager.default.fileExists(atPath: fileurl.path) {
@@ -305,38 +305,8 @@ class gameStartVC2: UIViewController {
         
     }
     
-//    func loadJ(){
-//        
-//        let filePath=Bundle.main.path(forResource: "答錯的題目", ofType:
-//            "json")
-//
-//        
-//        let file = "答錯的題目.json"
-//        
-//        let text = "some text"
-//        
-//        if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
-//            
-//            let path = dir.appendingPathComponent(file)
-//            
-//            //writing
-//            do {
-//                try text.write(to: path, atomically: false, encoding: String.Encoding.utf8)
-//            }
-//            catch {/* error handling here */}
-//            
-//            //reading
-//            do {
-//                let text2 = try String(contentsOf: path, encoding: String.Encoding.utf8)
-//            }
-//            catch {/* error handling here */}
-//        
-//        }
-////        testTextView2.text
-//        
-//        
-//    }
-    
+
+
     
     
 
