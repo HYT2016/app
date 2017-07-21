@@ -123,10 +123,28 @@ class gameStartVC2: UIViewController {
    
     func parseTxtFile(){
 //        讀檔進來
-        let filePath=Bundle.main.path(forResource:"答錯的題目", ofType:
-            "json")
-        
-        
+        if let filepath = Bundle.main.path(forResource: "ans", ofType: "txt")
+        {
+            do
+            {
+                let contents = try String(contentsOfFile: filepath)
+//                print(contents[0])
+                let lines = contents.components(separatedBy: "\n")
+                for line in lines {
+                    let words = line.components(separatedBy: " ")
+                    print("\(words[0]) is \(words[1]) and likes \(words[4])")
+                }
+                
+            }
+            catch
+            {
+                // contents could not be loaded
+            }
+        }
+        else
+        {
+            // example.txt not found!
+        }
         
     }
     
@@ -265,8 +283,8 @@ class gameStartVC2: UIViewController {
 //   寫檔
     func copyit() {
         let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
-        let fileurl =  dir.appendingPathComponent("答錯的題目.json")
-//        let fileurl =  dir.appendingPathComponent("ans.txt")
+//        let fileurl =  dir.appendingPathComponent("答錯的題目.json")
+        let fileurl =  dir.appendingPathComponent("ans.txt")
         print(fileurl)
         
         let string = "\(q_category!):\(b)\n"

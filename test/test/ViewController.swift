@@ -15,8 +15,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     @IBOutlet weak var tableView: UITableView!
    
-    let doctor:[String]=["解剖_骨盆會陰","解剖_神解","解剖_四肢","解剖_頭頸","解剖_胸背腹","微免_免疫","微免_微生物"]
-    let dentist:[String]=["106-1牙醫學(ㄧ)","106-1牙醫學(二)","106-1牙醫學(三)","106-1牙醫學(四)","106-1牙醫學(五)","106-1牙醫學(六)","答錯的題目"]
+    let doctor:[String]=["醫學國考-答錯題目","解剖_骨盆會陰","解剖_神解","解剖_四肢","解剖_頭頸","解剖_胸背腹","微免_免疫","微免_微生物"]
+    let dentist:[String]=["牙醫國考-答錯題目","106-1牙醫學(ㄧ)","106-1牙醫學(二)","106-1牙醫學(三)","106-1牙醫學(四)","106-1牙醫學(五)","106-1牙醫學(六)"]
  
   
     
@@ -95,12 +95,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         
         
-        
+//       指到第零個cell讀檔加寫檔
         if segment.selectedSegmentIndex==0{
             vc.q_category=doctor[indexPath.row]
         }else{
             vc.q_category=dentist[indexPath.row]
         }
+        
+            
         
         
         self.navigationController?.pushViewController(vc, animated: true)
@@ -124,6 +126,25 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         
     }
+    
+    
+//    public func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
+//        
+//        print("indexPath.row = DeselectRow第\(indexPath.row)行")
+//        
+//    }
+//    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 
     
 }
