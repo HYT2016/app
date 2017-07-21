@@ -49,6 +49,7 @@
 		DBFA5C121F1BD17600B98B00 /* 104-2牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C111F1BD17600B98B00 /* 104-2牙醫學(三).json */; };
 		DBFA5C141F1BD1A000B98B00 /* 104-2牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C131F1BD1A000B98B00 /* 104-2牙醫學(二).json */; };
 		DBFA5C161F1BD1B200B98B00 /* 104-2牙醫學(一).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C151F1BD1B200B98B00 /* 104-2牙醫學(一).json */; };
+		E91A76FA1F223DB7007F5178 /* ans.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91A76F91F223DB7007F5178 /* ans.plist */; };
 		E92699B11F03E66100F671A9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DB6996001F0389520093F955 /* data.json */; };
 		E94573781F1C687A00845C9C /* 103-2牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573771F1C687A00845C9C /* 103-2牙醫學(五).json */; };
 		E945737A1F1C688E00845C9C /* 103-2牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573791F1C688E00845C9C /* 103-2牙醫學(四).json */; };
@@ -228,6 +229,7 @@
 		DBFA5C111F1BD17600B98B00 /* 104-2牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(三).json"; sourceTree = "<group>"; };
 		DBFA5C131F1BD1A000B98B00 /* 104-2牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(二).json"; sourceTree = "<group>"; };
 		DBFA5C151F1BD1B200B98B00 /* 104-2牙醫學(一).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(一).json"; sourceTree = "<group>"; };
+		E91A76F91F223DB7007F5178 /* ans.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ans.plist; path = ../ans.plist; sourceTree = "<group>"; };
 		E94573771F1C687A00845C9C /* 103-2牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(五).json"; sourceTree = "<group>"; };
 		E94573791F1C688E00845C9C /* 103-2牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(四).json"; sourceTree = "<group>"; };
 		E945737B1F1C689900845C9C /* 103-2牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(三).json"; sourceTree = "<group>"; };
@@ -410,6 +412,7 @@
 				E9F4BEE61F174A7B00C02AA6 /* ThanksVC.swift */,
 				DB6996001F0389520093F955 /* data.json */,
 				E9745DBC1F062CD500902CAC /* aaa.json */,
+				E91A76F91F223DB7007F5178 /* ans.plist */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -795,6 +798,7 @@
 				E94573A51F1C69C100845C9C /* 101-1牙醫學(四).json in Resources */,
 				E94573B71F1C6A2200845C9C /* 101-2牙醫學(一).json in Resources */,
 				E94573F71F1C6E7600845C9C /* 98-1牙醫學(六).json in Resources */,
+				E91A76FA1F223DB7007F5178 /* ans.plist in Resources */,
 				E99CFE0E1F18EB7500E30F93 /* Simulator Screen Shot 2017年7月14日 下午8.06.19.png in Resources */,
 				E945737E1F1C68A500845C9C /* 103-2牙醫學(二).json in Resources */,
 				E94573961F1C694800845C9C /* 102-2牙醫學(五).json in Resources */,

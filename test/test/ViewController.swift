@@ -49,6 +49,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
         {
         case 0:
+//            cell的文字
             cell.textLabel?.text = doctor[indexPath.row]
             
             break
@@ -96,6 +97,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         
 //       指到第零個cell讀檔加寫檔
+        
         if segment.selectedSegmentIndex==0{
             vc.q_category=doctor[indexPath.row]
         }else{
