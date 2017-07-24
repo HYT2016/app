@@ -38,7 +38,7 @@ class gameStartVC2: UIViewController {
         
     }
     
-    var isWrongQuestion:Bool?
+    var isWrongQuestion:Bool?=false
     var q_category:String?
     var userAnswer:[Bool]=[false,false,false,false]
     
@@ -165,8 +165,7 @@ class gameStartVC2: UIViewController {
 
             
             
-            var qFileName:String = "微免_微生物"
-            
+            var qFileName:String = String(describing: wrongQFileName)
             
             
             
@@ -321,7 +320,7 @@ class gameStartVC2: UIViewController {
         }
         
     }
-    func parseTxtFile(){
+    func parseTxtFile()->[String]{
         
         var tmpStr=""
         
@@ -347,15 +346,15 @@ class gameStartVC2: UIViewController {
         for str in strArys{
             
             let eachStr = str.components(separatedBy: ":")
-            
+//           不太懂
             self.wrongQFileName.append(eachStr[0])
             self.wrongQIndex.append(eachStr[1])
             
-            
+        
             
         }
         
-        
+         return wrongQIndex
         
     }
     

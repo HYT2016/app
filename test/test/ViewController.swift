@@ -106,6 +106,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         if indexPath.row==0{
             vc.isWrongQuestion=true
+        }else{
+            vc.isWrongQuestion=false
         }
         
         
