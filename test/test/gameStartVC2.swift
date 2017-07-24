@@ -42,6 +42,9 @@ class gameStartVC2: UIViewController {
     var q_category:String?
     var userAnswer:[Bool]=[false,false,false,false]
     
+    var wrongQFileName:[String]=[]
+    var wrongQIndex:[String]=[]
+    
     
     @IBOutlet weak var testTextView2: UITextView!
  
@@ -121,32 +124,7 @@ class gameStartVC2: UIViewController {
     var preIndex:Int=0
     
    
-//    func parseTxtFile(){
-////        讀檔進來
-//        if let filepath = Bundle.main.path(forResource: "ans", ofType: "txt")
-//        {
-//            do
-//            {
-//                let contents = try String(contentsOfFile: filepath)
-////                print(contents[0])
-//                let lines = contents.components(separatedBy: "\n")
-//                for line in lines {
-//                    let words = line.components(separatedBy: " ")
-//                    print("\(words[0]) is \(words[1]) and likes \(words[4])")
-//                }
-//                
-//            }
-//            catch
-//            {
-//                // contents could not be loaded
-//            }
-//        }
-//        else
-//        {
-//            // example.txt not found!
-//        }
-//        
-//    }
+
     
     func loadJsonToArys(){
         print("loadJsonToArys \(String(describing: self.q_category))")
@@ -180,19 +158,38 @@ class gameStartVC2: UIViewController {
             return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
         
         }else{
+            // 讀檔 取得 題目 號碼 與 內容
+            
+            
+            
+            let qFileName = "解剖_骨盆會陰"
+            
+            let filePath=Bundle.main.path(forResource: qFileName, ofType:
+                "json")
+            var data1:Data
+            var json_parsed:JSON
+            
+            do{
+                try data1 = Data(contentsOf: URL(fileURLWithPath:
+                    filePath!, isDirectory: false))
+                json_parsed=JSON(data: data1)
+                questions = json_parsed.arrayValue
+                
+                //            print(questions)
+                
+            }catch{
+                print(error.localizedDescription)
+            }
+
+            
+            
 //            parseTxtFile()
         }
 
         return 1
     }
     
-//    不是很懂
-    func changeUserAnswerArray(btnIndex:Int){
-        self.userAnswer[btnIndex] = (self.userAnswer[btnIndex]==true) ? false : true
-        
-        
-    }
-    
+
     func checkIfCorrect(qID:Int)->Bool{
         var isCorrect=false
         
@@ -259,7 +256,16 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont.boldSystemFont(ofSize: 20)
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
-        self.loadJsonToArys()
+        
+        if self.q_category == "醫學國考-答錯題目"{
+            
+        }else if self.q_category == "牙醫國考-答錯題目"{
+            
+            
+        }else{
+            self.loadJsonToArys()
+        }
+        
 
         
         
@@ -283,13 +289,15 @@ class gameStartVC2: UIViewController {
 //   寫檔
     func copyit() {
         let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
-//        let fileurl =  dir.appendingPathComponent("答錯的題目.json")
-        let fileurl =  dir.appendingPathComponent("ans.plist")
+        let fileurl =  dir.appendingPathComponent("ans.txt")
         print(fileurl)
         
         let string = "\(q_category!):\(b)\n"
 //        let string = "\(testTextView2.text!)\n"
         let data = string.data(using: .utf8, allowLossyConversion: false)!
+        
+        
+        
         
         if FileManager.default.fileExists(atPath: fileurl.path) {
             if let fileHandle = try? FileHandle(forUpdating: fileurl) {
@@ -303,8 +311,45 @@ class gameStartVC2: UIViewController {
         }
         
     }
+    func parseTxtFile(){
+        
+        var tmpStr=""
+        
+        let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
+        let file:URL
+        if self.q_category == "醫學國考-答錯題目"{
+            file =  dir.appendingPathComponent("doctorAns.txt")
+            do {
+                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
+                tmpStr = text2
+            }
+            catch {/* error handling here */}
+        }else if self.q_category == "牙醫國考-答錯題目"{
+            file =  dir.appendingPathComponent("dentistAns.txt")
+            do {
+                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
+                tmpStr = text2
+            }
+            catch {/* error handling here */}
+        }
+        
+        let strArys=tmpStr.components(separatedBy: "\n")
+        for str in strArys{
+            
+            let eachStr = str.components(separatedBy: ":")
+            
+            self.wrongQFileName.append(eachStr[0])
+            self.wrongQIndex.append(eachStr[1])
+            
+        }
+        
+        
+        
+        
+        
+    }
     
-
+   
 
     
     

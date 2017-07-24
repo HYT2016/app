@@ -39,6 +39,7 @@
 		DBAC625B1F1A89400046A82A /* 105-1牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC625A1F1A89400046A82A /* 105-1牙醫學(三).json */; };
 		DBAC625D1F1A89520046A82A /* 105-1牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC625C1F1A89520046A82A /* 105-1牙醫學(二).json */; };
 		DBAC625F1F1A89720046A82A /* 105-1牙醫學(ㄧ).json in Resources */ = {isa = PBXBuildFile; fileRef = DBAC625E1F1A89720046A82A /* 105-1牙醫學(ㄧ).json */; };
+		DBF2F7071F25C7DB001E5B73 /* dentistAns.txt in Resources */ = {isa = PBXBuildFile; fileRef = DBF2F7061F25C7DB001E5B73 /* dentistAns.txt */; };
 		DBFA5C041F1BC87A00B98B00 /* 104-1牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C031F1BC87A00B98B00 /* 104-1牙醫學(五).json */; };
 		DBFA5C061F1BCA7E00B98B00 /* 104-1牙醫學(四).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C051F1BCA7E00B98B00 /* 104-1牙醫學(四).json */; };
 		DBFA5C081F1BCABE00B98B00 /* 104-1牙醫學(三).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C071F1BCABE00B98B00 /* 104-1牙醫學(三).json */; };
@@ -172,7 +173,7 @@
 		E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */ = {isa = PBXBuildFile; fileRef = E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */; };
 		E9B3619D1F174D8C006F599F /* backBtn.png in Resources */ = {isa = PBXBuildFile; fileRef = E9B3619C1F174D8C006F599F /* backBtn.png */; };
 		E9D28B711F13BFF600139B54 /* 106-1牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = E9D28B701F13BFF600139B54 /* 106-1牙醫學(六).json */; };
-		E9F28A441F20E289004A65A2 /* ans.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F28A431F20E289004A65A2 /* ans.txt */; };
+		E9F28A441F20E289004A65A2 /* doctorAns.txt in Resources */ = {isa = PBXBuildFile; fileRef = E9F28A431F20E289004A65A2 /* doctorAns.txt */; };
 		E9F4BEDD1F17403300C02AA6 /* details 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F4BEDC1F17403300C02AA6 /* details 1.png */; };
 		E9F4BEDF1F17416500C02AA6 /* 背景 01.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F4BEDE1F17416500C02AA6 /* 背景 01.png */; };
 		E9F4BEE11F17462800C02AA6 /* 背景 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E9F4BEE01F17462800C02AA6 /* 背景 02.png */; };
@@ -219,6 +220,7 @@
 		DBAC625A1F1A89400046A82A /* 105-1牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(三).json"; sourceTree = "<group>"; };
 		DBAC625C1F1A89520046A82A /* 105-1牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(二).json"; sourceTree = "<group>"; };
 		DBAC625E1F1A89720046A82A /* 105-1牙醫學(ㄧ).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(ㄧ).json"; sourceTree = "<group>"; };
+		DBF2F7061F25C7DB001E5B73 /* dentistAns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dentistAns.txt; sourceTree = "<group>"; };
 		DBF838511F225AEB0009A109 /* twnationalexam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twnationalexam-Bridging-Header.h"; sourceTree = "<group>"; };
 		DBFA5C031F1BC87A00B98B00 /* 104-1牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(五).json"; sourceTree = "<group>"; };
 		DBFA5C051F1BCA7E00B98B00 /* 104-1牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(四).json"; sourceTree = "<group>"; };
@@ -352,7 +354,7 @@
 		E9ADD1561F0D0EDC0064F890 /* 解剖_頭頸.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "解剖_頭頸.json"; sourceTree = "<group>"; };
 		E9B3619C1F174D8C006F599F /* backBtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backBtn.png; sourceTree = "<group>"; };
 		E9D28B701F13BFF600139B54 /* 106-1牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "106-1牙醫學(六).json"; sourceTree = "<group>"; };
-		E9F28A431F20E289004A65A2 /* ans.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = ans.txt; path = ../../ans.txt; sourceTree = "<group>"; };
+		E9F28A431F20E289004A65A2 /* doctorAns.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = doctorAns.txt; path = ../../doctorAns.txt; sourceTree = "<group>"; };
 		E9F4BEDC1F17403300C02AA6 /* details 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "details 1.png"; sourceTree = "<group>"; };
 		E9F4BEDE1F17416500C02AA6 /* 背景 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 01.png"; sourceTree = "<group>"; };
 		E9F4BEE01F17462800C02AA6 /* 背景 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 02.png"; sourceTree = "<group>"; };
@@ -659,7 +661,8 @@
 				E94573B81F1C6B1600845C9C /* 醫學 */,
 				DB23B0321F1A193800518A43 /* 缺題題號 */,
 				E99A24C41F1E427B00E908B7 /* 答錯的題目.json */,
-				E9F28A431F20E289004A65A2 /* ans.txt */,
+				E9F28A431F20E289004A65A2 /* doctorAns.txt */,
+				DBF2F7061F25C7DB001E5B73 /* dentistAns.txt */,
 			);
 			path = questions;
 			sourceTree = "<group>";
@@ -858,6 +861,7 @@
 				E94573BD1F1C6B8700845C9C /* 100-1牙醫學(二).json in Resources */,
 				DBAC62411F1A27930046A82A /* 102-1牙醫學(六).json in Resources */,
 				DBAC624D1F1A863C0046A82A /* 105-2牙醫學(五).json in Resources */,
+				DBF2F7071F25C7DB001E5B73 /* dentistAns.txt in Resources */,
 				E94573B31F1C6A1100845C9C /* 101-2牙醫學(三).json in Resources */,
 				E945741C1F1C6F4E00845C9C /* 97-2牙醫學(六).json in Resources */,
 				E94573D11F1C6BFA00845C9C /* 100-2牙醫學(六).json in Resources */,
@@ -885,7 +889,7 @@
 				E97B598B1F16457800E743AA /* icon@3x.png in Resources */,
 				DBAC62451F1A72850046A82A /* 106-1牙醫學(四).json in Resources */,
 				E94573D81F1C6C9F00845C9C /* 99-1牙醫學(三).json in Resources */,
-				E9F28A441F20E289004A65A2 /* ans.txt in Resources */,
+				E9F28A441F20E289004A65A2 /* doctorAns.txt in Resources */,
 				E99CFE181F18ECD300E30F93 /* 4.png in Resources */,
 				DBAC62571F1A890B0046A82A /* 105-1牙醫學(五).json in Resources */,
 				E945740C1F1C6EF400845C9C /* 97-1牙醫學(四).json in Resources */,

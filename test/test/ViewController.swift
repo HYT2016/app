@@ -104,7 +104,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             vc.q_category=dentist[indexPath.row]
         }
         
-            
+        if indexPath.row==0{
+            vc.isWrongQuestion=true
+        }
         
         
         self.navigationController?.pushViewController(vc, animated: true)
