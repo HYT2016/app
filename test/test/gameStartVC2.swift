@@ -123,7 +123,7 @@ class gameStartVC2: UIViewController {
     
     var preIndex:Int=0
     
-   
+    var ansStr = ""
 
     
     func loadJsonToArys(){
@@ -148,6 +148,8 @@ class gameStartVC2: UIViewController {
         
         print("q num is \(questions.count)")
         
+
+        
         b=self.getQuestionIndex()
         self.loadQuestionToUser(qID: b)
     }
@@ -159,10 +161,15 @@ class gameStartVC2: UIViewController {
         
         }else{
             // 讀檔 取得 題目 號碼 與 內容
+//            parseTxtFile()
+
+            
+            
+            var qFileName:String = "微免_微生物"
             
             
             
-            let qFileName = "解剖_骨盆會陰"
+            
             
             let filePath=Bundle.main.path(forResource: qFileName, ofType:
                 "json")
@@ -180,13 +187,9 @@ class gameStartVC2: UIViewController {
             }catch{
                 print(error.localizedDescription)
             }
-
             
-            
-//            parseTxtFile()
+            return 1
         }
-
-        return 1
     }
     
 
@@ -257,15 +260,15 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         
-        if self.q_category == "醫學國考-答錯題目"{
-            
-        }else if self.q_category == "牙醫國考-答錯題目"{
-            
-            
-        }else{
-            self.loadJsonToArys()
-        }
-        
+//        if self.q_category == "醫學國考-答錯題目"{
+//            
+//        }else if self.q_category == "牙醫國考-答錯題目"{
+//            
+//            
+//        }else{
+//            self.loadJsonToArys()
+//        }
+        self.loadJsonToArys()
 
         
         
@@ -289,7 +292,14 @@ class gameStartVC2: UIViewController {
 //   寫檔
     func copyit() {
         let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
-        let fileurl =  dir.appendingPathComponent("ans.txt")
+        
+        if self.q_category == "醫學國考-答錯題目"{
+            ansStr = "doctorAns.txt"
+        }else{
+            ansStr = "dentistAns.txt"
+        }
+
+        let fileurl =  dir.appendingPathComponent(ansStr)
         print(fileurl)
         
         let string = "\(q_category!):\(b)\n"
@@ -318,14 +328,14 @@ class gameStartVC2: UIViewController {
         let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
         let file:URL
         if self.q_category == "醫學國考-答錯題目"{
-            file =  dir.appendingPathComponent("doctorAns.txt")
+            file = dir.appendingPathComponent("doctorAns.txt")
             do {
                 let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
                 tmpStr = text2
             }
             catch {/* error handling here */}
         }else if self.q_category == "牙醫國考-答錯題目"{
-            file =  dir.appendingPathComponent("dentistAns.txt")
+            file = dir.appendingPathComponent("dentistAns.txt")
             do {
                 let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
                 tmpStr = text2
@@ -341,9 +351,9 @@ class gameStartVC2: UIViewController {
             self.wrongQFileName.append(eachStr[0])
             self.wrongQIndex.append(eachStr[1])
             
+            
+            
         }
-        
-        
         
         
         
