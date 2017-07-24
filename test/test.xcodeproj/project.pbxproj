@@ -219,6 +219,7 @@
 		DBAC625A1F1A89400046A82A /* 105-1牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(三).json"; sourceTree = "<group>"; };
 		DBAC625C1F1A89520046A82A /* 105-1牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(二).json"; sourceTree = "<group>"; };
 		DBAC625E1F1A89720046A82A /* 105-1牙醫學(ㄧ).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "105-1牙醫學(ㄧ).json"; sourceTree = "<group>"; };
+		DBF838511F225AEB0009A109 /* twnationalexam-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "twnationalexam-Bridging-Header.h"; sourceTree = "<group>"; };
 		DBFA5C031F1BC87A00B98B00 /* 104-1牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(五).json"; sourceTree = "<group>"; };
 		DBFA5C051F1BCA7E00B98B00 /* 104-1牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(四).json"; sourceTree = "<group>"; };
 		DBFA5C071F1BCABE00B98B00 /* 104-1牙醫學(三).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-1牙醫學(三).json"; sourceTree = "<group>"; };
@@ -413,6 +414,7 @@
 				DB6996001F0389520093F955 /* data.json */,
 				E9745DBC1F062CD500902CAC /* aaa.json */,
 				E91A76F91F223DB7007F5178 /* ans.plist */,
+				DBF838511F225AEB0009A109 /* twnationalexam-Bridging-Header.h */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -735,6 +737,7 @@
 					DB6995E21F02ED7A0093F955 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = RYFYSD45N2;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -1113,12 +1116,15 @@
 			baseConfigurationReference = 732971D2FDDA4F15D4C3BB7F /* Pods-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = RYFYSD45N2;
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxosoft.twnationalexam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/twnationalexam-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1128,12 +1134,14 @@
 			baseConfigurationReference = 0EFF6EBBE135B4BB7DAB1364 /* Pods-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = RYFYSD45N2;
 				INFOPLIST_FILE = test/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxosoft.twnationalexam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/twnationalexam-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
