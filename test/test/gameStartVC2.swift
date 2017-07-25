@@ -44,7 +44,7 @@ class gameStartVC2: UIViewController {
     
     var wrongQFileName:[String]=[]
     var wrongQIndex:[String]=[]
-    let doctor:[String]=["解剖_骨盆會陰","解剖_神解","解剖_四肢","解剖_頭頸","解剖_胸背腹","微免_免疫","微免_微生物"]
+    var doctor:[String]=[]
     
     
     @IBOutlet weak var testTextView2: UITextView!

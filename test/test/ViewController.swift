@@ -101,6 +101,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
             if segment.selectedSegmentIndex==0{
                 vc.q_category=doctor[indexPath.row]
+                vc.doctor=self.doctor
             }else{
                 vc.q_category=dentist[indexPath.row]
             }
