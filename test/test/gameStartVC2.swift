@@ -45,7 +45,7 @@ class gameStartVC2: UIViewController {
     var wrongQFileName:[String]=[]
     var wrongQIndex:[String]=[]
     var doctor:[String]=[]
-    
+    var dentist:[String]=[]
     
     @IBOutlet weak var testTextView2: UITextView!
  
@@ -381,6 +381,8 @@ class gameStartVC2: UIViewController {
         }else if self.q_category == doctor[5]{
             ansStr = "doctorAns.txt"
         }else if self.q_category == doctor[6]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[7]{
             ansStr = "doctorAns.txt"
         }else{
             self.ansStr = "dentistAns.txt"

@@ -19,6 +19,12 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         
+//        cell.textLabel?.text=
+        
+        
+        
+        
+        
         return cell
     }
     
