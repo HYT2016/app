@@ -92,26 +92,49 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
         
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
-        
-        
+        if indexPath.row==0{
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "WrongVC") as! WrongVC
+            
+             self.navigationController?.pushViewController(vc, animated: true)
+        }else{
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
+            
+            if segment.selectedSegmentIndex==0{
+                vc.q_category=doctor[indexPath.row]
+            }else{
+                vc.q_category=dentist[indexPath.row]
+            }
+            
+            if indexPath.row==0{
+                vc.isWrongQuestion=true
+            }else{
+                vc.isWrongQuestion=false
+            }
+            
+            
+            self.navigationController?.pushViewController(vc, animated: true)
+            
+            
+            
+        }
+
         
 //       指到第零個cell讀檔加寫檔
         
-        if segment.selectedSegmentIndex==0{
-            vc.q_category=doctor[indexPath.row]
-        }else{
-            vc.q_category=dentist[indexPath.row]
-        }
-        
-        if indexPath.row==0{
-            vc.isWrongQuestion=true
-        }else{
-            vc.isWrongQuestion=false
-        }
-        
-        
-        self.navigationController?.pushViewController(vc, animated: true)
+//        if segment.selectedSegmentIndex==0{
+//            vc.q_category=doctor[indexPath.row]
+//        }else{
+//            vc.q_category=dentist[indexPath.row]
+//        }
+//        
+//        if indexPath.row==0{
+//            vc.isWrongQuestion=true
+//        }else{
+//            vc.isWrongQuestion=false
+//        }
+//        
+//        
+//        self.navigationController?.pushViewController(vc, animated: true)
         
 
         

@@ -44,6 +44,7 @@ class gameStartVC2: UIViewController {
     
     var wrongQFileName:[String]=[]
     var wrongQIndex:[String]=[]
+    let doctor:[String]=["解剖_骨盆會陰","解剖_神解","解剖_四肢","解剖_頭頸","解剖_胸背腹","微免_免疫","微免_微生物"]
     
     
     @IBOutlet weak var testTextView2: UITextView!
@@ -154,12 +155,48 @@ class gameStartVC2: UIViewController {
         self.loadQuestionToUser(qID: b)
     }
     
+    
+    func loadWrongJsonToArys(){
+        print("loadWrongJsonToArys \(String(describing: self.q_category))")
+        //read file
+        let filePath=Bundle.main.path(forResource: self.q_category, ofType:
+            "json")
+        var data1:Data
+        var json_parsed:JSON
+        
+        do{
+            try data1 = Data(contentsOf: URL(fileURLWithPath:
+                filePath!, isDirectory: false))
+            json_parsed=JSON(data: data1)
+            questions = json_parsed.arrayValue
+            
+            //            print(questions)
+            
+        }catch{
+            print(error.localizedDescription)
+        }
+        
+        print("q num is \(questions.count)")
+        
+        
+        
+        b=self.getQuestionIndex()
+        self.loadQuestionToUser(qID: b)
+    }
+
+    
+    
     func getQuestionIndex()->Int{
         
-        if self.isWrongQuestion==false{
-            return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
+       if self.isWrongQuestion==false{
         
-        }else{
+        print(b)
+        }
+         return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
+    }
+    
+    
+    func  getQin(){
             // 讀檔 取得 題目 號碼 與 內容
 //            parseTxtFile()
 
@@ -187,9 +224,48 @@ class gameStartVC2: UIViewController {
                 print(error.localizedDescription)
             }
             
-            return 1
+        
         }
-    }
+    
+    
+    
+//    func getQuestionIndex()->Int{
+//        
+//        if self.isWrongQuestion==false{
+//            return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
+//            
+//        }else{
+//            // 讀檔 取得 題目 號碼 與 內容
+//            //            parseTxtFile()
+//            
+//            
+//            
+//            var qFileName:String = String(describing: wrongQFileName)
+//            
+//            
+//            
+//            
+//            let filePath=Bundle.main.path(forResource: qFileName, ofType:
+//                "json")
+//            var data1:Data
+//            var json_parsed:JSON
+//            
+//            do{
+//                try data1 = Data(contentsOf: URL(fileURLWithPath:
+//                    filePath!, isDirectory: false))
+//                json_parsed=JSON(data: data1)
+//                questions = json_parsed.arrayValue
+//                
+//                //            print(questions)
+//                
+//            }catch{
+//                print(error.localizedDescription)
+//            }
+//            
+//            return 1
+//        }
+//    }
+
     
 
     func checkIfCorrect(qID:Int)->Bool{
@@ -260,7 +336,7 @@ class gameStartVC2: UIViewController {
         
         
 //        if self.q_category == "醫學國考-答錯題目"{
-//            
+//            loadWrongJsonToArys()
 //        }else if self.q_category == "牙醫國考-答錯題目"{
 //            
 //            
@@ -292,10 +368,22 @@ class gameStartVC2: UIViewController {
     func copyit() {
         let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
         
-        if self.q_category == "醫學國考-答錯題目"{
+        if self.q_category == doctor[0]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[1]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[2]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[3]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[4]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[5]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[6]{
             ansStr = "doctorAns.txt"
         }else{
-            ansStr = "dentistAns.txt"
+            self.ansStr = "dentistAns.txt"
         }
 
         let fileurl =  dir.appendingPathComponent(ansStr)
