@@ -136,7 +136,7 @@ class gameStartVC2: UIViewController {
     
     var binWrongNum = 0
     
-    var QuesAnum = 0
+    var QuesAnum = 1
     
     func loadJsonToArys(){
         print("loadJsonToArys \(String(describing: self.q_category))")
@@ -175,11 +175,10 @@ class gameStartVC2: UIViewController {
         print(b)
         return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
        }else{
+        
+//        要改
         btotalnum = parseTxtFile2().count
         bnum = Int(parseTxtFile2()[binWrongNum])!
-//        for i in 1...btotalnum{
-//        binWrongNum+=1
-//        }
         return bnum
         }
     }
@@ -189,7 +188,6 @@ class gameStartVC2: UIViewController {
             // 讀檔 取得 題目 號碼 與 內容
 
             num = parseTxtFile().count
-//            for i in 1...num{
             qFileName = parseTxtFile()[QuesAnum]
         
             let filePath=Bundle.main.path(forResource: self.qFileName, ofType:
@@ -209,7 +207,7 @@ class gameStartVC2: UIViewController {
                 self.loadQuestionToUser(qID: b)
 
             }
-//        }
+
         
         }
     
