@@ -74,8 +74,6 @@ class gameStartVC2: UIViewController {
             displayLabel.text = "再接再厲"
             displayLabel.textColor=UIColor.red
         
-            print(b)
-        
          copyit()
             
             
@@ -126,6 +124,19 @@ class gameStartVC2: UIViewController {
     
     var ansStr = ""
 
+    var wrQName = ""
+    
+    var bnum = 0
+    
+    var num = 0
+    
+    var qFileName:String = ""
+    
+    var btotalnum = 0
+    
+    var binWrongNum = 0
+    
+    var QuesAnum = 0
     
     func loadJsonToArys(){
         print("loadJsonToArys \(String(describing: self.q_category))")
@@ -156,57 +167,31 @@ class gameStartVC2: UIViewController {
     }
     
     
-    func loadWrongJsonToArys(){
-        print("loadWrongJsonToArys \(String(describing: self.q_category))")
-        //read file
-        let filePath=Bundle.main.path(forResource: self.q_category, ofType:
-            "json")
-        var data1:Data
-        var json_parsed:JSON
-        
-        do{
-            try data1 = Data(contentsOf: URL(fileURLWithPath:
-                filePath!, isDirectory: false))
-            json_parsed=JSON(data: data1)
-            questions = json_parsed.arrayValue
-            
-            //            print(questions)
-            
-        }catch{
-            print(error.localizedDescription)
-        }
-        
-        print("q num is \(questions.count)")
-        
-        
-        
-        b=self.getQuestionIndex()
-        self.loadQuestionToUser(qID: b)
-    }
-
     
     
     func getQuestionIndex()->Int{
         
        if self.isWrongQuestion==false{
-        
         print(b)
+        return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
+       }else{
+        btotalnum = wrongQIndex.count
+        bnum = Int(wrongQIndex[binWrongNum])!
+//        for i in 1...btotalnum{
+//        binWrongNum+=1
+//        }
+        return bnum
         }
-         return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
     }
     
     
     func  getQin(){
             // 讀檔 取得 題目 號碼 與 內容
-//            parseTxtFile()
 
-            
-            
-            var qFileName:String = String(describing: wrongQFileName)
-            
-            
-            
-            
+            num = wrongQFileName.count
+//            for i in 1...num{
+            qFileName = wrongQFileName[QuesAnum]
+        
             let filePath=Bundle.main.path(forResource: qFileName, ofType:
                 "json")
             var data1:Data
@@ -218,14 +203,17 @@ class gameStartVC2: UIViewController {
                 json_parsed=JSON(data: data1)
                 questions = json_parsed.arrayValue
                 
-                //            print(questions)
-                
             }catch{
                 print(error.localizedDescription)
+                b=self.getQuestionIndex()
+                self.loadQuestionToUser(qID: b)
+
             }
-            
+//        }
         
         }
+    
+    
     
     
     
@@ -335,14 +323,14 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         
-//        if self.q_category == "醫學國考-答錯題目"{
-//            loadWrongJsonToArys()
-//        }else if self.q_category == "牙醫國考-答錯題目"{
-//            
-//            
-//        }else{
-//            self.loadJsonToArys()
-//        }
+        if self.q_category == "醫學國考-答錯題目"{
+            self.getQin()
+        }else if self.q_category == "牙醫國考-答錯題目"{
+            self.getQin()
+            
+        }else{
+            self.loadJsonToArys()
+        }
         self.loadJsonToArys()
 
         
@@ -395,9 +383,6 @@ class gameStartVC2: UIViewController {
 //        let string = "\(testTextView2.text!)\n"
         let data = string.data(using: .utf8, allowLossyConversion: false)!
         
-        
-        
-        
         if FileManager.default.fileExists(atPath: fileurl.path) {
             if let fileHandle = try? FileHandle(forUpdating: fileurl) {
                 fileHandle.seekToEndOfFile()
@@ -410,7 +395,10 @@ class gameStartVC2: UIViewController {
         }
         
     }
-    func parseTxtFile()->[String]{
+    
+    
+    
+    func parseTxtFile(){
         
         var tmpStr=""
         
@@ -438,13 +426,12 @@ class gameStartVC2: UIViewController {
             let eachStr = str.components(separatedBy: ":")
 //           不太懂
             self.wrongQFileName.append(eachStr[0])
+            print(self.wrongQFileName.append(eachStr[0]))
             self.wrongQIndex.append(eachStr[1])
             
-        
+            
             
         }
-        
-         return wrongQIndex
         
     }
     

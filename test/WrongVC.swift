@@ -27,7 +27,18 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         
         return cell
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print(indexPath.row)
+        
+            let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
+            
+        
+        
+        
+            
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+
     
     
     
