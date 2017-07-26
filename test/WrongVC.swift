@@ -18,9 +18,8 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        
-//        cell.textLabel?.text=
-        
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
+        cell.textLabel?.text=vc.wrongQFileName[indexPath.row]
         
         
         
@@ -31,7 +30,7 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         print(indexPath.row)
         
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
-            
+//            vc.qFileName
         
         
         

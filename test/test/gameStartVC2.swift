@@ -323,14 +323,14 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         
-        if self.q_category == "醫學國考-答錯題目"{
-            self.getQin()
-        }else if self.q_category == "牙醫國考-答錯題目"{
-            self.getQin()
-            
-        }else{
-            self.loadJsonToArys()
-        }
+//        if self.q_category == "醫學國考-答錯題目"{
+//            self.getQin()
+//        }else if self.q_category == "牙醫國考-答錯題目"{
+//            self.getQin()
+//            
+//        }else{
+//            self.loadJsonToArys()
+//        }
         self.loadJsonToArys()
 
         
