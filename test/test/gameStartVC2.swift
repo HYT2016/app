@@ -75,8 +75,8 @@ class gameStartVC2: UIViewController {
             displayLabel.textColor=UIColor.red
         
          copyit()
-            
-            
+        
+        print(parseTxtFile())
             
             
             
@@ -175,8 +175,8 @@ class gameStartVC2: UIViewController {
         print(b)
         return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
        }else{
-        btotalnum = wrongQIndex.count
-        bnum = Int(wrongQIndex[binWrongNum])!
+        btotalnum = parseTxtFile2().count
+        bnum = Int(parseTxtFile2()[binWrongNum])!
 //        for i in 1...btotalnum{
 //        binWrongNum+=1
 //        }
@@ -188,11 +188,11 @@ class gameStartVC2: UIViewController {
     func  getQin(){
             // 讀檔 取得 題目 號碼 與 內容
 
-            num = wrongQFileName.count
+            num = parseTxtFile().count
 //            for i in 1...num{
-            qFileName = wrongQFileName[QuesAnum]
+            qFileName = parseTxtFile()[QuesAnum]
         
-            let filePath=Bundle.main.path(forResource: qFileName, ofType:
+            let filePath=Bundle.main.path(forResource: self.qFileName, ofType:
                 "json")
             var data1:Data
             var json_parsed:JSON
@@ -398,7 +398,7 @@ class gameStartVC2: UIViewController {
     
     
     
-    func parseTxtFile(){
+    func parseTxtFile()->[String]{
         
         var tmpStr=""
         
@@ -426,13 +426,44 @@ class gameStartVC2: UIViewController {
             let eachStr = str.components(separatedBy: ":")
 //           不太懂
             self.wrongQFileName.append(eachStr[0])
-            print(self.wrongQFileName.append(eachStr[0]))
             self.wrongQIndex.append(eachStr[1])
             
-            
-            
+        }
+        return wrongQFileName
+        
+    }
+    func parseTxtFile2()->[String]{
+        
+        var tmpStr=""
+        
+        let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
+        let file:URL
+        if self.q_category == "醫學國考-答錯題目"{
+            file = dir.appendingPathComponent("doctorAns.txt")
+            do {
+                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
+                tmpStr = text2
+            }
+            catch {/* error handling here */}
+        }else if self.q_category == "牙醫國考-答錯題目"{
+            file = dir.appendingPathComponent("dentistAns.txt")
+            do {
+                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
+                tmpStr = text2
+            }
+            catch {/* error handling here */}
         }
         
+        let strArys=tmpStr.components(separatedBy: "\n")
+        for str in strArys{
+            
+            let eachStr = str.components(separatedBy: ":")
+            //           不太懂
+            self.wrongQFileName.append(eachStr[0])
+            self.wrongQIndex.append(eachStr[1])
+            
+        }
+        return wrongQIndex
     }
     
    

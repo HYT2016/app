@@ -19,7 +19,7 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
-        cell.textLabel?.text=vc.wrongQFileName[indexPath.row]
+        cell.textLabel?.text=vc.parseTxtFile()[indexPath.row]
         
         
         
