@@ -53,6 +53,9 @@ class gameStartVC2: UIViewController {
     
     @IBAction func submitBtn(_ sender: UIButton) {
         
+        
+        
+        
         print( "result: \(self.checkIfCorrect(qID: b))")
        
         
@@ -64,9 +67,18 @@ class gameStartVC2: UIViewController {
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
                 self.displayLabel.text = ""
             }
+            
+        if self.q_category == "醫學國考-答錯題目"{
+            QuesAnum+=1
+        }else if self.q_category == "醫學國考-答錯題目"{
+            QuesAnum+=1
+        }else{
+            
             b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
 
             loadQuestionToUser(qID: self.b)
+            }
+            
             
         }else{
             displayLabel.text = "再接再厲"
@@ -165,14 +177,14 @@ class gameStartVC2: UIViewController {
     
     func getQuestionIndex()->Int{
         
-       if self.isWrongQuestion==false{
-        print(b)
+//       if self.isWrongQuestion==false{
+//        print(b)
         return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
-               }else{
-//        要改
-        getQin()
-        return 1
-        }
+//               }else{
+////        要改
+//        getQin()
+//        return 1
+//        }
     }
     func getWrongQuestionIndex()->Int{
         
@@ -318,16 +330,14 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         
-//        if self.q_category == "醫學國考-答錯題目"{
-//            self.getQin()
-//        }else if self.q_category == "牙醫國考-答錯題目"{
-//            self.getQin()
-//            
-//        }else{
-//            self.loadJsonToArys()
-//        }
-        self.loadJsonToArys()
-
+        if self.q_category == "醫學國考-答錯題目"{
+            self.getQin()
+        }else if self.q_category == "牙醫國考-答錯題目"{
+            self.getQin()
+        }else{
+            self.loadJsonToArys()
+        }
+        
         
         
         
