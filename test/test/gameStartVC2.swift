@@ -85,8 +85,8 @@ class gameStartVC2: UIViewController {
             displayLabel.textColor=UIColor.red
         
          copyit()
-        
-       
+         print(parseTxtFile().0)
+         print(parseTxtFile().1)
             
             
             
@@ -411,6 +411,7 @@ class gameStartVC2: UIViewController {
         let file:URL
         if self.q_category == "醫學國考-答錯題目"{
             file = dir.appendingPathComponent("doctorAns.txt")
+            print(file)
             do {
                 let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
                 tmpStr = text2
@@ -425,11 +426,12 @@ class gameStartVC2: UIViewController {
             catch {/* error handling here */}
         }
         
-        let strArys=tmpStr.components(separatedBy: "\n")
+        var strArys=tmpStr.components(separatedBy: "\n")
+        strArys.removeLast()
         for str in strArys{
             
             let eachStr = str.components(separatedBy: ":")
-//           不太懂
+
             self.wrongQFileName.append(eachStr[0])
             self.wrongQIndex.append(eachStr[1])
             

@@ -9,22 +9,20 @@
 import UIKit
 
 class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
+    var q_category:String?
+    var wrongQFileName:[String]=[]
+    var wrongQIndex:[String]=[]
     
     @IBOutlet weak var wrongTableView: UITableView!
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
-        var str = 1
-        str=vc.parseTxtFile().0.count
-        return str
+        return wrongQFileName.count
     }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
-        let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
-        
-        cell.textLabel?.text=vc.parseTxtFile().0[indexPath.row]+vc.parseTxtFile().1[indexPath.row]
-        
+        cell.textLabel?.text="第"+String(indexPath.row+1)+"題："+wrongQFileName[indexPath.row]
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -32,8 +30,11 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
 
-        
-        
+        vc.isWrongQuestion=true
+        vc.wrongQFileName=self.wrongQFileName
+        vc.wrongQIndex=self.wrongQIndex
+//        要加 這邊的陣列
+//        vc.q_category = 
         
             
             self.navigationController?.pushViewController(vc, animated: true)
@@ -59,6 +60,8 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.parseTxtFile()
+        
         wrongTableView.reloadData()
        
     }
@@ -68,6 +71,44 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func parseTxtFile(){
+        
+        var tmpStr=""
+        
+        let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
+        let file:URL
+        if self.q_category == "醫學國考-答錯題目"{
+            file = dir.appendingPathComponent("doctorAns.txt")
+            print(file)
+            do {
+                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
+                tmpStr = text2
+            }
+            catch {/* error handling here */}
+        }else if self.q_category == "牙醫國考-答錯題目"{
+            file = dir.appendingPathComponent("dentistAns.txt")
+            do {
+                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
+                tmpStr = text2
+            }
+            catch {/* error handling here */}
+        }
+        
+        var strArys=tmpStr.components(separatedBy: "\n")
+        strArys.removeLast()
+        for str in strArys{
+            
+            let eachStr = str.components(separatedBy: ":")
+            
+            self.wrongQFileName.append(eachStr[0])
+            self.wrongQIndex.append(eachStr[1])
+            
+        }
+        
+        
+    }
+
 
     
 }

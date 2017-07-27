@@ -75,6 +75,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         super.viewDidLoad()
         // 設定預設按鈕
         segment.selectedSegmentIndex = 0
+       
         
     }
 
@@ -94,6 +95,12 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         if indexPath.row==0{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "WrongVC") as! WrongVC
+            if segment.selectedSegmentIndex==0{
+//                這行指定
+                vc.q_category=doctor[0]
+            }else{
+                vc.q_category=dentist[0]
+            }
             
              self.navigationController?.pushViewController(vc, animated: true)
         }else{
@@ -166,17 +173,23 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
 //    }
 //    
         
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell,
+                   forRowAt indexPath: IndexPath) {
+        
+        if (indexPath.row % 2 == 0)
+        {
+            cell.backgroundColor = UIColor.gray
+        }
+        else
+        {
+            cell.backgroundColor = UIColor.white
+        }
+    }
 
+    
+    
+    
+    
     
 }
 
