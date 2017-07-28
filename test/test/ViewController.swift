@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
-    @IBOutlet weak var segment: UISegmentedControl!
     
+    @IBOutlet weak var customSegmentView: CustomSegmentContol!
+    @IBAction func customSegmentView(_ sender: CustomSegmentContol) {
+    tableView.reloadData()
+    }
     
     @IBOutlet weak var tableView: UITableView!
    
@@ -23,7 +26,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         var str = 1
         
-        switch(segment.selectedSegmentIndex)
+        switch(customSegmentView.selectedSegmentIndex)
         
         {
         case 0:
@@ -45,7 +48,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
         
-        switch(segment.selectedSegmentIndex)
+        switch(customSegmentView.selectedSegmentIndex)
             
         {
         case 0:
@@ -74,10 +77,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     override func viewDidLoad() {
         super.viewDidLoad()
         // 設定預設按鈕
-        segment.selectedSegmentIndex = 0
-        segment.backgroundColor=UIColor(red: 174/255, green: 228/255, blue: 249/255, alpha: 1)
+//        segment.selectedSegmentIndex = 0
+//        segment.backgroundColor=UIColor(red: 174/255, green: 228/255, blue: 249/255, alpha: 1)
+        
 //        segment.tintColor = UIColor(red: 152/255, green: 245/255, blue: 255/255, alpha: 1)
-        tableView.backgroundColor=UIColor(red: 3/255, green: 168/255, blue: 158/255, alpha: 0.1)
+        tableView.backgroundColor=UIColor(red: 3/255, green: 168/255, blue: 158/255, alpha: 0.5)
 
     }
 
@@ -87,17 +91,14 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
 
 
-    @IBAction func segmentChange(_ sender: Any) {
-        
-        tableView.reloadData()
-    }
+    
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
         
         if indexPath.row==0{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "WrongVC") as! WrongVC
-            if segment.selectedSegmentIndex==0{
+            if customSegmentView.selectedSegmentIndex==0{
 //                這行指定
                 vc.q_category=doctor[0]
             }else{
@@ -108,7 +109,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         }else{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
             
-            if segment.selectedSegmentIndex==0{
+            if customSegmentView.selectedSegmentIndex==0{
                 vc.q_category=doctor[indexPath.row]
                 vc.doctor=self.doctor
                 vc.dentist=self.dentist
@@ -190,12 +191,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         }
     }
 
-//    @IBInspectable
-//    var borderWidth: CGFloat = 0{
-//        didSet{
-//            layer.borderWidth=borderWidth
-//        }
-//    }
     
    
     

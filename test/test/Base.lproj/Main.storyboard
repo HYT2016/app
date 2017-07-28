@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--國考加油！-->
+        <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
@@ -23,16 +23,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="nah-hX-utV">
-                                <rect key="frame" x="20" y="72" width="374" height="30"/>
-                                <segments>
-                                    <segment title="醫師國考"/>
-                                    <segment title="牙醫國考"/>
-                                </segments>
-                                <connections>
-                                    <action selector="segmentChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="PKC-1t-58B"/>
-                                </connections>
-                            </segmentedControl>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="96c-rU-GI9">
                                 <rect key="frame" x="0.0" y="109" width="414" height="627"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -51,22 +41,43 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="Rqi-e7-OZh"/>
                                 </connections>
                             </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bx3-Qj-m2g" customClass="CustomSegmentContol" customModule="twnationalexam" customModuleProvider="target">
+                                <rect key="frame" x="20" y="72" width="374" height="29"/>
+                                <color key="backgroundColor" red="1" green="0.34095121169999998" blue="0.32657322449999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="commaSeparatedButtonTitles" value="醫師國考,牙醫國考"/>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="textColor">
+                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="customSegmentView:" destination="BYZ-38-t0r" eventType="valueChanged" id="wfP-cn-dzP"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="96c-rU-GI9" firstAttribute="centerX" secondItem="nah-hX-utV" secondAttribute="centerX" id="1d1-cE-ymm"/>
-                            <constraint firstItem="nah-hX-utV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="1uH-9s-cfj"/>
                             <constraint firstItem="96c-rU-GI9" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="2ao-IX-Pt6"/>
-                            <constraint firstItem="nah-hX-utV" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.04" id="38l-41-LkJ"/>
                             <constraint firstItem="96c-rU-GI9" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="9dj-XT-7s9"/>
-                            <constraint firstItem="96c-rU-GI9" firstAttribute="top" secondItem="nah-hX-utV" secondAttribute="bottom" constant="8" symbolic="YES" id="NbB-06-KXq"/>
-                            <constraint firstItem="nah-hX-utV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="sgl-xG-csp"/>
-                            <constraint firstItem="nah-hX-utV" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="vSg-Dm-oKy"/>
+                            <constraint firstItem="96c-rU-GI9" firstAttribute="centerX" secondItem="Bx3-Qj-m2g" secondAttribute="centerX" id="AEZ-b5-9Kx"/>
+                            <constraint firstItem="Bx3-Qj-m2g" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="L0A-YE-WnE"/>
+                            <constraint firstItem="Bx3-Qj-m2g" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.04" id="OVD-sm-aRh"/>
+                            <constraint firstItem="96c-rU-GI9" firstAttribute="top" secondItem="Bx3-Qj-m2g" secondAttribute="bottom" constant="8" symbolic="YES" id="eMj-KO-Ym2"/>
+                            <constraint firstItem="Bx3-Qj-m2g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="iuh-3p-PJZ"/>
+                            <constraint firstItem="Bx3-Qj-m2g" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="n9C-y4-mwt"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="國考加油！" id="eYC-yT-v3k" colorLabel="IBBuiltInLabel-Red"/>
+                    <navigationItem key="navigationItem" id="eYC-yT-v3k" colorLabel="IBBuiltInLabel-Red">
+                        <nil key="title"/>
+                    </navigationItem>
                     <connections>
-                        <outlet property="segment" destination="nah-hX-utV" id="heD-Di-JHz"/>
+                        <outlet property="customSegmentView" destination="Bx3-Qj-m2g" id="vf3-Ya-clw"/>
                         <outlet property="tableView" destination="96c-rU-GI9" id="fJM-g3-g9I"/>
                     </connections>
                 </viewController>
