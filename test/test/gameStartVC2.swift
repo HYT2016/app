@@ -44,6 +44,7 @@ class gameStartVC2: UIViewController {
     
     var wrongQFileName:[String]=[]
     var wrongQIndex:[String]=[]
+    
     var doctor:[String]=[]
     var dentist:[String]=[]
     
@@ -69,9 +70,20 @@ class gameStartVC2: UIViewController {
             }
             
         if self.q_category == "醫學國考-答錯題目"{
-            QuesAnum+=1
+            
+            for _ in 1...wrongQIndex.count{
+                QuesAnum+=1
+            }
+            b=QuesAnum
+            print(b)
+            loadQuestionToUser(qID: self.b)
+            print(loadQuestionToUser(qID: self.b))
         }else if self.q_category == "醫學國考-答錯題目"{
-            QuesAnum+=1
+            for _ in 1...wrongQIndex.count{
+                QuesAnum+=1
+            }
+            b=QuesAnum
+            loadQuestionToUser(qID: self.b)
         }else{
             
             b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
@@ -85,10 +97,6 @@ class gameStartVC2: UIViewController {
             displayLabel.textColor=UIColor.red
         
          copyit()
-         print(parseTxtFile().0)
-         print(parseTxtFile().1)
-            
-            
             
         }
        
@@ -142,7 +150,7 @@ class gameStartVC2: UIViewController {
     
     var qFileName:String = ""
     
-    var QuesAnum = 1
+    var QuesAnum = 0
     
     func loadJsonToArys(){
         print("loadJsonToArys \(String(describing: self.q_category))")
@@ -188,7 +196,7 @@ class gameStartVC2: UIViewController {
     }
     func getWrongQuestionIndex()->Int{
         
-        return Int(parseTxtFile().1[QuesAnum])!
+        return Int(wrongQIndex[QuesAnum])!
     }
         
     
@@ -196,9 +204,9 @@ class gameStartVC2: UIViewController {
     func  getQin(){
             // 讀檔 取得 題目 號碼 與 內容
         
-            num = parseTxtFile().1.count
-            qFileName = parseTxtFile().0[QuesAnum]
         
+            qFileName = wrongQFileName[QuesAnum]
+            print(qFileName)
             let filePath=Bundle.main.path(forResource: self.qFileName, ofType:
                 "json")
             var data1:Data
@@ -403,42 +411,42 @@ class gameStartVC2: UIViewController {
     
     
     
-    func parseTxtFile()->([String],[String]){
-        
-        var tmpStr=""
-        
-        let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
-        let file:URL
-        if self.q_category == "醫學國考-答錯題目"{
-            file = dir.appendingPathComponent("doctorAns.txt")
-            print(file)
-            do {
-                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
-                tmpStr = text2
-            }
-            catch {/* error handling here */}
-        }else if self.q_category == "牙醫國考-答錯題目"{
-            file = dir.appendingPathComponent("dentistAns.txt")
-            do {
-                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
-                tmpStr = text2
-            }
-            catch {/* error handling here */}
-        }
-        
-        var strArys=tmpStr.components(separatedBy: "\n")
-        strArys.removeLast()
-        for str in strArys{
-            
-            let eachStr = str.components(separatedBy: ":")
-
-            self.wrongQFileName.append(eachStr[0])
-            self.wrongQIndex.append(eachStr[1])
-            
-        }
-        return (wrongQFileName,wrongQIndex)
-        
-    }
+//    func parseTxtFile()->([String],[String]){
+//        
+//        var tmpStr=""
+//        
+//        let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
+//        let file:URL
+//        if self.q_category == "醫學國考-答錯題目"{
+//            file = dir.appendingPathComponent("doctorAns.txt")
+//            print(file)
+//            do {
+//                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
+//                tmpStr = text2
+//            }
+//            catch {/* error handling here */}
+//        }else if self.q_category == "牙醫國考-答錯題目"{
+//            file = dir.appendingPathComponent("dentistAns.txt")
+//            do {
+//                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
+//                tmpStr = text2
+//            }
+//            catch {/* error handling here */}
+//        }
+//        
+//        var strArys=tmpStr.components(separatedBy: "\n")
+//        strArys.removeLast()
+//        for str in strArys{
+//            
+//            let eachStr = str.components(separatedBy: ":")
+//
+//            self.wrongQFileName.append(eachStr[0])
+//            self.wrongQIndex.append(eachStr[1])
+//            
+//        }
+//        return (wrongQFileName,wrongQIndex)
+//        
+//    }
     
    
     

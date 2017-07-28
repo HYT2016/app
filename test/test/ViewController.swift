@@ -75,8 +75,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         super.viewDidLoad()
         // 設定預設按鈕
         segment.selectedSegmentIndex = 0
-       
-        
+        segment.backgroundColor=UIColor(red: 174/255, green: 228/255, blue: 249/255, alpha: 1)
+//        segment.tintColor = UIColor(red: 152/255, green: 245/255, blue: 255/255, alpha: 1)
+        tableView.backgroundColor=UIColor(red: 3/255, green: 168/255, blue: 158/255, alpha: 0.1)
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -178,14 +180,25 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         if (indexPath.row % 2 == 0)
         {
-            cell.backgroundColor = UIColor.gray
+            
+            cell.backgroundColor=UIColor(red: 51/255, green: 161/255, blue: 201/255, alpha: 0.1)
+    
         }
         else
         {
-            cell.backgroundColor = UIColor.white
+            cell.backgroundColor=UIColor(red: 3/255, green: 168/255, blue: 158/255, alpha: 0.1)
         }
     }
 
+//    @IBInspectable
+//    var borderWidth: CGFloat = 0{
+//        didSet{
+//            layer.borderWidth=borderWidth
+//        }
+//    }
+    
+   
+    
     
     
     
