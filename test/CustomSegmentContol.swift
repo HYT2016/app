@@ -64,8 +64,8 @@ class CustomSegmentContol: UIControl {
         }
         buttons[0].setTitleColor(selectorColor, for: .normal)
         
-        let selectorWidth = frame.width / CGFloat(buttonTitles.count)
-        selector = UIView(frame: CGRect(x: 0, y: 0, width: selectorWidth, height: frame.height))
+        let selectorWidth = frame.width / (1.1*CGFloat(buttonTitles.count))
+        selector = UIView(frame: CGRect(x: 0, y: 0, width: selectorWidth, height: frame.height-2.5))
         selector.layer.cornerRadius = frame.height/2
         selector.backgroundColor = selectorColor
         addSubview(selector)

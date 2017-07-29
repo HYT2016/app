@@ -51,6 +51,7 @@
 		DBFA5C141F1BD1A000B98B00 /* 104-2牙醫學(二).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C131F1BD1A000B98B00 /* 104-2牙醫學(二).json */; };
 		DBFA5C161F1BD1B200B98B00 /* 104-2牙醫學(一).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C151F1BD1B200B98B00 /* 104-2牙醫學(一).json */; };
 		DBFB6A391F2B534200215EFA /* CustomSegmentContol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB6A381F2B534200215EFA /* CustomSegmentContol.swift */; };
+		DBFB6A3B1F2BC52200215EFA /* TableviewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB6A3A1F2BC52200215EFA /* TableviewCellTableViewCell.swift */; };
 		E91A76FA1F223DB7007F5178 /* ans.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91A76F91F223DB7007F5178 /* ans.plist */; };
 		E92699B11F03E66100F671A9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DB6996001F0389520093F955 /* data.json */; };
 		E94573781F1C687A00845C9C /* 103-2牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573771F1C687A00845C9C /* 103-2牙醫學(五).json */; };
@@ -235,6 +236,7 @@
 		DBFA5C131F1BD1A000B98B00 /* 104-2牙醫學(二).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(二).json"; sourceTree = "<group>"; };
 		DBFA5C151F1BD1B200B98B00 /* 104-2牙醫學(一).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(一).json"; sourceTree = "<group>"; };
 		DBFB6A381F2B534200215EFA /* CustomSegmentContol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSegmentContol.swift; path = ../CustomSegmentContol.swift; sourceTree = "<group>"; };
+		DBFB6A3A1F2BC52200215EFA /* TableviewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableviewCellTableViewCell.swift; path = ../TableviewCellTableViewCell.swift; sourceTree = "<group>"; };
 		E91A76F91F223DB7007F5178 /* ans.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ans.plist; path = ../ans.plist; sourceTree = "<group>"; };
 		E94573771F1C687A00845C9C /* 103-2牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(五).json"; sourceTree = "<group>"; };
 		E94573791F1C688E00845C9C /* 103-2牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(四).json"; sourceTree = "<group>"; };
@@ -418,6 +420,7 @@
 				E95DCBD91F0676B200DB7250 /* gameStartVC2.swift */,
 				E95F7C301F275B5B0065A613 /* WrongVC.swift */,
 				DBFB6A381F2B534200215EFA /* CustomSegmentContol.swift */,
+				DBFB6A3A1F2BC52200215EFA /* TableviewCellTableViewCell.swift */,
 				E9F4BEE61F174A7B00C02AA6 /* ThanksVC.swift */,
 				DB6996001F0389520093F955 /* data.json */,
 				E9745DBC1F062CD500902CAC /* aaa.json */,
@@ -1004,6 +1007,7 @@
 				E9ADD1491F0D03690064F890 /* tab_bar_1.swift in Sources */,
 				DB6995FB1F02F0550093F955 /* MainNavigationController.swift in Sources */,
 				E95F7C311F275B5B0065A613 /* WrongVC.swift in Sources */,
+				DBFB6A3B1F2BC52200215EFA /* TableviewCellTableViewCell.swift in Sources */,
 				DB6995E71F02ED7B0093F955 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

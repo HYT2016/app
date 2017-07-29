@@ -14,7 +14,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="ViewController" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -24,16 +24,17 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="96c-rU-GI9">
-                                <rect key="frame" x="0.0" y="109" width="414" height="627"/>
+                                <rect key="frame" x="0.0" y="116.66666666666669" width="414" height="619.33333333333326"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="myCell" rowHeight="50" id="RvG-FW-uGw">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationWidth="0.0" reuseIdentifier="myCell" rowHeight="50" id="RvG-FW-uGw">
                                         <rect key="frame" x="0.0" y="1" width="414" height="50"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="RvG-FW-uGw" id="CoT-ab-Pxk">
-                                            <rect key="frame" x="0.0" y="0.0" width="381" height="50"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
+                                        <rect key="contentStretch" x="0.0" y="0.0" width="0.0" height="1"/>
                                     </tableViewCell>
                                 </prototypes>
                                 <connections>
@@ -42,18 +43,24 @@
                                 </connections>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bx3-Qj-m2g" customClass="CustomSegmentContol" customModule="twnationalexam" customModuleProvider="target">
-                                <rect key="frame" x="20" y="72" width="374" height="29"/>
-                                <color key="backgroundColor" red="1" green="0.34095121169999998" blue="0.32657322449999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <rect key="frame" x="20" y="72" width="374" height="36.666666666666671"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
                                         <real key="value" value="1"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
-                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="string" keyPath="commaSeparatedButtonTitles" value="醫師國考,牙醫國考"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="textColor">
-                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="value" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectorColor">
+                                        <color key="value" red="1" green="0.34095121169999998" blue="0.32657322449999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="selectorTextColor">
+                                        <color key="value" red="1" green="0.86509874131944442" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
@@ -67,7 +74,7 @@
                             <constraint firstItem="96c-rU-GI9" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="9dj-XT-7s9"/>
                             <constraint firstItem="96c-rU-GI9" firstAttribute="centerX" secondItem="Bx3-Qj-m2g" secondAttribute="centerX" id="AEZ-b5-9Kx"/>
                             <constraint firstItem="Bx3-Qj-m2g" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="L0A-YE-WnE"/>
-                            <constraint firstItem="Bx3-Qj-m2g" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.04" id="OVD-sm-aRh"/>
+                            <constraint firstItem="Bx3-Qj-m2g" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.05" id="OVD-sm-aRh"/>
                             <constraint firstItem="96c-rU-GI9" firstAttribute="top" secondItem="Bx3-Qj-m2g" secondAttribute="bottom" constant="8" symbolic="YES" id="eMj-KO-Ym2"/>
                             <constraint firstItem="Bx3-Qj-m2g" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="iuh-3p-PJZ"/>
                             <constraint firstItem="Bx3-Qj-m2g" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="n9C-y4-mwt"/>
@@ -242,7 +249,7 @@
         <!--WrongVC-->
         <scene sceneID="bm2-rT-urI">
             <objects>
-                <viewController storyboardIdentifier="WrongVC" id="KSG-LK-IuJ" customClass="WrongVC" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WrongVC" automaticallyAdjustsScrollViewInsets="NO" id="KSG-LK-IuJ" customClass="WrongVC" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="B5a-75-etC"/>
                         <viewControllerLayoutGuide type="bottom" id="yVi-ao-SsK"/>
@@ -251,9 +258,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FGf-pl-DIo">
-                                <rect key="frame" x="0.0" y="73" width="414" height="663"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FGf-pl-DIo">
+                                <rect key="frame" x="0.0" y="35" width="414" height="701"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="myCell" id="qTT-vz-dhg">
@@ -272,6 +278,12 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="FGf-pl-DIo" secondAttribute="trailing" id="8k2-9n-vqb"/>
+                            <constraint firstItem="FGf-pl-DIo" firstAttribute="top" secondItem="B5a-75-etC" secondAttribute="bottom" constant="15" id="Zbe-6V-HAl"/>
+                            <constraint firstItem="yVi-ao-SsK" firstAttribute="top" secondItem="FGf-pl-DIo" secondAttribute="bottom" id="jwt-R7-ZZb"/>
+                            <constraint firstItem="FGf-pl-DIo" firstAttribute="leading" secondItem="Wpo-VX-pG4" secondAttribute="leading" id="tp6-Vu-xKj"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="wrongTableView" destination="FGf-pl-DIo" id="u6f-jw-Ib8"/>

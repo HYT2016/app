@@ -22,6 +22,9 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
+        cell.textLabel?.textColor = UIColor.black
+        //        cell字體大小
+        cell.textLabel?.font = UIFont(name:"Avenir", size:22)
         cell.textLabel?.text="第"+String(indexPath.row+1)+"題："+wrongQFileName[indexPath.row]+"-"+wrongQIndex[indexPath.row]
         return cell
     }
@@ -71,7 +74,8 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        //        讓tableViewCell填滿tableView
+        self.view.layoutIfNeeded()
         self.parseTxtFile()
         
         wrongTableView.reloadData()
@@ -120,6 +124,21 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         
         
     }
+    func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell,
+                   forRowAt indexPath: IndexPath) {
+        
+        if (indexPath.row % 2 == 0)
+        {
+            cell.backgroundColor=UIColor.white
+            
+            
+        }
+        else
+        {
+            cell.backgroundColor=UIColor(red: 204/255, green: 255/255, blue: 255/255, alpha: 0.5)
+        }
+    }
+    
 
 
     
