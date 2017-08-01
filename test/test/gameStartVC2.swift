@@ -208,7 +208,7 @@ class gameStartVC2: UIViewController {
             // 讀檔 取得 題目 號碼 與 內容
         
         
-            qFileName = wrongTableViewIndex!
+            qFileName = wrongTableViewQfileNameIndex!
             print("q:\(qFileName)")
             let filePath=Bundle.main.path(forResource: self.qFileName, ofType:
                 "json")
@@ -220,12 +220,12 @@ class gameStartVC2: UIViewController {
                     filePath!, isDirectory: false))
                 json_parsed=JSON(data: data1)
                 questions = json_parsed.arrayValue
-                
-            }catch{
-                print(error.localizedDescription)
                 b=self.getWrongQuestionIndex()
                 self.loadQuestionToUser(qID: b)
                 print("b=\(b)")
+            }catch{
+                print(error.localizedDescription)
+                
             }
 
         
@@ -342,14 +342,14 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         
-//        if self.q_category == "醫學國考-答錯題目"{
-//           
-//        }else if self.q_category == "牙醫國考-答錯題目"{
-//            
-//        }else{
-//            self.loadJsonToArys()
-//        }
-        self.getQin()
+        if self.q_category == "醫學國考-答錯題目"{
+           
+        }else if self.q_category == "牙醫國考-答錯題目"{
+            
+        }else{
+            self.loadJsonToArys()
+        }
+//        self.getQin()
         
         
     }
