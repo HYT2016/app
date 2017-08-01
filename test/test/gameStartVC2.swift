@@ -47,7 +47,8 @@ class gameStartVC2: UIViewController {
     
     var doctor:[String]=[]
     var dentist:[String]=[]
-    
+    var wrongTableViewQfileNameIndex:String?
+    var wrongTableViewIndex:String?
     @IBOutlet weak var testTextView2: UITextView!
  
     
@@ -127,6 +128,8 @@ class gameStartVC2: UIViewController {
     
     var questions:[JSON]=[]
     
+    var qTions:[JSON]=[]
+    
     var indexVC=0
     
     var qID=0
@@ -196,7 +199,7 @@ class gameStartVC2: UIViewController {
     }
     func getWrongQuestionIndex()->Int{
         
-        return Int(wrongQIndex[QuesAnum])!
+        return Int(wrongTableViewIndex!)!
     }
         
     
@@ -205,8 +208,8 @@ class gameStartVC2: UIViewController {
             // 讀檔 取得 題目 號碼 與 內容
         
         
-            qFileName = wrongQFileName[QuesAnum]
-            print(qFileName)
+            qFileName = wrongTableViewIndex!
+            print("q:\(qFileName)")
             let filePath=Bundle.main.path(forResource: self.qFileName, ofType:
                 "json")
             var data1:Data
@@ -222,7 +225,7 @@ class gameStartVC2: UIViewController {
                 print(error.localizedDescription)
                 b=self.getWrongQuestionIndex()
                 self.loadQuestionToUser(qID: b)
-
+                print("b=\(b)")
             }
 
         
@@ -320,6 +323,7 @@ class gameStartVC2: UIViewController {
         print("tmpStr = \(tmpStr)")
         
     }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -338,15 +342,14 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         
-        if self.q_category == "醫學國考-答錯題目"{
-            self.getQin()
-        }else if self.q_category == "牙醫國考-答錯題目"{
-            self.getQin()
-        }else{
-            self.loadJsonToArys()
-        }
-        
-        
+//        if self.q_category == "醫學國考-答錯題目"{
+//           
+//        }else if self.q_category == "牙醫國考-答錯題目"{
+//            
+//        }else{
+//            self.loadJsonToArys()
+//        }
+        self.getQin()
         
         
     }

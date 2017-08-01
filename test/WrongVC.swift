@@ -36,6 +36,8 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         vc.isWrongQuestion=true
         vc.wrongQFileName=self.wrongQFileName
         vc.wrongQIndex=self.wrongQIndex
+        vc.wrongTableViewQfileNameIndex=wrongQFileName[indexPath.row]
+        vc.wrongTableViewIndex=wrongQIndex[indexPath.row]
 
         
             
@@ -79,7 +81,7 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         self.parseTxtFile()
         
         wrongTableView.reloadData()
-       
+      
     }
 
     override func didReceiveMemoryWarning() {

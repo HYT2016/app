@@ -101,16 +101,18 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(indexPath.row)
+        
         
         if indexPath.row==0{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "WrongVC") as! WrongVC
             
             if customSegmentView.selectedSegmentIndex==0{
 //                這行指定
-//                vc.q_category = 
+                vc.q_category = doctor[0]
+                
             }else{
                 vc.q_category=dentist[0]
+                
             }
             
              self.navigationController?.pushViewController(vc, animated: true)
