@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  test
+//  testq_category 
 //
 //  Created by Root HSZ HSU on 2017/6/28.
 //  Copyright © 2017年 Root HSZ HSU. All rights reserved.
@@ -84,8 +84,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         customSegmentView.selectedSegmentIndex = 0
 //        讓tableViewCell填滿tableView
         self.view.layoutIfNeeded()
-        
+    }
+    override func viewWillAppear(_ animated: Bool) {
 
+        
+        customSegmentView.buttons[0].setTitleColor(UIColor.init(red:  255/255, green: 221/255, blue: 0/255, alpha: 1), for: .normal)
         
     }
 
@@ -102,9 +105,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         if indexPath.row==0{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "WrongVC") as! WrongVC
+            
             if customSegmentView.selectedSegmentIndex==0{
 //                這行指定
-                vc.q_category=doctor[0]
+//                vc.q_category = 
             }else{
                 vc.q_category=dentist[0]
             }
@@ -115,11 +119,13 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
             if customSegmentView.selectedSegmentIndex==0{
                 vc.q_category=doctor[indexPath.row]
-                vc.doctor=self.doctor
-                vc.dentist=self.dentist
             }else{
+                
                 vc.q_category=dentist[indexPath.row]
             }
+            
+            vc.doctor=self.doctor
+            vc.dentist=self.dentist
             
             if indexPath.row==0{
                 vc.isWrongQuestion=true

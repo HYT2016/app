@@ -78,7 +78,7 @@ class gameStartVC2: UIViewController {
             print(b)
             loadQuestionToUser(qID: self.b)
             print(loadQuestionToUser(qID: self.b))
-        }else if self.q_category == "醫學國考-答錯題目"{
+        }else if self.q_category == "牙醫國考-答錯題目"{
             for _ in 1...wrongQIndex.count{
                 QuesAnum+=1
             }
@@ -368,6 +368,8 @@ class gameStartVC2: UIViewController {
 //   寫檔
     func copyit() {
         let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
+        
+        
         
         if self.q_category == doctor[0]{
             ansStr = "doctorAns.txt"

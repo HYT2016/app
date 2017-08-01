@@ -55,6 +55,14 @@ class CustomSegmentContol: UIControl {
         buttons.removeAll()
         subviews.forEach {$0.removeFromSuperview()}
         let buttonTitles = commaSeparatedButtonTitles.components(separatedBy: ",")
+        
+        
+        let selectorWidth = frame.width / (1.1*CGFloat(buttonTitles.count))
+        selector = UIView(frame: CGRect(x: 0, y: 0, width: selectorWidth, height: frame.height-2.5))
+        selector.layer.cornerRadius = frame.height/2
+        selector.backgroundColor = selectorColor
+        addSubview(selector)
+        
         for buttonsTitle in buttonTitles{
             let button = UIButton(type: .system)
             button.setTitle(buttonsTitle, for: .normal)
@@ -64,11 +72,6 @@ class CustomSegmentContol: UIControl {
         }
         buttons[0].setTitleColor(selectorColor, for: .normal)
         
-        let selectorWidth = frame.width / (1.1*CGFloat(buttonTitles.count))
-        selector = UIView(frame: CGRect(x: 0, y: 0, width: selectorWidth, height: frame.height-2.5))
-        selector.layer.cornerRadius = frame.height/2
-        selector.backgroundColor = selectorColor
-        addSubview(selector)
         
         let sv = UIStackView(arrangedSubviews: buttons)
         sv.axis = .horizontal
@@ -80,11 +83,16 @@ class CustomSegmentContol: UIControl {
         sv.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive=true
         sv.leftAnchor.constraint(equalTo: self.leftAnchor).isActive=true
         sv.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
+        
+
+        
+        
     }
     
    
     override func draw(_ rect: CGRect) {
         layer.cornerRadius=frame.height/2
+        
     }
     func buttonTapped(button:UIButton){
         for (buttonIndex,btn) in buttons.enumerated(){
