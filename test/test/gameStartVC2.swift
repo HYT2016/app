@@ -40,6 +40,7 @@ class gameStartVC2: UIViewController {
     
     var isWrongQuestion:Bool?=false
     var q_category:String?
+    var q_category1:String?
     var userAnswer:[Bool]=[false,false,false,false]
     
     var wrongQFileName:[String]=[]
@@ -70,11 +71,11 @@ class gameStartVC2: UIViewController {
             
             if self.q_category == wrongTableViewQfileNameIndex{
                 
-                q_category=wrongQFileName[QuesAnum]
-                self.getQin()
-                b=Int(wrongQIndex[QuesAnum])!
+                q_category1 = wrongQFileName[QuesAnum]
+                self.getQin2()
+//                b=Int(wrongQIndex[QuesAnum])!
                 
-                loadQuestionToUser(qID: self.b)
+//                loadQuestionToUser(qID: self.b)
                 QuesAnum+=1
             }else{
                 b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
@@ -84,9 +85,6 @@ class gameStartVC2: UIViewController {
         }else{
             if self.q_category == wrongTableViewQfileNameIndex{
             
-                displayLabel.text = "再接再厲"
-                displayLabel.textColor=UIColor.red
-            }else if self.q_category == "牙醫國考-答錯題目"{
                 displayLabel.text = "再接再厲"
                 displayLabel.textColor=UIColor.red
             }else{
@@ -224,7 +222,30 @@ class gameStartVC2: UIViewController {
         b=self.getWrongQuestionIndex()
         self.loadQuestionToUser(qID: b)
         }
-    
+    func  getQin2(){
+        // 讀檔 取得 題目 號碼 與 內容
+        
+        
+        let filePath=Bundle.main.path(forResource: self.q_category1, ofType:
+            "json")
+        var data1:Data
+        var json_parsed:JSON
+        
+        do{
+            try data1 = Data(contentsOf: URL(fileURLWithPath:
+                filePath!, isDirectory: false))
+            json_parsed=JSON(data: data1)
+            questions = json_parsed.arrayValue
+            print("b=\(b)")
+            
+        }catch{
+            print(error.localizedDescription)
+            
+        }
+        b=Int(wrongQIndex[QuesAnum])!
+        self.loadQuestionToUser(qID: b)
+    }
+
     
     
     
@@ -394,25 +415,31 @@ class gameStartVC2: UIViewController {
     func copyit() {
         let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
         
-        
-        
-        if self.q_category == doctor[1]{
-            ansStr = "doctorAns.txt"
-        }else if self.q_category == doctor[2]{
-            ansStr = "doctorAns.txt"
-        }else if self.q_category == doctor[3]{
-            ansStr = "doctorAns.txt"
-        }else if self.q_category == doctor[4]{
-            ansStr = "doctorAns.txt"
-        }else if self.q_category == doctor[5]{
-            ansStr = "doctorAns.txt"
-        }else if self.q_category == doctor[6]{
-            ansStr = "doctorAns.txt"
-        }else if self.q_category == doctor[7]{
-            ansStr = "doctorAns.txt"
-        }else{
-            self.ansStr = "dentistAns.txt"
+        for tmpStr in doctor{
+            if tmpStr == self.q_category{
+                ansStr="doctorAns.txt"
+            }else{
+                ansStr="dentistAns.txt"
+            }
         }
+        
+//        if self.q_category == doctor[1]{
+//            ansStr = "doctorAns.txt"
+//        }else if self.q_category == doctor[2]{
+//            ansStr = "doctorAns.txt"
+//        }else if self.q_category == doctor[3]{
+//            ansStr = "doctorAns.txt"
+//        }else if self.q_category == doctor[4]{
+//            ansStr = "doctorAns.txt"
+//        }else if self.q_category == doctor[5]{
+//            ansStr = "doctorAns.txt"
+//        }else if self.q_category == doctor[6]{
+//            ansStr = "doctorAns.txt"
+//        }else if self.q_category == doctor[7]{
+//            ansStr = "doctorAns.txt"
+//        }else{
+//            self.ansStr = "dentistAns.txt"
+//        }
 
         let fileurl =  dir.appendingPathComponent(ansStr)
         print(fileurl)
