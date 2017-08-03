@@ -38,6 +38,7 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         vc.wrongQIndex=self.wrongQIndex
         vc.wrongTableViewQfileNameIndex=wrongQFileName[indexPath.row]
         vc.wrongTableViewIndex=wrongQIndex[indexPath.row]
+        vc.aa="第"+String(indexPath.row+1)+"題："+wrongQFileName[indexPath.row]+"-"+wrongQIndex[indexPath.row]
 
         
             

@@ -69,36 +69,60 @@ class gameStartVC2: UIViewController {
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
                 self.displayLabel.text = ""
             }
+//        var index=1
+//        for _ in 1...7{
+//                if self.q_category == doctor[index]{
+//            
+//                    b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
+//                    loadQuestionToUser(qID: self.b)
+//                    print(loadQuestionToUser(qID: self.b))
+//                }else{
+//            
+//                    b=Int(wrongQIndex[2])!
+//            
+//                    loadQuestionToUser(qID: self.b)
+//                }
+//                index+=1
+//                }
             
-        if self.q_category == "醫學國考-答錯題目"{
-            
-            for _ in 1...wrongQIndex.count{
-                QuesAnum+=1
-            }
-            b=QuesAnum
-            print(b)
-            loadQuestionToUser(qID: self.b)
-            print(loadQuestionToUser(qID: self.b))
-        }else if self.q_category == "牙醫國考-答錯題目"{
-            for _ in 1...wrongQIndex.count{
-                QuesAnum+=1
-            }
-            b=QuesAnum
-            loadQuestionToUser(qID: self.b)
-        }else{
-            
-            b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
+            if self.q_category == wrongTableViewQfileNameIndex{
+                
+                b=Int(wrongQIndex[1])!
+                loadQuestionToUser(qID: self.b)
 
-            loadQuestionToUser(qID: self.b)
+            }else{
+                b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
+//                for _ in 1...wrongQFileName.count{
+//                b=Int(wrongQIndex[QuesAnum])!
+                
+//                    QuesAnum+=1
+//                }
+                loadQuestionToUser(qID: self.b)
+                print(loadQuestionToUser(qID: self.b))
+                //                b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
+                //                repeat{
+                //                    b=Int(wrongQIndex[QuesAnum])!
+                //                    loadQuestionToUser(qID: self.b)
+                //                    print(loadQuestionToUser(qID: self.b))
+                //                    QuesAnum+=1
+                //                }while QuesAnum > wrongQFileName.count {
+                //                    print(wrongQFileName)
+                //                }
+
             }
-            
-            
         }else{
-            displayLabel.text = "再接再厲"
-            displayLabel.textColor=UIColor.red
-        
-         copyit()
+            if self.q_category == "醫學國考-答錯題目"{
             
+                displayLabel.text = "再接再厲"
+                displayLabel.textColor=UIColor.red
+            }else if self.q_category == "牙醫國考-答錯題目"{
+                displayLabel.text = "再接再厲"
+                displayLabel.textColor=UIColor.red
+            }else{
+                displayLabel.text = "再接再厲"
+                displayLabel.textColor=UIColor.red
+                copyit()
+            }
         }
        
         let image = UIImage(named: "uncheck01")!
@@ -139,7 +163,8 @@ class gameStartVC2: UIViewController {
 //    var b=Int(arc4random_uniform(30))
     
     var a=0
-
+    
+    var aa:String?
     
     var preIndex:Int=0
     
@@ -153,7 +178,7 @@ class gameStartVC2: UIViewController {
     
     var qFileName:String = ""
     
-    var QuesAnum = 0
+    var QuesAnum = 1
     
     func loadJsonToArys(){
         print("loadJsonToArys \(String(describing: self.q_category))")
@@ -206,8 +231,6 @@ class gameStartVC2: UIViewController {
     
     func  getQin(){
             // 讀檔 取得 題目 號碼 與 內容
-        
-        
             qFileName = wrongTableViewQfileNameIndex!
             print("q:\(qFileName)")
             let filePath=Bundle.main.path(forResource: self.qFileName, ofType:
@@ -342,14 +365,40 @@ class gameStartVC2: UIViewController {
         testTextView2.font = UIFont(name: "Verdana", size: 17)
         
         
-        if self.q_category == "醫學國考-答錯題目"{
-           
-        }else if self.q_category == "牙醫國考-答錯題目"{
-            
+        
+//        if self.qFileName == qFileName{
+//            self.getQin()
+//        }else if self.q_category == doctor[1]{
+//            self.loadJsonToArys()
+//        }else if self.q_category == doctor[2]{
+//            self.loadJsonToArys()
+//        }else if self.q_category == doctor[3]{
+//            self.loadJsonToArys()
+//        }else if self.q_category == doctor[4]{
+//            self.loadJsonToArys()
+//        }else if self.q_category == doctor[5]{
+//            self.loadJsonToArys()
+//        }else if self.q_category == doctor[6]{
+//            self.loadJsonToArys()
+//        }else if self.q_category == doctor[7]{
+//            self.loadJsonToArys()
+//        }else if self.q_category == dentist[1]{
+//            self.loadJsonToArys()
+//        }else{
+//            self.getQin()
+//        }
+        if self.q_category == wrongTableViewIndex{
+            self.loadJsonToArys()
+        }else if self.qFileName == qFileName{
+                        self.getQin()
         }else{
             self.loadJsonToArys()
         }
-//        self.getQin()
+        
+        
+        
+        
+        
         
         
     }
@@ -374,9 +423,7 @@ class gameStartVC2: UIViewController {
         
         
         
-        if self.q_category == doctor[0]{
-            ansStr = "doctorAns.txt"
-        }else if self.q_category == doctor[1]{
+        if self.q_category == doctor[1]{
             ansStr = "doctorAns.txt"
         }else if self.q_category == doctor[2]{
             ansStr = "doctorAns.txt"
