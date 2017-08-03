@@ -13,6 +13,9 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     var wrongQFileName:[String]=[]
     var wrongQIndex:[String]=[]
     
+    var doctor:[String]=[]
+    var dentist:[String]=[]
+    
     @IBOutlet weak var wrongTableView: UITableView!
     
     
@@ -38,9 +41,10 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         vc.wrongQIndex=self.wrongQIndex
         vc.wrongTableViewQfileNameIndex=wrongQFileName[indexPath.row]
         vc.wrongTableViewIndex=wrongQIndex[indexPath.row]
-        vc.aa="第"+String(indexPath.row+1)+"題："+wrongQFileName[indexPath.row]+"-"+wrongQIndex[indexPath.row]
+        vc.wrongTableViewCellName="第"+String(indexPath.row+1)+"題："+wrongQFileName[indexPath.row]+"-"+wrongQIndex[indexPath.row]
 
-        
+            vc.doctor=self.doctor
+            vc.dentist=self.dentist
             
             self.navigationController?.pushViewController(vc, animated: true)
         }

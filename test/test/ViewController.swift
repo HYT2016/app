@@ -105,7 +105,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         if indexPath.row==0{
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "WrongVC") as! WrongVC
-            
+            vc.doctor=self.doctor
+            vc.dentist=self.dentist
             if customSegmentView.selectedSegmentIndex==0{
 //                這行指定
                 vc.q_category = doctor[0]

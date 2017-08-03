@@ -55,9 +55,7 @@ class gameStartVC2: UIViewController {
     
     @IBAction func submitBtn(_ sender: UIButton) {
         
-        
-        
-        
+
         print( "result: \(self.checkIfCorrect(qID: b))")
        
         
@@ -69,49 +67,22 @@ class gameStartVC2: UIViewController {
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
                 self.displayLabel.text = ""
             }
-//        var index=1
-//        for _ in 1...7{
-//                if self.q_category == doctor[index]{
-//            
-//                    b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
-//                    loadQuestionToUser(qID: self.b)
-//                    print(loadQuestionToUser(qID: self.b))
-//                }else{
-//            
-//                    b=Int(wrongQIndex[2])!
-//            
-//                    loadQuestionToUser(qID: self.b)
-//                }
-//                index+=1
-//                }
             
             if self.q_category == wrongTableViewQfileNameIndex{
                 
-                b=Int(wrongQIndex[1])!
+                q_category=wrongQFileName[QuesAnum]
+                self.getQin()
+                b=Int(wrongQIndex[QuesAnum])!
+                
                 loadQuestionToUser(qID: self.b)
-
+                QuesAnum+=1
             }else{
                 b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
-//                for _ in 1...wrongQFileName.count{
-//                b=Int(wrongQIndex[QuesAnum])!
-                
-//                    QuesAnum+=1
-//                }
                 loadQuestionToUser(qID: self.b)
-                print(loadQuestionToUser(qID: self.b))
-                //                b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
-                //                repeat{
-                //                    b=Int(wrongQIndex[QuesAnum])!
-                //                    loadQuestionToUser(qID: self.b)
-                //                    print(loadQuestionToUser(qID: self.b))
-                //                    QuesAnum+=1
-                //                }while QuesAnum > wrongQFileName.count {
-                //                    print(wrongQFileName)
-                //                }
-
-            }
+                print("loadQuestionToUser:\(loadQuestionToUser(qID: self.b))")
+                           }
         }else{
-            if self.q_category == "醫學國考-答錯題目"{
+            if self.q_category == wrongTableViewQfileNameIndex{
             
                 displayLabel.text = "再接再厲"
                 displayLabel.textColor=UIColor.red
@@ -164,7 +135,7 @@ class gameStartVC2: UIViewController {
     
     var a=0
     
-    var aa:String?
+    var wrongTableViewCellName:String?
     
     var preIndex:Int=0
     
@@ -232,8 +203,9 @@ class gameStartVC2: UIViewController {
     func  getQin(){
             // 讀檔 取得 題目 號碼 與 內容
             qFileName = wrongTableViewQfileNameIndex!
-            print("q:\(qFileName)")
-            let filePath=Bundle.main.path(forResource: self.qFileName, ofType:
+            q_category=qFileName
+            print("q:\(q_category!)")
+            let filePath=Bundle.main.path(forResource: self.q_category, ofType:
                 "json")
             var data1:Data
             var json_parsed:JSON
@@ -243,15 +215,14 @@ class gameStartVC2: UIViewController {
                     filePath!, isDirectory: false))
                 json_parsed=JSON(data: data1)
                 questions = json_parsed.arrayValue
-                b=self.getWrongQuestionIndex()
-                self.loadQuestionToUser(qID: b)
-                print("b=\(b)")
+                                print("b=\(b)")
+                
             }catch{
                 print(error.localizedDescription)
                 
             }
-
-        
+        b=self.getWrongQuestionIndex()
+        self.loadQuestionToUser(qID: b)
         }
     
     
@@ -259,7 +230,7 @@ class gameStartVC2: UIViewController {
     
     
 //    func getQuestionIndex()->Int{
-//        
+//
 //        if self.isWrongQuestion==false{
 //            return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
 //            
@@ -339,11 +310,19 @@ class gameStartVC2: UIViewController {
         let tmpStr=q["題目"].stringValue
         
         self.testTextView2.text=tmpStr
+        //        print("tmpStr = \(tmpStr)")
+        
+    }
+    func loadQuestionToUser2(qID:Int){
         
         
         
+        let q = questions[qID]
         
-        print("tmpStr = \(tmpStr)")
+        let tmpStr=q["題目"].stringValue
+        
+        self.testTextView2.text=tmpStr
+        //        print("tmpStr = \(tmpStr)")
         
     }
     
@@ -366,41 +345,35 @@ class gameStartVC2: UIViewController {
         
         
         
-//        if self.qFileName == qFileName{
-//            self.getQin()
-//        }else if self.q_category == doctor[1]{
-//            self.loadJsonToArys()
-//        }else if self.q_category == doctor[2]{
-//            self.loadJsonToArys()
-//        }else if self.q_category == doctor[3]{
-//            self.loadJsonToArys()
-//        }else if self.q_category == doctor[4]{
-//            self.loadJsonToArys()
-//        }else if self.q_category == doctor[5]{
-//            self.loadJsonToArys()
-//        }else if self.q_category == doctor[6]{
-//            self.loadJsonToArys()
-//        }else if self.q_category == doctor[7]{
-//            self.loadJsonToArys()
-//        }else if self.q_category == dentist[1]{
-//            self.loadJsonToArys()
-//        }else{
-//            self.getQin()
-//        }
-        if self.q_category == wrongTableViewIndex{
+        if self.q_category == doctor[1]{
             self.loadJsonToArys()
-        }else if self.qFileName == qFileName{
-                        self.getQin()
+        }else if self.q_category == doctor[2]{
+            self.loadJsonToArys()
+        }else if self.q_category == doctor[3]{
+            self.loadJsonToArys()
+        }else if self.q_category == doctor[4]{
+            self.loadJsonToArys()
+        }else if self.q_category == doctor[5]{
+            self.loadJsonToArys()
+        }else if self.q_category == doctor[6]{
+            self.loadJsonToArys()
+        }else if self.q_category == doctor[7]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[1]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[2]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[3]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[4]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[5]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[6]{
+            self.loadJsonToArys()
         }else{
-            self.loadJsonToArys()
+            self.getQin()
         }
-        
-        
-        
-        
-        
-        
-        
     }
 
     override func didReceiveMemoryWarning() {
