@@ -85,6 +85,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         customSegmentView.selectedSegmentIndex = 0
 //        讓tableViewCell填滿tableView
         self.view.layoutIfNeeded()
+//        接收方
+        let notificationName = Notification.Name("GetUpdateNoti")
+        NotificationCenter.default.addObserver(self, selector: #selector(getUpdateNoti(noti:)), name: notificationName, object: nil)
+        print("WrongDoctorSet:\(WrongDoctorSet)")
+        
     }
     override func viewWillAppear(_ animated: Bool) {
 
@@ -123,6 +128,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
             if customSegmentView.selectedSegmentIndex==0{
                 vc.q_category=doctor[indexPath.row]
+                
+                
             }else{
                 vc.q_category=dentist[indexPath.row]
                
@@ -205,7 +212,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         }
     }
     
-    
+    func getUpdateNoti(noti:Notification) {
+        WrongDoctorSet = noti.userInfo!["PASS"] as! Set<String>
+    }
    
     
     

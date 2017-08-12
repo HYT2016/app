@@ -95,7 +95,8 @@ class gameStartVC2: UIViewController {
                 displayLabel.textColor=UIColor.red
                 copyit()
                 copyit2()
-                
+                let notificationName = Notification.Name("GetUpdateNoti")
+                NotificationCenter.default.post(name: notificationName, object: nil, userInfo: ["PASS":WrongDoctorSet])
             }
         }
        
@@ -488,11 +489,11 @@ class gameStartVC2: UIViewController {
         }else{
             WrongDentistSet.insert(string1)
         }
-        print("Wrong1:\(Wrong1)")
-        print("Wrong2:\(Wrong2)")
+//        print("Wrong1:\(Wrong1)")
+//        print("Wrong2:\(Wrong2)")
         
-//        print("WrongDoctorSet:\(WrongDoctorSet)")
-//        print("WrongDentistSet:\(WrongDentistSet)")
+        print("WrongDoctorSet:\(WrongDoctorSet)")
+        print("WrongDentistSet:\(WrongDentistSet)")
     }
 
     
