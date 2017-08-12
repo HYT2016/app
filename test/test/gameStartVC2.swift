@@ -37,7 +37,8 @@ class gameStartVC2: UIViewController {
        
         
     }
-    
+    var WrongDoctorSet=Set<String>()
+    var WrongDentistSet=Set<String>()
     var isWrongQuestion:Bool?=false
     var q_category:String?
     var q_category1:String?
@@ -91,6 +92,7 @@ class gameStartVC2: UIViewController {
                 displayLabel.text = "再接再厲"
                 displayLabel.textColor=UIColor.red
                 copyit()
+                copyit2()
             }
         }
        
@@ -415,31 +417,32 @@ class gameStartVC2: UIViewController {
     func copyit() {
         let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
         
-        for tmpStr in doctor{
-            if tmpStr == self.q_category{
-                ansStr="doctorAns.txt"
-            }else{
-                ansStr="dentistAns.txt"
-            }
-        }
-        
-//        if self.q_category == doctor[1]{
-//            ansStr = "doctorAns.txt"
-//        }else if self.q_category == doctor[2]{
-//            ansStr = "doctorAns.txt"
-//        }else if self.q_category == doctor[3]{
-//            ansStr = "doctorAns.txt"
-//        }else if self.q_category == doctor[4]{
-//            ansStr = "doctorAns.txt"
-//        }else if self.q_category == doctor[5]{
-//            ansStr = "doctorAns.txt"
-//        }else if self.q_category == doctor[6]{
-//            ansStr = "doctorAns.txt"
-//        }else if self.q_category == doctor[7]{
-//            ansStr = "doctorAns.txt"
-//        }else{
-//            self.ansStr = "dentistAns.txt"
+//        for i in 1...7{
+//            
+//            if self.q_category == doctor[i]{
+//                ansStr="doctorAns.txt"
+//            }else{
+//                ansStr="dentistAns.txt"
+//            }
 //        }
+//        
+        if self.q_category == doctor[1]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[2]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[3]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[4]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[5]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[6]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[7]{
+            ansStr = "doctorAns.txt"
+        }else{
+            self.ansStr = "dentistAns.txt"
+        }
 
         let fileurl =  dir.appendingPathComponent(ansStr)
         print(fileurl)
@@ -461,7 +464,33 @@ class gameStartVC2: UIViewController {
         
     }
     
-    
+    func copyit2() {
+        
+        let string1 = "\(q_category!):\(b)"
+        
+        if self.q_category == doctor[1]{
+            WrongDoctorSet.insert(string1)
+        }else if self.q_category == doctor[2]{
+            WrongDoctorSet.insert(string1)
+        }else if self.q_category == doctor[3]{
+            WrongDoctorSet.insert(string1)
+        }else if self.q_category == doctor[4]{
+            WrongDoctorSet.insert(string1)
+        }else if self.q_category == doctor[5]{
+            WrongDoctorSet.insert(string1)
+        }else if self.q_category == doctor[6]{
+            WrongDoctorSet.insert(string1)
+        }else if self.q_category == doctor[7]{
+            WrongDoctorSet.insert(string1)
+        }else{
+            WrongDentistSet.insert(string1)
+        }
+
+        
+        print("WrongDoctorSet:\(WrongDoctorSet)")
+        print("WrongDentistSet:\(WrongDentistSet)")
+    }
+
     
 //    func parseTxtFile()->([String],[String]){
 //        
