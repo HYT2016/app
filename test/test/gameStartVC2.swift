@@ -452,15 +452,22 @@ class gameStartVC2: UIViewController {
         print(fileurl)
         
         let string = "\(q_category!):\(b)\n"
+        let string2 = "\(q_category!):\(b)"
 //        let string = "\(testTextView2.text!)\n"
         let data = string.data(using: .utf8, allowLossyConversion: false)!
         
         if FileManager.default.fileExists(atPath: fileurl.path) {
             if let fileHandle = try? FileHandle(forUpdating: fileurl) {
-                fileHandle.seekToEndOfFile()
-                fileHandle.write(data)
-                fileHandle.closeFile()
-                
+//                讓資料不會重複存取
+                if WrongDoctorSet .contains(string2){
+                    print("已經有資料")
+                }else{
+                    fileHandle.seekToEndOfFile()
+                    fileHandle.write(data)
+                    fileHandle.closeFile()
+                    
+                }
+               
             }
         } else {
             try! data.write(to: fileurl, options: Data.WritingOptions.atomic)
