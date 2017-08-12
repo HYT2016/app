@@ -38,8 +38,6 @@ class gameStartVC2: UIViewController {
         
     }
     var WrongDoctorSet=Set<String>()
-    var Wrong1=Set<String>()
-    var Wrong2=Set<String>()
     var WrongDentistSet=Set<String>()
     var isWrongQuestion:Bool?=false
     var q_category:String?
@@ -95,8 +93,10 @@ class gameStartVC2: UIViewController {
                 displayLabel.textColor=UIColor.red
                 copyit()
                 copyit2()
+//                發送方
                 let notificationName = Notification.Name("GetUpdateNoti")
                 NotificationCenter.default.post(name: notificationName, object: nil, userInfo: ["PASS":WrongDoctorSet])
+//                NotificationCenter.default.post(name: notificationName, object: nil, userInfo: ["PASS":WrongDentistSet])
             }
         }
        
@@ -489,9 +489,6 @@ class gameStartVC2: UIViewController {
         }else{
             WrongDentistSet.insert(string1)
         }
-//        print("Wrong1:\(Wrong1)")
-//        print("Wrong2:\(Wrong2)")
-        
         print("WrongDoctorSet:\(WrongDoctorSet)")
         print("WrongDentistSet:\(WrongDentistSet)")
     }

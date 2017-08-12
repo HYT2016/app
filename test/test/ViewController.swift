@@ -128,11 +128,11 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
             if customSegmentView.selectedSegmentIndex==0{
                 vc.q_category=doctor[indexPath.row]
-                
+                vc.WrongDoctorSet=WrongDoctorSet
                 
             }else{
                 vc.q_category=dentist[indexPath.row]
-               
+//                vc.WrongDentistSet=WrongDentistSet
             }
             
             vc.doctor=self.doctor
@@ -214,6 +214,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     func getUpdateNoti(noti:Notification) {
         WrongDoctorSet = noti.userInfo!["PASS"] as! Set<String>
+//        WrongDentistSet = noti.userInfo!["PASS"] as! Set<String>
     }
    
     
