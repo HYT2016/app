@@ -145,7 +145,11 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
             cell.backgroundColor=UIColor(red: 204/255, green: 255/255, blue: 255/255, alpha: 0.5)
         }
     }
-    
+    override func viewWillAppear(_ animated: Bool) {
+        
+        
+        self.wrongTableView.reloadData()
+    }
 
 
     

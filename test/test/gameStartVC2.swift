@@ -38,6 +38,8 @@ class gameStartVC2: UIViewController {
         
     }
     var WrongDoctorSet=Set<String>()
+    var Wrong1=Set<String>()
+    var Wrong2=Set<String>()
     var WrongDentistSet=Set<String>()
     var isWrongQuestion:Bool?=false
     var q_category:String?
@@ -93,6 +95,7 @@ class gameStartVC2: UIViewController {
                 displayLabel.textColor=UIColor.red
                 copyit()
                 copyit2()
+                
             }
         }
        
@@ -485,51 +488,15 @@ class gameStartVC2: UIViewController {
         }else{
             WrongDentistSet.insert(string1)
         }
-
+        print("Wrong1:\(Wrong1)")
+        print("Wrong2:\(Wrong2)")
         
-        print("WrongDoctorSet:\(WrongDoctorSet)")
-        print("WrongDentistSet:\(WrongDentistSet)")
+//        print("WrongDoctorSet:\(WrongDoctorSet)")
+//        print("WrongDentistSet:\(WrongDentistSet)")
     }
 
     
-//    func parseTxtFile()->([String],[String]){
-//        
-//        var tmpStr=""
-//        
-//        let dir = FileManager.default.urls(for: FileManager.SearchPathDirectory.cachesDirectory, in: FileManager.SearchPathDomainMask.userDomainMask).first!
-//        let file:URL
-//        if self.q_category == "醫學國考-答錯題目"{
-//            file = dir.appendingPathComponent("doctorAns.txt")
-//            print(file)
-//            do {
-//                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
-//                tmpStr = text2
-//            }
-//            catch {/* error handling here */}
-//        }else if self.q_category == "牙醫國考-答錯題目"{
-//            file = dir.appendingPathComponent("dentistAns.txt")
-//            do {
-//                let text2 = try String(contentsOf: file, encoding:String.Encoding.utf8)
-//                tmpStr = text2
-//            }
-//            catch {/* error handling here */}
-//        }
-//        
-//        var strArys=tmpStr.components(separatedBy: "\n")
-//        strArys.removeLast()
-//        for str in strArys{
-//            
-//            let eachStr = str.components(separatedBy: ":")
-//
-//            self.wrongQFileName.append(eachStr[0])
-//            self.wrongQIndex.append(eachStr[1])
-//            
-//        }
-//        return (wrongQFileName,wrongQIndex)
-//        
-//    }
-    
-   
+       
     
 
     

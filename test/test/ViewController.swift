@@ -20,7 +20,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
    
     let doctor:[String]=["醫學國考-答錯題目","解剖_骨盆會陰","解剖_神解","解剖_四肢","解剖_頭頸","解剖_胸背腹","微免_免疫","微免_微生物"]
     let dentist:[String]=["牙醫國考-答錯題目","106-1牙醫學(ㄧ)","106-1牙醫學(二)","106-1牙醫學(三)","106-1牙醫學(四)","106-1牙醫學(五)","106-1牙醫學(六)"]
- 
+    var WrongDoctorSet=Set<String>()
+    var WrongDentistSet=Set<String>()
   
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -123,8 +124,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             if customSegmentView.selectedSegmentIndex==0{
                 vc.q_category=doctor[indexPath.row]
             }else{
-                
                 vc.q_category=dentist[indexPath.row]
+               
             }
             
             vc.doctor=self.doctor
