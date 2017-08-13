@@ -22,7 +22,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     let dentist:[String]=["牙醫國考-答錯題目","106-1牙醫學(ㄧ)","106-1牙醫學(二)","106-1牙醫學(三)","106-1牙醫學(四)","106-1牙醫學(五)","106-1牙醫學(六)"]
     var WrongDoctorSet=Set<String>()
     var WrongDentistSet=Set<String>()
-  
+    var wrongQFileName:[String]=[]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         var str = 1
@@ -89,7 +89,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         let notificationName = Notification.Name("GetUpdateNoti")
         NotificationCenter.default.addObserver(self, selector: #selector(getUpdateNoti(noti:)), name: notificationName, object: nil)
         print("WrongDoctorSet:\(WrongDoctorSet)")
-        
+
     }
     override func viewWillAppear(_ animated: Bool) {
 
@@ -113,6 +113,8 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "WrongVC") as! WrongVC
             vc.doctor=self.doctor
             vc.dentist=self.dentist
+            vc.WrongDoctorSet=WrongDoctorSet
+            vc.WrongDentistSet=WrongDentistSet
             if customSegmentView.selectedSegmentIndex==0{
 //                這行指定
                 vc.q_category = doctor[0]
@@ -218,6 +220,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
    
     
+
     
     
     

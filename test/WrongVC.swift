@@ -15,7 +15,10 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     
     var doctor:[String]=[]
     var dentist:[String]=[]
-    
+    var WrongDoctorSet=Set<String>()
+    var WrongDentistSet=Set<String>()
+    var wrongQfile:String=""
+    var QuesAnum=1
     @IBOutlet weak var wrongTableView: UITableView!
     
     
@@ -33,36 +36,25 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print(indexPath.row)
-        
+        QuesAnum=Int(wrongQIndex[indexPath.row])!
             let vc = self.storyboard?.instantiateViewController(withIdentifier: "gameStartVC2") as! gameStartVC2
-
         vc.isWrongQuestion=true
         vc.wrongQFileName=self.wrongQFileName
         vc.wrongQIndex=self.wrongQIndex
         vc.wrongTableViewQfileNameIndex=wrongQFileName[indexPath.row]
         vc.wrongTableViewIndex=wrongQIndex[indexPath.row]
         vc.wrongTableViewCellName="第"+String(indexPath.row+1)+"題："+wrongQFileName[indexPath.row]+"-"+wrongQIndex[indexPath.row]
+        vc.indexPath_row=indexPath.row+1
+        vc.indexPath_max=wrongQFileName.count
 
             vc.doctor=self.doctor
             vc.dentist=self.dentist
+        
+        
             
             self.navigationController?.pushViewController(vc, animated: true)
         }
 
-//    func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool
-//    {
-//        return true
-//    }
-//
-//    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath)
-//    {
-//        if editingStyle == .delete
-//        {
-//            wrongQFileName.remove(at: indexPath.row)
-//            wrongTableView.reloadData()
-//            
-//        }
-//    }
     //If you want to change title
     func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
         return "刪除此題"
@@ -72,6 +64,7 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         if editingStyle == UITableViewCellEditingStyle.delete{
             wrongQFileName.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .automatic)
+            
         }
     }
     
@@ -84,6 +77,9 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         //        讓tableViewCell填滿tableView
         self.view.layoutIfNeeded()
         self.parseTxtFile()
+        
+       
+        
         
         wrongTableView.reloadData()
       
@@ -121,7 +117,7 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         var strArys=tmpStr.components(separatedBy: "\n")
         strArys.removeLast()
         for str in strArys{
-            
+            wrongQfile=str
             let eachStr = str.components(separatedBy: ":")
             
             self.wrongQFileName.append(eachStr[0])
@@ -150,6 +146,7 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
         
         self.wrongTableView.reloadData()
     }
+    
 
 
     

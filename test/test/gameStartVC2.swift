@@ -37,6 +37,8 @@ class gameStartVC2: UIViewController {
        
         
     }
+    var indexPath_row=1
+    var indexPath_max=1
     var WrongDoctorSet=Set<String>()
     var WrongDentistSet=Set<String>()
     var isWrongQuestion:Bool?=false
@@ -69,15 +71,19 @@ class gameStartVC2: UIViewController {
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
                 self.displayLabel.text = ""
             }
-            
+
             if self.q_category == wrongTableViewQfileNameIndex{
-                
-                q_category1 = wrongQFileName[QuesAnum]
-                self.getQin2()
-//                b=Int(wrongQIndex[QuesAnum])!
-                
-//                loadQuestionToUser(qID: self.b)
-                QuesAnum+=1
+                if indexPath_row==indexPath_max{
+                    indexPath_row=0
+                    q_category1 = wrongQFileName[indexPath_row]
+                    self.getQin2()
+                }else{
+//                 wrongQFileName[indexPath_row]代表可以正常跳到下一題不用從頭開始
+                    q_category1 = wrongQFileName[indexPath_row]
+                    self.getQin2()
+
+                    indexPath_row+=1
+                }
             }else{
                 b=Int(self.randomNumber(MIN: 0, MAX: (self.questions.count-1)))
                 loadQuestionToUser(qID: self.b)
@@ -153,7 +159,9 @@ class gameStartVC2: UIViewController {
     
     var qFileName:String = ""
     
-    var QuesAnum = 1
+    var QuesAnum=1
+    
+    
     
     func loadJsonToArys(){
         print("loadJsonToArys \(String(describing: self.q_category))")
@@ -219,7 +227,7 @@ class gameStartVC2: UIViewController {
                     filePath!, isDirectory: false))
                 json_parsed=JSON(data: data1)
                 questions = json_parsed.arrayValue
-                                print("b=\(b)")
+                
                 
             }catch{
                 print(error.localizedDescription)
@@ -227,6 +235,7 @@ class gameStartVC2: UIViewController {
             }
         b=self.getWrongQuestionIndex()
         self.loadQuestionToUser(qID: b)
+        print("b=\(b)")
         }
     func  getQin2(){
         // 讀檔 取得 題目 號碼 與 內容
@@ -242,13 +251,13 @@ class gameStartVC2: UIViewController {
                 filePath!, isDirectory: false))
             json_parsed=JSON(data: data1)
             questions = json_parsed.arrayValue
-            print("b=\(b)")
+            
             
         }catch{
             print(error.localizedDescription)
             
         }
-        b=Int(wrongQIndex[QuesAnum])!
+        b=Int(wrongQIndex[indexPath_row])!
         self.loadQuestionToUser(qID: b)
     }
 
@@ -460,6 +469,8 @@ class gameStartVC2: UIViewController {
             if let fileHandle = try? FileHandle(forUpdating: fileurl) {
 //                讓資料不會重複存取
                 if WrongDoctorSet .contains(string2){
+                    print("已經有資料")
+                }else if WrongDoctorSet .contains(string2){
                     print("已經有資料")
                 }else{
                     fileHandle.seekToEndOfFile()
