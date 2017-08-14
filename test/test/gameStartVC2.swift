@@ -74,9 +74,20 @@ class gameStartVC2: UIViewController {
 
             if self.q_category == wrongTableViewQfileNameIndex{
                 if indexPath_row==indexPath_max{
-                    indexPath_row=0
-                    q_category1 = wrongQFileName[indexPath_row]
-                    self.getQin2()
+                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+                        self.displayLabel.text = "恭喜完成所有錯誤題目"
+                        self.displayLabel.textColor=UIColor.red
+                        
+                    }
+                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+                        let sb = UIStoryboard(name:"Main", bundle: nil)
+                        let vc = sb.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+                        self.present(vc, animated: true, completion: nil)
+                    }
+
+//                    indexPath_row=0
+//                    q_category1 = wrongQFileName[indexPath_row]
+//                    self.getQin2()
                 }else{
 //                 wrongQFileName[indexPath_row]代表可以正常跳到下一題不用從頭開始
                     q_category1 = wrongQFileName[indexPath_row]
