@@ -66,6 +66,8 @@ class gameStartVC2: UIViewController {
         if self.checkIfCorrect(qID: b ) == true {
             
             displayLabel.textColor=UIColor.black
+//            僅改變字體大小
+            self.displayLabel.font = self.displayLabel.font.withSize(22)
             displayLabel.text="恭喜答對"
 //            延遲0.5秒
             DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.5) {
@@ -76,13 +78,16 @@ class gameStartVC2: UIViewController {
                 if indexPath_row==indexPath_max{
                     DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
                         self.displayLabel.text = "恭喜完成所有錯誤題目"
-                        self.displayLabel.textColor=UIColor.red
+//                        字體放大且字體變粗
+                        self.displayLabel.font = UIFont.boldSystemFont(ofSize: 30)
+                        self.displayLabel.textColor=UIColor(red: 128/255, green: 42/255, blue: 42/255, alpha: 1)
                         
                     }
-                        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
-                            let sb = UIStoryboard(name:"Main", bundle: nil)
-                            let vc = sb.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-                            self.present(vc, animated: true, completion: nil)
+                        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 5) {
+//                            使頁面跳回上一頁
+                            self.navigationController?.popViewController(animated: true)
+                            
+                            
                     }
 
 //                    indexPath_row=0
@@ -102,10 +107,11 @@ class gameStartVC2: UIViewController {
                            }
         }else{
             if self.q_category == wrongTableViewQfileNameIndex{
-            
+                self.displayLabel.font = self.displayLabel.font.withSize(22)
                 displayLabel.text = "再接再厲"
                 displayLabel.textColor=UIColor.red
             }else{
+                self.displayLabel.font = self.displayLabel.font.withSize(22)
                 displayLabel.text = "再接再厲"
                 displayLabel.textColor=UIColor.red
                 copyit()

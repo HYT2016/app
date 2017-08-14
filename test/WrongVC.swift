@@ -66,6 +66,7 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
             tableView.deleteRows(at: [indexPath], with: .automatic)
             
         }
+        
     }
     
     
