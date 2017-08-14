@@ -89,6 +89,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         let notificationName = Notification.Name("GetUpdateNoti")
         NotificationCenter.default.addObserver(self, selector: #selector(getUpdateNoti(noti:)), name: notificationName, object: nil)
         print("WrongDoctorSet:\(WrongDoctorSet)")
+//        tableView.reloadData()
 
     }
     override func viewWillAppear(_ animated: Bool) {

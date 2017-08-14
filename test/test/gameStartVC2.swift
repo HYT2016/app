@@ -79,10 +79,10 @@ class gameStartVC2: UIViewController {
                         self.displayLabel.textColor=UIColor.red
                         
                     }
-                    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
-                        let sb = UIStoryboard(name:"Main", bundle: nil)
-                        let vc = sb.instantiateViewController(withIdentifier: "ViewController") as! ViewController
-                        self.present(vc, animated: true, completion: nil)
+                        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+                            let sb = UIStoryboard(name:"Main", bundle: nil)
+                            let vc = sb.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+                            self.present(vc, animated: true, completion: nil)
                     }
 
 //                    indexPath_row=0
