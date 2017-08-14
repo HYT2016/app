@@ -77,13 +77,13 @@ class gameStartVC2: UIViewController {
             if self.q_category == wrongTableViewQfileNameIndex{
                 if indexPath_row==indexPath_max{
                     DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
-                        self.displayLabel.text = "恭喜完成所有錯誤題目"
+                        self.displayLabel.text = "恭喜您訂正完畢"
 //                        字體放大且字體變粗
                         self.displayLabel.font = UIFont.boldSystemFont(ofSize: 30)
                         self.displayLabel.textColor=UIColor(red: 128/255, green: 42/255, blue: 42/255, alpha: 1)
                         
                     }
-                        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 5) {
+                        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 3) {
 //                            使頁面跳回上一頁
                             self.navigationController?.popViewController(animated: true)
                             
