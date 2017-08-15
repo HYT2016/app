@@ -59,12 +59,20 @@ class WrongVC: UIViewController,UITableViewDataSource,UITableViewDelegate {
     func tableView(_ tableView: UITableView, titleForDeleteConfirmationButtonForRowAt indexPath: IndexPath) -> String? {
         return "刪除此題"
     }
-    
+//        做刪除動作
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == UITableViewCellEditingStyle.delete{
             wrongQFileName.remove(at: indexPath.row)
             tableView.deleteRows(at: [indexPath], with: .automatic)
-            
+            if WrongDoctorSet .contains("\(wrongQFileName[indexPath.row]):\(wrongQIndex[indexPath.row])"){
+                
+                print("ㄎㄎ")
+            }else{
+//                WrongDoctorSet.remove("\(wrongQFileName[indexPath.row]):\(wrongQIndex[indexPath.row])\n")
+                print("哈哈")
+                print("\(wrongQFileName[indexPath.row]):\(wrongQIndex[indexPath.row])")
+                
+            }
         }
         
     }
