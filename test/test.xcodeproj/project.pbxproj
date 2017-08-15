@@ -151,6 +151,9 @@
 		E97B59931F1660E700E743AA /* 01.png in Resources */ = {isa = PBXBuildFile; fileRef = E97B59921F1660E700E743AA /* 01.png */; };
 		E97B599F1F1667C800E743AA /* 02.png in Resources */ = {isa = PBXBuildFile; fileRef = E97B599E1F1667C800E743AA /* 02.png */; };
 		E97B82CA1F073F0E0088882F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E97B82C91F073F0E0088882F /* SwiftyJSON.framework */; };
+		E99870221F429509009078FC /* 生化.json in Resources */ = {isa = PBXBuildFile; fileRef = E99870211F429509009078FC /* 生化.json */; };
+		E99870241F42962A009078FC /* 生理.json in Resources */ = {isa = PBXBuildFile; fileRef = E99870231F42962A009078FC /* 生理.json */; };
+		E99870261F429775009078FC /* 藥理.json in Resources */ = {isa = PBXBuildFile; fileRef = E99870251F429775009078FC /* 藥理.json */; };
 		E99A24C51F1E427B00E908B7 /* 答錯的題目.json in Resources */ = {isa = PBXBuildFile; fileRef = E99A24C41F1E427B00E908B7 /* 答錯的題目.json */; };
 		E99CFDFA1F18C2F300E30F93 /* 背景 05.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFDF91F18C2F300E30F93 /* 背景 05.png */; };
 		E99CFDFC1F18C4EE00E30F93 /* 背景 06.png in Resources */ = {isa = PBXBuildFile; fileRef = E99CFDFB1F18C4EE00E30F93 /* 背景 06.png */; };
@@ -337,6 +340,9 @@
 		E97B59921F1660E700E743AA /* 01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01.png; sourceTree = "<group>"; };
 		E97B599E1F1667C800E743AA /* 02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02.png; sourceTree = "<group>"; };
 		E97B82C91F073F0E0088882F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/test-gxlkerhcxzywisadkzesvvkwlnsf/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		E99870211F429509009078FC /* 生化.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "生化.json"; sourceTree = "<group>"; };
+		E99870231F42962A009078FC /* 生理.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "生理.json"; sourceTree = "<group>"; };
+		E99870251F429775009078FC /* 藥理.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "藥理.json"; sourceTree = "<group>"; };
 		E99A24C41F1E427B00E908B7 /* 答錯的題目.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "答錯的題目.json"; sourceTree = "<group>"; };
 		E99CFDF91F18C2F300E30F93 /* 背景 05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 05.png"; sourceTree = "<group>"; };
 		E99CFDFB1F18C4EE00E30F93 /* 背景 06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "背景 06.png"; sourceTree = "<group>"; };
@@ -564,6 +570,9 @@
 				E9ADD14A1F0D059D0064F890 /* 解剖_四肢.json */,
 				E9ADD1441F0CFAF20064F890 /* 解剖_神解.json */,
 				E9ADD1421F0CFA3F0064F890 /* 解剖_骨盆會陰.json */,
+				E99870211F429509009078FC /* 生化.json */,
+				E99870231F42962A009078FC /* 生理.json */,
+				E99870251F429775009078FC /* 藥理.json */,
 			);
 			name = "醫學";
 			sourceTree = "<group>";
@@ -840,6 +849,7 @@
 				E9ADD1571F0D0EDC0064F890 /* 解剖_頭頸.json in Resources */,
 				E94573BB1F1C6B7A00845C9C /* 100-1牙醫學(一).json in Resources */,
 				DBFA5C141F1BD1A000B98B00 /* 104-2牙醫學(二).json in Resources */,
+				E99870221F429509009078FC /* 生化.json in Resources */,
 				E94573FF1F1C6EA300845C9C /* 98-2牙醫學(四).json in Resources */,
 				E94573CB1F1C6BD900845C9C /* 100-2牙醫學(三).json in Resources */,
 				DBAC62471F1A73030046A82A /* 106-1牙醫學(三).json in Resources */,
@@ -886,6 +896,7 @@
 				E94573C51F1C6BB300845C9C /* 100-1牙醫學(六).json in Resources */,
 				DBAC62431F1A69E90046A82A /* 106-1牙醫學(五).json in Resources */,
 				E9ADD14B1F0D059D0064F890 /* 解剖_四肢.json in Resources */,
+				E99870261F429775009078FC /* 藥理.json in Resources */,
 				DBAC62491F1A731F0046A82A /* 106-1牙醫學(二).json in Resources */,
 				E97B59931F1660E700E743AA /* 01.png in Resources */,
 				E94573A31F1C69B700845C9C /* 101-1牙醫學(五).json in Resources */,
@@ -896,6 +907,7 @@
 				E99CFE061F18C89900E30F93 /* Simulator Screen Shot 2017年7月14日 下午5.37.02.png in Resources */,
 				E94573AF1F1C69FC00845C9C /* 101-2牙醫學(五).json in Resources */,
 				E94573941F1C693900845C9C /* 102-1牙醫學(一).json in Resources */,
+				E99870241F42962A009078FC /* 生理.json in Resources */,
 				E94573C91F1C6BCB00845C9C /* 100-2牙醫學(二).json in Resources */,
 				DB23B0281F19ED4F00518A43 /* 104-2牙醫學(六).json in Resources */,
 				E99CFE141F18ECD300E30F93 /* 3.png in Resources */,

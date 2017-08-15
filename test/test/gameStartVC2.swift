@@ -280,46 +280,6 @@ class gameStartVC2: UIViewController {
 
     
     
-    
-    
-//    func getQuestionIndex()->Int{
-//
-//        if self.isWrongQuestion==false{
-//            return Int(randomNumber(MIN: 0, MAX: (questions.count-1)))
-//            
-//        }else{
-//            // 讀檔 取得 題目 號碼 與 內容
-//            //            parseTxtFile()
-//            
-//            
-//            
-//            var qFileName:String = String(describing: wrongQFileName)
-//            
-//            
-//            
-//            
-//            let filePath=Bundle.main.path(forResource: qFileName, ofType:
-//                "json")
-//            var data1:Data
-//            var json_parsed:JSON
-//            
-//            do{
-//                try data1 = Data(contentsOf: URL(fileURLWithPath:
-//                    filePath!, isDirectory: false))
-//                json_parsed=JSON(data: data1)
-//                questions = json_parsed.arrayValue
-//                
-//                //            print(questions)
-//                
-//            }catch{
-//                print(error.localizedDescription)
-//            }
-//            
-//            return 1
-//        }
-//    }
-
-    
 
     func checkIfCorrect(qID:Int)->Bool{
         var isCorrect=false
@@ -412,6 +372,12 @@ class gameStartVC2: UIViewController {
             self.loadJsonToArys()
         }else if self.q_category == doctor[7]{
             self.loadJsonToArys()
+        }else if self.q_category == doctor[8]{
+            self.loadJsonToArys()
+        }else if self.q_category == doctor[9]{
+            self.loadJsonToArys()
+        }else if self.q_category == doctor[10]{
+            self.loadJsonToArys()
         }else if self.q_category == dentist[1]{
             self.loadJsonToArys()
         }else if self.q_category == dentist[2]{
@@ -423,6 +389,30 @@ class gameStartVC2: UIViewController {
         }else if self.q_category == dentist[5]{
             self.loadJsonToArys()
         }else if self.q_category == dentist[6]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[7]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[8]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[9]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[10]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[11]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[12]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[13]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[14]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[15]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[16]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[17]{
+            self.loadJsonToArys()
+        }else if self.q_category == dentist[18]{
             self.loadJsonToArys()
         }else{
             self.getQin()
@@ -469,6 +459,12 @@ class gameStartVC2: UIViewController {
         }else if self.q_category == doctor[6]{
             ansStr = "doctorAns.txt"
         }else if self.q_category == doctor[7]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[8]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[9]{
+            ansStr = "doctorAns.txt"
+        }else if self.q_category == doctor[10]{
             ansStr = "doctorAns.txt"
         }else{
             self.ansStr = "dentistAns.txt"
@@ -520,6 +516,12 @@ class gameStartVC2: UIViewController {
         }else if self.q_category == doctor[6]{
             WrongDoctorSet.insert(string1)
         }else if self.q_category == doctor[7]{
+            WrongDoctorSet.insert(string1)
+        }else if self.q_category == doctor[8]{
+            WrongDoctorSet.insert(string1)
+        }else if self.q_category == doctor[9]{
+            WrongDoctorSet.insert(string1)
+        }else if self.q_category == doctor[10]{
             WrongDoctorSet.insert(string1)
         }else{
             WrongDentistSet.insert(string1)

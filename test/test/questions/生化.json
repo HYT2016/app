@@ -1,882 +1,1102 @@
-﻿ [
-  {
-  "答案": "C",
-  "題目": "下列有關產氣單胞桿菌（Aeromonas）之敘述，何者錯誤？\n(A)細胞形態似腸內菌\n(B)屬兼性厭氧菌\n(C)青黴素Penicillin最具療效\n(D)廣存於淡水及鹹水中"
-  },
+ [
   {
   "答案": "B",
-  "題目": "下列有關Campylobacter upsaliensis之敘述，何者錯誤？\n(A)主要由接觸飼養的貓狗所感染\n(B)與Guillain-Barré syndrome無關\n(C)細胞形態似Helicobacter pylori\n(D)屬微氧需求菌"
-  },
-  {
-  "答案": "B",
-  "題目": "下列有關Bordetella pertussis 引起之百日咳的敘述，何者錯誤？\n(A)卡它期（catarrhal stage）症狀似感冒\n(B)陣發期（paroxysmal stage）通常細菌量最多\n(C)核酸放大偵測法敏感（sensitive）且特異性（specificity）高\n(D)可用紅黴素（Erythromycin）治療"
-  },
-  {
-  "答案": "D",
-  "題目": "尿素酵素（urease）是以下何種細菌的致病因子？\n(A)致病性大腸桿菌（Enteropathogenic E. coli）\n(B)霍亂弧菌（Vibrio cholerae）\n(C)博德氏桿菌（Bordetella pertussis）\n(D)幽門桿菌（Helicobacter pylori）"
-  },
-  {
-  "答案": "A",
-  "題目": "下列有關白喉毒素（diphtheria toxin）的敘述，那一項錯誤？\n(A)是一種endotoxin\n(B)可結合至細胞表面之heparin-binding epidermal growth factor\n(C)可結合至心臟及神經細胞導致受損\n(D)A subunit會使細胞內的elongation factor 2（EF-2）失去活性"
-  },
-  {
-  "答案": "A",
-  "題目": "下列對麻瘋分枝桿菌（Mycobacterium leprae）之敘述，何者正確？\n(A)可在麻瘋瘤型麻瘋（lepromatous leprosy）病人的黏膜抹片或皮膚括取物中被發現\n(B)已經成功的在培養基中培養出來\n(C)生長速度快，因此潛伏期很短\n(D)並非典型的耐酸性染色菌"
-  },
-  {
-  "答案": "D",
-  "題目": "有一病人因久咳且痰中帶有血絲及膿液而就診，經醫師採集其痰液進行細菌培養檢測後，發現其痰檢體中出現結核分枝桿菌，是為肺結核之患者。下列那一種抗生素不會出現在醫師的處方箋中？\n(A)Isoniazid\n(B)Ethambutol\n(C)Rifampin\n(D)Vancomycin"
-  },
-  {
-  "答案": "AD",
-  "題目": "流感嗜血桿菌（Haemophilus influenzae）的生長在血液培養盤上金黃色葡萄球菌（Staphylococcus aureus）菌落的周圍有促進的現象，此是因為後者能提供其生長所需的那種成分？\n(A)磷血紅素（hemin）\n(B)螯鐵素（siderophores）\n(C)半胱氨酸（L-cysteine）\n(D)菸醯胺腺嘌呤雙核酸（nicotinamide adenine dinucleotide）"
-  },
-  {
-  "答案": "D",
-  "題目": "下列那一項無法作為細菌行無氧呼吸（anaerobic respiration）時之最後的電子接受分子？\n(A)Nitrate\n(B)Sulfate\n(C)Carbon dioxide\n(D)NADH"
-  },
-  {
-  "答案": "B",
-  "題目": "下列菌屬中，何者對鹼性環境的耐受度最高？\n(A)螺旋桿菌屬（Helicobacter）\n(B)弧菌屬（Vibrio）\n(C)假單胞菌屬（Pseudomonas）\n(D)奈瑟氏菌屬（Neisseria）"
-  },
-  {
-  "答案": "AD",
-  "題目": "下列何種病毒感染後，在感染部位的抹片檢查可以看到有多核的融合細胞與內涵體（inclusion body）？\n(A)Herpes simplex virus\n(B)Human papillomavirus\n(C)Adenovirus\n(D)Epstein-Barr virus"
-  },
-  {
-  "答案": "B",
-  "題目": "一旦感染下列何種病毒，可以及早利用接種疫苗的方式來預防病毒在體內擴散而發病？\n(A)玻納病毒（Borna disease virus）\n(B)狂犬病毒（Rabies virus）\n(C)線狀病毒（Filovirus）\n(D)馬堡病毒（Marburg virus）"
-  },
-  {
-  "答案": "D",
-  "題目": "下列對於副黏液病毒科（Paramyxoviridae）之敘述，何者正確？\n(A)為正股（positive sense）RNA病毒\n(B)依核蛋白（nucleoprotein）共分為A、B及C三型\n(C)核蛋白衣（nucleocapsid）為二十面體對稱結構\n(D)皆具有套膜（envelope）及融合（fusion）蛋白質"
-  },
-  {
-  "答案": "A",
-  "題目": "下列何種病毒具有E1A與E1B這兩種促進細胞生長的活化因子？\n(A)Adenovirus\n(B)Papillomavirus\n(C)Epstein-Barr virus\n(D)Cytomegalovirus"
-  },
-  {
-  "答案": "D",
-  "題目": "下列何者不是致病性普里昂蛋白（scrapie-like prion protein, PrPSC）的特性？\n(A)致病潛伏期很長\n(B)造成神經組織空洞化\n(C)可存在於細胞外\n(D)引起很強的免疫反應"
-  },
-  {
-  "答案": "C",
-  "題目": "某25歲護士上班回家後，出現發燒、頭痛、喉嚨痛、流鼻水、打噴嚏、無痰性乾咳、肌肉痛不舒服等症狀，病情持續了4天沒有好轉，反而進一步延伸為細菌性肺炎及肌炎（myositis），該護士經住院治療二星期後痊癒，此護士可能受下列何病原感染？\n(A)麻疹病毒（Measles virus）\n(B)呼吸道細胞融合病毒（Respiratory syncytial virus）\n(C)流行性感冒病毒（Influenza virus）\n(D)腸病毒71型（Enterovirus 71）"
-  },
-  {
-  "答案": "C",
-  "題目": "某病毒可引起孩童之急性下呼吸道疾病，經由鼻腔分泌物分離出該病毒，發覺其不具血球凝集作用，但可使感染之細胞融合（syncytia）。該病毒可能為下列何者？\n(A)流行性感冒病毒A型（Influenza virus A）\n(B)副流行性感冒病毒（Parainfluenza virus）\n(C)呼吸道細胞融合病毒（Respiratory syncytial virus）\n(D)麻疹病毒（Measles virus）"
-  },
-  {
-  "答案": "D",
-  "題目": "有一黴菌在顯微鏡下可見分隔菌絲及瓶狀產孢器（phialides）且分生孢子（conidia）排列成‘paint brush’，最可能為下列何者？\n(A)Histoplasma capsulatum\n(B)Sporothrix schenckii\n(C)Fusarium solani\n(D)Penicillium marneffei"
-  },
-  {
-  "答案": "B",
-  "題目": "一般而言，Fluconazole對下列何種黴菌無療效？\n(A)Candida albicans\n(B)Candida krusei\n(C)Candida tropicalis\n(D)Candida parapsilosis"
-  },
-  {
-  "答案": "A",
-  "題目": "下列何者為盛行於北美洲密西西比河流域，兩型性（dimorphic）全身感染性真菌？\n(A)Blastomyces dermatitidis and Histoplasma capsulatum\n(B)Coccidioides immitis and Paracoccidioides brasiliensis\n(C)Paracoccidioides brasiliensis and Histoplasma capsulatum\n(D)Blastomyces dermatitidis and Paracoccidioides brasiliensis"
-  },
-  {
-  "答案": "B",
-  "題目": "炭疽桿菌edema factor、霍亂毒素及百日咳毒素，有何共同處？\n(A)都抑制寄主細胞的蛋白質合成\n(B)“可導致細胞內cAMP濃度增高”\n(C)有脂肪酵素活性（phospholipase C），可以溶化細胞膜\n(D)都能引起寄主腹瀉（diarrhea）"
-  },
-  {
-  "答案": "D",
-  "題目": "有關志賀氏桿菌（Shigella）的敘述，下列何者錯誤？\n(A)桿菌性痢疾（bacillary dysentery）的主要病原菌\n(B)痢疾志賀氏桿菌（Shigella dysenteriae）可產生Shiga toxin\n(C)具侵犯性，會侵入腸壁細胞並擴散至鄰近細胞\n(D)引發感染需要超過108的菌量"
-  },
-  {
-  "答案": "B",
-  "題目": "下列有關傷寒（typhoid fever）及其病原菌的敘述，何者錯誤？\n(A)傷寒桿菌（Salmonella typhi）可在人體的吞噬細胞內存活並繁殖\n(B)病人的糞便檢體在發病第一週細菌培養常呈陽性結果\n(C)傷寒帶原者，細菌多潛伏於膽囊\n(D)菌體的Vi莢膜多􈵇體（Vi capsular polysaccharides）可以作為疫苗"
-  },
-  {
-  "答案": "C",
-  "題目": "下列那一項是Streptococcus pyogenes的superantigen？\n(A)M-protein\n(B)F-protein\n(C)heat-labile toxin（speA）\n(D)Streptolysin S"
-  },
-  {
-  "答案": "B",
-  "題目": "下列那一種Staphylococcal enterotoxin最易導致pseudomembranous enterocolitis？\n(A)Enterotoxin A\n(B)Enterotoxin B\n(C)Enterotoxin C\n(D)Enterotoxin D"
-  },
-  {
-  "答案": "C",
-  "題目": "一般細菌中能產生芽胞的桿菌，革蘭氏染色結果為：\n(A)紅色\n(B)綠色\n(C)深紫色\n(D)黃色"
-  },
-  {
-  "答案": "B",
-  "題目": "下列有關Bacillus anthracis臨床診斷感染之敘述，那一項錯誤？\n(A)可直接利用革蘭氏染色法檢查檢體中細菌的特徵\n(B)臨床檢體中之細菌是桿狀但不會有莢膜（capsule）之形成\n(C)可利用gamma phage造成細菌溶解\n(D)可採用DFA test檢測細胞壁多醣體"
-  },
-  {
-  "答案": "AD",
-  "題目": "下列何種病毒感染會造成單核球增多、嗜異性抗體（heterophile antibody）陰性以及肝炎的症狀？\n(A)Epstein-Barr virus\n(B)Human herpesvirus-6\n(C)Human T-cell lymphotropic virus type 1\n(D)Cytomegalovirus"
-  },
-  {
-  "答案": "A",
-  "題目": "下列關於HIV（Human immunodeficiency virus）的敘述，何者錯誤？\n(A)M-tropic病毒會利用CXCR4當作其細胞的受器之一\n(B)T-tropic病毒通常會隨著病人病程的進展而增加\n(C)Kaposi’s sarcoma是常見於愛滋病人的癌症\n(D)CD4 T細胞數目降至200/μL 以下，易出現伺機性感染"
-  },
-  {
-  "答案": "B",
-  "題目": "膿性指頭炎（whitlow）是由那一種病毒所引起？\n(A)Cytomegalovirus\n(B)Herpes simplex virus\n(C)Human papillomavirus\n(D)Human herpesvirus-6"
-  },
-  {
-  "答案": "B",
-  "題目": "下列有關Parvoviridae的敘述，何者錯誤？\n(A)Adenovirus-associated virus屬於這一科的病毒\n(B)雙股DNA病毒\n(C)沒有外套（envelope）\n(D)結構屬於二十面體的病毒"
+  "題目": "若蛋白質A的正確摺疊（folding）需要另一蛋白質B的幫助，然而蛋白質B的正確摺疊不需要蛋白質A的幫忙。蛋白質B是屬於下列何種物質？\n(A)配體（ligand）\n(B)分子伴護子（molecular chaperone）\n(C)蛋白質A的同功酶（isoenzyme）\n(D)結構基序（structural motif）"
   },
   {
   "答案": "ABCD",
-  "題目": "下列何種病毒具有雙層蛋白衣（double-layered capsid），需經胰蛋白酶消化成ISVP（intermediate/infectious subviral particle）後才會增強其感染能力？\n(A)諾羅病毒（Norovirus）\n(B)輪狀病毒（Rotavirus）\n(C)副流感病毒（Parainfluenza virus）\n(D)麻疹病毒（Measles virus）"
-  },
-  {
-  "答案": "A",
-  "題目": "感染下列何種病毒，有機會經多年後復發引起亞急性硬化全腦炎（subacute sclerosingpanencephalitis)？\n(A)麻疹病毒（Measles virus）\n(B)腮腺炎病毒（Mumps virus）\n(C)立百病毒（Nipah virus）\n(D)亨得拉病毒（Hendra virus）"
-  },
-  {
-  "答案": "C",
-  "題目": "有關Corynebacterium jeikeium之敘述，下列何者錯誤？\n(A)常由菌血症之住院病人所分離\n(B)免疫功能不全之患者易受感染\n(C)對大部分常用抗生素具感受性\n(D)屬於嗜脂性棒狀桿菌（Lipophilic Corynebacteria）"
+  "題目": "下列那一類細胞的訊息受器（receptor）及其結合蛋白不具有酵素催化活性？\n(A)nuclear receptors\n(B)receptor protein kinases\n(C)G protein-coupled receptors\n(D)chemokine/cytokine receptors"
   },
   {
   "答案": "D",
-  "題目": "現在已知的肝炎病毒中，下列那一項敘述錯誤？\n(A)A型和E型傳染途徑為糞口傳染\n(B)A、C、D與E型之核酸均為RNA，唯有B型為部分雙股環狀（partially double-strandedcricular）DNA\n(C)B和C型可導致慢性肝炎\n(D)D型肝炎需A型之幫助來傳染和複製"
+  "題目": "有些蛋白質係由多條獨立的多肽鏈（或稱蛋白質次單元）組合而成，這些次單元間在三度空間中的排列方式稱為蛋白質的：\n(A)二級結構（secondary structure）\n(B)超二級結構（supersecondary structure）\n(C)三級結構（tertiary structure）\n(D)四級結構（quaternary structure）"
+  },
+  {
+  "答案": "B",
+  "題目": "罕見的單基因（monogenic）糖尿病，其致病基因已有6種以上，其中一種是葡萄糖代謝相關的酶hexokinase IV（glucokinase）發生突變，關於該酶之敘述，下列何者錯誤？\n(A)該酶作用參與糖解反應（glycolysis）\n(B)該酶基因突變會直接增加TCA cycle之反應速率\n(C)該酶基因突變會導致胰島細胞ATP生成減少\n(D)該酶會磷酸化葡萄糖"
+  },
+  {
+  "答案": "B",
+  "題目": "催化轉胺反應（transamination）的酵素，需要利用下列何種維生素做為胺基暫時的攜帶者？\n(A)flavin adenine dinucleotide（vitamin B2）\n(B)pyridoxal phosphate（vitamin B6）\n(C)tetrahydrofolate（H4 folate）\n(D)thiamin pyrophosphate（vitamin B1）"
+  },
+  {
+  "答案": "B",
+  "題目": "下列何者能與單股DNA序列（5'）AGACTGGTC（3'）最穩定的雜交（hybridization）？\n(A)（5'）CTGGTCAGA（3'）\n(B)（5'）GACCAGTCT（3'）\n(C)（5'）AGACTGGTC（3'）\n(D)（5'）TCTGACCAG（3'）"
+  },
+  {
+  "答案": "A",
+  "題目": "5-phosphoribosyl-1-pyrophosphate（PRPP）合成inosine 5'-monophosphate（IMP）的核苷酸生合成途徑中，PRPPamidotransferase反應速率可受到下列那一個產物的直接負調控？\n(A)AMP\n(B)CMP\n(C)FAD\n(D)malonyl-CoA"
+  },
+  {
+  "答案": "A",
+  "題目": "大腸桿菌DNA聚合酶I型（DNA polymerase I）的何種酵素活性會參與執行nick translation？\n(A)聚合酶與5'核酸外切酶（polymerase and 5'→3'exonuclease）\n(B)聚合酶與3'核酸外切酶（polymerase and 3'→5'exonuclease）\n(C)5'與3'核酸外切酶（5'→3' and 3'→5'exonuclease）\n(D)聚合酶，5'與3'核酸外切酶（polymerase, 5'→3' and 3'→5'exonuclease）"
   },
   {
   "答案": "C",
-  "題目": "關於subcutaneous mycoses及其致病原之關聯，下列何者正確？\n(A)Sporotrichosis-Chaetomium spp.\n(B)Chromoblastomycosis- Madurella spp.\n(C)Eumycotic mycetoma-Aspergillus nidulans\n(D)Subcutaneous zygomycosis-Sporothrix schenckii"
+  "題目": "聚合酶鏈鎖反應（Polymerase chain reaction, PCR）可以讓微量DNA在短時間內大量擴增，需要何種二價金屬離子以促進反應進行？\n(A)Ca2+\n(B)Zn2+\n(C)Mg2+\n(D)Fe2+"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何者是編碼子（codon）與反編碼子（anticodon）配對時，擺動假說（wobble hypothesis）的最佳詮釋？\n(A)指每一tRNA都只能辨認一個特定的編碼子\n(B)指某些tRNA能辨認不同胺基酸的各種編碼子\n(C)指反編碼子上的第一個鹼基具有較彈性的配對能力\n(D)指反編碼子上的第三個鹼基只能作Watson-Crick式的配對"
+  },
+  {
+  "答案": "C",
+  "題目": "AMP-activated protein kinase（AMPK）在活化後，主要會促進下列那一種反應途徑？\n(A)gluconeogenesis\n(B)lipid biosynthesis\n(C)glycolysis\n(D)cholesterol synthesis"
   },
   {
   "答案": "D",
-  "題目": "血清D-arabinitol含量主要用來偵測下列何種病原菌之感染？\n(A)Histoplasma capsulatum\n(B)Penicillium marneffei\n(C)Cryptococcus neoformans\n(D)Candida albicans"
+  "題目": "下列關於抗體的敘述，何者錯誤？\n(A)抗體IgG由兩個light chain（L）與兩個heavy chain（H）組成\n(B)抗體IgG有兩個抗原結合位\n(C)抗體N端的hypervariable loop region可與抗原專一性結合\n(D)light chain與heavy chain結構以α-helix為主"
   },
   {
   "答案": "A",
-  "題目": "HIV-1各分離株（isolates）之間常有變異性，尤其那個基因差異最大？\n(A)env\n(B)gag\n(C)pol\n(D)LTR"
-  },
-  {
-  "答案": "D",
-  "題目": "一位52歲男性病患因長期胃痛至某醫學中心求診。醫師安排做胃鏡檢查，發現該病人在胃幽門處有潰瘍，並採取若干胃黏膜組織，送細菌室培養。針對這些檢體，最適合的氣體培養環境為何？\n(A)大氣環境（含約20%氧氣）\n(B)無氧環境\n(C)高氧環境（含約50%氧氣）\n(D)低氧環境（含約5%氧氣）"
+  "題目": "下列何種物質無法作為葡萄糖生合成（gluconeogenesis）之前驅物？\n(A)脂肪酸\n(B)胺基酸\n(C)甘油（glycerol）\n(D)草醯乙酸（oxaloacetate）"
   },
   {
   "答案": "B",
-  "題目": "承上題，診斷此菌(幽門桿菌)感染的其他方法，如吹氣法、酵素偵測法，是檢測此菌所產生的那種酵素？\n(A)蛋白酶（protease）\n(B)尿素酶（urease）\n(C)核酸酶（nuclease）\n(D)凝血酶（coagulase）"
-  },
-  {
-  "答案": "A",
-  "題目": "有關馬爾他布魯氏菌（Brucella melitensis）的特徵，下列何者錯誤？\n(A)為兼性厭氧菌（facultative anaerobic）\n(B)是波浪熱（undulant fever）的致病菌\n(C)為革蘭氏陰性桿菌\n(D)可在巨噬細胞（macrophages）內生長"
-  },
-  {
-  "答案": "B",
-  "題目": "有關腦膜炎奈瑟氏菌（Neisseria meningitidis）之敘述，下列何者錯誤？\n(A)製作疫苗的成分是莢膜多醣體（capsular polysaccharides）\n(B)常由帶菌的動物得到感染\n(C)主要經由呼吸道感染\n(D)可能引起嚴重敗血症，造成腎上腺（adrenal gland）的損壞"
-  },
-  {
-  "答案": "C",
-  "題目": "下列何者最常棲居（colonize）於人類之前鼻咽部（anterior nasopharynx）？\n(A)破傷風桿菌（Clostridium tetani）\n(B)鬆脆類桿菌（Bacteroides fragilis）\n(C)金黃色葡萄球菌（Staphylococcus aureus）\n(D)幽門螺旋桿菌（Helicobacter pylori）"
-  },
-  {
-  "答案": "A",
-  "題目": "一男子從東南亞返國一天後開始出現嘔吐、腹瀉症狀，因持續兩天嚴重水瀉而住院。病人隨後出現脫水、酸中毒和低血鉀等症候，糞便檢體培養出逗點狀彎曲、氧化酶（oxidase）陽性之細菌。此病患最有可能是感染了下列何種細菌？\n(A)霍亂弧菌（Vibrio cholerae）\n(B)痢疾志賀氏桿菌（Shigella dysenteriae）\n(C)幽門桿菌（Helicobacter pylori）\n(D)大腸桿菌（Escherichia coli）"
-  },
-  {
-  "答案": "C",
-  "題目": "有關破傷風梭菌（Clostridium tetani ）之敘述，下列何者正確？\n(A)致病是因產生破傷風痙攣毒素（tetanospasmin）抑制神經傳導物質乙醯膽鹼（acetylcholine）的釋放\n(B)病菌會藉血流散佈全身，引發全身性破傷風\n(C)施打破傷風抗毒素球蛋白（antitoxin globulin）有助於治療破傷風\n(D)施打破傷風疫苗預防破傷風，是屬於被動免疫"
-  },
-  {
-  "答案": "C",
-  "題目": "有關胃幽門桿菌（Helicobacter pylori）之特性，下列何者錯誤？\n(A)為革蘭氏陰性菌\n(B)為微需氧（microaerophilic）菌\n(C)能產生氧化酶（oxidase）以避免菌體被胃酸破壞\n(D)可用同位素尿素標識呼吸法（urea breath test）作鑑別診斷"
-  },
-  {
-  "答案": "B",
-  "題目": "下列何者最常引起人工瓣膜之心內膜炎（endocarditis of artificial valve）？\n(A)鏈球菌（Streptococci）\n(B)葡萄球菌（Staphylococci）\n(C)腸內桿菌科細菌（Enterobacteriaceae）\n(D)布魯氏桿菌屬（Brucella spp.）"
-  },
-  {
-  "答案": "C",
-  "題目": "下列何者屬B群鏈球菌（Group B Streptococci）？\n(A)化膿性鏈球菌（Streptococcus pyogenes）\n(B)草綠色鏈球菌（viridans streptococci）\n(C)無乳鏈球菌（Streptococcus agalactiae）\n(D)轉糖鏈球菌（Streptococcus mutans）"
-  },
-  {
-  "答案": "CD",
-  "題目": "有關嗜肺性退伍軍人桿菌（Legionella pneumophila）的敘述，下列何者錯誤？\n(A)培養時需在培養基中添加L-胱胺酸（L-cysteine）\n(B)可在巨噬細胞（macrophages）內繁殖\n(C)會引起龐地克熱（Pontiac fever）和肺炎兩型，而以龐地克熱死亡率較高\n(D)經常由中央空調散佈"
-  },
-  {
-  "答案": "D",
-  "題目": "有一位婦人因發燒，伴隨有嚴重的頭痛、肌肉疼痛、腹瀉和眼睛變紅等症狀而就診，經抽血檢驗確定為鉤端螺旋體病（leptospirosis）。關於此疾病，下列敘述何者錯誤？\n(A)其致病菌之宿主有老鼠、狗、豬、牛、馬、羊等動物\n(B)此病菌不容易用革蘭氏染色法觀察到\n(C)該病菌可長期寄生於動物的腎小管（renal tubules）中\n(D)此疾病以壁虱（ticks）為傳播媒介"
-  },
-  {
-  "答案": "B",
-  "題目": "下列那一種DNA病毒具有不同的血清型，會造成上呼吸道、結膜以及腸胃道的感染？\n(A)乳突瘤病毒（Papillomavirus）\n(B)腺病毒（Adenovirus）\n(C)痘病毒（Poxvirus）\n(D)B19細小病毒（Parvovirus B19）"
-  },
-  {
-  "答案": "B",
-  "題目": "常用來治療疱疹病毒的阿昔洛韋（Acyclovir）會被病毒的何種酵素磷酸化，進而抑制病毒的複製？\n(A)胞苷激酶（cytidine kinase）\n(B)胸苷激酶（thymidine kinase）\n(C)酪氨酸激酶（tyrosine kinase）\n(D)周期蛋白依賴性激酶（cyclin dependent kinase）"
-  },
-  {
-  "答案": "D",
-  "題目": "有關痘病毒（Poxvirus）的敘述，下列何者錯誤？\n(A)是最大的人類DNA病毒\n(B)完全在細胞質中複製\n(C)自己攜帶核醣核酸聚合酶（RNA polymerase），供基因轉錄\n(D)動物的痘病毒不會傳給人"
-  },
-  {
-  "答案": "B",
-  "題目": "下列何種病毒不屬於腸病毒屬（Genus enterovirus）？\n(A)脊髓灰白質炎病毒（Poliovirus）\n(B)輪狀病毒（Rotavirus）\n(C)克沙奇病毒（Coxsackie virus）\n(D)埃可病毒（Echovirus）"
-  },
-  {
-  "答案": "A",
-  "題目": "血球凝集（hemagglutination）試驗，不適用於下列何種病毒的檢測？\n(A)呼吸道細胞融合病毒（Respiratory syncytial virus）\n(B)腮腺炎病毒（Mumps virus）\n(C)副流感病毒（Parainfluenza virus）\n(D)麻疹病毒（Measles virus）"
-  },
-  {
-  "答案": "ABCD",
-  "題目": "關於羊搔癢症傳染性蛋白質（scrapie-like prion protein, PrPSC）的特性，下列何者錯誤？\n(A)是由基因突變所產生\n(B)對福馬林有抗性\n(C)能抵抗80oC高溫\n(D)能抵抗紫外線"
-  },
-  {
-  "答案": "AD",
-  "題目": "EB病毒（Epstein-Barr virus）主要感染B淋巴球；它是以該細胞表面的何種分子為受體（receptor）？\n(A)CR2\n(B)CD4\n(C)CD8\n(D)醣蛋白（glycoprotein）"
-  },
-  {
-  "答案": "C",
-  "題目": "棘白菌素（Echinocandins）是一類較新的抗真菌（antifungal）藥物，其中一種卡泊芬淨（Caspofungin）已通過人體試驗供臨床使用。其抑制真菌之機轉為何？\n(A)抑制真菌DNA之合成\n(B)抑制真菌麥角固醇（ergosterol）之合成\n(C)抑制真菌1,3-β-葡聚醣（1,3-β-glucans）之合成\n(D)抑制真菌幾丁質（chitin）之合成"
-  },
-  {
-  "答案": "A",
-  "題目": "下列何者是目前最常用來治療甲癬（onychomycosis; tinea unguium）之口服藥物？\n(A)特比萘芬（Terbinafine）\n(B)制黴菌素（Nystatin）\n(C)兩性黴素B (Amphotericin B）\n(D)氟胞嘧啶（Flucytosine）"
-  },
-  {
-  "答案": "C",
-  "題目": "一名男性AIDS患者自廣東鄉下返台後，呈現發燒、咳嗽、肺部有浸潤、淋巴腫脹、輕微貧血等症狀。血液檢體於25℃培養出類似常見的黴菌，菌絲有分隔（septate hyphae）、分生孢子柄頂端有掃把狀排列之瓶孢子柄（phialides），菌落周邊有紅色色素擴散，在37℃培養則呈現中裂型酵母菌（fission yeast）。最可能罹患下列那種病症？\n(A)念珠菌菌血症（candidemia）\n(B)隱球菌症（cryptococcosis）\n(C)馬爾尼菲青黴菌症（talaromycosis或penicilliosis marneffei）\n(D)肺孢子蟲症（pneumocystosis）"
-  },
-  {
-  "答案": "C",
-  "題目": "有關肺炎鏈球菌（Streptococcus pneumoniae）的敘述，下列何者錯誤？\n(A)在血液培養盤上菌落周圍，呈現草綠色的溶血環\n(B)具抗吞噬的能力的莢膜（capsule）是此菌重要的致病因子\n(C)具group C多醣類，可與C-反應蛋白質（C-reactive protein, CRP）發生反應\n(D)對奧普托辛（optochin）敏感，且可被膽汁溶解"
-  },
-  {
-  "答案": "B",
-  "題目": "關於白喉棒狀桿菌（Corynebacterium diphtheriae）之敘述，下列何者正確？\n(A)為革蘭氏陰性桿菌\n(B)其主要毒力因子為一種A-B 毒素\n(C)貓、狗等動物為主要傳染源\n(D)主要經由食物傳染"
-  },
-  {
-  "答案": "A",
-  "題目": "有關脂多醣（lipopolysaccharides）內毒素（endotoxin）導致病人死亡的敘述，下列何者錯誤？\n(A)甲氧西林抗藥性金黃色葡萄球菌（Methicillin-Resistant Staphylococcus aureus）產生之內毒素是可能的禍首\n(B)廣泛的血管內凝固（disseminated intravascular coagulation），可能是致死原因之一\n(C)病人可能死於低血壓（hypotension）\n(D)可引起發燒及休克，導致死亡"
-  },
-  {
-  "答案": "C",
-  "題目": "有關使用抗生素所引起之偽膜性腸炎（pseudomembranous colitis）的敘述，下列何者錯誤？\n(A)常由艱難梭菌（Clostridium difficile）所引起\n(B)非皆為外源性（exogenous）感染之疾病\n(C)糞便移植（fecal transplantation）通常不具療效\n(D)可以甲硝達唑（Metronidazole）或萬古黴素（Vancomycin）治療"
-  },
-  {
-  "答案": "B",
-  "題目": "下列疾病，何者極少由砂眼披衣菌（Chlamydia trachomatis）所引起？\n(A)嬰兒肺炎（infant pneumonia）\n(B)腦膜炎（meningitis）\n(C)生殖道及尿道感染（urogenital infections）\n(D)淋巴肉芽腫（lymphogranuloma venereum）"
-  },
-  {
-  "答案": "C",
-  "題目": "肺炎退伍軍人桿菌（Legionella pneumophila）初次分離培養（primary culture）時，需要添加下列那種成分？\n(A)甘油（glycerol）\n(B)橄欖油（olive oil）\n(C)L-半胱胺酸（L-cysteine）\n(D)菸鹼酸（nicotinic acid）"
-  },
-  {
-  "答案": "B",
-  "題目": "下列那一種致病菌能在上皮細胞（epithelial cells）內複製，並藉由形成肌動蛋白尾（actin tail）移動至緊鄰細胞內？\n(A)白喉棒狀桿菌（Corynebacterium diphtheriae）\n(B)單核球增生李斯特菌（Listeria monocytogenes）\n(C)綠膿假單胞桿菌（Pseudomonas aeruginosa）\n(D)肺炎克雷白氏菌（Klebsiella pneumoniae）"
-  },
-  {
-  "答案": "B",
-  "題目": "淚水中含有下列那一種成分，可分解胜肽聚醣（peptidoglycan）？\n(A)乳鐵蛋白質（Lactoferrin）\n(B)溶菌酶（Lysozyme）\n(C)乳過氧化物酶（Lactoperoxidase）\n(D)澱粉酶（Amylase）"
-  },
-  {
-  "答案": "B",
-  "題目": "關於結核桿菌（Mycobacterium tuberculosis）之敘述，下列何者正確？\n(A)齧齒類動物（rodents）為此菌之傳播者\n(B)此菌不易染色，但一旦染上後，即使用酸性溶液也不易脫色\n(C)此菌具移動性且會形成內孢子（endospores）\n(D)此菌能產生外毒素（exotoxin）以避免吞噬細胞之吞食"
-  },
-  {
-  "答案": "B",
-  "題目": "下列何者是最易造成人體內源性感染（endogenous infection）的厭氧菌？\n(A)產氣莢膜梭菌（Clostridium perfringens）\n(B)鬆脆類桿菌（Bacteroides fragilis）\n(C)短雙歧桿菌（Bifidobacterium breve）\n(D)炭疽桿菌（Bacillus anthracis）"
-  },
-  {
-  "答案": "B",
-  "題目": "關於傳染性蛋白質（prion）所引起之疾病的敘述，下列何者錯誤？\n(A)潛伏期很長\n(B)會引起激烈的免疫反應\n(C)可經由眼角膜移植傳染\n(D)病人常會有失智（dementia）症狀"
-  },
-  {
-  "答案": "C",
-  "題目": "某一老人照護中心發生群聚感染，有25位長者出現水樣下痢、噁心及嘔吐等，症狀持續12至60小時不等。此最可能由下列何種病毒所引起？\n(A)巨細胞病毒（Cytomegalovirus）\n(B)漢坦病毒（Hantaan virus）\n(C)諾羅病毒（Norovirus）\n(D)B型肝炎病毒（Hepatitis B virus）"
-  },
-  {
-  "答案": "C",
-  "題目": "有關狂犬病（rabies）之敘述，下列何者正確？\n(A)是被感染了狂犬病細菌的病狗咬傷所引起的\n(B)最初的入侵部位為肌肉；最終之感染部位為心臟\n(C)最好的預防策略是對動物施打疫苗\n(D)病原細菌入侵僅數天即嚴重發病"
-  },
-  {
-  "答案": "B",
-  "題目": "欲由登革熱患者身上分離病毒時，取患者下列那種檢體最適合？\n(A)喉頭拭子（throat swab）\n(B)血液\n(C)皮膚\n(D)肛門拭子（anal swab）"
-  },
-  {
-  "答案": "C",
-  "題目": "關於人類免疫缺陷病毒（Human immunodeficiency virus, HIV）致病機轉之敘述，下列何者錯誤？\n(A)可造成巨噬細胞（macrophage）功能變差\n(B)會引起CD4 T淋巴球（lymphocyte）減少\n(C)感染B淋巴球，造成免疫功能下降\n(D)CD8 T淋巴球/CD4 T淋巴球比例上升"
-  },
-  {
-  "答案": "C",
-  "題目": "下列何者為最常造成人類病毒性心臟炎（carditis）的病原？\n(A)流行性感冒病毒（Influenza virus）\n(B)單純疱疹病毒（Herpes simplex virus）\n(C)B型克沙奇病毒（Coxsackie B virus）\n(D)71型腸病毒（Enterovirus 71）"
-  },
-  {
-  "答案": "B",
-  "題目": "某病人之組織檢體培養在攝氏25度，觀察到具有約3～6 μm大小之桶狀關節孢子（barrel-shaped arthroconidia）。最可能罹患下列那種疾病？\n(A)芽生黴菌症（Blastomycosis）\n(B)球黴菌症（Coccidioidomycosis）\n(C)莢膜組織胞漿菌症（Histoplasmosis capsulati）\n(D)副球黴菌症（Paracoccidioidomycosis）"
-  },
-  {
-  "答案": "A",
-  "題目": "關於抗黴菌（antifungal）藥物之主要作用機制的敘述，下列何者正確？\n(A)氟胞嘧啶（Flucytosine）抑制核酸合成\n(B)糞殼菌素（Sordarins）抑制細胞壁合成\n(C)華光黴素（Nikkomycin）抑制細胞膜合成\n(D)聚乙烯（Polyenes）抑制蛋白質合成"
-  },
-  {
-  "答案": "A",
-  "題目": "所謂透明黴菌（hyaline molds）是指一群在病灶組織中，呈現下列那種共同性質的真菌？\n(A)產生有分隔之菌絲\n(B)產生無分枝之菌絲\n(C)與青黴菌屬（Penicillium）之形態相似\n(D)產生具色素之菌絲"
-  },
-  {
-  "答案": "B",
-  "題目": "下列何者為目前已知皮下真菌病（subcutaneous mycosis）中，具有兩型性（dimorphic）之病原菌？\n(A)疣狀毛癬菌（Trichopyton verrucosum）\n(B)申克孢子絲菌（Sporothrix schenckii）\n(C)副冠耳黴（Conidiobolus coronatus）\n(D)蛙糞黴（Basidiobolus ranarum）"
-  },
-  {
-  "答案": "C",
-  "題目": "下列有關 Kanagawa hemolysin 之敘述，何者錯誤？\n(A)由 Vibrio parahaemolyticus 所分泌        \n(B)是一種對熱穩定的毒素\n(C)在羊血培養基呈 β 溶血現象        \n(D)會導致水瀉（watery diarrhea） "
-  },
-  {
-  "答案": "D",
-  "題目": "為何鼠疫桿菌（Yersinia pestis）被認為是較有潛能的生物戰劑？\n(A)這細菌廣泛存在於歐亞大陸，易於分離        \n(B)現無有效的抗生素可以抑制它\n(C)很容易經由蚊子叮咬，而傳播到許多人        \n(D)肺鼠疫易於傳染，且死亡率高"
-  },
-  {
-  "答案": "D",
-  "題目": "產生腸毒素的大腸桿菌，其對熱穩定的毒素，有下列何種作用機制？\n(A)溶解脂肪，打破細胞膜        \n(B)抑制蛋白質的合成\n(C)活化發炎反應（inflammation）        \n(D)活化次級信號分子"
-  },
-  {
-  "答案": "A",
-  "題目": "關於 Actinomyces 之敘述，下列何者正確？\n(A)為兼性或絕對厭氧菌        \n(B)具有細胞核膜及粒線體\n(C)主要以抗黴菌藥物治療        \n(D)常引起人與人之間傳染"
-  },
-  {
-  "答案": "A",
-  "題目": "下列那種細菌毒素的作用機制是抑制蛋白質的合成？\n(A)志賀毒素（shiga toxin）        \n(B)霍亂毒素（cholera toxin）\n(C)破傷風毒素（tetanospasmin）        \n(D)肉毒桿菌毒素（botulinum toxin）"
-  },
-  {
-  "答案": "D",
-  "題目": "關於 Staphylococcus aureus 的特徵，下列何者錯誤？\n(A) Gram-positive cocci        \n(B) β-hemolysis        \n(C) Catalase-positive        \n(D) Coagulase-negative"
-  },
-  {
-  "答案": "A",
-  "題目": "下列有關 Streptococcus pyogenes 的敘述，那一項錯誤？\n(A) Group-specific carbohydrate 又稱 Lancefield group 抗原是用來區分毒性及非毒性 Group A Streptococcus 的分類標準\n(B) M protein 是用來區分不同種類 Group A Streptococcus 的抗原之一\n(C) M-like surface proteins 因菌種不同而表現也不一致\n(D)並非每一支不同亞型的 Group A Streptococcus 都會產生莢膜（capsule）"
-  },
-  {
-  "答案": "A",
-  "題目": "一名 69 歲住院接受血癌（leukemia）治療的病人，住院後第三天發生尿道感染，醫師即刻施以廣效 型抗生素治療一週，並於治療前所取得的尿液檢體中檢出大腸桿菌（Escherichia coli）。住院兩週後，病人突發高燒並寒顫，24 小時內血壓即下降，並出現壞死性膿瘡性皮膚病變。此時，由病人血液中檢出 一株革蘭氏陰性，不發酵醣類，且產生螢光色素的細菌。下列何者最有可能是此致病菌？\n(A)綠膿桿菌（Pseudomonas aeruginosa）        \n(B)傷寒桿菌（Salmonella Typhi）\n(C)創傷弧菌（Vibrio vulnificus）        \n(D)炭疽桿菌（Bacillus anthracis）"
-  },
-  {
-  "答案": "B",
-  "題目": "承上題，下列有關此菌(綠膿桿菌)的敘述，何者正確？\n(A)此菌為一種厭氧菌（anaerobe）        \n(B)此菌廣泛存在於環境中\n(C)此菌罕由傷口感染人體        \n(D)可施打疫苗以預防此菌之感染"
-  },
-  {
-  "答案": "AB",
-  "題目": "下列那一種感染原是屬於“obligate intracellular bacteria”？\n(A) Chlamydia trachomatis        \n(B) Treponema pallidum\n(C) Clostridium botulinum        \n(D) Pseudomonas aeruginosa"
-  },
-  {
-  "答案": "D",
-  "題目": "下列關於傳染性紅斑症（erythema infectiosum）的敘述，何者錯誤？\n(A)臉部紅疹出現在類感冒症狀之後        \n(B)由 Parvovirus B19 引起\n(C)此病毒在成人可能會引發關節炎        \n(D)病毒偏好感染白血球前期細胞 "
-  },
-  {
-  "答案": "B",
-  "題目": "嬰兒玫瑰疹（roseola infantum）或稱 exanthem subitum 在發疹前會突然出現幾天的高燒，請問下列何 種病毒會造成此疾病？\n(A) Parvovirus B19        \n(B) Human herpesvirus-6\n(C) Rubella virus        \n(D) Varicella-zoster virus"
-  },
-  {
-  "答案": "A",
-  "題目": "下列病毒與其自然宿主之配對，何者錯誤？\n(A)黃熱病病毒（Yellow fever virus）與鳥類\n(B)登革熱病毒（Dengue virus）與人類、猴子\n(C)日本腦炎病毒（Japanese encephalitis virus）與鳥類、豬\n(D)聖路易斯腦炎病毒（St. Louis encephalitis virus）與鳥類 "
-  },
-  {
-  "答案": "B",
-  "題目": "下列何者為德國麻疹病毒（Rubella virus）的致病機制？\n(A)經消化道感染柱狀上皮細胞        \n(B)先在呼吸道增殖，再感染網狀內皮系統\n(C)經蚊子叮咬直接產生病毒血症        \n(D)先在肌肉增殖，並擴散到中樞神經"
-  },
-  {
-  "答案": "B",
-  "題目": "下列關於 progressive multifocal leukoencephalopathy（PML）的敘述，何者錯誤？\n(A)常發生於免疫不全的病人        \n(B)由 BK 病毒所引起\n(C)是一種脫髓鞘（demyelination）的疾病        \n(D)病人大部分 2 年內會死亡"
-  },
-  {
-  "答案": "A",
-  "題目": "下列何者會造成多個細胞的膜融合（syncytia），形成多核細胞？\n(A) Herpesvirus        \n(B) Bunyavirus        \n(C) Flavivirus        \n(D) Rotavirus "
-  },
-  {
-  "答案": "A",
-  "題目": "從事醫院臨床工作者為避免遭受 B 型肝炎病毒的感染，常用的預防方法為何？\n(A)施打 B 型肝炎疫苗        \n(B)注射干擾素\n(C)注射 B 型肝炎免疫球蛋白        \n(D)主動感染 B 型肝炎病毒"
-  },
-  {
-  "答案": "B",
-  "題目": "下列何種黴菌主要感染途徑不是吸入感染？\n(A) Coccidioides immitis        \n(B) Candida glabrata\n(C) Histoplasma capsulatum        \n(D) Blastomyces dermatitidis"
-  },
-  {
-  "答案": "BCD",
-  "題目": "關於 Pneumocystis jirovecii（carinii）之敘述，下列何者正確？\n(A)目前分類為原蟲        \n(B)屬於 Archiascomycetes\n(C)於人工培養基生長緩慢        \n(D)經常感染肺結核病病人"
-  },
-  {
-  "答案": "A",
-  "題目": "關節孢子（arthroconidia）是下列何種黴菌之鑑定特徵？\n(A) Coccidioides immitis        \n(B) Fusarium solani\n(C) Histoplasma capsulatum        \n(D) Malassezia furfur"
+  "題目": "下列何者會增加肝臟肝醣分解（glycogenolysis）？\n(A)抑制glycogen phosphorylase\n(B)活化phosphorylase b kinase\n(C)活化phosphorylase a phosphatase\n(D)抑制glycogen synthase kinase 3（GSK3）"
   },
   {
   "答案": "BD",
-  "題目": "以下有關 QuantiFERON-TBGold test 之敘述，何者錯誤？\n(A)偵測被活化的 T 細胞所產生之 IFN-γ        \n(B)敏感度比 tuberculin-skin test 高 \n(C)用來檢查結核分枝桿菌感染        \n(D)需採病人痰液做 QuantiFERON-TBGold test"
-  },
-  {
-  "答案": "A",
-  "題目": "下列有關放線菌（Actinomyces）的敘述，何者錯誤？\n(A)革蘭氏陰性菌        \n(B)菌體呈分枝        \n(C)菌落似臼齒        \n(D)可用青黴素治療"
-  },
-  {
-  "答案": "AB",
-  "題目": "下列何種病症，是由 Salmonella typhi 所引起？\n(A)赤痢（dysentery）        \n(B)腸熱症（enteric fever） \n(C)假膜性大腸炎（pseudomembranous colitis）        \n(D)出血性熱（hemorrhagic fever）"
-  },
-  {
-  "答案": "A",
-  "題目": "有關梅毒（Syphilis）之敘述，何者錯誤？\n(A)其致病原為 Borrelia burgdorferi \n(B)主要為性接觸傳染之疾病\n(C)婦女懷孕時若感染梅毒則可能導致胎兒患有先天性梅毒 \n(D)一般感染後 2 年內最具傳染性"
-  },
-  {
-  "答案": "C",
-  "題目": "下列何者是引發氣性壞疽（gas gangrene）的主要致病菌所產生之最重要毒素？ \n(A)核酸酶（nuclease）        \n(B)蛋白酶（protease）\n(C)卵磷脂酶（lecithinase）        \n(D)凝固酶（coagulase）"
+  "題目": "在下列何種情況下，acetyl-CoA進入citric acid cycle會減少？\n(A)[AMP]/[ATP]高\n(B)[ATP]/[ADP]高\n(C)[NAD+]/[NADH]高\n(D)[oxaloacetate]高"
   },
   {
   "答案": "D",
-  "題目": "下列關於痲瘋病（leprosy）的敘述那一項錯誤？ \n(A)由痲瘋分枝桿菌（Mycobacterium leprae）引起 \n(B)有痲瘋瘤型（lepromatous form）及類結核型（tuberculoid form）二類 \n(C)痲瘋瘤型痲瘋患者比類結核型的痲瘋患者更具有傳染性 \n(D)經由飛沫傳染，傳染力極強"
+  "題目": "有關細胞膜上之脂膜筏（lipid raft），下列敘述何者正確？\n(A)有較低量膽固醇（cholesterol）\n(B)有較低量鞘脂（sphingolipid）\n(C)不含有燒杯狀膜小囊蛋白（caveolin）\n(D)有較高量的糖基化磷脂醯肌醇（glycosylated derivative of phosphatidylinositol; GPI）結合蛋白質"
   },
   {
-  "答案": "BC",
-  "題目": "黃癬（favus）為頭部之慢性癬病，病原菌可破壞毛囊引起永久性脫毛，其病原菌為何？ \n(A)絮狀表皮癬菌（Epidermophyton floccosum）        \n(B)小芽孢癬菌（Microsporum canis） \n(C)許蘭氏毛癬菌（Trichophyton schoenleinii）        \n(D)糠粃馬拉色氏菌（Malassezia furfur）"
+  "答案": "A",
+  "題目": "下列那一個運輸系統屬於P-type ATPase 的作用機制？\n(A)肌肉細胞內質網的鈣離子幫浦（Ca2+ pump）\n(B)紅血球上的葡萄糖運輸器（glucose transporter）\n(C)小腸黏膜細胞內的鈉離子-葡萄糖運輸器（Na+-glucose transporter）\n(D)紅血球上的氯離子-碳酸氫鹽交換器（chloride-bicarbonate exchanger）"
+  },
+  {
+  "答案": "D",
+  "題目": "關於脂肪組織之脂肪代謝，下列敘述何者錯誤？\n(A)脂肪組織脂肪分解，釋放出來的脂肪酸，可供給其他組織產生能量\n(B)脂肪組織脂肪分解，分解出來的脂肪酸，釋放至血液與血清白蛋白（serum albumin）結合\n(C)脂肪組織脂肪分解，釋放出來的脂肪酸可送到肝臟內再合成三酸甘油酯，所以肥胖病患易合併脂肪肝\n(D)空腹時，釋放出來的脂肪酸送到肝臟內合成三酸甘油酯，包裝成乳糜微粒（chylomicron）分泌至血液中"
+  },
+  {
+  "答案": "D",
+  "題目": "腦中核酸分解所形成之氨（ammonia），主要轉化為下列何種物質，再經由血液運送至肝臟或腎臟？\n(A)尿酸（uric acid）\n(B)尿素（urea）\n(C)天冬醯胺（asparagine）\n(D)麩胺醯胺（glutamine）"
   },
   {
   "答案": "B",
-  "題目": "一位嗜食泡菜的家庭主婦，某天晚上突然發生視覺模糊、吞嚥困難及口乾的情形，且此麻痺現象逐 漸向下延伸，引發呼吸困難。送醫急救時，醫師得知該婦人前一天及當天中午獨自在家午餐時，新 開了一罐親戚所贈送的自製泡菜作為配菜。下列那種細菌最有可能導致此疾病？\n(A)傷寒桿菌（Salmonella typhi）        \n(B)肉毒桿菌（Clostridium botulinum） \n(C)金黃色葡萄球菌（Staphylococcus aureus）        \n(D)仙人掌桿菌（Bacillus cereus） "
-  },
-  {
-  "答案": "D",
-  "題目": "承上題，下列何者最可作為確診此疾病(肉毒桿菌感染)的依據？                \n(A)臨床症狀        \n(B)由糞便中分離出致病菌        \n(C)以鏡檢法在可疑的食物中觀察到致病菌        \n(D)在病人血清中檢測出導致此病的細菌毒素"
-  },
-  {
-  "答案": "ABCD",
-  "題目": "下列何種反轉錄病毒沒有攜帶致癌基因（oncogene）？\n(A)Avian erythroblastosis virus \n(B)Abelson murine leukemia virus \n(C)Rous sarcoma virus\n(D)HTLV-1（Human T-cell lymphotropic virus type 1）"
+  "題目": "胺甲醯麩胺酸（carbamoyl glutamate）常用於治療醋醯麩胺酸合成酶（N-acetylglutamate synthetase）缺乏所造成的尿素循環（urea cycle）障礙疾病，其藥理作用主要為何？\n(A)提供尿素循環所需的中間產物，增進整個尿素循環的效率\n(B)做為胺甲醯磷酸合成酶（carbamoyl phosphate synthetase I）的異位活化劑（allosteric activator），增進尿素循環的效率\n(C)與甘胺酸（glycine）和麩胺醯胺（glutamine）結合成衍生物排出體外，減少尿素循環的負擔\n(D)促進精胺酸（arginine）的合成，防止精胺酸缺乏"
   },
   {
   "答案": "A",
-  "題目": "下列關於 HIV（Human immunodeficiency virus）病毒蛋白的功能，何者錯誤？\n(A)Tat與運送病毒 RNA 到細胞質有關        \n(B)Vif可以拮抗細胞中 APOBEC-3G 的作用\n(C)Vpu可以降低細胞上 CD4 的表現        \n(D)gp41幫助病毒與細胞膜的融合"
+  "題目": "Cytochromes含有那種金屬離子？\n(A)Fe2+\n(B)Mg2+\n(C)Co2+\n(D)Ni2+"
+  },
+  {
+  "答案": "A",
+  "題目": "下列那一種酵素參與克式循環（Krebs cycle，亦稱citric acid cycle或TCA cycle）的反應，是位於粒線體內膜上且直接參與電子傳遞鏈？\n(A)succinate dehydrogenase\n(B)isocitrate dehydrogenase\n(C)alpha-ketoglutarate dehydrogenase complex\n(D)malate dehydrogenase"
   },
   {
   "答案": "C",
-  "題目": "在細胞質內進行複製之 DNA 病毒為：\n(A)EB病毒（Epstein-Barr virus）        \n(B)腺病毒（Adenovirus） \n(C)痘病毒（Poxvirus）        \n(D)小 DNA 病毒（Parvovirus）"
+  "題目": "蛋白激酶A（Protein kinase A）具有下列何種特性？\n(A)與cyclic AMP共價鍵結合而活化\n(B)與cyclic AMP共價鍵結合而抑制\n(C)cyclic AMP與酵素的異位性結合位（allosteric site）結合而使酵素活化\n(D)受到cyclic AMP的競爭性抑制"
   },
   {
-  "答案": "D",
-  "題目": "下列何種病毒的感染過程中有潛伏期（latency），且可再激活（reactivation）後，再進入潛伏期？\n(A)Hepatitis B virus        \n(B)Human immunodeficiency virus \n(C)Coxsackie virus A3        \n(D)Varicella-zoster virus"
+  "答案": "C",
+  "題目": "有關胰島素受體（insulin receptor）訊息傳遞的敘述，下列何者正確？\n(A)胰島素受體是nuclear hormone receptor\n(B)胰島素受體利用cAMP進行訊息傳遞\n(C)胰島素受體會磷酸化自己及其受質（substrate）\n(D)胰島素受體在胰島素刺激前，是一種活化的磷酸激酶"
+  },
+  {
+  "答案": "A",
+  "題目": "利用polymerase chain reaction（PCR）技術放大DNA，在溫度循環過程中反應溫度高達95℃之目的為何？\n(A)形成單股模板（template）DNA\n(B)使primer與模板（template）結合\n(C)增加DNA polymerase活性\n(D)便於產物之純化"
   },
   {
   "答案": "B",
-  "題目": "孕婦在懷孕期間感染下列那些病毒後，容易造成嬰兒先天性缺陷？①Cytomegalovirus        ②Influenzavirus        ③Rubella virus        ④Adenovirus\n(A)①②        \n(B)①③        \n(C)②③        \n(D)③④"
-  },
-  {
-  "答案": "D",
-  "題目": "目前接種的 B 型肝炎疫苗是屬於下列那一種？\n(A)活病毒        \n(B)活減毒疫苗        \n(C)死病毒        \n(D)基因重組次單位疫苗"
-  },
-  {
-  "答案": "D",
-  "題目": "下列那個病毒不會因有機溶劑或膽鹽之處理而喪失活性？\n(A)Hantaan virus        HIV        \n(B)HIV        \n(C)Influenza viruses \n(D)Hepatitis A virus "
+  "題目": "當氧分子與血紅素（hemoglobin）結合時，此時血基質（heme）中Fe2+上的兩個開放配位鍵（open coordination bonds）與下列何組物質結合？\n(A)一水分子與一胺基酸的側鏈\n(B)一氧分子與一胺基酸的側鏈\n(C)一氧分子與一水分子\n(D)兩個氧分子"
   },
   {
   "答案": "B",
-  "題目": "真菌細胞膜中之主要之固醇類型為何？\n(A)膽固醇（cholesterol）        \n(B)麥角固醇（ergosterol）\n(C)柱頭固醇（stigmasterol）        \n(D)羊毛脂固醇（lanosterol）"
+  "題目": "組胺酸（histidine）有三個酸解離常數（pKa）值，分別為1.82、 6.0、 9.17。其中那個官能基團的pKa為1.82？\n(A)胺基（-NH3+）\n(B)羧基（-COOH）\n(C)側鏈異吡唑基（side-chain imidazole group）\n(D)α碳原子（α carbon）的氫原子"
+  },
+  {
+  "答案": "A",
+  "題目": "01 s mM-１"
+  },
+  {
+  "答案": "A",
+  "題目": "維生素C（ascorbic acid）缺乏會導致膠原蛋白（collagen）的修飾不全，是因為下列那個反應受到影響？\n(A)proline hydroxylation\n(B)serine phosphorylation\n(C)cysteine oxidation\n(D)lysine methylation"
+  },
+  {
+  "答案": "D",
+  "題目": "5'-CCAAGTCCATGGACTTGG-3'DNA分子可以形成何種二級結構？\n(A)A form\n(B)H form\n(C)Z form\n(D)cruciform"
   },
   {
   "答案": "C",
-  "題目": "下列那種真菌病原菌是屬於地域性（endemic）特有種？\n(A)Candida albicans        \n(B)Cryptococcus neoformans\n(C)Histoplasma capsulatum\n(D)        Sporothrix schenckii"
+  "題目": "Lambda噬菌體DNA是藉由何種作用嵌入大腸桿菌的基因體DNA中？\n(A)同源重組（homologous recombination）\n(B)轉位作用（transposition）\n(C)特定點重組（site-specific recombination）\n(D)非同源性末端接合（non-homologous end joining, NHEJ）"
   },
   {
-  "答案": "ABCD",
-  "題目": "念珠菌菌血症（candidemia）中致死率最高者為下列何種感染？\n(A)Candida albicans        \n(B)Candida glabrata\n(C)Candida parapsilosis        \n(D)Candida tropicalis"
+  "答案": "C",
+  "題目": "環丁烷嘧啶二聚體（cyclobutane pyrimidine dimer）修復時，下列何者為細菌DNA光解酶（photolyase）的輔助因子（cofactor）？\n(A)pyridoxal phosphate\n(B)thiamine pyrophosphate\n(C)FADH\n(D)coenzyme A"
+  },
+  {
+  "答案": "A",
+  "題目": "蛋白質最常經下列何種轉譯後修飾（post-translational modification），再送到溶酶體（lysosome）？\n(A)糖基化（glycosylation）\n(B)磷酸化 （phosphorylation）\n(C)蘇素化（sumoylation）\n(D)乙醯化（acetylation）"
   },
   {
   "答案": "B",
-  "題目": "如圖所示。所謂花椰菜樣節瘤（cauliflower-like nodule）為何種真菌感染症之特徵？\n(A)Eumycotic mycetoma \n(B)Chromoblastomycosis \n(C)Subcutaneous zygomycosis\n(D)Actinomycotic mycetoma"
+  "題目": "位在腫瘤中心的癌細胞，常處於缺氧的環境，這些細胞偏好利用下列那一種醣類代謝途徑獲取ATP？\n(A)ß-oxidation\n(B)glycolysis\n(C)tricarboxylic acid cycle\n(D)pentose phosphate pathway"
   },
   {
   "答案": "A",
-  "題目": "有關大腸桿菌（E. coli）致病性，下列敘述何者錯誤？\n(A) enterotoxigenic E. coli 會引起旅行者腹瀉，其致病機轉是細菌侵入並破壞大腸表皮，造成黏膜潰瘍 發炎\n(B) enteropathogenic E. coli 主要之致病機制為細菌黏附至小腸上皮細胞，破壞微絨毛\n(C) enterohemorrhagic E. coli  常見血清型為 O157：H7，可產生 Shiga toxin\n(D) E. coli 之 P pili 與腎盂腎炎（pyelonephritis）之形成有關"
-  },
-  {
-  "答案": "A",
-  "題目": "下列有關 Clostridium difficile 的敘述，何者錯誤？\n(A)通常對 clindamycin 敏感        \n(B)可見於院內感染\n(C)可見於正常人腸道        \n(D)其致病與抗生素的使用有關"
-  },
-  {
-  "答案": "A",
-  "題目": "下列有關 Bacteroides fragilis 的敘述，何者錯誤?\n(A) 20% bile 抑制其生長        \n(B)可水解 esculin\n(C)為革蘭氏陰性菌        \n(D)有些對 clindamycin 有抗藥性"
-  },
-  {
-  "答案": "A",
-  "題目": "下列有關 Bacillus cereus 的敘述，何者錯誤？\n(A)需要特殊培養基，細菌在低溫培養效果較好（cold enrichment）\n(B)具有 heat-stable proteolysis-resistant enterotoxin 會引起嘔吐\n(C)具有 heat-labile enterotoxin 會引起腹瀉\n(D)在宿主體內形成 capsule 的菌株可造成肺炎"
+  "題目": "下列關於操縱子（operon）的敘述，何者錯誤？\n(A)只在真核生物上發現\n(B)包含promoter\n(C)包含operator\n(D)包含structural genes"
   },
   {
   "答案": "C",
-  "題目": "造成兔熱病（tularemia）的病菌具有下列那種特徵？\n(A)會產生芽孢（spores）        \n(B)是一種微嗜氧菌（microaerophil）\n(C)能在巨噬細胞（macrophages）內存活        \n(D)常由胃腸道感染人體"
-  },
-  {
-  "答案": "C",
-  "題目": "細菌的電子傳遞產生能量發生在何處？\n(A)中間體（mesosome）        \n(B)顆粒體（granules）\n(C)細胞質膜（cytoplasmic membrane）        \n(D)細胞質（cytoplasm）內"
-  },
-  {
-  "答案": "C",
-  "題目": "有關分枝桿菌（Mycobacterium）之敘述，下列何者錯誤？\n(A)為需氧性桿菌且不形成孢子\n(B)可用螢光染色法篩選陽性檢體\n(C)複製一次（doubling time）約需 2 小時\n(D)孔雀綠（malachite green）可用來抑制一般細菌，但不會抑制分枝桿菌之生長"
-  },
-  {
-  "答案": "AB",
-  "題目": "下列何者最常用於燒傷傷口之消毒？\n(A) silver sulfadiazine        \n(B) povidon-iodine        \n(C) soap        \n(D) azole cream"
-  },
-  {
-  "答案": "C",
-  "題目": "2000 年間，臺中清水地區某衛生所通報該地區疑似有群體感染大腸桿菌 O157:H7，O 是指大腸桿菌 細胞壁的那一種成分？\n(A) teichoic acid        \n(B)內毒素中的 lipid A\n(C) somatic 抗原        \n(D)內毒素中的核心（core）多醣體"
-  },
-  {
-  "答案": "D",
-  "題目": "當細菌的 23S rRNA 和核糖體蛋白（ribosomal proteins）發生突變時，可造成細菌對下列何種抗生素 產生抗藥性？\n(A)環丙沙星（ciprofloxacin）        \n(B)利肺寧（rifampin）\n(C)青黴素（penicillin）        \n(D)紅黴素（erythromycin）"
-  },
-  {
-  "答案": "D",
-  "題目": "下列關於腺病毒（adenovirus）的敘述，何者錯誤？\n(A)為 DNA 病毒        \n(B)引起結膜炎（conjunctivitis）\n(C)可以潛伏於淋巴組織中        \n(D)具有外套（envelope） "
+  "題目": "下列何者是蛋白質轉譯之起始胺基酸？\n(A)leucine\n(B)cysteine\n(C)methionine\n(D)tyrosine"
   },
   {
   "答案": "A",
-  "題目": "反轉錄病毒嵌入宿主的染色體中，其基因上那一個片段具有啟動子（promoter）序列可以調控病毒的 轉錄（transcription）？\n(A) LTR        \n(B) gag        \n(C) pol        \n(D) env"
-  },
-  {
-  "答案": "ABCD",
-  "題目": "下列何種病毒，與精神分裂症（schizophrenia）有關？\n(A)西尼羅腦炎病毒（West Nile encephalitis virus）\n(B)玻納病病毒（Borna disease virus）\n(C)拉克里斯病毒（La Crosse virus）\n(D)辛諾柏病毒（Sin Nombre virus）"
-  },
-  {
-  "答案": "A",
-  "題目": "下列何者不是導致流感病毒產生抗原飄移（antigenic drift）之原因？\n(A)當兩種病毒發生基因重分配（genetic reassortment）所致\n(B)因為病毒合成 RNA 常發生錯誤、引起突變所致\n(C)常發生於血球凝集素基因（hemagglutinin gene）\n(D)常發生於神經胺酸酶基因（neuraminidase gene）"
-  },
-  {
-  "答案": "D",
-  "題目": "下列對於腸病毒（enteroviruses）的描述，何者錯誤？\n(A)在 pH3 至 pH9 之環境下仍具抗性\n(B)病毒基因體（naked genome）本身具感染之能力\n(C)病毒 RNA 在細胞中會被轉譯成 polyprotein\n(D)病毒在細胞核複製其子代"
-  },
-  {
-  "答案": "A",
-  "題目": "孕婦何時感染 rubella virus 最容易造成先天性胎兒畸形？\n(A)懷孕初期三個月        \n(B)懷孕中期三個月        \n(C)懷孕後期三個月        \n(D)周產期"
-  },
-  {
-  "答案": "ABCD",
-  "題目": "下列那一種黴菌不屬於擔子菌綱（Basidiomycetes）？\n(A) Cryptococcus        \n(B) Trichosporon        \n(C) Aspergillus        \n(D) Malassezia"
-  },
-  {
-  "答案": "D",
-  "題目": "下列何種黴菌為主要病原菌（primary pathogen）？\n(A) Aspergillus niger        \n(B) Cryptococcus neoformans\n(C) Candida albicans        \n(D) Paracoccidioides brasiliensis"
-  },
-  {
-  "答案": "D",
-  "題目": "下列何者不是伺機性黴菌感染疾病之重要  predisposing factor？\n(A)服用抗微生物藥物        \n(B)惡性腫瘤        \n(C)外科手術或燒傷        \n(D)男女性別"
+  "題目": "下列何者是Cori cycle的主要代謝角色？\n(A)將乳酸（lactate）由骨骼肌運送至肝臟\n(B)將乳酸（lactate）由肝臟運送至骨骼肌\n(C)將葡萄糖由骨骼肌運送至肝臟\n(D)將葡萄糖與乳酸（lactate）由肝臟運送至骨骼肌"
   },
   {
   "答案": "C",
-  "題目": "抗黴菌藥物 terbinafine 之作用機轉為抑制下列何者之生成？\n(A)蛋白質        \n(B)核酸\n(C)麥角固醇（ergosterol）        \n(D) β-聚葡萄糖（β-glucan）"
-  },
-  {
-  "答案": "C",
-  "題目": "Acid-fast stain 是用於觀察下列那一種感染原的染色方法？\n(A)Listeria monocytogenes \n(B)Treponema pallidum\n(C)Mycobacterium tuberculosis \n(D)Chlamydia trachomatis"
-  },
-  {
-  "答案": "A",
-  "題目": "下列那一種 Staphylococcal enterotoxin 型最易引發食物中毒？\n(A)Staphylococcal enterotoxin A \n(B)Staphylococcal enterotoxin B\n(C)Staphylococcal enterotoxin C \n(D)Staphylococcal enterotoxin D"
+  "題目": "下列何種分子不會直接參與克式循環（Krebs cycle，亦稱citric acid cycle或TCA cycle）中的化學反應？\n(A)coenzyme A（CoA）\n(B)ADP（或GDP）\n(C)glutathione\n(D)NAD+"
   },
   {
   "答案": "B",
-  "題目": "下列有關百日咳毒素（pertussis toxin）的敘述，何者錯誤？\n(A) 是一種外毒素（exotoxin） \n(B)藉著在細胞膜上打洞而毒殺宿主細胞\n(C)會增加呼吸道黏液的分泌 \n(D)是組成百日咳疫苗的成分之一"
-  },
-  {
-  "答案": "CD",
-  "題目": "成人身上發生的化膿性關節炎（purulent arthritis）最常因下列那種細菌感染所引起？\n(A)脆弱擬桿菌（Bacteroides fragilis） \n(B)大腸桿菌（Escherichia coli）\n(C)金黃色葡萄球菌（Staphylococcus aureus） \n(D)淋病球菌（Neisseria gonorrhoeae）"
-  },
-  {
-  "答案": "D",
-  "題目": "大腸桿菌（Escherichia coli）所引起各種不同型態的腹瀉症（diarrhea）主要取決於：\n(A)共同感染的其他細菌之種類 \n(B)此菌的體表抗原性\n(C)宿主的免疫力 \n(D)此菌所產生的毒力因素"
-  },
-  {
-  "答案": "A",
-  "題目": "細菌表面的 pili 或fimbriae 通常造成宿主致病力的機轉為何？\n(A)附著至特定的細胞表面 \n(B)增強細菌的移動力\n(C)抵抗吞噬作用 \n(D)增強內毒素的作用"
-  },
-  {
-  "答案": "C",
-  "題目": "Rifampin 為治療結核病的第一線藥物，其抑菌機轉為何？\n(A) 與細菌的penicillin binding protein 結合，阻斷細菌細胞壁的合成\n(B)與細菌的30S 核糖體蛋白結合，阻斷細菌蛋白質的生成\n(C)與細菌DNA-dependent RNA polymerase 結合，阻斷細菌RNA 合成的起始（initiation of RNAsynthesis）\n(D)與細菌Dihydrofolate reductase 結合，阻斷細菌葉酸的代謝路徑"
-  },
-  {
-  "答案": "A",
-  "題目": "一名 60 歲患有糖尿病的農夫在夏季豪雨過後下田整理農地，三天後出現發燒和倦怠，送醫就診發現有輕微肺炎症狀。由其血液檢體分離出一株革蘭氏陰性、不發酵醣類的桿菌。下列何者最有可能是這名農夫所罹患的感染症？\n(A) 炭疽病（anthrax） \n(B)破傷風（tetanus）\n(C)傷寒（enteric fever） \n(D)類鼻疽（melioidosis）"
-  },
-  {
-  "答案": "C",
-  "題目": "承上題，此人所感染的致病菌(上一題的病人罹患炭疽病)在生理特徵和致病性方面與下列那種細菌最相近？\n(A) 流感嗜血桿菌（Haemophilus influenzae）\n(B)白喉桿菌（Corynebacterium diphtheriae）\n(C)綠膿桿菌（Pseudomonas aeruginosa）\n(D)嗜肺性退伍軍人桿菌（Legionella pneumophila）"
-  },
-  {
-  "答案": "A",
-  "題目": "某人因角膜發炎並有畏光、疼痛和流淚等症狀，經眼科醫師診斷後，認為該人受披衣菌感染，是為砂眼（trachoma）。下列何種抗生素常用於此眼疾的治療？\n(A)doxycycline \n(B)vancomycin \n(C)penicillin \n(D)bacitracin"
-  },
-  {
-  "答案": "D",
-  "題目": "嗜肺性退伍軍人桿菌（Legionella pneumophila）為新興傳染病原之一，會造成許多流行性及散發性的感染症。此細菌主要是如何傳播的？\n(A)由病媒傳染給人 \n(B)由人直接傳染給人 \n(C)由動物傳染給人 \n(D)由空氣微粒傳染給人"
-  },
-  {
-  "答案": "ABCD",
-  "題目": "下列何者與病毒造成寄主細胞之轉型（transformation）無關？\n(A)Adenovirus E1A \n(B)Papillomavirus E6\n(C)HIV Nef \n(D)Simian virus 40（SV40）T antigen"
-  },
-  {
-  "答案": "C",
-  "題目": "抑制單純疹病毒之藥物acyclovir，其標的為何？\n(A)直接破壞病毒的組成，造成病毒結構解離\n(B)阻止病毒從寄主細胞中釋放出來\n(C)病毒胸腺激酶（thymidine kinase）\n(D)抑制病毒RNA 合成酶（RNA polymerase）的作用"
-  },
-  {
-  "答案": "D",
-  "題目": "下列那一種病毒感染可能引起軍隊中常發生之發燒、咳嗽、喉嚨痛、咽喉炎及頸腺炎（cervicaladenitis）等病徵之疾病？\n(A) 副流行性感冒病毒（Parainfluenza virus） \n(B)人類乳突狀病毒（HPV）\n(C)單純疹病毒（Herpes simplex virus） \n(D)腺病毒（Adenovirus）"
-  },
-  {
-  "答案": "D",
-  "題目": "下列有關正黏液病毒（Orthomyxoviridae）及副黏液病毒（Paramyxoviridae）科病毒比較之敘述，何者正確？\n(A)兩者都會造成細胞融合（Syncytium） \n(B)基因體皆有分段（segmented）\n(C)兩者RNA splicing 皆發生在核內 \n(D)兩者皆可經由呼吸道傳染"
-  },
-  {
-  "答案": "C",
-  "題目": "下列有關疹病毒（Herpesvirus）之敘述，何者錯誤？\n(A) 雙股DNA 病毒\n(B)唇部疹（cold sore）主要由第一型單純疹病毒（HSV-1）所引起\n(C)病毒感染後，病人痊癒，終生免疫，不再犯病\n(D)人類疹病毒第八型（HHV-8）感染產生卡波西氏肉瘤（Kaposi’s sarcoma）"
-  },
-  {
-  "答案": "C",
-  "題目": "某國小一年級女童來自農村，家中飼養雞、鴨及豬等動物，於八月多雨之酷暑下突然開始發燒、嘔吐、頭痛，此外還抽筋、意識不清、手部震顫，角弓反張，最後該病人牙關緊閉、四肢僵硬，並呈現昏迷之現象。該患者可能被何種病原菌所感染？\n(A)登革病毒（Dengue virus） \n(B)禽流感病毒（Influenza virus）\n(C)日本腦炎病毒（Japanese encephalitis virus） \n(D)C 型肝炎病毒（HCV）"
-  },
-  {
-  "答案": "A",
-  "題目": "下列何種病毒，其核酸為雙鏈負股RNA，經由糞口途徑傳染，發病初期出現如感冒樣症狀，發燒、嘔吐、咳嗽、流鼻水，1 至2 天後會造成腸黏膜發炎、絨毛萎縮，這時候會出現水瀉，有如蛋花湯般的水便？\n(A) 輪狀病毒（Rotavirus） \n(B)腸病毒71 型（EV71）\n(C)鼻病毒（Rhinovirus） \n(D)小兒麻痺病毒（Poliovirus）"
-  },
-  {
-  "答案": "D",
-  "題目": "新型隱球菌（Cryptococcus neoformans）型態上之特徵為何？\n(A) 無莢膜（without capsule）之兩型性（dimorphic）圓球狀酵母菌\n(B)雪茄型酵母菌（cigar-shaped yeast），不具兩型性\n(C)中裂型具有薄層莢膜兩型性（dimorphic）橢圓形酵母菌\n(D)具寬厚莢膜圓球狀酵母菌"
-  },
-  {
-  "答案": "D",
-  "題目": "從病患肺部中取出之檢體切片經Periodic acid-Schiff（PAS）染色後，發現許多紫紅色之寬闊帶狀（Broad, ribbon-like），無隔膜菌絲（Coenocytic hyphae）穿過組織，診斷上極可能推向是那一種真菌疾病？\n(A) 新型隱球菌症（Cryptococcosis） \n(B)麴菌症（Aspergillosis）\n(C)孢子絲菌症（Sporotrichosis） \n(D)接合菌症（Zygomycosis）"
-  },
-  {
-  "答案": "D",
-  "題目": "發展淋病（gonorrhea）疫苗最主要的困難為何？\n(A)淋病球菌無法於體外培養 \n(B)淋病球菌體表成分不具抗原性\n(C)淋病球菌無法在人體產生保護性抗體 \n(D)淋病球菌體表抗原性極易改變"
-  },
-  {
-  "答案": "A",
-  "題目": "肝硬化或肝癌病人因生食海鮮，特別是生蠔，而導致進展快速的敗血症（septicemia），常由於感染了下列那種細菌？\n(A)創傷弧菌（Vibrio vulnificus） \n(B)綠膿桿菌（Pseudomonas aeruginosa）\n(C)副溶血弧菌（Vibrio parahaemolyticus） \n(D)空腸彎曲菌（Campylobacter jejuni）"
+  "題目": "肝糖磷解酶（glycogen phosphorylase）的活性受到phosphorylase kinase及phosphorylase phosphatase的調節，下列何者是其發揮調節作用的主要方式？\n(A)影響酵素蛋白質分解（protein degradation）\n(B)磷酸化-去磷酸化作用（phosphorylation-dephosphorylation）\n(C)異位調節作用（allosteric regulation）\n(D)影響肝醣代謝酵素與調節蛋白質（regulatory protein）的結合作用"
   },
   {
   "答案": "B",
-  "題目": "從一泌尿道感染病人的檢體中，分離到一抗耐啶酸（Nalidixic acid）的細菌，此菌產生抗藥最主要的原因為何？\n(A)細胞壁結構組成改變 \n(B)DNA gyrase 結構發生改變\n(C)50S 核糖體結構改變 \n(D)30S 核糖體結構改變"
+  "題目": "下列何者不屬於膜上蛋白質之脂質錨定（lipid anchor）？\n(A)glycosyl phosphatidylinositol anchor\n(B)acetyl anchor\n(C)myristoyl anchor\n(D)thioether anchor"
   },
   {
-  "答案": "A",
-  "題目": "有關葡萄球菌（Staphylococcus）引起的食物中毒的敘述，下列那一項錯誤？\n(A)是由heat-labile enterotoxin 引起\n(B)症狀產生快，大約4 小時內就會發生\n(C)症狀消失快，大約24 小時會消失\n(D)有些Staphylococcus aureus 菌種會導致pseudomembranous enterocolitis"
-  },
-  {
-  "答案": "B",
-  "題目": "下列那一類細菌的細胞膜含有固醇（sterols），生長時需從外界攝取膽固醇（cholesterol），且對penicillin類的抗生素具有抗性？\n(A)志賀氏菌（Shigella） \n(B)黴漿菌（Mycoplasma）\n(C)沙門氏菌（Salmonella） \n(D)分枝桿菌（Mycobacterium）"
-  },
-  {
-  "答案": "CD",
-  "題目": "人單核球艾利希氏體症（human monocytotropic ehrlichiosis）會有持續發燒、頭痛、全身或局部肌肉痛、肝脾及淋巴結腫大等症狀，通常較少出現皮膚斑疹，是由Ehrlichia canis 感染所致，屬於新興傳染病的一種。關於此症的敘述，下列何者錯誤？\n(A)該疾病可用Doxycycline 或Tetracycline 進行治療\n(B)該致病原之傳播媒介以壁虱（硬蜱）為主\n(C)該致病原會寄生在感染者的顆粒球、單核球、紅血球及血小板細胞中\n(D)該致病原之細胞壁主要由peptidoglycan 組成"
-  },
-  {
-  "答案": "A",
-  "題目": "1976 年夏天，美國退伍軍人在費城召開退伍軍人協會會議期間，在同一住宿的飯店竟然發現有221人罹患「急性肺炎」，並因而導致34 名感染者死亡，下列何者後來被證實為致病原？\n(A)Legionella pneumophila \n(B)Chlamydia pneumoniae\n(C)Streptococcus pneumoniae \n(D)Haemophilus influenzae"
+  "答案": "C",
+  "題目": "下列何者與主動運輸（active transport）中，提供運輸過程的熱力學驅動力（thermodynamic driving force）無關？\n(A)光能的補獲\n(B)三磷酸腺苷（ATP）的水解作用\n(C)大分子的合成\n(D)離子梯度的消耗（depletion of ion gradient）"
   },
   {
   "答案": "B",
-  "題目": "在某安養院，有多名老人先後出現乾咳和胸痛等急性呼吸道感染症狀，其中數名更發展成肺炎而緊急送醫治療。醫院由病人的肺組織或呼吸道分泌液等檢體以及安養院的冷卻水塔中，分離出同一種培養時需添加半胱胺酸（L-cysteine）的革蘭氏陰性桿菌。下列有關此感染症的敘述，何者錯誤？\n(A)病人由呼吸道得到感染\n(B)因傳染性高，病人需隔離\n(C)目前仍無疫苗可以使用\n(D)細胞型免疫（cellular immunity）是人體主要的防禦機制"
+  "題目": "下列那一類分子透過結合並活化peroxisome proliferator-activated recepter alpha（PPARα），以調控生酮作用（ketogenesis）相關基因的表現？\n(A)purine\n(B)fatty acids\n(C)glucose\n(D)pyrimidine"
+  },
+  {
+  "答案": "C",
+  "題目": "克氏循環（TCA cycle）的中間產物可經由轉氨基作用（transamination）直接生成下列那兩種胺基酸？\n(A)精胺酸（arginine）與組胺酸（histidine）\n(B)酪胺酸（tyrosine）與脯胺酸（proline）\n(C)麩胺酸（glutamate）與天冬胺酸（aspartate）\n(D)丙胺酸（alanine）與絲胺酸（serine）"
+  },
+  {
+  "答案": "B",
+  "題目": "Ammonium ion（NH4+）可藉由下列何種方式，由骨骼肌細胞運送到肝細胞代謝？\n(A)Krebs cycle\n(B)glucose-alanine cycle\n(C)urea cycle\n(D)citric acid cycle"
+  },
+  {
+  "答案": "C",
+  "題目": "分析一個腎臟癌病人的腫瘤時，發現有延胡索酸酵素（fumarase）基因突變，下列敘述何者正確？\n(A)延胡索酸（fumarate）因而會在腫瘤組織中大幅下降\n(B)缺氧性誘導轉錄因子（hypoxia inducible transcription factor-1, HIF-1）會跟著下降\n(C)缺氧性誘導轉錄因子（hypoxia inducible transcription factor-1, HIF-1）會刺激多種糖解酵素（glycolytic enzymes）的產生\n(D)缺氧性誘導轉錄因子（hypoxia inducible transcription factor-1, HIF-1）會抑制血管生成（angiogenesis）"
   },
   {
   "答案": "D",
-  "題目": "承上題，下列有關此致病菌(退伍軍人菌)的敘述，何者正確？\n(A)此菌可感染人和動物 \n(B)此菌必須培養在無氧的環境中\n(C)此菌在惡劣環境中會形成孢子（spores） \n(D)此菌可在巨噬細胞（macrophage）內增殖"
+  "題目": "Scatchard分析法能提供下列何種資訊？\n(A)酵素的功能放大（enzyme cascades）\n(B)酵素的催化反應（catalytic reaction）過程\n(C)蛋白質磷酸化（protein phosphorylation）\n(D)受體與配體之交互作用（receptor-ligand interactions）"
   },
   {
-  "答案": "B",
-  "題目": "有關 E 型肝炎病毒的敘述，下列何者正確？\n(A)可造成慢性肝炎甚至肝癌\n(B)可以RT-PCR 進行偵測\n(C)感染孕婦有較低的致死率\n(D)病毒基因體只含有一個大的open reading frame（ORF）"
+  "答案": "C",
+  "題目": "下視丘疾病可造成gonadotropin releasing hormone （GnRH） 分泌失調，致使腦下腺luteinizing hormorne（LH），folliclestimulatinghormone（FSH）亦分泌失調，可能造成女性不孕。GnRH作用於G protein coupled receptor後，主要可活化phospholipase C，下列敘述何者錯誤？\n(A)phospholipase C可分解phosphatidylinositol 4,5-bisphosphate（PIP2）\n(B)phosphatidylinositol 4,5-bisphosphate（PIP2）被分解為inositol 1,4,5-trisphosphate（IP3）及diacylglycerol（DAG）\n(C)diacylglycerol（DAG）可直接活化protein kinase A\n(D)inositol 1,4,5-trisphosphate（IP3）可使內質網內之Ca2+釋放"
   },
   {
-  "答案": "B",
-  "題目": "下列何種病毒之抗體測定是目前捐血時必須檢驗的項目？\n(A)Hepatitis A virus \n(B)Hepatitis C virus \n(C)Hepatitis E virus \n(D)Hepatitis D virus"
-  },
-  {
-  "答案": "A",
-  "題目": "下列何種病毒不會造成呼吸道感染？\n(A)Hepatitis D virus \n(B)Influenza virus\n(C)Respiratory syncytial virus \n(D)Adenovirus"
+  "答案": "C",
+  "題目": "常見於癌細胞組織中的腫瘤基因（oncogene）所轉譯之ErbB蛋白質，是經由下列那一個受體（receptor）的訊息傳導路徑而進行作用？\n(A)insulin receptor\n(B)platelet-derived growth factor（PDGF）receptor\n(C)epidermal growth factor（EGF）receptor\n(D)G-protein coupling receptor"
   },
   {
   "答案": "D",
-  "題目": "下列有關日本腦炎病毒（Japanese encephalitis virus）與登革熱病毒（Dengue virus）特性之敘述，何者正確？\n(A)均可注射疫苗，預防感染 \n(B)被感染之宿主可再直接散播病毒\n(C)均由埃及斑蚊傳播 \n(D)感染後均產生感冒般症狀（flu-like symptom）"
+  "題目": "除了啟動子（promoter）及多選殖位點（multiple cloning sites）外，下列何者是原核細胞表現載體（expression vector）的必要構造？\n(A)促進子（enhancer）、操縱子（operator）\n(B)致弱子（attenuator）、抑制子（repressor）\n(C)促進子（enhancer）、核糖體結合區（ribosome binding site）\n(D)核糖體結合區（ribosome binding site）、轉錄終止序列（transcriptional termination sequence）"
   },
   {
   "答案": "C",
-  "題目": "野生小兒麻痺病毒株已近乎絕跡，陳醫師發現疑似案例，下列何種實驗方法最能夠確定其為小兒麻痺野生株或沙賓口服疫苗株？\n(A)紅血球凝集試驗 \n(B)溶菌斑實驗 \n(C)基因定序 \n(D)單株抗體中和反應"
+  "題目": "建立基因剔除鼠（knockout mouse）的過程中，一般以取出實驗動物之何種細胞進行基因剔除？\n(A)卵細胞\n(B)精細胞\n(C)受精卵\n(D)胚胎幹細胞"
   },
   {
   "答案": "A",
-  "題目": "某男大學生正在談戀愛，突然身體不適出現嚴重之虛弱無力、疲勞、發燒、咽喉炎及腺體腫脹等症狀，經醫師診斷後給予氨比西林（Ampicillin）治療後出現紅疹，血液抹片檢查觀察到非典型淋巴細胞，且血清內測得嗜異性抗體（heterophile antibody）。下列有關該疾病之敘述何者正確？\n(A)由EB 病毒（Epstein-Barr virus）感染所引起的傳染性單核球增多症（infectious mononucleosis）\n(B)由HIV 病毒（Human immunodeficiency virus）感染所引起之免疫缺失症\n(C)由巨細胞病毒（Cytomegalovirus）感染所引起之類單核球增多症（mononucleosis-like）\n(D)由單純疱疹病毒（Herpes simplex virus）感染所引起之咽喉炎"
-  },
-  {
-  "答案": "D",
-  "題目": "在真菌伺機性感染症（Opportunistic mycosis）中，目前唯一造成人類疾病並屬於擔子菌綱（Basidiomycetes）之病原菌是下列何者？\n(A)Penicillium marneffei \n(B)Aspergillus fumigatus\n(C)Rhizopus stolonifer \n(D)Cryptococcus neoformans"
-  },
-  {
-  "答案": "CD",
-  "題目": "一位 65 歲女性是長期糖尿病患者，因念珠菌血症（Candidemia）住院治療，血液培養證實感染之病原為白色念珠菌（Candida albicans）。經以靜脈注射投予Fluconazole 二星期，血液培養呈陰性反應，病情也獲得控制後出院。但再經二星期，同樣的感染再度發生，在同時考慮這位患者之腎功能（creatinine指數1.3 mg/dL），最可能進一步治療之方式為何？\n(A)繼續投予Fluconazole 同時提高劑量 \n(B)改投予Amphotericin B 合併Flucytosine\n(C)改投予Caspofungin \n(D)改投予Ketoconazole"
-  },
-  {
-  "答案": "D",
-  "題目": "下列何種病毒，會引起睪丸、卵巢、胰臟等腺體發炎之病症？\n(A)麻疹病毒 \n(B)呼吸道融合病毒 \n(C)副流行性感冒病毒 \n(D)腮腺炎病毒"
-  },
-  {
-  "答案": "BC",
-  "題目": "下列那一個選項所列的兩種菌屬，最可能是造成Tinea unguium（甲癬、灰指甲）感染之皮膚真菌性病原（Dermatophytes）？\n(A)Sporothrix and Microsporum \n(B)Epidermophyton and Microsporum\n(C)Trichophyton and Epidermophyton \n(D)Trichophyton and Sporothrix"
+  "題目": "蛋白質中的平行鏈（parallel β-stranded）結構比反平行鏈（antiparallel β-stranded）結構較不穩定，原因為何？\n(A)平行鏈結構的横向相鄰鏈之間所形成的氫鍵鍵結較弱\n(B)平行鏈結構缺少雙硫鍵（disulfide bond）與鄰近的鏈鍵結\n(C)平行鏈結構不能如反平行鏈堆疊（stacking）成β-折疊層（β-sheet）\n(D)平行鏈結構缺少蛋白質-蛋白質結合區域（protein-protein binding domain）以穩定平行鏈結構"
   },
   {
   "答案": "B",
-  "題目": "關於細菌基因傳遞的敘述，下列何者錯誤？\n(A)Conjugation 是由細菌與細菌接觸進行 \n(B)Plasmid 不能經由conjugation 傳遞\n(C)在某些細菌是可直接將外來DNA 帶入菌體內 \n(D)Transduction 通常由噬菌體造成"
+  "題目": "青黴素（penicillin）的殺菌作用是因為它能抑制下列何種酵素的活性？\n(A)內醯胺酶（β-lactamase）\n(B)轉肽基酶（transpeptidase）\n(C)接合酶（ligase）\n(D)醛縮酶（aldolase）"
+  },
+  {
+  "答案": "B",
+  "題目": "在水溶液的pH值低於胺基酸的pI值時，該胺基酸的主要性質為何？\n(A)呈淨負電荷\n(B)呈淨正電荷\n(C)呈中性\n(D)呈正、負電荷等量"
+  },
+  {
+  "答案": "C",
+  "題目": "一位30歲女性主訴有牙齒鬆動、傷口不易癒合等症狀，口腔理學檢查發現牙齦浮腫、牙齦泛紫。根據病史，此病患最可能有下列何種維生素缺乏？\n(A)維生素B1\n(B)維生素B12\n(C)維生素C\n(D)維生素A"
+  },
+  {
+  "答案": "C",
+  "題目": "RNA降解後，CMP與UMP主要會被代謝成下列那一個中間產物？\n(A)β-aminoisobutyrate\n(B)thymine\n(C)uracil\n(D)hypoxanthine"
+  },
+  {
+  "答案": "B",
+  "題目": "核酸去嘌呤作用（depurination of nucleotides）是破壞在連接鹼基（base residues）與核糖（ribose）的化學鍵。這個化學鍵稱為：\n(A)氫鍵（hydrogen bond）\n(B)糖苷鍵（N-β-glycosyl bond）\n(C)磷酸二酯鍵（phosphodiester bond）\n(D)醯胺鍵（amide bond）"
   },
   {
   "答案": "D",
-  "題目": "下列有關 Scarlet fever 的敘述，何者錯誤？\n(A)是Group A Streptococci 引發咽喉炎之併發症\n(B)臨床上可見病患口腔中產生Strawberry tongue\n(C)臨床上可見病患皮膚上產生Pastia’s lines\n(D)是由細菌感染之噬菌體溶解細菌後，釋放出Pyrogenic exotoxin 所造成"
+  "題目": "艾姆氏測試法（Ames test）可用於評估：\n(A)細菌之致病性\n(B)DNA複製的速率\n(C)抗生素的藥效\n(D)化合物致突變性的能力"
   },
   {
   "答案": "C",
-  "題目": "下列有關流感嗜血桿菌（Haemophilus influenzae）的敘述，何者錯誤？\n(A)幼兒感染後能引起腦膜炎（meningitis）\n(B)其生長需要在培養基中補充加熱過的血液\n(C)棲居於正常人體呼吸道的，主要是具莢膜的菌株\n(D)市面上已有針對b 血清型別的疫苗"
+  "題目": "下列對Okazaki片段的敘述，何者正確？\n(A)由於內切酶（endonuclease）作用後所產生的DNA片段\n(B)存在於30S核糖體次單元（ribosomal subunit）中的RNA片段\n(C)是DNA複製時發生在合成lagging strand的中間產物\n(D)意指由3'→ 5'合成的DNA片段"
   },
   {
-  "答案": "C",
-  "題目": "下列那種病菌造成腸胃道感染所需的菌量最低？\n(A)弧菌屬（Vibrio） \n(B)沙門氏菌屬（Salmonella）\n(C)志賀氏菌屬（Shigella） \n(D)耶爾辛氏菌屬（Yersinia）"
+  "答案": "D",
+  "題目": "關於mRNA穩定性的描述，下列何者正確？\n(A)mRNA降解的程序主要是從5'到3'的方向\n(B)一般而言，細菌mRNA的半衰期較真核細胞mRNA長\n(C)一般而言，mRNA降解的速率最少10倍於其合成的速率\n(D)在真核細胞中，mRNA的5'cap和3'poly(A) tail可增加其穩定性"
   },
   {
-  "答案": "C",
-  "題目": "革蘭氏陰性菌造成敗血症（septicemia）的原因，常與其所共有的那種成分相關？\n(A)磷壁酸（teichoic acids） \n(B)鞭毛素（flagellin）\n(C) 脂質A（lipid A） \n(D)線毛素（pilin）"
-  },
-  {
-  "答案": "AC",
-  "題目": "有關立克次氏體（Rickettsia）之敘述，下列何者錯誤？\n(A)其細胞壁含有peptidoglycan\n(B)多經由體蝨、鼠蚤或壁蝨等傳染性昆蟲所傳播\n(C)其細胞壁不含lipopolysaccharide，故沒有內毒素的活性\n(D)為絕對細胞內寄生菌"
+  "答案": "D",
+  "題目": "下列何種突變會使轉譯（translation）過程中蛋白質的合成提前結束？\n(A)silent mutation\n(B)missense mutation\n(C)suppressor mutation\n(D)nonsense mutation"
   },
   {
   "答案": "A",
-  "題目": "viridans streptococci 感染所造成之心內膜炎，不能單獨使用aminoglycosides 類的藥物，而必須合併penicillin 的使用才能發揮其殺菌的效果，其主要原因為何？\n(A) aminoglycosides 類的藥物無法穿過viridans streptococci 之細胞壁\n(B) aminoglycosides 無法與viridans streptococci 的核糖體結合\n(C) viridans streptococci 沒有細胞壁結構\n(D) aminoglycosides 類的藥物無法穿過viridans streptococci 之細胞膜"
+  "題目": "胺醯-tRNA合成酶（aminoacyl-tRNA synthetases）是一種活化胺基酸的酵素，其特徵為何？\n(A)能辨認特定的tRNA及胺基酸，促進胺醯-tRNA的合成\n(B)需要會同其他酵素將胺基酸結合到特定的tRNA上\n(C)需要以GTP活化胺基酸後，始能進行胺醯-tRNA的合成\n(D)可以將胺基酸直接與tRNA 3'-端結合而形成胺醯-tRNA"
   },
   {
-  "答案": "ABCD",
-  "題目": "一位 5 歲的小孩，經常咳到滿臉通紅甚至嘔吐，且伴隨有頭痛、發燒及喉嚨痛等症狀而求診。經聽診後，發現肺部有雜音，X 光則顯示下肺葉部出現斑塊狀的「間質性肺炎」陰影，因此懷疑是黴漿菌（Mycoplasma）感染。可以用下列何種藥物進行治療？\n(A)萬古黴素（vancomycin） \n(B)青黴素（penicillin）\n(C)四環黴素（tetracycline） \n(D)枯草桿菌素（bacitracin）"
+  "答案": "C",
+  "題目": "下列那一種蛋白質具有抑制細胞凋亡（apoptosis）之功能？\n(A)Bak\n(B)Bax\n(C)Bcl-2\n(D)FASL"
   },
   {
   "答案": "A",
-  "題目": "某旅行社舉辦出國5 日遊，回國後，有3 名參加的孩童先後因出血性腹瀉至醫院就醫，其中1 名4歲兒童還併發溶血性尿毒症候群（hemolytic uremic syndrome）。下列那種細菌最有可能是導致此事件的致病原？\n(A)大腸桿菌（Escherichia coli） \n(B)綠膿桿菌（Pseudomonas aeruginosa）\n(C)副溶血弧菌（Vibrio parahaemolyticus） \n(D)胃幽門桿菌（Helicobacter pylori）"
+  "題目": "下列關於紅血球醣代謝之敘述，何者正確？\n(A)由糖解作用（glycolysis）產生的ATP是紅血球主要的能量來源\n(B)紅血球中糖解作用（glycolysis）除用於產生能量外並無其他功能\n(C)克氏循環（TCA cycle）會消耗少部分紅血球所攜帶的氧氣\n(D)紅血球中五碳糖磷酸途徑（pentose phosphate pathway）係在粒線體中進行"
+  },
+  {
+  "答案": "ABD",
+  "題目": "用餐後血糖進入肝細胞及骨骼肌細胞轉換成肝糖（glycogen），葡萄糖以下列何種型式直接參與肝糖合成？\n(A)glucose 1-phosphate\n(B)glucose 6-phosphate\n(C)CMP-glucose\n(D)UDP-glucose"
   },
   {
   "答案": "B",
-  "題目": "一位 58 歲男性突然出現嘔吐、大量水性腹瀉、急性腎衰竭等症狀，隨後在其糞便中分離出霍亂弧菌（Vibrio cholerae）。下列何者最能做為確定此人罹患霍亂症（cholera）的依據？\n(A)臨床症狀 \n(B)所分離的細菌能分泌霍亂毒素\n(C)所分離的細菌屬O1 血清型 \n(D)在病人的血清中偵測到霍亂毒素"
+  "題目": "百米選手在激烈運動下，骨骼肌內之糖解作用（glycolysis）所產生的NADH，最主要經由下列何種反應再氧化生成NAD+？\n(A)α-ketoglutarate反應成為succinyl-CoA\n(B)pyruvate反應成為lactate\n(C)coenzyme Q反應成為cytochrome b\n(D)pyruvate反應成為acetyl-CoA"
   },
   {
-  "答案": "C",
-  "題目": "承上題，下列對霍亂弧菌的敘述，何者正確？\n(A)對酸的耐受性高 \n(B)所產生的神經毒素會刺激腸道"
-  },
-  {
-  "答案": "C",
-  "題目": "有關 C 型肝炎病毒的敘述，何者錯誤？\n(A)屬於Flaviviridae \n(B)具有envelope\n(C)已經有疫苗可以預防感染 \n(D)與肝癌有關"
-  },
-  {
-  "答案": "C",
-  "題目": "孕婦感染下列何種病毒，最容易造成胎兒先天性畸形？\n(A)單純疱疹病毒一型 \n(B)帶狀疱疹病毒 \n(C)德國麻疹病毒 \n(D)麻疹病毒"
-  },
-  {
-  "答案": "D",
-  "題目": "下列那一種病毒需進入寄主細胞之細胞核進行基因體複製（genome replication）？\n(A) Poxvirus \n(B) Paramyxovirus \n(C) Bunyavirus \n(D) Orthomyxovirus"
+  "答案": "B",
+  "題目": "在胰臟β細胞中，下列那個酵素所催化的反應速率會隨血糖上升而明顯提高，且其下游產物能促進胰島素（insulin）的分泌？\n(A)glycogen synthase\n(B)glucokinase（或稱hexokinase IV）\n(C)phosphorylase kinase\n(D)glycogen phosphorylase"
   },
   {
   "答案": "A",
-  "題目": "使用於孩童之MMR 三合一減毒疫苗，包含那三種病毒？\n(A) Measles-Mumps-Rubella \n(B) Measles-Mumps-Rotavirus\n(C) Measles-Mumps-Reovirus \n(D) Measles-Mumps-Rhinovirus"
+  "題目": "下列何者與促進細胞攝取血液中膽固醇有關？\n(A)Apo B-100\n(B)Apo C-I\n(C)Apo C-II\n(D)lipoprotein lipase"
   },
   {
-  "答案": "C",
-  "題目": "下列有關流行性感冒病毒的敘述，何者錯誤？\n(A)基因含多段，因此重組現象普遍發生\n(B)共分A、B、C 三型\n(C) B 型常造成全世界大流行\n(D)病毒感染後，續發性細菌感染（secondary bacterial infection），常引起肺炎"
+  "答案": "B",
+  "題目": "下列何者不屬於穿膜蛋白-細菌視紫蛋白（bacteriorhodopsin）的特性？\n(A)它是利用7個α-螺旋結構形成的通道穿過細胞膜\n(B)它是利用單一的β-螺旋結構穿過細胞膜\n(C)它是藉由穿膜結構與retinal分子結合\n(D)它具有光驅動質子運輸（light-driven proton transport）的功能"
   },
   {
-  "答案": "ABCD",
-  "題目": "南部爆發登革熱大流行，若患者有下列何種臨床症狀時，醫師會診斷為登革病毒（dengue viruses）之感染？①紅疹（rash） ②關節炎（arthritis） ③血小板減少（thrombocytopenia） ④出血熱（hemorrhagicfever）\n(A)①②③ \n(B)①②④ \n(C)②③④ \n(D)①③④"
-  },
-  {
-  "答案": "C",
-  "題目": "愛滋病病人的Kaposi’s sarcoma 是由下列何種病毒感染所引起？\n(A) HSV-1（herpes simplex virus type 1） \n(B) CMV（cytomegalovirus）\n(C) HHV-8（human herpes virus type 8） \n(D) HSV-2（herpes simplex virus type 2）"
+  "答案": "B",
+  "題目": "一種體染色體顯性（autosomal dominant）遺傳疾病稱為familial hyper-cholesterolemia乃是因為low density lipoprotein（LDL）receptor突變所致。下列有關LDL的敘述，何者正確？\n(A)LDL receptor只存在肝細胞上\n(B)LDL中的膽固醇經由LDL receptor之作用，可提供肝細胞合成bile salts\n(C)LDL所含的脂肪以triglyceride為主\n(D)LDL是直接由肝臟製造分泌"
   },
   {
   "答案": "A",
-  "題目": "目前唯一會對人類造成全身性感染之青黴菌屬（Penicillium），其兩型性（Dimorphic）病原為何？\n(A) P. marneffei \n(B) P. notutum \n(C) P. chrysogenum \n(D) P. claviformes"
+  "題目": "體內苯丙胺酸羥化酶（phenylalanine hydroxylase）活性的缺失會導致苯丙酮酸尿症（phenylketonuria），此疾病患者會出現下列何種症狀？\n(A)患者無法自行合成足夠的酪胺酸（tyrosine）\n(B)患者尿液中會出現大量的色胺酸（tryptophan）\n(C)患者會對苯丙胺酸（phenylalanine）過敏\n(D)患者腸道無法吸收足夠的苯丙胺酸（phenylalanine）"
   },
   {
   "答案": "C",
-  "題目": "抑制真菌 DNA 及RNA 合成之抗真菌藥物為何？\n(A) Terbinafine \n(B) Amphotericin B \n(C) Flucytosine \n(D) Fluconazole"
-  },
-  {
-  "答案": "B",
-  "題目": "一位 66 歲男性，教職退休一年後，覺得缺乏運動，於是買了腳踏車準備鍛鍊身體。但是第一次出遊就因閃避來車而撞上路邊綠籬，右手肘被樹枝穿刺約2-3 cm 深之傷口，經送醫包紮後回家休養，傷口紅腫、潰瘍、痛楚並有似膿分泌物，再經醫生診治後給予7 天口服Tetracycline 但情況並無好轉，後換成口服Cephalexin 也沒有改善。約15 天後，右手肘及手臂出現直線排列多處之具滲出液潰瘍（Oozingulcers）及節瘤（Nodules）。檢體經過25℃培養長出絲狀真菌，菌絲有分隔（Septate hyphae），分生孢子（Conidia）聚生於分生孢子柄的頂端以玫瑰花飾（Rosette）形狀排列，置於37℃之培養則長出酵母菌菌落。這位男士感染了那種菌？\n(A) Conidiobolus coronatus \n(B) Sporothrix schenckii\n(C) Mycobacterium marinum \n(D) Staphylococcus aureus"
-  },
-  {
-  "答案": "D",
-  "題目": "以下有關 β-lactam 抗生素之敘述，何者正確？\n(A)結合penicillin binding proteins（PBPs），改變細胞膜功能\n(B)穿透性（permeability）差是細菌產生抗藥性最常見的原因\n(C) vancomycin 屬於β-lactam 抗生素\n(D)黴漿菌（Mycoplasma）對β-lactam 抗生素具抗藥性"
-  },
-  {
-  "答案": "A",
-  "題目": "以下有關內毒素（endotoxin）之敘述，何者錯誤？\n(A)主要來源為革蘭氏陽性細菌 \n(B)由細胞壁脂多醣體（LPS）組成\n(C)與誘發發炎反應有關 \n(D)與引發敗血症有關"
-  },
-  {
-  "答案": "B",
-  "題目": "披衣菌（Chlamydia )以下列何種形態在宿主細胞間傳染？\n(A)微孢子（microspore） \n(B)基體（elementary body）\n(C)網狀體（reticulate body） \n(D)包涵體（inclusion body）"
-  },
-  {
-  "答案": "C",
-  "題目": "某產婦分娩時發生早期破水，且產程長達30 小時，胎兒出生1 週發現罹患腦膜炎，腦脊髓液檢體培養出觸酶（catalase）陰性之革蘭氏陽性球菌，在血液瓊脂平板上菌落呈現β 溶血，且CAMP 試驗為陽性。此新生兒最可能感染那一種病原菌？\n(A)化膿性鏈球菌（Streptococcus pyogenes） \n(B)金黃色葡萄球菌（Staphylococcus aureus）\n(C)無乳鏈球菌（Streptococcus agalactiae） \n(D)糞腸球菌（Enterococcus faecalis）"
-  },
-  {
-  "答案": "ABCD",
-  "題目": "以下何種症狀，不是由幽門桿菌（Helicobacter pylori ）引起？\n(A)胃炎（gastritis） \n(B)胃淋巴瘤（MALT lymphoma）\n(C)食道逆流（gastroesophageal reflux） \n(D)胃癌（gastric cancer）"
-  },
-  {
-  "答案": "C",
-  "題目": "Aminoglycosides 是殺菌類藥物，是目前臨床上治療革蘭氏陰性菌感染的有效藥物，但是該類藥物卻無法用於治療Bacteroides fragilis 引起之菌血症，主要原因為何？\n(A) Bacteroides fragilis 並非革蘭氏陰性菌\n(B) aminoglycosides 無法與Bacteroides fragilis 的核糖體結合\n(C) Bacteroides fragilis 是厭氧菌\n(D) Bacteroides fragilis 沒有細胞壁結構"
-  },
-  {
-  "答案": "B",
-  "題目": "下列那一個菌種的viridans streptococci 對penicillin 具有較高的抵抗力？\n(A) Streptococcus mutans \n(B) Streptococcus mitis\n(C) Streptococcus salivarius \n(D) Streptococcus anginosus"
-  },
-  {
-  "答案": "B",
-  "題目": "下列有關萊姆病（Lyme disease）之敘述，何者錯誤？\n(A)為人畜共通之疾病 \n(B)致病原為Treponema pallidum\n(C)可用PCR 方法檢測檢體中致病原之DNA \n(D)可用血清學之方式檢測病人體內之抗體"
-  },
-  {
-  "答案": "D",
-  "題目": "關於 Bacillus anthracis 毒素的敘述，那一項錯誤？\n(A)是由一種質體所攜帶的基因導致\n(B) protective antigen 加上edema factor 形成edema toxin\n(C) protective antigen 加上lethal factor 形成lethal toxin\n(D) protective antigen 單獨作用的毒性最強，對細胞破壞力最大"
-  },
-  {
-  "答案": "C",
-  "題目": "親子旅行團回國後，有3 名參加的學齡前孩童先後因出血性腹瀉至醫院就醫。醫院在3 名孩童的糞便中均分離出O157：H7 血清型大腸桿菌（Escherichia coli）。下列何者是最常見的嚴重併發症？\n(A)腦膜炎（meningitis） \n(B)敗血症（septicemia）\n(C)溶血性尿毒症（hemolytic uremic syndrome） \n(D)橫紋肌溶解症（rhabdomyolysis）"
+  "題目": "下列那一種胺基酸是腎上腺素（epinephrine）和正腎上腺素（norepinephrine）生合成的前驅物？\n(A)arginine\n(B)histidine\n(C)tyrosine\n(D)tryptophan"
   },
   {
   "答案": "AD",
-  "題目": "下列何者易感染紅血球的前期細胞而造成貧血，或感染孕婦而造成死胎？\n(A) parvovirus B19 \n(B) JC virus \n(C) BK virus \n(D) cytomegalovirus"
+  "題目": "下列何者屬於脂溶性的電子傳遞者？\n(A)cytochrome c\n(B)NADH\n(C)FADH2\n(D)coenzyme Q"
   },
   {
   "答案": "D",
-  "題目": "下列何者不適合作為實驗室檢測流感病毒（influenza viruses）的方法？\n(A)以Madin-Darby 犬腎細胞株培養以檢測其細胞病變（cytopathologic effects）\n(B)以血球凝集試驗（hemagglutination test）檢測細胞培養中之病毒\n(C)以免疫螢光試驗（immunofluorescence test）檢測細胞培養中之病毒抗原\n(D)以聚合酶鏈鎖反應（polymerase chain reaction）檢測病毒DNA"
+  "題目": "原始致癌基因（proto-oncogenes）能夠透過下列機制轉變為致癌基因（oncogenes），何者除外？\n(A)化學性誘導突變（chemical-induced mutation）\n(B)染色體重組\n(C)病毒感染\n(D)其啟動區（promoter region）發生突變導致該蛋白質合成量下降"
+  },
+  {
+  "答案": "B",
+  "題目": "有關胰島素（insulin）基因所合成的前激素原（preprohormone）之敘述，下列何者錯誤？\n(A)胰島素的前激素原必須在內質網（endoplasmic reticulum）合成\n(B)胰島素之A鏈或B鏈分別由兩個基因轉錄轉譯而來\n(C)胰島素由多胜肽前驅物經蛋白裂解（proteolytic cleavage）產生\n(D)合成後進入分泌顆粒"
   },
   {
   "答案": "D",
-  "題目": "陳先生，19 歲，最近到南美洲遊學兩星期，回國後出現類流感症狀，癒後仍出現關節痛達數十天之久。請問最可能感染下列何種病毒？\n(A)登革熱病毒（dengue virus） \n(B)塞姆利基森林病毒（Semliki Forest virus）\n(C)黃熱病毒（yellow fever virus） \n(D)基孔肯雅病毒（Chikungunya virus）"
-  },
-  {
-  "答案": "AC",
-  "題目": "某 3 歲男童由育嬰中心回家後突然開始發高燒、喉嚨痛、咳嗽、肌肉酸痛及腹部疼痛、嘔吐等症狀，其母親即給予服用阿斯匹靈退燒，此男童服藥後不但病情未減輕反而引發肝功能異常與腦部病變（encephalopathy），最後此男童不幸死亡，此男童可能為何病原所感染？\n(A)流行性感冒噬血桿菌（Haemophilus influenzae）\n(B)肺炎雙球菌（Streptococcus pneumoniae）\n(C)流行性感冒病毒（influenza virus） \n(D)麻疹病毒（measles virus）"
+  "題目": "下列那一種分析方法可用於研究蛋白質之交互作用？\n(A)DNA microarray analysis\n(B)Northern blotting\n(C)Southern blotting\n(D)Two-hybrid analysis"
   },
   {
   "答案": "B",
-  "題目": "一位 25 歲男子休假赴東南亞旅行，為了節省費用，吃住均找價錢最低廉者，回國後2 星期出現發燒、噁心、腹部疼痛、沒有食慾及感到疲勞等症狀，雖然去看了醫生並服了藥，4 天後仍發生黃疸的現象，此男子可能得了什麼疾病？\n(A)黃熱病 \n(B)肝炎 \n(C)登革熱 \n(D)腸胃炎"
-  },
-  {
-  "答案": "B",
-  "題目": "下列何種病毒經乙醚（ether）處理後會喪失感染活性？\n(A) hepatitis A virus \n(B) influenza virus \n(C) rotavirus \n(D) poliovirus"
+  "題目": "蛋白質結構中的β-摺板（β-sheet）與α-螺旋（α-helix）在結構分類上屬於：\n(A)一級結構（primary structure）\n(B)二級結構（secondary structure）\n(C)三級結構（tertiary structure）\n(D)四級結構（quaternary structure）"
   },
   {
   "答案": "C",
-  "題目": "接合黴菌綱（zygomycetes）通常不具下列那一種構造？\n(A) columella \n(B) sporangium \n(C) phialides \n(D) coenocytic hyphae"
+  "題目": "下列關於異位調節酵素（allosteric enzymes）的敘述，何者錯誤？\n(A)異位調節因子（allosteric effector）會影響此類酵素活性中心的結構\n(B)異位調節屬於可逆性（reversible）的活性調控方式\n(C)此類酵素大多以單體（monomeric）的方式存在\n(D)將此類酵素催化反應之初速度（Vo或Vi）對受質濃度（[S]）作圖，所得曲線呈S形（sigmoidal shape）"
+  },
+  {
+  "答案": "D",
+  "題目": "下列那一個胺基酸在酸鹼值值7.0的電泳（electrophoresis）過程中，朝向陽極移動的速率最快？\n(A)丙氨酸（alanine）\n(B)離胺酸（lysine）\n(C)麩胺醯胺（glutamine）\n(D)天冬氨酸（aspartic acid）"
+  },
+  {
+  "答案": "B",
+  "題目": "下列何種輔酶（coenzyme）不參與α-ketoglutarate轉換成succinyl-CoA之氧化脫羧反應（oxidative decarboxylation）？\n(A)Thiamine pyrophosphate\n(B)Tetrahydrofolate\n(C)FAD\n(D)Coenzyme A"
+  },
+  {
+  "答案": "B",
+  "題目": "在紅血球中，下列那一種物質可直接調控血紅素（hemoglobin）中氧分子的釋放？\n(A)Dihydroorotate\n(B)2,3-bisphosphoglycerate\n(C)Fructose-1,6-bisphosphate\n(D)Cytochrome oxidase"
+  },
+  {
+  "答案": "D",
+  "題目": "下列何者是胸腺嘧啶（thymine）在細胞內代謝分解之中間產物？\n(A)Uric acid\n(B)β-alanine\n(C)Carbamoyl phosphate\n(D)β-aminoisobutyrate"
   },
   {
   "答案": "A",
-  "題目": "下列有關新型隱球菌（Cryptococcus neoformans）黑色素（melanin）之敘述何者錯誤？\n(A)由L-tryptophanase 產生 \n(B)會增加細胞的負電荷\n(C)能抵抗巨噬細胞之吞噬 \n(D)沉積在細胞壁中"
+  "題目": "下列那一個酵素的缺陷，最可能導致嘌呤核苷降解（purine nucleoside degradation）的異常，導致免疫缺陷疾病（immunodeficiency diseases）的發生？\n(A)Adenosine deaminase\n(B)AMP aminohydrolase\n(C)Purine oxidase\n(D)Xanthine oxidoreductase"
+  },
+  {
+  "答案": "D",
+  "題目": "有關大腸桿菌（E. coli）DNA之複製過程，下列敘述何者錯誤？\n(A)解螺旋酶（helicase）在複製叉（replication fork）上負責解開雙股DNA\n(B)DNA連接酶（ligase）在延遲股（lagging strand）上催化磷酸雙酯鍵（phosphodiesterbond）的形成\n(C)DNA聚合酶I型（DNA polymeraseⅠ）由岡崎片段（Okazaki fragment）的5'端水解RNA\n(D)DnaA蛋白與oriC位置的GC rich區域結合"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何者與真核細胞轉錄作用無關？\n(A)DNA模板（DNA template）\n(B)RNA聚合酶（RNA polymerase）\n(C)RNA引子（RNA primer）\n(D)啟動子（promoter）"
   },
   {
   "答案": "B",
-  "題目": "關於黴菌感染之血清學診斷之敘述，下列何者正確？\n(A) chitin 常用於Blastomyces dermatitidis 之診斷\n(B)莢膜多醣類常用於Cryptococcus neoformans 之診斷\n(C) 2,4-β-glucans 常用於Candida 之診斷\n(D) cord factor 常用於Aspergillus 之診斷"
+  "題目": "真核細胞蛋白質合成的啟始階段（initiation stage）需要轉譯起始因子4F（eIF4F）複合物的參與，下列那一種轉譯起始因子不包含於此種複合物中？\n(A)eIF4A\n(B)eIF4B\n(C)eIF4E\n(D)eIF4G"
+  },
+  {
+  "答案": "BD",
+  "題目": "RAS-MAPK訊息傳遞路徑同時可調控細胞死亡與存活的訊號，RAS的活化需要下列那一個分子？\n(A)ATP\n(B)GTP\n(C)NADH\n(D)Ca2+"
+  },
+  {
+  "答案": "D",
+  "題目": "RecA是救命反應（SOS response）的主要調控蛋白質，導致受LexA repressor調控的基因表現增加，其作用機制為何？\n(A)RecA協同DNA聚合酶，將LexA repressor從操縱基因（operator）上移除\n(B)RecA直接結合到LexA操縱基因（operator）的位置上，使LexA repressor從操縱基因（operator）上分離\n(C)RecA與LexA repressor結合而弱化LexA repressor與操縱基因（operator）結合的親和力（binding affinity）\n(D)RecA與LexA repressor結合，引發LexA repressor的自體裂解（self-cleavage）"
   },
   {
   "答案": "B",
-  "題目": "根據統計，全球僅次於Candida albicans 造成念珠菌菌血症（candidemia）之病原菌為何？\n(A) Candida krusei \n(B) Candida glabrata \n(C) Candida parapsilosis \n(D) Candida tropicalis"
+  "題目": "肺結核病人常以各種不同藥物一併治療，rifampicin為主要的藥物之一。Rifampicin抑制肺結核桿菌的機轉為抑制下列那一種酶？\n(A)去氧核糖核酸聚合酶（DNA polymerase）\n(B)細菌核糖核酸聚合酶（bacterial RNA polymerase）\n(C)粒線體核糖核酸聚合酶（mitochondrial RNA polymerase）\n(D)反轉錄酶（reverse transcriptase）"
+  },
+  {
+  "答案": "D",
+  "題目": "下列那一個代謝途徑不會產生二氧化碳？\n(A)五碳糖磷酸途徑（pentose phosphate pathway）\n(B)克氏循環（TCA cycle）\n(C)從草醯乙酸（oxaloacetate）開始的糖質新生作用（gluconeogenesis）\n(D)糖解作用（glycolysis）"
+  },
+  {
+  "答案": "B",
+  "題目": "在糖解（glycolysis）作用中，那個酵素的功能可將六碳糖分解為兩個三碳糖？\n(A)phosphohexose isomerase\n(B)aldolase\n(C)triose phosphate isomerase\n(D)enolase"
+  },
+  {
+  "答案": "D",
+  "題目": "下列何種革蘭氏陽性細菌的細胞壁醣複合物（glycoconjugates）之合成，可以被抗生素penicillin所抑制？\n(A)glycolipids\n(B)proteoglycans\n(C)glycoproteins\n(D)peptidoglycans"
+  },
+  {
+  "答案": "B",
+  "題目": "在哺乳類動物利用膽鹼（choline）合成磷脂醯絲胺酸（phosphatidylserine）的過程中，需要下列何者？\n(A)GTP\n(B)CTP\n(C)AMP\n(D)UMP"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何者為中性（neutral）物質的穿膜促進性擴散作用（facilitated diffusion）之特徵？\n(A)這是一種需能反應\n(B)主要依賴於膜電位（membrane potential）\n(C)當代謝物濃度增加時，輸送速度會有上限\n(D)以輸送速度與代謝物濃度作圖，將呈現線性圖"
+  },
+  {
+  "答案": "D",
+  "題目": "下列關於脂蛋白（lipoprotein）的敘述，何者錯誤？\n(A)脂蛋白含脂質與蛋白質，它負責運送膽固醇（cholesterol）、磷脂質（phospholipid）與三酸甘油酯（triacylglycerol）到各組織器官\n(B)ApoC-II會促進血液中三酸甘油酯之分解\n(C)含蛋白質量最多的脂蛋白是高密度脂蛋白（HDL, high density lipoprotein）\n(D)運送肝臟細胞所合成的三酸甘油酯到周邊組織的脂蛋白為乳糜微粒（chylomicrons）"
+  },
+  {
+  "答案": "B",
+  "題目": "穀胱甘肽（glutathione）為人體內調節氧化還原之重要物質，下列那一種胺基酸不是作為合成穀胱甘肽之主要骨架？\n(A)麩胺酸（glutamate）\n(B)離胺酸（lysine）\n(C)半胱胺酸（cysteine）\n(D)甘胺酸（glycine）"
+  },
+  {
+  "答案": "A",
+  "題目": "一名3個月大男嬰的血清中，苯丙胺酸（phenylalanine）與苯丙酮酸（phenylpyruvate）的濃度較高。若是苯酮尿症（phenylketonuria），最可能會再出現下列那個檢驗數據？\n(A)苯丙胺酸羥化酶（Phenylalanine hydroxylase）活性降低\n(B)血清中的黑尿酸（Homogentisic acid）濃度偏高\n(C)血清中的維生素B12濃度偏低\n(D)血清中的維生素B6濃度偏低"
+  },
+  {
+  "答案": "C",
+  "題目": "下列關於粒線體ATP synthase的敘述，何者錯誤？\n(A)位於粒線體內膜\n(B)可利用氫離子濃度梯度（H+ gradient）將ADP轉換為ATP\n(C)為氫離子與磷酸根之symporter\n(D)此酵素運作時會產生蛋白質四級結構變化"
+  },
+  {
+  "答案": "B",
+  "題目": "有關三聚體G蛋白質偶合受體（trimeric G protein-coupled receptor），不具下列何種特性？\n(A)部分受體利用環狀核苷酸（cyclic nucleotides）作為訊息傳遞者\n(B)是一種細胞核受體（nuclear receptor）\n(C)此受體會與G蛋白質交互作用\n(D)此受體具有許多穿膜結構"
+  },
+  {
+  "答案": "C",
+  "題目": "下列那一種荷爾蒙與受器（receptor）結合後，會啟動受器之酪胺酸激酶（tyrosine kinase）的活性？\n(A)epinephrine\n(B)glucagon\n(C)insulin\n(D)estrogen"
+  },
+  {
+  "答案": "C",
+  "題目": "測定細胞中某種特定mRNA的表現量，下列何種方法最適合？\n(A)Gel shift assay\n(B)Site-directed mutagenesis\n(C)Northern blotting\n(D)Southern blotting"
+  },
+  {
+  "答案": "D",
+  "題目": "Protein phosphatase 可拮抗下列那類酵素的反應結果？\n(A)acetyltransferases \n(B)methyltransferases \n(C)ubiquitin E3 ligases \n(D)kinases"
+  },
+  {
+  "答案": "A",
+  "題目": "某抑制劑會使酵素反應的Km 上升，但是不影響最高反應速率（即Vmax 不變），此抑制劑應屬於下列何者？\n(A)競爭型抑制劑（competitive inhibitor） \n(B)不競爭型抑制劑（uncompetitive inhibitor）\n(C)非競爭型抑制劑（noncompetitive inhibitor） \n(D)混合型抑制劑（mixed inhibitor）"
+  },
+  {
+  "答案": "A",
+  "題目": "下列關於酵素反應的敘述，何者錯誤？\n(A)酵素可以改變化學反應的平衡常數，使正反應的速率上升\n(B)大多數的酵素為蛋白質，但少數核糖核酸分子（RNA）亦具有催化能力\n(C)一般化學反應的速率會隨著溫度升高而上升，但大多數酵素反應的速率在溫度過高時會顯著降低\n(D)酵素可區分光學性質不同的受質，因此反應的立體專一性（stereospecificity）極高"
+  },
+  {
+  "答案": "D",
+  "題目": "一位 3 個月大的男嬰自出生後便有成長遲緩現象，理學檢查發現有肌無力徵候。血液檢查發現乳酸（lactate）、丙酮酸（pyruvate）、丙胺酸（alanine）上升，並有代謝性酸中毒（metabolic acidosis）現象。根據這些病徵，可優先考慮以何種維生素作為治療？\n(A)維生素B6（pyridoxine） \n(B)菸鹼酸（niacin）\n(C)核黃素（riboflavin） \n(D)硫胺（thiamine）"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何種鹼基不存於一般RNA 分子？\n(A)腺嘌呤（adenine） \n(B)尿嘧啶（uracil）\n(C)胸腺嘧啶（thymine） \n(D)胞嘧啶（cytosine）"
+  },
+  {
+  "答案": "CD",
+  "題目": "下列何種酵素反應不參與DNA 聚合酶（polymerase）的校對（proofreading）功能？\n(A)3'→5' 外切酶（exonuclease）的活性 \n(B)磷酸二酯鍵（phosphodiester bond）的水解\n(C)鹼基配對錯誤（mismatched base pairs） \n(D)5'→3' 外切酶（exonuclease）的活性"
+  },
+  {
+  "答案": "D",
+  "題目": "許多藥物的合成乃是結合分子生物學與合成化學而得，抗愛滋病的藥物 3'-azido-2',3'-dideoxythymidine（AZT）即為其中一項，下列關於AZT 的敘述，何者錯誤？\n(A)AZT 由易被 HIV 病毒感染的 T 淋巴球所吸收而轉變為三磷酸根 AZT（AZT triphosphate）\n(B)HIV 病毒的反轉錄酶對於AZT triphosphate 有極高的親和力\n(C)HIV 病毒的DNA 進行複製時若3' 端加入AZT triphosphate 則會終止複製反應\n(D)人類T 淋巴球的DNA 複製酶對AZT triphosphate 有高親和力，所以會帶來許多副作用"
+  },
+  {
+  "答案": "A",
+  "題目": "下列那一種 RNA 之5' 端及3' 端之核糖（ribose），最可能同時具有free 3'-OH？\n(A)真核細胞mRNA \n(B)原核細胞mRNA \n(C)真核細胞rRNA \n(D)原核細胞rRNA"
+  },
+  {
+  "答案": "C",
+  "題目": "下列那一項不是RNA 聚合酶（RNA polymerase）轉錄的特性？\n(A)結合DNA 的大小涵蓋約35 bp \n(B)需要鎂離子（Mg2+）\n(C)於5'-OH 末端接上核苷酸 \n(D)從5' 往3' 方向延長RNA 序列"
+  },
+  {
+  "答案": "A",
+  "題目": "CRP（cAMP receptor protein）是lac operon 基因表現的一個主要調控因子，下列何者是CRP 最適的描述？\n(A)CRP 協助 RNA 聚合酶（RNA polymerase）與 lac-啟動子（lac-promoter）的結合\n(B)CRP 與lac operon 的結合只能在葡萄糖存在下進行\n(C)CRP 與lac operon 的結合可防止lac-抑制子（lac-repressor）與operator 的結合\n(D)CRP 與lac-抑制子（lac-repressor）競爭operator"
+  },
+  {
+  "答案": "C",
+  "題目": "在血基質（heme）的生合成反應過程中，下列何者為速率決定步驟（rate-limiting step）之酵素？\n(A)Ferrochelatase \n(B)Heme oxygenase\n(C)delta-aminolevulinic acid（δ-ALA）synthase \n(D)UDP-glucose dehydrogenase"
+  },
+  {
+  "答案": "C",
+  "題目": "利用氟-18 去氧葡萄糖（18F-2-deoxyglucose）所做的正子造影能有效找出體內癌細胞的正確位置，此方法的原理係基於癌細胞的何種特性？\n(A)DNA 複製速率比正常細胞快\n(B)克氏循環（TCA cycle）速率比正常細胞高\n(C)糖解作用（glycolysis）速率比正常細胞高\n(D)肝醣合成（glycogen biosynthesis）速率比正常細胞高"
+  },
+  {
+  "答案": "C",
+  "題目": "Fructose 2,6-bisphosphate 是糖解作用（glycolysis）與糖質新生作用（gluconeogenesis）的重要共同異位調解因子（allosteric regulator），下列有關fructose 2,6-bisphosphate 的敘述何者正確？\n(A)昇糖激素（glucagon）促進其合成\n(B)fructose 2,6-bisphosphatase 催化其由fructose 6-phosphate 合成\n(C)fructose 2,6-bisphosphate 活化phosphofructokinase-1\n(D)fructose 2,6-bisphosphate 增加糖質新生作用（gluconeogenesis）"
+  },
+  {
+  "答案": "D",
+  "題目": "Neuraminidase 是某些流感病毒的重要酵素之一，此酵素可以切除宿主細胞膜上醣複合物上的那一種糖基？\n(A)N-acetylglucosamine \n(B)gluconic acid \n(C)galactose \n(D)sialic acid"
+  },
+  {
+  "答案": "B",
+  "題目": "下列關於固醇調節區域結合蛋白質（sterol regulatory element-binding protein；SREBP）之敘述，何者錯誤？\n(A)位於內質網\n(B)經由切斷連結的脂肪酸而活化\n(C)活化後進入細胞核\n(D)做為轉錄因子增加合成膽固醇（cholesterol）的基因表現"
+  },
+  {
+  "答案": "ABCD",
+  "題目": "將離子載體（ionophore），如纈氨黴素（Valinomycin），加至原核細胞懸浮液，該細胞之膜離子梯度（transmembrane ion gradients）會有下列何種變化？\n(A)離子梯度增加 \n(B)離子梯度減少\n(C)離子梯度沒有任何改變 \n(D)離子梯度無法預期是否會改變"
+  },
+  {
+  "答案": "D",
+  "題目": "罕見遺傳疾病medium-chain acyl-CoA dehydrogenase 基因突變，可能造成脂肪肝、低血糖、octanoic acid在血液中堆積、嗜睡、嘔吐及昏迷。下列有關該酶之功能敘述，何者正確？\n(A)該酶之作用是將脂肪酸運入粒線體 \n(B)該酶作用於ω-oxidation\n(C)該酶之作用是將脂肪酸逐步轉化為pyruvate \n(D)該酶之作用是將脂肪酸逐步轉化為acetyl-CoA"
+  },
+  {
+  "答案": "C",
+  "題目": "下列那一種胺基酸無法代謝時會導致甲基丙二酸血症（methylmalonic acidemia）？\n(A)alanine \n(B)glycine \n(C)isoleucine \n(D)histidine"
+  },
+  {
+  "答案": "A",
+  "題目": "威而剛（Viagra）可透過加強一氧化氮（NO）下游cGMP 的訊息傳遞作用，而達到其藥理效果。NO是那一種胺基酸的代謝產物？\n(A)arginine \n(B)aspartate \n(C)lysine \n(D)tryptophan"
+  },
+  {
+  "答案": "D",
+  "題目": "參與電子傳遞鏈的蛋白質複合體使用那一種胺基酸形成iron-sulfur center，輔助電子傳遞？\n(A)丙胺酸（alanine） \n(B)甲硫胺酸（methionine）\n(C)色胺酸（tryptophan） \n(D)半胱胺酸（cysteine）"
+  },
+  {
+  "答案": "B",
+  "題目": "革蘭氏陰性菌分泌的內毒素（endotoxin）會調控小腸Cl-的分泌，其作用是因為活化小腸上皮細胞具有那種酵素活性的受器（receptor）所致？\n(A)Tyrosine kinase \n(B)Guanylyl cyclase \n(C)Tyrosine phosphatase \n(D)Serine kinase"
+  },
+  {
+  "答案": "B",
+  "題目": "G 蛋白耦合受體（G-protein-coupled receptor）是屬於下列那一類型的受體？\n(A)寡聚配體門控之離子通道（oligomeric ligand-gated ion channel）\n(B)7-穿膜片段受體（7-transmembrane segment receptor）\n(C)細胞黏附蛋白受體（cell adhesion protein receptor）\n(D)單穿膜片段催化受體（single transmembrane segment catalytic receptor）"
+  },
+  {
+  "答案": "ABCD",
+  "題目": "有關腎上腺素（epinephrine）與乙型腎上腺素受體（β-adrenergic receptor）結合所產生的結果，下列敘述何者錯誤？\n(A)刺激Gs 蛋白次單元與GTP 結合\n(B)增加腺苷酸環化酶（adenylyl cyclase）活性\n(C)增加蛋白激酶A（protein kinase A）的酵素活性\n(D)促進激素-受體複合物（hormone-receptor complex）的內噬（endocytosis）"
+  },
+  {
+  "答案": "A",
+  "題目": "利用 Sanger method 定序DNA，使用之試劑dideoxy analog 具有下列那一種功能？\n(A)可中止DNA 合成 \n(B)水解斷裂DNA 之磷酯鍵\n(C)是合成引子（primer）的成分 \n(D)合成沒有5' 端磷酸根之DNA"
+  },
+  {
+  "答案": "D",
+  "題目": "下列何者是選殖質體（cloning plasmids）的正確描述？\n(A)在大腸桿菌DNA 複製（replication）時，環狀質體（circular plasmids）不需要複製起點（origin ofreplication）\n(B)可用以選殖約50 Kb 鹼基對（kilo-base pairs）的外來DNA\n(C)通常不需抗生素抗藥性基因（antibiotic resistant gene）\n(D)需要特定限制酶切點（unique restriction enzyme site）以供選殖外來DNA 之用"
+  },
+  {
+  "答案": "A",
+  "題目": "維繫蛋白質三級結構穩定性作用力之中，何者最易受到所處環境之氧化還原狀態的影響？\n(A)雙硫鍵（disulfide bond） \n(B)氫鍵（hydrogen bond）\n(C)凡德瓦爾力（van der Waals interaction） \n(D)離子交互作用（ionic interaction）"
+  },
+  {
+  "答案": "B",
+  "題目": "酵素能夠有效降低反應活化能，以提升反應速率的關鍵在於：\n(A)酵素能與受質（substrate）緊密的結合\n(B)酵素能與反應過渡態（transition state）緊密的結合\n(C)酵素能與反應中間物（intermediate）緊密的結合\n(D)酵素能與產物（product）緊密的結合"
+  },
+  {
+  "答案": "C",
+  "題目": "關於競爭型抑制劑（competitive inhibitor）的敘述，下列何者錯誤？\n(A)競爭型抑制劑能與酵素的活性中心結合 \n(B)競爭型抑制劑的存在會使酵素Km 上升\n(C)競爭型抑制劑的存在會使酵素Kcat 下降 \n(D)競爭型抑制劑與酵素的結合是可逆的"
+  },
+  {
+  "答案": "A",
+  "題目": "Coenzyme A，NAD+，和FAD 都利用下列何種物質作為它們的共同成分？\n(A)Adenine \n(B)Guanine \n(C)Cytosine \n(D)Thymidine"
+  },
+  {
+  "答案": "D",
+  "題目": "抗癌藥 5-Fluorouracil 可減少細胞中之dTMP 的供應，因而抑制DNA 合成，其作用機轉是因為此藥物之衍生物可直接抑制下列何種酵素之活性？\n(A)Dihydrofolate reductase \n(B)Ribonucleotide reductase\n(C)Thymidine kinase \n(D)Thymidylate synthase"
+  },
+  {
+  "答案": "ABCD",
+  "題目": "在真核細胞內DNA 複製的過程中，其lagging strand 的合成，下列何者和DNA polymerase α 直接參與Okazaki fragment 的生合成？\n(A)Primase \n(B)Clamp-loading factor \n(C)RNaseH \n(D)DNA gyrase"
+  },
+  {
+  "答案": "B",
+  "題目": "下列何者是原核生物（prokaryotes）最常用來調節基因表現的方式？\n(A)使用轉錄因子結合到enhancer 區域以增加轉錄速度\n(B)更換RNA polymerase 中sigma factor\n(C)使用過多的酪胺酸（tyrosine）來調節RNA 轉錄速度\n(D)在RNA 5’端經7－甲基鳥糞嘌呤核苷（7-methylguanosine）修飾，以增加RNA 穩定度"
+  },
+  {
+  "答案": "C",
+  "題目": "下列那一組的胺基酸的成員最有可能扮演DNA－蛋白質辨認（DNA-protein recognition）的角色？\n(A)Arg, Gln, Leu \n(B)Asn, Gln, Trp \n(C)Asn, Glu, Lys \n(D)Glu, Lys, Pro"
+  },
+  {
+  "答案": "D",
+  "題目": "以 RNA 干擾（RNA interference）的方法抑制基因表現的可能機制之一為：\n(A)抑制基因的轉錄作用（transcription）\n(B)抑制基因的轉譯後修飾作用（posttranslational modification）\n(C)抑制mRNA 的剪接作用（splicing）\n(D)促進mRNA 的降解（degradation）"
+  },
+  {
+  "答案": "B",
+  "題目": "下列何者不屬於轉錄因子和DNA 結合區之DNA binding domain？\n(A)Helix-turn-helix \n(B)Nuclear localization signal\n(C)Zinc finger \n(D)Homeodomain"
+  },
+  {
+  "答案": "B",
+  "題目": "抑制細胞內乳酸去氫酶（lactate dehydrogenase）的活性會影響下列那些反應的進行？\n(A)克氏循環（TCA cycle）無法進行\n(B)無氧狀態的糖解作用（anaerobic glycolysis）無法進行，克氏循環（TCA cycle）不受影響\n(C)無氧狀態的糖解作用（anaerobic glycolysis）與克氏循環（TCA cycle）皆無法進行\n(D)氧化磷酸化作用（oxidative phosphorylation）與克氏循環（TCA cycle）皆無法進行"
+  },
+  {
+  "答案": "A",
+  "題目": "有關調控肝臟之肝醣（glycogen）代謝的敍述，下列何者正確？\n(A)Cyclic AMP 促進 glycogen phosphorylase 之磷酸化並活化其活性\n(B)Glucagon促進 glycogen synthase 之活性\n(C)Insulin 活化 glycogen phosphorylase之活性\n(D)高血糖同時活化glycogen phosphorylase 和glycogen synthase"
+  },
+  {
+  "答案": "ABCD",
+  "題目": "紅血球內之葡萄糖利用糖解作用（glycolysis）產生丙酮酸（pyruvate），它進一步會氧化成下列何種分子？\n(A)CO2 \n(B)Ethanol \n(C)Lactate \n(D)Citrate"
+  },
+  {
+  "答案": "C",
+  "題目": "砷酸鹽（arsenate）的結構性質類似磷酸鹽（phosphate），對糖解作用（glycolysis）之影響為：\n(A)抑制六碳糖激酶（hexokinase）活性 \n(B)抑制磷酸果糖激酶（phosphofructokinase）活性\n(C)抑制糖解過程之ATP 生成 \n(D)抑制整個糖解過程"
+  },
+  {
+  "答案": "A",
+  "題目": "在饑餓或糖尿病時，下列何者最不可能發生？\n(A)丙二醯輔酶A（Malonyl-CoA）濃度升高 \n(B)乙醯乙醯輔酶A（Acetoacetyl-CoA）濃度升高\n(C)酮體（Ketone body）濃度升高 \n(D)脂肪酸（Fatty acid）濃度升高"
+  },
+  {
+  "答案": "D",
+  "題目": "葡萄糖經由下列何種運輸方式，進入到紅血球內？\n(A)主動運輸（active transport） \n(B)反向運輸（antiport）\n(C)電能單向運輸（electrogenic uniport） \n(D)促進性擴散（facilitated diffusion）"
+  },
+  {
+  "答案": "B",
+  "題目": "下列關於脂質代謝的敘述，何者錯誤？\n(A)細胞中合成膽固醇的前驅物為乙醯輔酶（acetyl-CoA）\n(B)運送由食物攝取之三酸甘油酯（triacylglycerol）的主要脂蛋白（lipoprotein），為超低密度脂蛋白（VLDL , very low density lipoprotein）\n(C)低密度脂蛋白（LDL, low density lipoprotein）主要功能是將膽固醇送到周邊組織，易增加膽固醇在血管內壁堆積的風險，因此被稱為壞膽固醇（bad cholesterol）\n(D)胰島素可藉由活化HMG-CoA reductase 而促進細胞中膽固醇的生合成"
+  },
+  {
+  "答案": "D",
+  "題目": "下列關於 Cystic fibrosis 遺傳疾病的敘述，何者錯誤？\n(A)造成cystic fibrosis 的原因是CFTR（Cystic fibrosis transmembrane conductance regulator）基因發生突變\n(B)Cystic fibrosis導致嚴重的上呼吸道感染\n(C)Cystic fibrosis導致上皮細胞纖毛（cilia）擺動困難造成細菌容易感染\n(D)Cystic fibrosis的 CFTR 缺陷，造成 Cl-離子由細胞外大量運到細胞內"
+  },
+  {
+  "答案": "C",
+  "題目": "胺基酸代謝須進行轉氨反應，此反應最常需要那一種維生素參與？\n(A)Vitamin B1（Thiamine） \n(B)Vitamin B2（Riboflavine）\n(C)Vitamin B6（Pyridoxine） \n(D)Vitamin B12（Cobalamin）"
+  },
+  {
+  "答案": "A",
+  "題目": "心肌細胞受損後，最先在血液裡可以偵測到下列何種酵素？\n(A)Creatine kinase \n(B)Alkaline phosphatase\n(C)Glutaminase \n(D)Aspartate aminotransferase"
+  },
+  {
+  "答案": "A",
+  "題目": "下列何者為粒線體電子傳遞鏈Complex I 的electron donor？\n(A)NADH \n(B)Cytochrome c\n(C)Coenzyme Q \n(D)Succinate"
+  },
+  {
+  "答案": "C",
+  "題目": "在細胞週期中，下列何種蛋白質可受細胞週期蛋白質依賴蛋白質激酶（cyclin-dependent protein kinase）的磷酸化？\n(A)胰島素（insulin） \n(B)肌紅蛋白（myoglobin）\n(C)肌凝蛋白（myosin） \n(D)視網膜錐體蛋白質（retinal cone protein）"
+  },
+  {
+  "答案": "D",
+  "題目": "Multiple Endocrine Neoplasia 2（MEN-2）是因為RET gene 發生突變所致。RET 是一種tyrosine kinasereceptor，當它與其Ligand 結合後，不會產生下列何種反應？\n(A)Receptor 會dimerization\n(B)Receptor kinase 會磷酸化自己\n(C)Receptor kinase 會磷酸化其它蛋白質\n(D)會造成細胞內cAMP 上升"
+  },
+  {
+  "答案": "C",
+  "題目": "小朋友患有多發性視網膜細胞瘤（retinoblastoma）可發生於單眼或雙眼的視網膜，造成這些疾病最可能的原因是：\n(A)多發性腫瘤的病患出生時，每一個視網膜細胞（retinal cell）的Rb gene 的兩個copies 皆已有缺陷\n(B)單一腫瘤的病患於出生時，單一眼睛上之Rb gene 的兩個copies 皆已有缺陷\n(C)無論是單一或多發性腫瘤，都需要在小孩成長過程中，再發生第二個copy 的Rb gene 突變才會發生腫瘤\n(D)Rb gene 本身就是致癌基因（oncogene）"
+  },
+  {
+  "答案": "D",
+  "題目": "下列何者是第二型限制酶（type II restriction enzymes）的錯誤敘述？\n(A)可以在特定的辨認序列（recognition sequences）內作交錯式（staggered end）切割\n(B)可以在特定的辨認序列（recognition sequences）內產生平端（blunt end）切割\n(C)在細菌中用以切割外來DNA 的防禦系統\n(D)同一種限制酶可對不同的辨認序列進行切割"
+  },
+  {
+  "答案": "D",
+  "題目": "下列那一種胺基酸由於其結構的剛性（rigidity）很大，因此在蛋白質的β－摺板（β-sheet）結構中很少出現？\n(A)甘胺酸（glycine） \n(B)絲胺酸（serine）\n(C)半胱胺酸（cysteine） \n(D)脯胺酸（proline）"
+  },
+  {
+  "答案": "B",
+  "題目": "膠原蛋白（collagen）之羥基化（hydroxylation）修飾反應所需的維生素為：\n(A)thiamine \n(B)ascorbate \n(C)pyridoxal \n(D)cobalamin"
+  },
+  {
+  "答案": "A",
+  "題目": "真核細胞核內的一種纖維狀物質，其由一整套基因體DNA 與蛋白質所構成，具調控基因表現的功能。該構造的名稱為何？\n(A)染色質（chromatin） \n(B)中心粒（centrosome）\n(C)基因（gene） \n(D)核小體（nucleosome）"
+  },
+  {
+  "答案": "D",
+  "題目": "Holliday intermediate 的結構會在下列何種反應中出現？\n(A)轉錄作用（transcription） \n(B)轉譯作用（translation）\n(C)轉位作用（transposition） \n(D)同源重組（homologous genetic recombination）"
+  },
+  {
+  "答案": "D",
+  "題目": "人類細胞 mRNA 轉譯成蛋白質，下列何種為正確之調節機制？\n(A)兩條mRNA 進行重組（recombination）產生新的蛋白質\n(B)將mRNA 送入核內進行轉譯\n(C)和大約300～500 核苷酸（nucleotides）大小的DNA 結合而增加製造蛋白質效率\n(D)和小於50 核苷酸（nucleotides）大小的RNA 結合而減少製造蛋白質效率"
+  },
+  {
+  "答案": "A",
+  "題目": "大腸桿菌 cAMP receptor protein 與lac 操縱子（operon）DNA 結合後，可產生下列何種效應？\n(A)幫助RNA 聚合酶與lac 啟動子（promoter）結合的效應\n(B)可抑制lac 操縱子的活性\n(C)可避免抑制子（repressor）與lac 的操縱基因（operator）結合\n(D)在葡萄糖的存在下始能與lac 操縱子結合"
+  },
+  {
+  "答案": "A",
+  "題目": "下列關於真核細胞蛋白質合成之敘述，何者正確？\n(A)所有蛋白質的N 端起始胺基酸必為甲硫胺酸（methionine）\n(B)所有蛋白質的N 端起始胺基酸必為色胺酸（tryptophan）\n(C)所有蛋白質的N 端起始胺基酸必為半胱胺酸（cysteine）\n(D)所有蛋白質的N 端起始胺基酸必為組胺酸（histidine）"
+  },
+  {
+  "答案": "C",
+  "題目": "有關真核生物基因啟動子（promoter）之特性，下列敘述何者錯誤？\n(A)有些啟動子在開始轉錄位置附近含有initiator element\n(B)有些啟動子含GC box\n(C)有些啟動子含Pribnow box\n(D)有些啟動子含TATA box"
+  },
+  {
+  "答案": "D",
+  "題目": "由細胞核之基因所表現之蛋白質，下列何者不須targeting 序列（signal）？\n(A)分泌性蛋白質 \n(B)粒線體蛋白質 \n(C)膜蛋白質 \n(D)細胞質蛋白質"
+  },
+  {
+  "答案": "D",
+  "題目": "請在下列各原核細胞RNA 聚合酶（RNA polymerase）次單元（subunit）中配對出其專一的功能？次單元 功能a. α I具啟動子序列的專一辨識能力b. β II 生合成的延伸（elongation）作用，並能與調控蛋白互動（interaction）c. σ III 負責生合成的起始（initiation）與延伸（elongation）作用\n(A)a-I, b-II, c-III \n(B)a-III, b-II, c-I\n(C)a-III, b-I, c-II \n(D)a-II, b-III, c-I"
+  },
+  {
+  "答案": "B",
+  "題目": "下列那一個分子不是糖解作用（glycolysis）與糖質新生（gluconeogenesis）共同的中間產物？\n(A)磷酸烯醇式丙酮酸（phosphoenolpyruvate） \n(B)草醯乙酸（oxaloacetate）\n(C)1,3-二磷酸甘油酸（1,3-bisphosphoglycerate） \n(D)6-磷酸葡萄糖（glucose 6-phosphate）"
+  },
+  {
+  "答案": "B",
+  "題目": "下列何種情況，導致遺傳疾病半乳糖血症（galactosemia）的發生？\n(A)缺少fructokinase\n(B)缺少UDP-glucose:galactose 1-phosphate uridylyltransferase\n(C)無法分解lactose\n(D)過度攝取galactose"
+  },
+  {
+  "答案": "B",
+  "題目": "有關哺乳類動物細胞之N-linked 醣蛋白（glycoproteins）之敘述，下列何者正確？\n(A)N-linked glycoproteins 最主要之oligosaccharides 是由glucose 組成\n(B)利用dolichol phosphate 結合oligosaccharides 協助醣蛋白之合成\n(C)N-linked glycoproteins 用以結合oligosaccharides 之胺基酸是lysine\n(D)N-glycosylation 主要在高基氏體進行"
+  },
+  {
+  "答案": "D",
+  "題目": "UDP-glucose 參與下列那個代謝路徑？\n(A)五碳糖磷酸途徑（pentose phosphate pathway）\n(B)肝醣分解（glycogen degradation）\n(C)糖解作用（glycolysis）\n(D)半乳糖轉變為葡萄糖（epimerization of galactose to glucose）"
+  },
+  {
+  "答案": "A",
+  "題目": "所有生物細胞膜內的脂雙層具有下列何種共同特色？\n(A)個別的油脂分子能在脂雙層的表面自由地側向擴散（lateral diffusion）\n(B)個別的油脂分子能夠快速在脂雙層中的其中一層自由翻轉擴散（flip-flop diffusion）至另外一層\n(C)具有極性但不帶電荷之化合物容易經由擴散穿過脂雙層\n(D)脂雙層利用鄰近磷脂分子之間的共價鍵而形成穩定結構"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何者不涉及膜融合（membrane fusion）？\n(A)細胞內吞作用（endocytosis） \n(B)包膜病毒（enveloped virus）進入細胞\n(C)葡萄糖進入細胞 \n(D)細胞外釋作用（exocytosis）"
+  },
+  {
+  "答案": "A",
+  "題目": "下列何者是細胞運送物質通過細胞膜之促進性擴散作用（facilitated diffusion）的特性？\n(A)受到溶質濃度梯度的驅動 \n(B)需要ATP 的驅動\n(C)通常是一種吸能的（endergonic）反應 \n(D)通常是一種不可逆的反應"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何者是配體管制型離子通道（ligand-gated ion channel）如菸鹼性乙醯膽鹼受體（nicotinic acetylcholinereceptor）的特性？\n(A)在脂雙層中允許離子通透的帶電脂質\n(B)碰到特定的離子時才允許配體通過細胞膜\n(C)碰到特定的配體時才允許離子通過細胞膜\n(D)配體與細胞膜上相對應受體結合需依賴特定離子存在"
+  },
+  {
+  "答案": "B",
+  "題目": "那一種胺基酸生合成過程中，tetrahydrofolate 會轉變成N5, N10-methylenetetrahydrofolate？\n(A)serine+homocysteine → cysteine+alpha-ketobutyrate\n(B)serine → glycine\n(C)glutamate → glutamine\n(D)glutamate → proline"
+  },
+  {
+  "答案": "A",
+  "題目": "maple syrup urine disease 是因為下列那個胺基酸無法代謝，造成α-keto acids 在血液裡累積？\n(A)leucine \n(B)alanine \n(C)glycine \n(D)histidine"
+  },
+  {
+  "答案": "A",
+  "題目": "有關人類粒線體的敘述，下列何者正確？\n(A)有些粒線體蛋白質由細胞核內基因所合成\n(B)粒線體內genome 是直線型雙股DNA\n(C)粒線體內tRNA 及rRNA 分子全部來自細胞質\n(D)粒線體內genome 不會產生突變"
+  },
+  {
+  "答案": "B",
+  "題目": "血中腎上腺素（epinephrine）濃度增加時，主要會引起下列何種現象？\n(A)減少cAMP 產生 \n(B)活化蛋白質激酶A（protein kinase A）\n(C)降低肝細胞肝醣之分解 \n(D)抑制糖質新生（gluconeogenesis）"
+  },
+  {
+  "答案": "B",
+  "題目": "一位媽媽來求診，述說她的小孩從小能看到東西卻不會分辨顏色，其最可能的原因是：\n(A)桿狀細胞（rod cells）受損\n(B)錐狀細胞（cone cells）上cGMP 控制型離子通道（cGMP-gated channel）的α 次單元發生失去功能（loss-of-function）之基因突變\n(C)此病是因為細胞對光刺激時，Mg2+無法進入細胞所造成\n(D)補充維生素A（vitamin A）便會痊癒"
+  },
+  {
+  "答案": "D",
+  "題目": "鈣離子（calcium ion）是細胞內重要之二級訊息傳遞者，下列何種物質可影響細胞內鈣離子的濃度？\n(A)phosphatidylcholine+phospholipase A \n(B)phosphatidylcholine+phospholipase C\n(C)phosphatidylinositol+phospholipase A \n(D)phosphatidylinositol+phospholipase C"
+  },
+  {
+  "答案": "A",
+  "題目": "下列何種 DNA 的缺口可藉由DNA 連接酶（ligase）所接合？\n(A)5’-O-P+3’-OH \n(B)5’-OH+3’-O-P \n(C)5’-OH+3’-OH \n(D)5’-O-P+3’-O-P"
+  },
+  {
+  "答案": "A",
+  "題目": "﻿許多蛋白質須與金屬離子結合後才能展現正確的功能，下列何種胺基酸的側鏈具備與金屬離子直接結合的能力？\n(A)半胱胺酸（cysteine） \n(B)丙胺酸（alanine）\n(C)苯丙胺酸（phenylalanine） \n(D)脯胺酸（proline）"
+  },
+  {
+  "答案": "C",
+  "題目": "維生素 lipoic acid 及biotin 是與酶分子中那個胺基酸結合？\n(A)proline \n(B)glutamate \n(C)lysine \n(D)arginine"
+  },
+  {
+  "答案": "A",
+  "題目": "缺乏下列何種營養素最常導致腳氣病（beriberi）？\n(A)硫胺素（thiamine） \n(B)核黃素（riboflavin）\n(C)菸鹼酸（niacin） \n(D)維生素B6（pyridoxine）"
+  },
+  {
+  "答案": "C",
+  "題目": "缺乏維生素 B12 最可能會導致下列何種疾病？\n(A)腳氣病（beriberi） \n(B)壞血病（scurvy）\n(C)惡性貧血（pernicious anemia） \n(D)口角炎（angular stomatitis）"
+  },
+  {
+  "答案": "C",
+  "題目": "5’-ACCGTAAGGCTTTAG-3’DNA 之互補股（complementary strand），其核苷酸序列為何？\n(A)5’-ACCGUAAGGCUUUA-3’ \n(B)5’-CUAAAGCCUUACGG-3’\n(C)5’-CTAAAGCCTTACGGT-3’ \n(D)5’-ACCGTAAGGCTTTAG-3’"
+  },
+  {
+  "答案": "C",
+  "題目": "在生物體內，質體（plasmid）DNA 以負超螺旋結構（negative supercoiling）存在，這代表其linkingnumber（Lk）為何？\n(A)Lk＞Lk0 \n(B)Lk＝Lk0 \n(C)Lk＜Lk0 \n(D)無法判斷"
+  },
+  {
+  "答案": "BD",
+  "題目": "關於針對核苷酸合成路徑所設計的藥物，下列敘述何者錯誤？\n(A)azaserine 會抑制glutamine amidotransferase，無法提供核苷酸合成所需要的氮基\n(B)fluorouracil 會抑制thymidylate kinase\n(C)methotrexate 會抑制dihydrofolate reductase\n(D)trimethoprim 對細菌dihydrofolate reductase 的親和力比對人類相對應的酵素還要高十萬倍"
+  },
+  {
+  "答案": "C",
+  "題目": "細胞在下列何種情況之下，會有反轉錄酵素（reverse transcriptase）活性的參與？\n(A)DNA lagging strand 的複製 \n(B)DNA leading strand 的複製\n(C)某些RNA 病毒的複製 \n(D)SV40 病毒的複製"
+  },
+  {
+  "答案": "C",
+  "題目": "下列有關微型核糖核酸（micro RNA）之敘述，何者正確？\n(A)經修飾後的最終產物大約有200～300 個核苷酸（nucleotides）\n(B)會轉譯出一個5 kDa 的蛋白質\n(C)可由RNA polymerase II 轉錄製造\n(D)可結合特定蛋白質而分解其它蛋白質"
+  },
+  {
+  "答案": "C",
+  "題目": "具有下列何種胺基酸序列之蛋白質，最有可能在轉譯後送入細胞核內？\n(A)met-ser-ser-ala-gly-trp-val-lys-asp-val-ile-leu-leu-tyr-tyr-cys-\n(B)met-thr-ile-ala-leu-ile-leu-leu-pro-leu-leu-phe-met-ser-ala-ala-\n(C)met-ile-leu-lys-lys-arg-arg-met-lys-arg-arg-tyr-ser-asp-gly-ile-\n(D)met-lys-ala-ser-asp-ser-ser-gly-arg-trp-tyr-met-his-trp-arg-ile-"
+  },
+  {
+  "答案": "B",
+  "題目": "請指出 σ factor 在大腸桿菌RNA 聚合酶（polymerase）中的功能為何？\n(A)先與啟動子結合，再誘使與核心酶（core enzyme）的結合\n(B)與核心酶（core enzyme）結合後，能確保RNA 聚合酶與啟動子（promoter）結合的專一性\n(C)能終止RNA 鏈生合成的因子\n(D)具轉錄DNA 模板的活性"
+  },
+  {
+  "答案": "D",
+  "題目": "關於 aminoacyl-tRNA 的合成反應，下列那一項敘述正確？\n(A)需要鳥苷三磷酸（GTP）與錳離子（Mn2+） \n(B)需要腺苷三磷酸（ATP）與錳離子（Mn2+）\n(C)將胺基酸接合在tRNA 的5’端 \n(D)由aminoacyl-tRNA synthetase 催化產生"
+  },
+  {
+  "答案": "C",
+  "題目": "克氏循環（TCA cycle）中那種酵素的受質為一個四碳化合物？\n(A)異檸檬酸脫氫酶（isocitrate dehydrogenase） \n(B)烏頭酸酶（aconitase）\n(C)檸檬酸合成酶（citrate synthase） \n(D)乳酸脫氫酶（lactate dehydrogenase）"
+  },
+  {
+  "答案": "A",
+  "題目": "下列有關人體細胞進行葡萄糖新生作用（gluconeogenesis）之敍述何者正確？\n(A)可將蛋白質轉變成血糖 \n(B)胰島素可活化葡萄糖新生作用\n(C)攝取高醣類食物後，利用此作用來降低血糖 \n(D)脂肪酸轉變成葡萄糖之必需途徑"
+  },
+  {
+  "答案": "B",
+  "題目": "紅血球因缺乏粒線體，其葡萄糖分解的最終產物為何？\n(A)pyruvate \n(B)lactate \n(C)acetyl-CoA \n(D)CO2"
+  },
+  {
+  "答案": "C",
+  "題目": "穿越細胞膜（transmembrane）的蛋白質中，色胺酸（tryptophan）最常位於何處？\n(A)細胞膜脂肪層內（intra-lipid bilayer） \n(B)細胞質的水相中\n(C)細胞膜脂肪層與細胞質水相之交接處 \n(D)緊鄰於甘胺酸（glycine）"
+  },
+  {
+  "答案": "D",
+  "題目": "厭水性分析圖（hydropathy plot）一般可用於：\n(A)推算膜蛋白質的四級結構\n(B)測定天然的蛋白質（native protein）的水含量\n(C)推算膜蛋白質的實際分子量\n(D)預測已知的蛋白質胺基酸序列是否含有穿膜區（membrane-spanning segment）"
+  },
+  {
+  "答案": "C",
+  "題目": "脂肪酸 cis-, cis-delta 9, delta 12-octadecadienoate 是指下列何者？\n(A)oleate \n(B)palmitoleate \n(C)linoleate \n(D)arachidonate"
+  },
+  {
+  "答案": "ABCD",
+  "題目": "一位小孩罹患罕見基因缺陷之遺傳疾病「尼曼匹克症（Niemann-Pick disease）」，此孩子剛出生時活潑正常，8 個月後出現吞嚥困難、腦部功能退化，最後將成為植物人而死亡。這類疾病主要是那一類物質代謝失常而堆積在組織中所造成？\n(A)triacylglycerol \n(B)gangliosides \n(C)vitamin D \n(D)cholesterol"
+  },
+  {
+  "答案": "A",
+  "題目": "Lesch-Nyhan syndrome 是因缺乏次黃嘌呤－ 鳥嘌呤磷酸核苷轉移酶（ hypoxanthine-guaninephosphoribosyltransferase），因而發生下列何種現象？\n(A)大量嘌呤（purine）生合成 \n(B)大量dTTP 合成\n(C)在血液中dCTP 量非常低 \n(D)尿液出現大量尿素（urea）"
+  },
+  {
+  "答案": "D",
+  "題目": "在人體中，胺基酸不能作為下列何種生物分子生合成的前驅物？\n(A)腎上腺素（epinephrine） \n(B)紫質（porphyrin）\n(C)腺嘌呤（adenine） \n(D)氰鈷胺（cobalamin）"
+  },
+  {
+  "答案": "A",
+  "題目": "下列那一個胺基酸可以降解成pyruvate？\n(A)alanine \n(B)leucine \n(C)lysine \n(D)tyrosine"
+  },
+  {
+  "答案": "B",
+  "題目": "類固醇荷爾蒙必須由專一性運送蛋白質（carrier protein）運送，是因為荷爾蒙具有下列何種特性？\n(A)在血液中化學結構不安定\n(B)因為是親油性（hydrophobic）物質，在血液中不易溶解\n(C)利用專一性運送蛋白送到特定的目標細胞\n(D)需要專一性運送蛋白來穿越細胞膜"
+  },
+  {
+  "答案": "D",
+  "題目": "細胞內訊息傳遞分子（intracellular signaling molecules），下列何種系列是最常見的組合？\n(A)phospholipase C，cAMP，PKA \n(B)adenylate cyclase，cAMP，PKC\n(C)adenylate cyclase，diacylglycerol，PKA \n(D)phopholipase C，diacylglycerol，PKC"
+  },
+  {
+  "答案": "C",
+  "題目": "聚合酶鏈鎖反應（polymerase chain reaction）過程的先後順序為何？①DNA 延伸（extension）②DNA 變性（denaturation） ③引子與DNA 模板結合（annealing）\n(A)①③② \n(B)②①③ \n(C)②③① \n(D)①②③"
+  },
+  {
+  "答案": "A",
+  "題目": "競爭型抑制劑（competitive inhibitor）對於酵素動力學參數的影響為：\n(A)使Km值上升 \n(B)使kcat值下降 \n(C)使kcat / Km值上升 \n(D)使Vmax下降"
+  },
+  {
+  "答案": "C",
+  "題目": "囊狀纖維化（cystic fibrosis）病患最常見的分子特徵為：CFTR 蛋白質（cystic fibrosis transmembraneconductance regulator）中少了第508 號苯丙胺酸（phenylalanine）。下列何種特性，最可能是這個CFTR 蛋白質突變導致其疾病的主要原因？\n(A)蛋白質穩定度（protein stability）提昇，導致CFTR 蛋白質堆積於細胞外\n(B)蛋白質輸核機制（nuclear transport）改變，導致CFTR 蛋白質累積於細胞核內\n(C)蛋白質疊合（protein folding）異常，導致CFTR 蛋白質於細胞內容易被降解\n(D)蛋白質磷酸化（phosphorylation）增加，導致CFTR 蛋白質於細胞膜的活性過高"
+  },
+  {
+  "答案": "A",
+  "題目": "25 歲病患因昏迷被送來急診，檢查發現血中碳氧血紅蛋白（carboxyhemoglobin）占總血紅蛋白的40%。相較於氧合血紅蛋白（oxyhemoglobin），下列何者可能是碳氧血紅蛋白不能有效輸送氧分子至一般組織的主要原因？\n(A)於一般組織的低氧狀態下，結合一個一氧化碳時，碳氧血紅蛋白結合氧分子的能力過高\n(B)於一般組織的低氧狀態下，結合一個一氧化碳時，碳氧血紅蛋白結合氧分子的能力過低\n(C)於肺泡組織的高氧狀態下，結合一個一氧化碳時，碳氧血紅蛋白結合氧分子的能力不變\n(D)於肺泡組織的高氧狀態下，結合一個一氧化碳時，碳氧血紅蛋白結合氧分子的能力過低"
+  },
+  {
+  "答案": "B",
+  "題目": "下列關於分子伴護蛋白（molecular chaperones）性質的敘述，何者錯誤？\n(A)分子伴護蛋白可以協助摺疊錯誤的蛋白質（misfolded protein）走向正確的摺疊途徑\n(B)大部分分子伴護蛋白在作用時，無須消耗腺嘌呤核苷三磷酸（ATP）\n(C)大部分分子伴護蛋白的含量在細胞處與高溫狀態時會上升\n(D)某些分子伴護蛋白可藉由與未摺疊蛋白質所暴露之疏水性區域結合，防止其不當凝聚"
+  },
+  {
+  "答案": "A",
+  "題目": "磷酸吡哆醛（pyridoxal phosphate）是下列何種酶活性所需？\n(A)肝糖磷解酶（glycogen phosphorylase） \n(B)六碳糖激酶（hexokinase）\n(C)丙酮酸脫氫酶（pyruvate dehydrogenase） \n(D)磷酸果糖激酶-1（phosphofructokinase-1）"
+  },
+  {
+  "答案": "D",
+  "題目": "有關「心臟病患血中膽固醇（cholesterol）過高而服用降膽固醇藥物statin，會影響SREBP（sterolresponse element binding protein）之作用」，下列何者錯誤？\n(A)肝細胞中SREBP 會由ER 釋放出來 \n(B) LDL receptor 基因表現會增加\n(C)血液中LDL-cholesterol 會下降 \n(D) SREBP 只調控與膽固醇代謝相關的基因"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何種 DNA 核苷酸序列能被限制性核酸內切酶（restriction endonucleases）辨識並切割？\n(A) AATAAT \n(B) AAACCC \n(C) GAATTC \n(D) AAAGGG"
+  },
+  {
+  "答案": "A",
+  "題目": "下列那一項突變在蛋白質表現區（coding sequence）對於其蛋白質功能影響最大？\n(A)插入一個核苷酸（nucleotide） \n(B)把adenine 變成cytosine\n(C)把thymine 變成cytosine \n(D)刪除了三個核苷酸"
+  },
+  {
+  "答案": "B",
+  "題目": "Klenow fragment 是大腸桿菌（E. coli）DNA 聚合酶I 型（DNA polymerase I）的片段，其主要具有何種酵素活性？\n(A)聚合酶與5’核酸外切酶（polymerase and 5’ exonuclease）活性\n(B)聚合酶與3’核酸外切酶（polymerase and 3’ exonuclease）活性\n(C) 5’與3’核酸外切酶（5’ and 3’ exonuclease）活性\n(D)聚合酶，5’與3’核酸外切酶（polymerase，5’ and 3’ exonuclease）活性"
+  },
+  {
+  "答案": "D",
+  "題目": "細菌之 RNA 聚合酶本體（core enzyme）不包含下列何種次單元（subunit）？\n(A) α \n(B) β \n(C) β' \n(D) σ"
+  },
+  {
+  "答案": "C",
+  "題目": "乳糖操縱子（lac operon）作轉錄表現時，能產生多順反子信使RNA（polycistronic mRNA）。下列有關polycistronic mRNA 的敘述，何者正確？\n(A)一條mRNA 上含有能調控lac operon 的正調控因子和負調控因子\n(B)一條mRNA 上含有反置重覆序列（inverted repeat sequence）的編碼\n(C)一條mRNA 上含有多個基因的編碼\n(D)一條mRNA 上含有能抑制β-半乳糖苷酶（β-galactosidase）轉譯的專一性序列"
+  },
+  {
+  "答案": "A",
+  "題目": "促進子（enhancer）在基因轉錄（transcription）時的特性為：\n(A) distance-independent, orientation-independent \n(B) distance-independent, orientation-dependent\n(C) distance-dependent, orientation-independent \n(D) distance-dependent, orientation-dependent"
+  },
+  {
+  "答案": "ABCD",
+  "題目": "下列何者不參與轉錄作用（transcription）？\n(A) general transcription factors \n(B) DNA-binding transactivators\n(C)coactivators \n(D) cyclin-dependent kinase"
+  },
+  {
+  "答案": "B",
+  "題目": "丙酮酸（pyruvate）生成草醯乙酸（oxaloacetate）之催化酶，需要下列何者作為變構活化劑（allostericactivator）？\n(A)ADP \n(B)acetyl-CoA \n(C)glucose \n(D)NAD+"
+  },
+  {
+  "答案": "B",
+  "題目": "有一種罕見糖尿病，是由於hexokinase 之基因突變所造成，其substrate 是：\n(A) fructose \n(B) glucose \n(C) galactose \n(D) sucrose"
+  },
+  {
+  "答案": "B",
+  "題目": "Valinomycin 抗生素是一種ionophore，下列相關敘述何者錯誤？\n(A)它是一種具環狀結構的peptide 抗生素\n(B)其殺菌的效果是因為能使細菌之細胞壁無法合成\n(C)其殺菌的效果是因為擾亂細胞膜內外的離子平衡\n(D)它能夠攜帶K+離子通過細胞膜"
+  },
+  {
+  "答案": "B",
+  "題目": "Multi-drug transporter（MDR 1）和癌症治療有關，下列有關MDR 1 的敘述，何者錯誤？\n(A)是一種膜蛋白 \n(B)不需要ATP 即可作用\n(C)是一種ABC transporter \n(D)可以將藥物送出細胞外"
+  },
+  {
+  "答案": "C",
+  "題目": "下列關於細胞內膽固醇恆定的調控敘述，何者錯誤？\n(A)膽固醇合成的關鍵性酵素為HMG-CoA 還原酶（HMG-CoA reductase）\n(B)細胞內膽固醇量過多時，可以活化ACAT（Acyl-CoA:cholesterol acyl transferase）使膽固醇進行酯化\n(C)當細胞內缺乏膽固醇時，可以攝取葡萄糖直接促進膽固醇的合成\n(D)細胞內膽固醇量過多時，細胞將抑制LDL receptor 的表現，進而降低細胞對血液中膽固醇的攝取量"
+  },
+  {
+  "答案": "C",
+  "題目": "安息香酸（benzoate）與苯丁酸（phenylbutyrate）是用來治療尿素循環（urea cycle）障礙疾病的藥物，其藥理作用主要為何？\n(A)提供尿素循環所需的中間產物，增進整個尿素循環的效率\n(B)作為胺甲醯磷酸合成酶（carbamoyl phosphate synthase I）的異位活化劑（allosteric activator），增進尿素循環的效率\n(C)其代謝物分別與甘胺酸（glycine）和麩醯胺酸（glutamine）結合成衍生物排出體外，減少尿素循環的負擔\n(D)促進精胺酸（arginine）的合成，防止精胺酸缺乏的發生"
+  },
+  {
+  "答案": "B",
+  "題目": "下列那一個酵素的功能喪失會導致Phenylketonuria？\n(A) Aminotransferase \n(B) Phenylalanine hydroxylase\n(C) Maleylacetoacetate isomerase \n(D) Fumarylacetoacetase"
+  },
+  {
+  "答案": "C",
+  "題目": "下列那一個酵素位於粒線體電子傳遞鏈的Complex II？\n(A) NADH dehydrogenase \n(B) cytochrome c oxidase\n(C) succinate dehydrogenase \n(D) ubiquinol-cytochrome c oxidoreductase"
+  },
+  {
+  "答案": "A",
+  "題目": "一位中年婦人最近節食減肥，因虛弱無力、無法行動而送至急診，經診斷為腳氣病（beriberi）。下列有關此病之敘述，何者正確？\n(A)此病主要是因硫胺素（thiamine）缺乏所導致 \n(B)此病是因醣類攝取不足所引起\n(C)血中的丙酮酸（pyruvate）會下降 \n(D)神經系統不會受到影響"
+  },
+  {
+  "答案": "D",
+  "題目": "車禍病人的腦部受傷發生尿崩症，是因為其抗利尿激素（antidiuretic hormone）分泌下降。抗利尿激素作用在位於腎小管上之G protein coupled receptor，其主要可造成下列何種反應？\n(A)使G protein dimerization \n(B)抑制protein kinase C\n(C)細胞內cGMP 濃度下降 \n(D)可活化adenylyl cyclase"
+  },
+  {
+  "答案": "C",
+  "題目": "下列關於細胞與細胞週期（cell cycle）的敘述，何者錯誤？\n(A)處於S phase 的細胞主要進行DNA 複製（DNA replication）工作\n(B)處於M phase 的細胞主要進行細胞分裂\n(C)大部分高度分化的細胞，皆處於S phase\n(D)在快速分裂時，細胞處在S phase 的比例增加"
+  },
+  {
+  "答案": "D",
+  "題目": "下列那一項對cDNA 微矩陣（microarray）的敘述錯誤？\n(A)可以同時分析細胞內數千基因的相對表現量\n(B)可利用PCR 技術合成DNA，固定在玻片上\n(C)可以利用photolithography 技術合成基因晶片\n(D)也可以偵測蛋白質表現程度"
+  },
+  {
+  "答案": "C",
+  "題目": "某酵素對受質A的動力學參數為：Km＝0.01 mM；Kcat＝5 S-1，而對受質B的動力學參數為：Km＝0.1 mM；Kcat＝5 S-1，由以上數據可知：\n(A)此酵素對受質B 的反應速率較易飽和\n(B)當催化速率處於飽和時，此酵素對受質A 的反應較快\n(C)此酵素對受質A 的專一性較高\n(D)當受質濃度極低時，此酵素對受質B 的反應較快"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何者不是同源重組（homologous recombination）的生物功能？\n(A)幫助染色體在減數分裂（meiosis）時的分離 \n(B)增加基因多樣性（genetic diversity）\n(C)促進轉錄作用（transcription） \n(D) DNA 修復（DNA repair）"
+  },
+  {
+  "答案": "B",
+  "題目": "下列關於非競爭型抑制劑（uncompetitive inhibitor）的敘述，何者正確？\n(A)非競爭型抑制劑係結合於酵素的活性中心，使受質無法結合\n(B)非競爭型抑制劑與酵素結合後會改變酵素活性中心的結構，阻斷反應的進行\n(C)非競爭型抑制劑的存在會使酵素的Km 上升\n(D)酵素反應之Vmax 不受非競爭型抑制劑的影響"
+  },
+  {
+  "答案": "A",
+  "題目": "下列維生素何者為輔 A（coenzyme A）的結構成分？\n(A) Pantothenic acid \n(B) Ascorbic acid \n(C) Nicotinic acid \n(D) Folic acid"
+  },
+  {
+  "答案": "B",
+  "題目": "下列何者主要是負責細胞還原生合成（reductive biosynthesis）反應之輔？\n(A)NADH \n(B)NADPH \n(C)FADH2 \n(D)FMNH2"
+  },
+  {
+  "答案": "B",
+  "題目": "有關 DNA 與RNA 的敘述，下列何者錯誤？\n(A) DNA 由去氧核糖核酸組成，RNA 由核糖核酸組成\n(B)在弱鹼溶液中，RNA 較DNA 穩定\n(C)雙股DNA 大多以B form 二級結構存在\n(D) DNA 與RNA 皆用磷酸二酯鍵（phosphodiester bond）形成聚合體"
+  },
+  {
+  "答案": "D",
+  "題目": "有關細菌的基因表現之敘述，下列何者錯誤？\n(A)細菌的protein coding gene 不含intron\n(B)細菌僅有一種RNA polymerase 進行轉錄作用\n(C)細菌的mRNA 的轉錄可和轉譯同步發生\n(D)細菌所有的RNA，均不須進行轉錄後processing"
+  },
+  {
+  "答案": "B",
+  "題目": "三餐正常的人在午餐未進食前，下列那一項是血糖的主要來源？\n(A)蛋白質 \n(B)肝臟中的肝醣（glycogen）\n(C)肌肉中的肝醣 \n(D)脂肪組織的葡萄糖（glucose）"
+  },
+  {
+  "答案": "C",
+  "題目": "遺傳密碼子（genetic codon）的degeneracy 是指：\n(A)遺傳密碼子是由二個核酸（nucleotides）所構成\n(B)遺傳密碼子是由核酸重複使用所構成\n(C)多個遺傳密碼子可代表同一種胺基酸（amino acid）\n(D)同一遺傳密碼子在不同的生物體中代表不同種的胺基酸"
+  },
+  {
+  "答案": "ABCD",
+  "題目": "嘌呤的代謝異常會導致人類疾病，下列關於adenosine deaminase（ADA）deficiency 的敘述何者錯誤？\n(A) ADA 缺乏時會導致嚴重的免疫缺乏，讓T 淋巴球無法發揮正常防禦功能\n(B) ADA 缺乏時會促進dATP 的合成\n(C) ADA 缺乏時會導致細胞中累積100 倍以上的dATP\n(D)細胞中過多的dATP 會抑制核酸還原的作用，而無法產生其他的dNTP"
+  },
+  {
+  "答案": "C",
+  "題目": "胰島素（insulin）調節下列何種分子的合成，進而活化phosphofructokinase-1 以促進糖解作用（glycolysis）？\n(A) citrate \n(B) NADH \n(C) fructose 2,6-bisphosphate \n(D) ATP"
+  },
+  {
+  "答案": "B",
+  "題目": "下列何種內分泌荷爾蒙其receptor 不是nuclear hormone receptor？\n(A) glucocorticoid \n(B) glucagon \n(C) thyroid hormone \n(D) progesterone"
+  },
+  {
+  "答案": "A",
+  "題目": "劇烈運動中的肌細胞與靜止時之肌細胞相比，前者會產生下列何種現象？\n(A) lactate 形成之速率較高 \n(B) gluconeogenesis 增加\n(C) glucose 之消耗較低 \n(D) glycogenolysis 較低"
+  },
+  {
+  "答案": "B",
+  "題目": "Tay-Sachs 是一種人類遺傳性疾病，下列相關敘述何者錯誤？\n(A)會導致ganglioside GM2 在腦及脾中的堆積\n(B)它是β-galactosidase 的缺乏\n(C)它是一種發育過程漸進式的肢體麻痺及失明\n(D)脂質類代謝的異常所引起"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何種分子是屬於glycerophospholipid 並參與細胞內訊息傳遞？\n(A) arachidonic acid \n(B) vitamin C\n(C) phosphatidylinositol \n(D) phosphatidylethanolamine"
+  },
+  {
+  "答案": "B",
+  "題目": "free ammonia 在細胞內可藉由那一個酵素作用，將其轉化為無毒性的L-glutamine？\n(A) glutaminase \n(B) glutamine synthetase\n(C) glutamate dehydrogenase \n(D) aspartate aminotransferase"
+  },
+  {
+  "答案": "D",
+  "題目": "有關家族性高膽固醇症（familial hypercholesterolemia）最主要的致病原因為何？\n(A)飲食中過度高油脂食物的攝取 \n(B) HMG-CoA reductase 基因變異\n(C)正常LDL receptor 蛋白表現量過高 \n(D) LDL receptor 基因變異"
+  },
+  {
+  "答案": "B",
+  "題目": "澱粉樣變性病（amyloidosis）是一類由蛋白質摺疊錯誤所引發的疾病，何種蛋白質二級結構（secondarystructure）與導致此類疾病的關係最為密切？\n(A) α-螺旋（α-helix） \n(B) β-摺板（β-sheet）\n(C) β-回轉（β-turn） \n(D)隨機線圈（random coil）"
+  },
+  {
+  "答案": "D",
+  "題目": "一位 60 歲病患因腹部劇痛、輕度癱瘓被送來急診，尿液檢查呈酒紅色，基因分析發現：參與血紅素（heme）合成的酵素發生錯義突變（missense mutation）。下列何者是最可能的診斷？\n(A)苯酮尿症（phenylketonuria） \n(B)楓糖漿尿症（maple syrup urine disease）\n(C)黑尿症（alkaptonuria） \n(D)紫質症（porphyria）"
+  },
+  {
+  "答案": "C",
+  "題目": "一位新生兒的血液篩檢發現有白胺酸（leucine）、異白胺酸（isoleucine）及纈胺酸（valine）的堆積，懷疑是楓糖漿尿症（maple syrup urine disease）的患者，必須終身作嚴格的飲食控制。下列那個酵素的功能障礙，最可能是這個疾病的原因？\n(A)胺甲醯磷酸鹽合成（carbamoyl phosphate synthetase）\n(B)黑尿酸氧化（homogentisic acid oxidase）\n(C)支鏈酮酸去氫酵素（branched-chain α–keto acid dehydrogenase）\n(D)苯丙胺酸羥化（phenylalanine hydroxylase）"
+  },
+  {
+  "答案": "D",
+  "題目": "puromycin 是一種抗生素（antibiotics），可以抑制細菌之蛋白質合成，是由於它可以：\n(A)抑制細菌之核糖體結合於mRNA 上 \n(B)佔據mRNA 之起始密碼位置\n(C)促進核糖體之分解 \n(D)結合在核糖體之A site，破壞胜肽鍵之生合成"
+  },
+  {
+  "答案": "C",
+  "題目": "不孕症之治療可以注射 gonadotropin-releasing hormone（GnRH），以促進排卵。下列有關GnRHreceptor 的敘述何者錯誤？\n(A) GnRH receptor 是membrane receptor\n(B) GnRH receptor 是經G protein 傳遞訊息\n(C) GnRH receptor 接受ligand 後，會活化protein kinase A\n(D)GnRH receptor受ligand刺激後，細胞質內的Ca2+濃度會上升"
+  },
+  {
+  "答案": "A",
+  "題目": "粒線體進行電子傳遞過程中容易產生下列何種對細胞有害的物質？\n(A) reactive oxygen species（ROS） \n(B) CO\n(C)NH3 \n(D)O2"
+  },
+  {
+  "答案": "B",
+  "題目": "下列關於訊息傳遞的敘述，何者錯誤？\n(A) β-adrenergic receptor 是經由cyclic AMP 進行細胞訊息傳遞\n(B)一氧化氮（nitric oxide）是經由膜型guanylyl cyclase 受體（membrane form guanylyl cyclase）進行細胞訊息傳遞\n(C)細胞內鈣離子濃度受inositol-3-phosphate（IP3）調控\n(D) cyclic AMP（cAMP）是藉由allosteric regulation 的方式調控蛋白激 A（protein kinase A）活性"
+  },
+  {
+  "答案": "D",
+  "題目": "1871 年德國眼科醫師Theodor Leber 發現了一種家族性的神經眼科疾病Leber hereditary opticneuropathy，簡稱LHON，後來證實這是一種粒線體疾病。下列有關粒線體之敘述何者正確？\n(A)粒線體的DNA 與細胞核DNA 一樣，為環狀雙股結構\n(B)粒線體相關的遺傳病大多是自體隱性染色體遺傳（autosomal recessive）\n(C)粒線體相關的遺傳病大多是X-性聯染色體遺傳（X-linked recessive），所以大多發生在男性\n(D)粒線體DNA 突變情況較輕的病人，有時候只有眼睛神經病變，在接近成年的年齡時突然發生失明"
+  },
+  {
+  "答案": "C",
+  "題目": "一位男童特別高大，主訴關節鬆動、視網膜剝離病變。檢查發現他的第二型膠原蛋白（type II collagen）於三胜肽重複單位（tripeptide repeat）產生突變，以致影響它的四級結構。這個突變最可能發生在那個胺基酸？\n(A)羥離胺酸（hydroxylysine） \n(B)羥脯胺酸（hydroxyproline）\n(C)甘胺酸（glycine） \n(D)色胺酸（tryptophan）"
+  },
+  {
+  "答案": "A",
+  "題目": "下列關於酵素反應的敘述，何者錯誤？\n(A)酵素可以改變化學反應的平衡常數，使正反應的速率上升\n(B)大多數的酵素為蛋白質，但少數核醣核酸分子（RNA）亦具有催化能力\n(C)一般化學反應的速率會隨著溫度升高而上升，但大多數酵素反應的速率在溫度過高時會顯著降低\n(D)酵素可區分光學性質不同的受質，因此反應的立體專一性（stereo-specificity）極高"
+  },
+  {
+  "答案": "C",
+  "題目": "缺少維生素BB1時會導致下列何種酶的活性降低？\n(A) Succinate dehydrogenase \n(B)Glucose 6-phosphate dehydrogenase\n(C)α-Ketoglutarate dehydrogenase \n(D)Transaldolase"
+  },
+  {
+  "答案": "D",
+  "題目": "下列何者不是穩定蛋白質三級結構的非共價交互作用力？\n(A)氫鍵（hydrogen bond） \n(B)凡德瓦爾力（van der Waals interaction）\n(C)離子交互作用（ionic interaction） \n(D)雙硫鍵（disulfide bond）"
+  },
+  {
+  "答案": "B",
+  "題目": "全世界約有 10%人口具有葉酸缺乏症，下列相關敘述何者錯誤？\n(A) 葉酸缺乏可能和癌症、心臟病或腦部功能異常有關\n(B)葉酸缺乏時，會導致胸苷酸（Thymidylate）累積過量\n(C)葉酸缺乏時，DNA 中易累積過量的尿素嘌呤（Uracil）\n(D)葉酸缺乏時，尿素嘌呤會被DNA 修補系統辨認，導致DNA 損壞"
+  },
+  {
+  "答案": "B",
+  "題目": "下列關於 glucose 在人類的紅血球中代謝的敘述，何者錯誤？\n(A)glucose 代謝最終產物之一為lactic acid \n(B)pyruvate 可轉化為acetyl-CoA 進一步代謝\n(C)ATP 產量較少 \n(D)glucose 也可以利用pentose phosphate 途徑代謝"
+  },
+  {
+  "答案": "D",
+  "題目": "控制血管栓塞藥物warfarin 的作用，最主要是透過改變下列何種蛋白修飾（protein modification）的活性？\n(A)甲基化（N-methylation） \n(B)磷酸化（O-phosphorylation）\n(C)乙醯化（N-acetylation） \n(D)羧基化（γ-carboxylation）"
+  },
+  {
+  "答案": "B",
+  "題目": "下列那一個胺基酸可以代謝成α-ketoglutarate，然後進入citric acid cycle？\n(A) Glycine \n(B)Proline \n(C)Alanine \n(D)Tyrosine"
+  },
+  {
+  "答案": "A",
+  "題目": "聚合酶鏈鎖反應（PCR）所使用之Taq polymerase 與大腸桿菌DNA 複製（DNA replication）兩者所使用的DNA 聚合酶主要差異性為何？\n(A) 熱穩定性（thermal stability） \n(B)聚合酶活性\n(C)3’核酸外切酶（3’exonuclease）活性 \n(D)反應時，對二價金屬離子的需求"
+  },
+  {
+  "答案": "B",
+  "題目": "一位新生兒有餵食欠佳、昏睡、呼吸急促症狀，血液檢查發現有輕微的呼吸性鹼中毒（respiratoryalkalosis）與高血氨（hyperammonemia）。家族病史分析發現屬於性聯遺傳疾病。下列尿素循環（ureacycle）中何種酵素最可能出現功能異常？\n(A) 尿黑酸氧化酶（homogentisate oxygenase）\n(B)鳥胺酸轉胺基甲醯基酶（ornithine transcarbamoylase）\n(C)胱硫醚合成酶（cystathionine β-synthase）\n(D)精胺基琥珀酸酶（argininosuccinase）"
+  },
+  {
+  "答案": "C",
+  "題目": "常見的 glycogen storage disease 是因為病人缺乏glucose-6-phosphatase 所造成，下列敘述何者正確？\n(A)glycogen synthesis 增加\n(B)glucose-6-phosphate 無法轉化成glucose-1-phosphate\n(C)病人血中glucose 濃度可能偏低\n(D)glycolysis 異常"
+  },
+  {
+  "答案": "B",
+  "題目": "一位 3 個月大男嬰的血清中，有兩個化合物的濃度較高，包括苯丙胺酸（phenylalanine）與苯丙酮酸（phenylpyruvate），懷疑是苯酮尿症（phenylketonuria），但檢驗測得的苯丙胺酸羥化酶（Phenylalaninehydroxylase）活性卻正常。若下列那個酵素檢驗項目異常，仍可以支持你的苯酮尿症診斷？\n(A)酪胺酸酶（tyrosinase）\n(B)雙氫喋啶還原酵素（dihydrobiopterin reductase）\n(C)黑尿酸氧化酶（homogentisic acid oxidase）\n(D)多巴胺羥化酶（dopamine hydroxylase）"
+  },
+  {
+  "答案": "A",
+  "題目": "下列那種酶同時參與糖解（glycolysis）及葡萄糖新生（gluconeogenesis）之代謝途徑？\n(A) 3-磷酸甘油酸激酶（3-phosphoglycerate kinase） \n(B)六碳糖激酶（hexokinase）\n(C)磷酸果糖激酶-1（phosphofructokinase-1） \n(D)丙酮酸激酶（pyruvate kinase）"
+  },
+  {
+  "答案": "B",
+  "題目": "一位年輕女性臉上有嚴重的痤瘡（青春痘，acne），若你將要處方維生素A 酸（retinoic acid），下列相關敘述，何者正確？\n(A)維生素A 酸是維生素K（vitamin K）之衍生物\n(B)懷孕時服用有導致胎兒畸形之危險性\n(C)只要停止服用維生素A 酸一至兩星期後懷孕，便不會有胎兒畸形之危險性\n(D)人類細胞核中並無維生素A 之受體（receptor）"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何種修補作用不能修復紫外光所造成的嘧啶二聚體（pyrimidine dimers）傷害？\n(A)核苷酸切除修復（nucleotide excision repair） \n(B)DNA 光解酶（DNA photolyases）\n(C)核酸錯誤配對修復（mismatch repair） \n(D)鹼基切除修復（base excision repair）"
+  },
+  {
+  "答案": "A",
+  "題目": "有關真核細胞之蛋白質分解，下列敘述何者錯誤？\n(A)均不須 ATP 之參與 \n(B)Trypsin 可水解 lysine後之胜肽鍵\n(C)泛素化（Ubiquitination）參與蛋白質分解機制 \n(D)Lysosome 具 proteases 可以分解胞內蛋白質"
+  },
+  {
+  "答案": "C",
+  "題目": "下列何者是蛋白質轉譯之起始胺基酸？\n(A)Leucine \n(B)Cysteine \n(C)Methionine \n(D)Tyrosine"
+  },
+  {
+  "答案": "A",
+  "題目": "下列何者是 RNA 聚合酶Ⅱ（RNA polymerase Ⅱ）的產物？\n(A)hnRNA \n(B)tRNA \n(C)5S RNA \n(D)28S rRNA"
+  },
+  {
+  "答案": "B",
+  "題目": "下列何者可有效地抑制老鼠體內mRNA 的合成？\n(A)Erythromycin \n(B)Alpha-amanitin \n(C)Tetracycline \n(D)Rifampicin"
+  },
+  {
+  "答案": "C",
+  "題目": "Lovastatin 與compactin 是用來治療家族性高膽固醇症（familial hypercholesterolemia）的常用藥物，這兩種藥物主要是藉由抑制那一種酵素活性，進而降低細胞內膽固醇的合成？\n(A)HMG-CoA synthase \n(B)HMG-CoA lyase \n(C)HMG-CoA reductase \n(D)HMG-CoA isomerase"
+  },
+  {
+  "答案": "B",
+  "題目": "下列關於脂肪酸的敘述，何者正確？\n(A)血液中荷爾蒙glucagon 可以促進細胞中脂肪酸的生合成\n(B)細胞中脂肪酸的生合成過程中需要NADPH 做為電子攜帶者（electron carrier）\n(C)細胞中脂肪酸的生合成中間產物malonyl-CoA 會活化粒線體外膜上酵素（carnitine acyltransferase Ⅰ）\n(D)胰島素（insulin）可以增加血液中脂肪酸的濃度"
+  },
+  {
+  "答案": "A",
+  "題目": "一名中年流浪漢因腹瀉、神智不清被送至急診室，檢查發現他的臉、前胸、手背都有皮膚粗糙的皮膚炎、舌頭也有發炎，醫師的診斷為：疑似癩皮病（pellagra）。下列有關此病之敘述，何者正確？\n(A)此病是缺乏菸鹼酸（niacin）所造成\n(B)菸鹼酸是由菸鹼醯胺腺嘌呤二核甘酸鹽（nicotinamide adenine dinucleotide，即NAD+）所合成\n(C)以玉米為主食的人不易得此病\n(D)神經系統不會受到影響"
+  },
+  {
+  "答案": "B",
+  "題目": "glycerol-3-phosphate shuttle 之作用為何？\n(A)是肝、腎和心臟細胞運送細胞質中NADH 進入電子傳遞鏈之途徑\n(B)將細胞質中NADH 的還原當量（reducing equivalents）傳送至ubiquinone\n(C)glycerol-3-phosphate shuttle比 malate aspartate shuttle所產生之 ATP 量多\n(D)主要目的是將ATP 送出粒線體外利用"
+  },
+  {
+  "答案": "A",
+  "題目": "Rotenone 會抑制粒線體電子傳遞鏈的那一個步驟？\n(A)NADH→coenzyme Q \n(B)Cyt b→Cyt c1 \n(C)Cyt c1→Cyt c \n(D)Cyt c→Cyt (a+a3)"
+  },
+  {
+  "答案": "C",
+  "題目": "下列關於 protein kinase A 的敘述，何者正確？\n(A)受cyclic GMP 的調控進行活化\n(B)受AMP 的調控進行活化\n(C)受cyclic AMP 的調控進行活化\n(D)Protein kinase A的活化可促進細胞內脂肪酸的生合成（fatty acid biosynthesis）"
   }
   ]
