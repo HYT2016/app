@@ -56,9 +56,9 @@ class CustomSegmentContol: UIControl {
         subviews.forEach {$0.removeFromSuperview()}
         let buttonTitles = commaSeparatedButtonTitles.components(separatedBy: ",")
         
-        
+//        不知道怎麼做
         let selectorWidth = frame.width / (1.1*CGFloat(buttonTitles.count))
-        selector = UIView(frame: CGRect(x: 0, y: 0, width: selectorWidth, height: frame.height-2.5))
+        selector = UIView(frame: CGRect(x: 0, y: 0, width: selectorWidth, height: frame.height))
         selector.layer.cornerRadius = frame.height/2
         selector.backgroundColor = selectorColor
         addSubview(selector)

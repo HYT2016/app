@@ -23,7 +23,9 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     var WrongDoctorSet=Set<String>()
     var WrongDentistSet=Set<String>()
     var wrongQFileName:[String]=[]
-    
+    var wrongQIndex:[String]=[]
+    var wrongTableViewQfileNameIndex:String=""
+    var wrongTableViewIndex:String=""
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         var str = 1
         
@@ -89,7 +91,17 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         let notificationName = Notification.Name("GetUpdateNoti")
         NotificationCenter.default.addObserver(self, selector: #selector(getUpdateNoti(noti:)), name: notificationName, object: nil)
         print("WrongDoctorSet:\(WrongDoctorSet)")
-//        tableView.reloadData()
+        
+        
+//        //        接收方
+//        let notificationName2 = Notification.Name("updateIt")
+//        NotificationCenter.default.addObserver(self, selector: #selector(updateIt(noti:)), name: notificationName2, object: nil)
+//        let notificationName3 = Notification.Name("updateItQ")
+//        NotificationCenter.default.addObserver(self, selector: #selector(updateItQ(noti:)), name: notificationName3, object: nil)
+//        print("wrongQFileName 1:\(wrongQFileName)")
+//        print("wrongQIndex 1:\(wrongQIndex)")
+        
+       
 
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -116,6 +128,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             vc.dentist=self.dentist
             vc.WrongDoctorSet=WrongDoctorSet
             vc.WrongDentistSet=WrongDentistSet
+            vc.wrongQFileName=wrongQFileName
+            vc.wrongQIndex=wrongQIndex
+            vc.wrongTableViewQfileNameIndex=wrongTableViewQfileNameIndex
+            vc.wrongTableViewIndex=wrongTableViewIndex
             if customSegmentView.selectedSegmentIndex==0{
 //                這行指定
                 vc.q_category = doctor[0]
@@ -193,13 +209,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     }
     
     
-//    public func tableView(_ tableView: UITableView, didDeselectRowAt indexPath: IndexPath) {
-//        
-//        print("indexPath.row = DeselectRow第\(indexPath.row)行")
-//        
-//    }
-//    
-        
+    
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell,
                    forRowAt indexPath: IndexPath) {
         
@@ -217,12 +227,20 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     
     func getUpdateNoti(noti:Notification) {
         WrongDoctorSet = noti.userInfo!["PASS"] as! Set<String>
-//        WrongDentistSet = noti.userInfo!["PASS"] as! Set<String>
+        WrongDentistSet = noti.userInfo!["PASS"] as! Set<String>
     }
    
     
-
-    
+//    func updateIt(noti:Notification) {
+//        wrongQIndex=noti.userInfo!["PASS"] as! [String]
+//        
+//    }
+//
+//    func updateItQ(noti:Notification) {
+//            wrongQFileName=noti.userInfo!["PASS"] as! [String]
+//        
+//        
+//    }
     
     
     

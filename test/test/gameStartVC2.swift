@@ -119,7 +119,7 @@ class gameStartVC2: UIViewController {
 //                發送方
                 let notificationName = Notification.Name("GetUpdateNoti")
                 NotificationCenter.default.post(name: notificationName, object: nil, userInfo: ["PASS":WrongDoctorSet])
-//                NotificationCenter.default.post(name: notificationName, object: nil, userInfo: ["PASS":WrongDentistSet])
+                NotificationCenter.default.post(name: notificationName, object: nil, userInfo: ["PASS":WrongDentistSet])
             }
         }
        
@@ -358,6 +358,9 @@ class gameStartVC2: UIViewController {
         
         
         
+        
+
+        
         if self.q_category == doctor[1]{
             self.loadJsonToArys()
         }else if self.q_category == doctor[2]{
@@ -483,7 +486,7 @@ class gameStartVC2: UIViewController {
 //                讓資料不會重複存取
                 if WrongDoctorSet .contains(string2){
                     print("已經有資料")
-                }else if WrongDoctorSet .contains(string2){
+                }else if WrongDentistSet .contains(string2){
                     print("已經有資料")
                 }else{
                     fileHandle.seekToEndOfFile()

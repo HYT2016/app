@@ -88,7 +88,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" backgroundImage="backBtn.png"/>
                                 <connections>
-                                    <segue destination="DBT-XQ-gHK" kind="showDetail" id="Jyp-G3-q3P"/>
+                                    <segue destination="DBT-XQ-gHK" kind="showDetail" id="oB0-AO-GyS"/>
                                 </connections>
                             </button>
                         </barButtonItem>
@@ -100,7 +100,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="752.17391304347836" y="106.79347826086958"/>
+            <point key="canvasLocation" x="732" y="85"/>
         </scene>
         <!--Item-->
         <scene sceneID="1eG-hk-Msv">
@@ -272,7 +272,7 @@
                                 <rect key="frame" x="0.0" y="35" width="414" height="701"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="myCell" id="qTT-vz-dhg">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="myCell" id="qTT-vz-dhg">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qTT-vz-dhg" id="qdZ-5E-Szc">
@@ -579,6 +579,6 @@
         <image name="背景 06.png" width="735" height="1102"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Jyp-G3-q3P"/>
+        <segue reference="oB0-AO-GyS"/>
     </inferredMetricsTieBreakers>
 </document>
