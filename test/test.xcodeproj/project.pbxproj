@@ -16,6 +16,9 @@
 		DB23B0301F19F1C700518A43 /* 103-2牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B02F1F19F1C700518A43 /* 103-2牙醫學(六).json */; };
 		DB23B0331F1A193800518A43 /* 缺題題號 in Resources */ = {isa = PBXBuildFile; fileRef = DB23B0321F1A193800518A43 /* 缺題題號 */; };
 		DB23B0351F1A21DA00518A43 /* 102-2牙醫學(六).json in Resources */ = {isa = PBXBuildFile; fileRef = DB23B0341F1A21DA00518A43 /* 102-2牙醫學(六).json */; };
+		DB6380011F449D1D0002B45B /* Share.png in Resources */ = {isa = PBXBuildFile; fileRef = DB6380001F449D1D0002B45B /* Share.png */; };
+		DB6380031F44AB440002B45B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB6380021F44AB440002B45B /* Social.framework */; };
+		DB6380051F44B0040002B45B /* ShareVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6380041F44B0040002B45B /* ShareVC.swift */; };
 		DB6995E71F02ED7B0093F955 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6995E61F02ED7A0093F955 /* AppDelegate.swift */; };
 		DB6995E91F02ED7B0093F955 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6995E81F02ED7B0093F955 /* ViewController.swift */; };
 		DB6995EC1F02ED7B0093F955 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB6995EA1F02ED7B0093F955 /* Main.storyboard */; };
@@ -53,6 +56,7 @@
 		DBFA5C161F1BD1B200B98B00 /* 104-2牙醫學(一).json in Resources */ = {isa = PBXBuildFile; fileRef = DBFA5C151F1BD1B200B98B00 /* 104-2牙醫學(一).json */; };
 		DBFB6A391F2B534200215EFA /* CustomSegmentContol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB6A381F2B534200215EFA /* CustomSegmentContol.swift */; };
 		DBFB6A3B1F2BC52200215EFA /* TableviewCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFB6A3A1F2BC52200215EFA /* TableviewCellTableViewCell.swift */; };
+		DBFF3DF31F448A1700F54C08 /* ShareVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBFF3DF21F448A1700F54C08 /* ShareVCViewController.swift */; };
 		E91A76FA1F223DB7007F5178 /* ans.plist in Resources */ = {isa = PBXBuildFile; fileRef = E91A76F91F223DB7007F5178 /* ans.plist */; };
 		E92699B11F03E66100F671A9 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = DB6996001F0389520093F955 /* data.json */; };
 		E94573781F1C687A00845C9C /* 103-2牙醫學(五).json in Resources */ = {isa = PBXBuildFile; fileRef = E94573771F1C687A00845C9C /* 103-2牙醫學(五).json */; };
@@ -202,6 +206,9 @@
 		DB23B02F1F19F1C700518A43 /* 103-2牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(六).json"; sourceTree = "<group>"; };
 		DB23B0321F1A193800518A43 /* 缺題題號 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "缺題題號"; sourceTree = "<group>"; };
 		DB23B0341F1A21DA00518A43 /* 102-2牙醫學(六).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "102-2牙醫學(六).json"; sourceTree = "<group>"; };
+		DB6380001F449D1D0002B45B /* Share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Share.png; sourceTree = "<group>"; };
+		DB6380021F44AB440002B45B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		DB6380041F44B0040002B45B /* ShareVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShareVC.swift; path = ../ShareVC.swift; sourceTree = "<group>"; };
 		DB6995E31F02ED7A0093F955 /* twnationalexam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = twnationalexam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB6995E61F02ED7A0093F955 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB6995E81F02ED7B0093F955 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -243,6 +250,7 @@
 		DBFA5C151F1BD1B200B98B00 /* 104-2牙醫學(一).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "104-2牙醫學(一).json"; sourceTree = "<group>"; };
 		DBFB6A381F2B534200215EFA /* CustomSegmentContol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomSegmentContol.swift; path = ../CustomSegmentContol.swift; sourceTree = "<group>"; };
 		DBFB6A3A1F2BC52200215EFA /* TableviewCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableviewCellTableViewCell.swift; path = ../TableviewCellTableViewCell.swift; sourceTree = "<group>"; };
+		DBFF3DF21F448A1700F54C08 /* ShareVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareVCViewController.swift; sourceTree = "<group>"; };
 		E91A76F91F223DB7007F5178 /* ans.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = ans.plist; path = ../ans.plist; sourceTree = "<group>"; };
 		E94573771F1C687A00845C9C /* 103-2牙醫學(五).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(五).json"; sourceTree = "<group>"; };
 		E94573791F1C688E00845C9C /* 103-2牙醫學(四).json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "103-2牙醫學(四).json"; sourceTree = "<group>"; };
@@ -384,6 +392,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB6380031F44AB440002B45B /* Social.framework in Frameworks */,
 				E97B82CA1F073F0E0088882F /* SwiftyJSON.framework in Frameworks */,
 				04F4CC29F5A78A945E7AB590 /* Pods_test.framework in Frameworks */,
 				671442E59D355278281FF8C9 /* Pods_twnationalexam.framework in Frameworks */,
@@ -433,6 +442,8 @@
 				DBFB6A381F2B534200215EFA /* CustomSegmentContol.swift */,
 				DBFB6A3A1F2BC52200215EFA /* TableviewCellTableViewCell.swift */,
 				E9F4BEE61F174A7B00C02AA6 /* ThanksVC.swift */,
+				DBFF3DF21F448A1700F54C08 /* ShareVCViewController.swift */,
+				DB6380041F44B0040002B45B /* ShareVC.swift */,
 				DB6996001F0389520093F955 /* data.json */,
 				E9745DBC1F062CD500902CAC /* aaa.json */,
 				E91A76F91F223DB7007F5178 /* ans.plist */,
@@ -704,6 +715,7 @@
 				E99CFDFB1F18C4EE00E30F93 /* 背景 06.png */,
 				E99CFDF91F18C2F300E30F93 /* 背景 05.png */,
 				E99CFE071F18E4EC00E30F93 /* icon  512.png */,
+				DB6380001F449D1D0002B45B /* Share.png */,
 				E9B3619C1F174D8C006F599F /* backBtn.png */,
 				E97B59921F1660E700E743AA /* 01.png */,
 				E97B599E1F1667C800E743AA /* 02.png */,
@@ -723,6 +735,7 @@
 		F690D379C84DA33CF22DEF9F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB6380021F44AB440002B45B /* Social.framework */,
 				E97B82C91F073F0E0088882F /* SwiftyJSON.framework */,
 				B90FD4554ABBBEC1956C340E /* Pods_test.framework */,
 				FD852B742432D51F2A55F7A0 /* Pods_twnationalexam.framework */,
@@ -795,6 +808,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBFA5C061F1BCA7E00B98B00 /* 104-1牙醫學(四).json in Resources */,
+				DB6380011F449D1D0002B45B /* Share.png in Resources */,
 				E94573921F1C692F00845C9C /* 102-1牙醫學(二).json in Resources */,
 				E94573AD1F1C69E800845C9C /* 101-2牙醫學(六).json in Resources */,
 				DB23B02C1F19F19300518A43 /* 104-1牙醫學(六).json in Resources */,
@@ -1018,12 +1032,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E95DCBD81F0651BC00DB7250 /* tab bar 2.swift in Sources */,
+				DBFF3DF31F448A1700F54C08 /* ShareVCViewController.swift in Sources */,
 				DB6995E91F02ED7B0093F955 /* ViewController.swift in Sources */,
 				E9F4BEE71F174A7B00C02AA6 /* ThanksVC.swift in Sources */,
 				DB6995F91F02EFA30093F955 /* inVC.swift in Sources */,
 				DBFB6A391F2B534200215EFA /* CustomSegmentContol.swift in Sources */,
 				E95DCBDA1F0676B200DB7250 /* gameStartVC2.swift in Sources */,
 				DB6995FD1F02F39E0093F955 /* gameStartVC.swift in Sources */,
+				DB6380051F44B0040002B45B /* ShareVC.swift in Sources */,
 				E9ADD1491F0D03690064F890 /* tab_bar_1.swift in Sources */,
 				DB6995FB1F02F0550093F955 /* MainNavigationController.swift in Sources */,
 				E95F7C311F275B5B0065A613 /* WrongVC.swift in Sources */,

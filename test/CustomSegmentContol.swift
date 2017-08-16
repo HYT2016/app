@@ -12,6 +12,7 @@ class CustomSegmentContol: UIControl {
     var buttons=[UIButton]()
     var selector:UIView!
     var selectedSegmentIndex = 0
+//    var frame: CGRect = 
     
     @IBInspectable
     var borderWidth: CGFloat = 0{
@@ -57,7 +58,7 @@ class CustomSegmentContol: UIControl {
         let buttonTitles = commaSeparatedButtonTitles.components(separatedBy: ",")
         
 //        不知道怎麼做
-        let selectorWidth = frame.width / (1.1*CGFloat(buttonTitles.count))
+        let selectorWidth = frame.width / (1*CGFloat(buttonTitles.count))
         selector = UIView(frame: CGRect(x: 0, y: 0, width: selectorWidth, height: frame.height))
         selector.layer.cornerRadius = frame.height/2
         selector.backgroundColor = selectorColor
@@ -76,7 +77,7 @@ class CustomSegmentContol: UIControl {
         let sv = UIStackView(arrangedSubviews: buttons)
         sv.axis = .horizontal
         sv.alignment = .fill
-        sv.distribution = .fillProportionally
+        sv.distribution = .fillEqually
         addSubview(sv)
         sv.translatesAutoresizingMaskIntoConstraints=false
         sv.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
@@ -92,6 +93,8 @@ class CustomSegmentContol: UIControl {
    
     override func draw(_ rect: CGRect) {
         layer.cornerRadius=frame.height/2
+//        使segment 不會超出框框外
+        updateView()
         
     }
     func buttonTapped(button:UIButton){

@@ -107,7 +107,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
     override func viewWillAppear(_ animated: Bool) {
 
         
-        customSegmentView.buttons[0].setTitleColor(UIColor.init(red:  255/255, green: 221/255, blue: 0/255, alpha: 1), for: .normal)
+//        customSegmentView.buttons[0].setTitleColor(UIColor.init(red:  255/255, green: 221/255, blue: 0/255, alpha: 1), for: .normal)
         
     }
 
@@ -169,43 +169,6 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
             
             
         }
-
-        
-//       指到第零個cell讀檔加寫檔
-        
-//        if segment.selectedSegmentIndex==0{
-//            vc.q_category=doctor[indexPath.row]
-//        }else{
-//            vc.q_category=dentist[indexPath.row]
-//        }
-//        
-//        if indexPath.row==0{
-//            vc.isWrongQuestion=true
-//        }else{
-//            vc.isWrongQuestion=false
-//        }
-//        
-//        
-//        self.navigationController?.pushViewController(vc, animated: true)
-        
-
-        
-        
-        
-        
-        
-
-        
-//            let vc = self.storyboard?.instantiateViewController(withIdentifier: "tab_bar_1") as! tab_bar_1
-//            let subVC = vc.viewControllers?[0] as! gameStartVC2
-//            
-//            subVC.q_category=doctor[indexPath.row]
-//        
-//            self.navigationController?.pushViewController(vc, animated: true)
-//        
-        
-        
-        
     }
     
     

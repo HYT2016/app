@@ -478,7 +478,7 @@ class gameStartVC2: UIViewController {
         
         let string = "\(q_category!):\(b)\n"
         let string2 = "\(q_category!):\(b)"
-//        let string = "\(testTextView2.text!)\n"
+
         let data = string.data(using: .utf8, allowLossyConversion: false)!
         
         if FileManager.default.fileExists(atPath: fileurl.path) {
