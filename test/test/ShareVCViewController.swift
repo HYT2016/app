@@ -22,22 +22,11 @@ class ShareVCViewController: UIViewController {
 //            check if users connect to facebook
             if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeFacebook){
                 
-                let twitterComposeVC = SLComposeViewController(forServiceType: SLServiceTypeTwitter)
-                
-                // 將筆記文字設定成預設的發文訊息
-                if self.shareTextView.text.characters.count <= 140 {
-                    twitterComposeVC?.setInitialText("\(self.shareTextView.text)")
-                }
-                else {
-//                    let index = self.shareTextView.text.startIndex.advancedBy(140)
-//                    let subText = shareTextView.text.substringToIndex(index)
-//                    twitterComposeVC.setInitialText("\(subText)")
-                }
-
-                
                 
                 let post = SLComposeViewController(forServiceType: SLServiceTypeFacebook)!
                 post.setInitialText("")
+//                分享專業
+                post.add(URL(string: "https://sites.google.com/view/cougarbot"))
 //                post.add(UIImage(named: "details.png"))
                 
                 self.present(post, animated: true, completion: nil)
@@ -51,7 +40,8 @@ class ShareVCViewController: UIViewController {
             //            check if users connect to facebook
             if SLComposeViewController.isAvailable(forServiceType: SLServiceTypeTwitter){
                 let post = SLComposeViewController(forServiceType: SLServiceTypeTwitter)!
-                post.setInitialText("HYT")
+                post.setInitialText("")
+                post.add(URL(string: "https://sites.google.com/view/cougarbot"))
 //                post.add(UIImage(named: "details.png"))
                 
                 self.present(post, animated: true, completion: nil)
@@ -101,7 +91,7 @@ class ShareVCViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-    
+//    textView有黑框
     func configureNoteTextView() {
         shareTextView.layer.cornerRadius = 8.0
         shareTextView.layer.borderColor = UIColor(white: 0.75, alpha: 0.5).cgColor

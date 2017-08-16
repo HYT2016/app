@@ -303,43 +303,6 @@
             </objects>
             <point key="canvasLocation" x="2237.68115942029" y="610.59782608695662"/>
         </scene>
-        <!--Item 1-->
-        <scene sceneID="xP7-wc-MtP">
-            <objects>
-                <viewController id="tfV-jW-lrE" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="EOI-15-EQg"/>
-                        <viewControllerLayoutGuide type="bottom" id="AhF-83-W2t"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Dij-fL-tNJ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="qtY-ku-oug"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R0f-dr-M28" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2238" y="-42"/>
-        </scene>
-        <!--Tab bar2-->
-        <scene sceneID="chg-BS-Fby">
-            <objects>
-                <tabBarController storyboardIdentifier="tab_bar_2" id="U49-dx-Fro" customClass="tab_bar_2" customModule="twnationalexam" customModuleProvider="target" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="BQH-mi-LAr">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                    </tabBar>
-                    <connections>
-                        <segue destination="swi-kB-WJy" kind="relationship" relationship="viewControllers" id="cUF-VM-NOK"/>
-                        <segue destination="tfV-jW-lrE" kind="relationship" relationship="viewControllers" id="M71-Hg-uz9"/>
-                    </connections>
-                </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kba-qf-RPK" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1414" y="-372"/>
-        </scene>
         <!--Item-->
         <scene sceneID="nX1-nU-j6m">
             <objects>
@@ -524,16 +487,16 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xc-gH-O1U" userLabel="back">
                                 <rect key="frame" x="319" y="25" width="75" height="29"/>
-                                <state key="normal" backgroundImage="backBtn.png"/>
+                                <state key="normal" backgroundImage="Share.png"/>
                                 <connections>
-                                    <segue destination="DBT-XQ-gHK" kind="show" id="fVv-CZ-g4W"/>
+                                    <action selector="shareBtn:" destination="UTO-XT-bvY" eventType="touchUpInside" id="Znk-0d-VPT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1c-5T-51l" userLabel="我有話想說">
                                 <rect key="frame" x="20" y="25.000000000000004" width="75" height="29.333333333333339"/>
-                                <state key="normal" backgroundImage="Share.png"/>
+                                <state key="normal" backgroundImage="backBtn.png"/>
                                 <connections>
-                                    <segue destination="luk-FR-fTd" kind="showDetail" id="5yg-K9-6T9"/>
+                                    <segue destination="DBT-XQ-gHK" kind="showDetail" id="UbC-Hb-Qjd"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -559,7 +522,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ox2-51-DRT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-697" y="836"/>
+            <point key="canvasLocation" x="-871" y="993"/>
         </scene>
         <!--ShareVC View Controller-->
         <scene sceneID="yg1-Vj-zkW">
@@ -618,7 +581,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LhS-3M-dpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="104.34782608695653" y="835.59782608695662"/>
+            <point key="canvasLocation" x="91" y="993"/>
         </scene>
         <!--ShareVC-->
         <scene sceneID="UgP-V8-K3Y">
@@ -659,7 +622,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HOO-pq-jDf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="705.79710144927537" y="1352.4456521739132"/>
+            <point key="canvasLocation" x="868" y="993"/>
         </scene>
         <!--Main Navigation Controller-->
         <scene sceneID="u4R-Y1-EPo">
@@ -691,6 +654,6 @@
         <image name="背景 06.png" width="735" height="1102"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="fVv-CZ-g4W"/>
+        <segue reference="oB0-AO-GyS"/>
     </inferredMetricsTieBreakers>
 </document>
