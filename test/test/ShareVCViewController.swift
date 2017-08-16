@@ -91,7 +91,7 @@ class ShareVCViewController: UIViewController {
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
-//    textView有黑框
+//    
     func configureNoteTextView() {
         shareTextView.layer.cornerRadius = 8.0
         shareTextView.layer.borderColor = UIColor(white: 0.75, alpha: 0.5).cgColor

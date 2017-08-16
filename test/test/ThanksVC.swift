@@ -46,15 +46,30 @@ class ThanksVC: UIViewController {
                 self.showAlert(service: "Twitter")
             }
         }
+//        UIActivity 的功能
+        let actionFour = UIAlertAction(title: "more", style: .default) { (action) in
+            let activityVC=UIActivityViewController(activityItems: ["https://sites.google.com/view/cougarbot"], applicationActivities: nil)
+//            移除郵件
+//             activityVC.excludedActivityTypes = [UIActivityType.mail]
+            activityVC.popoverPresentationController?.sourceView=self.view
+            self.present(activityVC, animated: true, completion: nil)
+            
+        }
+
         
         let actionThree = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
         
         //        Add action to action sheet
         alert.addAction(actionOne)
         alert.addAction(actionTwo)
+        alert.addAction(actionFour)
         alert.addAction(actionThree)
         //        present Alert
         self.present(alert, animated: true, completion: nil)
+        
+        let activityVC=UIActivityViewController(activityItems: ["https://sites.google.com/view/cougarbot"], applicationActivities: nil)
+        activityVC.popoverPresentationController?.sourceView=self.view
+        self.present(activityVC, animated: true, completion: nil)
         
         
     }

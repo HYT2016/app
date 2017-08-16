@@ -272,11 +272,11 @@
                                 <rect key="frame" x="0.0" y="35" width="414" height="701"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" reuseIdentifier="myCell" id="qTT-vz-dhg">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="myCell" id="qTT-vz-dhg">
                                         <rect key="frame" x="0.0" y="28" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qTT-vz-dhg" id="qdZ-5E-Szc">
-                                            <rect key="frame" x="0.0" y="0.0" width="381" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -438,8 +438,8 @@
                                     <action selector="loginBtn:" destination="DBT-XQ-gHK" eventType="touchUpInside" id="KW7-2n-edY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpd-hb-fer">
-                                <rect key="frame" x="347" y="25" width="62" height="29"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tpd-hb-fer" userLabel="details">
+                                <rect key="frame" x="326.33333333333326" y="30" width="82.666666666666686" height="44"/>
                                 <state key="normal" image="details 1.png"/>
                                 <connections>
                                     <segue destination="UTO-XT-bvY" kind="show" id="vWO-uH-u5B"/>
@@ -455,9 +455,9 @@
                             <constraint firstItem="bit-0y-g6Q" firstAttribute="height" secondItem="fZG-jk-kX8" secondAttribute="height" id="Q6z-H6-Tcv"/>
                             <constraint firstItem="CSm-IJ-7Gb" firstAttribute="height" secondItem="bit-0y-g6Q" secondAttribute="height" multiplier="0.2" id="bRv-Cd-VzZ"/>
                             <constraint firstItem="4fS-lY-oB5" firstAttribute="top" secondItem="CSm-IJ-7Gb" secondAttribute="bottom" constant="20" id="ei7-1L-t4i"/>
-                            <constraint firstItem="Tpd-hb-fer" firstAttribute="top" secondItem="RAi-Yc-Jdg" secondAttribute="bottom" constant="5" id="quD-mm-AeJ"/>
-                            <constraint firstItem="Tpd-hb-fer" firstAttribute="height" secondItem="fZG-jk-kX8" secondAttribute="height" multiplier="0.04" id="re9-cB-Rhj"/>
-                            <constraint firstItem="Tpd-hb-fer" firstAttribute="width" secondItem="fZG-jk-kX8" secondAttribute="width" multiplier="0.15" id="sXw-ce-pSa"/>
+                            <constraint firstItem="Tpd-hb-fer" firstAttribute="top" secondItem="RAi-Yc-Jdg" secondAttribute="bottom" constant="10" id="quD-mm-AeJ"/>
+                            <constraint firstItem="Tpd-hb-fer" firstAttribute="height" secondItem="fZG-jk-kX8" secondAttribute="height" multiplier="0.06" id="re9-cB-Rhj"/>
+                            <constraint firstItem="Tpd-hb-fer" firstAttribute="width" secondItem="fZG-jk-kX8" secondAttribute="width" multiplier="0.2" id="sXw-ce-pSa"/>
                             <constraint firstItem="bit-0y-g6Q" firstAttribute="centerX" secondItem="fZG-jk-kX8" secondAttribute="centerX" id="vvu-nZ-BJL"/>
                             <constraint firstAttribute="trailing" secondItem="Tpd-hb-fer" secondAttribute="trailing" constant="5" id="zBk-bC-CvS"/>
                         </constraints>
@@ -654,6 +654,6 @@
         <image name="背景 06.png" width="735" height="1102"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="oB0-AO-GyS"/>
+        <segue reference="UbC-Hb-Qjd"/>
     </inferredMetricsTieBreakers>
 </document>
