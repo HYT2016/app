@@ -75,10 +75,7 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
         
         return cell
     }
-          
-        
 
-    
     
     
     override func viewDidLoad() {
@@ -104,14 +101,10 @@ class ViewController: UIViewController,UITableViewDataSource,UITableViewDelegate
        
 
     }
-    override func viewWillAppear(_ animated: Bool) {
-
-        
-//        customSegmentView.buttons[0].setTitleColor(UIColor.init(red:  255/255, green: 221/255, blue: 0/255, alpha: 1), for: .normal)
-        
-    }
-
-    override func didReceiveMemoryWarning() {
+    
+    
+    
+        override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

@@ -1,5 +1,5 @@
 PODS:
-  - Google-Mobile-Ads-SDK (7.21.0)
+  - Google-Mobile-Ads-SDK (7.22.0)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
@@ -7,7 +7,7 @@ DEPENDENCIES:
   - SwiftyJSON
 
 SPEC CHECKSUMS:
-  Google-Mobile-Ads-SDK: 4a6f1b43c8cc0e1e95a3b59d9f52a01671c6f9f3
+  Google-Mobile-Ads-SDK: 1bdf1a4244d0553b1840239874c209c01aef055f
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
 PODFILE CHECKSUM: 58184e58462cc4f4b3129ed6008c4a59cc3dd369

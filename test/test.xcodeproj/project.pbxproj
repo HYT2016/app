@@ -781,7 +781,7 @@
 				TargetAttributes = {
 					DB6995E21F02ED7A0093F955 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = RYFYSD45N2;
+						DevelopmentTeam = L8L787CCUU;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -1173,11 +1173,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = RYFYSD45N2;
+				DEVELOPMENT_TEAM = L8L787CCUU;
 				INFOPLIST_FILE = test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maxosoft.twnationalexam;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.abc123.twnationalexam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "test/twnationalexam-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1191,11 +1191,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = RYFYSD45N2;
+				DEVELOPMENT_TEAM = L8L787CCUU;
 				INFOPLIST_FILE = test/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.maxosoft.twnationalexam;
+				PRODUCT_BUNDLE_IDENTIFIER = idv.abc123.twnationalexam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "test/twnationalexam-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;

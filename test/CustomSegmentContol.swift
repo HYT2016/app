@@ -84,7 +84,9 @@ class CustomSegmentContol: UIControl {
         sv.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive=true
         sv.leftAnchor.constraint(equalTo: self.leftAnchor).isActive=true
         sv.rightAnchor.constraint(equalTo: self.rightAnchor).isActive = true
-        
+        if self.selectedSegmentIndex==0{
+        self.buttons[0].setTitleColor(UIColor.init(red:  255/255, green: 221/255, blue: 0/255, alpha: 1), for: .normal)
+        }
 
         
         
