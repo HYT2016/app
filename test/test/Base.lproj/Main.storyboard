@@ -485,7 +485,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xc-gH-O1U" userLabel="back">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xc-gH-O1U" userLabel="share">
                                 <rect key="frame" x="319" y="25" width="75" height="29"/>
                                 <state key="normal" backgroundImage="Share.png"/>
                                 <connections>
@@ -496,7 +496,7 @@
                                 <rect key="frame" x="20" y="25.000000000000004" width="75" height="29.333333333333339"/>
                                 <state key="normal" backgroundImage="backBtn.png"/>
                                 <connections>
-                                    <segue destination="DBT-XQ-gHK" kind="showDetail" id="UbC-Hb-Qjd"/>
+                                    <action selector="backBtn:" destination="UTO-XT-bvY" eventType="touchUpInside" id="wYk-ly-hPM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -653,7 +653,4 @@
         <image name="uncheck01.png" width="126" height="186"/>
         <image name="背景 06.png" width="735" height="1102"/>
     </resources>
-    <inferredMetricsTieBreakers>
-        <segue reference="UbC-Hb-Qjd"/>
-    </inferredMetricsTieBreakers>
 </document>

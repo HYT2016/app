@@ -11,6 +11,8 @@ import Social
 
 class ThanksVC: UIViewController {
 
+    @IBAction func backBtn(_ sender: UIButton) {dismiss(animated: true, completion: nil)
+    }
     @IBAction func shareBtn(_ sender: Any) {
         //        Alert
         let alert = UIAlertController(title: "Share", message: "Share cougar", preferredStyle: .actionSheet)
